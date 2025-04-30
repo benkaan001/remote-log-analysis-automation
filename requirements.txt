@@ -1,0 +1,7 @@
+pandas
+paramiko
+python-dotenv
+openpyxl
+jupyter
+notebook
+ipykernel
