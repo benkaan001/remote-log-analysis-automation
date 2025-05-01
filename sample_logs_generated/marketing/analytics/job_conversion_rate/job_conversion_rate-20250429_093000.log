@@ -1,0 +1,37 @@
+MARKETING ANALYTICS JOB LOG
+20250429_093000 ----------------------
+20250429_093000 ## Passed Parameter Values:
+20250429_093000 DOMAIN: marketing
+20250429_093000 SUB_DOMAIN: analytics
+20250429_093000 USER_NAME: analyst1
+20250429_093000 TABLE_NAME: job_conversion_rate
+20250429_093000 EXEC_SCOPE: PROD
+
+20250429_093000 ## Derived Variable Values:
+20250429_093000 STARTTIME: 093000
+20250429_093000 LOGDATE: 20250429_093000
+20250429_093000 JOB=job_conversion_rate
+
+20250429_093000 ###############################################################
+20250429_093000 ### RUNNING CONVERSION RATE ANALYSIS SCRIPT
+20250429_093000 ###############################################################
+
+20250429_093000 ## Checking if script exists
+20250429_093000 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20250429_093000 File exists...
+
+20250429_093000 ## Running script
+20250429_093000
+ *** Logon successfully completed.
+ *** Total elapsed time was 1 second.
+
+ *** Error: Division by zero encountered in conversion calculation.
+ *** Script execution failed.
+ *** RC (return code) = 4
+20250429_093010
+20250429_093010 Execution Return Code: 4
+20250429_093010
+20250429_093010 ---------
+20250429_093010 JOB ERROR
+20250429_093010 ---------
+20250429_093010 Start Time: 093000, End Time: 093010

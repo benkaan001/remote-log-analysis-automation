@@ -1,0 +1,37 @@
+FINANCE BILLING JOB LOG
+20250429_093000 ----------------------
+20250429_093000 ## Passed Parameter Values:
+20250429_093000 DOMAIN: finance
+20250429_093000 SUB_DOMAIN: billing
+20250429_093000 USER_NAME: user456
+20250429_093000 TABLE_NAME: job_payment_proc
+20250429_093000 EXEC_SCOPE: PROD
+
+20250429_093000 ## Derived Variable Values:
+20250429_093000 STARTTIME: 093000
+20250429_093000 LOGDATE: 20250429_093000
+20250429_093000 JOB=job_payment_proc
+
+20250429_093000 ###############################################################
+20250429_093000 ### RUNNING PAYMENT PROCESSING SCRIPT
+20250429_093000 ###############################################################
+
+20250429_093000 ## Checking if script exists
+20250429_093000 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250429_093000 File exists...
+
+20250429_093000 ## Running script
+20250429_093000
+ *** Logon successfully completed.
+ *** Total elapsed time was 1 second.
+
+ *** Error: Unable to update payment status. Database timeout.
+ *** Script execution failed.
+ *** RC (return code) = 12
+20250429_093010
+20250429_093010 Execution Return Code: 12
+20250429_093010
+20250429_093010 ---------
+20250429_093010 JOB ERROR
+20250429_093010 ---------
+20250429_093010 Start Time: 093000, End Time: 093010

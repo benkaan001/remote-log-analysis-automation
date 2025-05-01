@@ -1,0 +1,37 @@
+FINANCE REPORTING JOB LOG
+20250430_103000 ----------------------
+20250430_103000 ## Passed Parameter Values:
+20250430_103000 DOMAIN: finance
+20250430_103000 SUB_DOMAIN: reporting
+20250430_103000 USER_NAME: user987
+20250430_103000 TABLE_NAME: job_report_weekly
+20250430_103000 EXEC_SCOPE: PROD
+
+20250430_103000 ## Derived Variable Values:
+20250430_103000 STARTTIME: 103000
+20250430_103000 LOGDATE: 20250430_103000
+20250430_103000 JOB=job_report_weekly
+
+20250430_103000 ###############################################################
+20250430_103000 ### RUNNING WEEKLY REPORT SCRIPT
+20250430_103000 ###############################################################
+
+20250430_103000 ## Checking if script exists
+20250430_103000 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250430_103000 File exists...
+
+20250430_103000 ## Running script
+20250430_103000
+ *** Logon successfully completed.
+ *** Total elapsed time was 1 second.
+
+ *** Error: Data source unavailable. Aborting report generation.
+ *** Script execution failed.
+ *** RC (return code) = 8
+20250430_103010
+20250430_103010 Execution Return Code: 8
+20250430_103010
+20250430_103010 ---------
+20250430_103010 JOB FAILURE
+20250430_103010 ---------
+20250430_103010 Start Time: 103000, End Time: 103010
