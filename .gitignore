@@ -31,6 +31,7 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+notebooks/00_*
 
 # VS Code
 .vscode/
@@ -39,9 +40,6 @@ ENV/
 # PyCharm
 .idea/
 
-# Downloaded logs and output
-data/downloaded_logs/*
-!data/downloaded_logs/.gitkeep
 
 # Log files
 logs/*.log
