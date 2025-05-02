@@ -1,0 +1,98 @@
+name: Generate Test Log Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0,2,4'  # Runs at midnight on Sunday, Tuesday, and Thursday
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: 'Date options: "today", "yesterday", "last3days", or comma-separated YYYYMMDD dates'
+        required: false
+        default: 'today'
+      time_slots:
+        description: 'Number of time slots per date (if not using specific time periods)'
+        required: false
+        default: '1'
+      include_morning:
+        description: 'Include morning logs (8:00-11:59)'
+        required: false
+        default: 'true'
+        type: boolean
+      include_afternoon:
+        description: 'Include afternoon logs (12:00-17:59)'
+        required: false
+        default: 'false'
+        type: boolean
+      include_evening:
+        description: 'Include evening logs (18:00-23:59)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  generate-logs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Generate structured log files
+        run: |
+          # Build arguments for time periods
+          TIME_ARGS=""
+          if [[ "${{ github.event.inputs.include_morning }}" == "true" ]]; then
+            TIME_ARGS="$TIME_ARGS --morning"
+          fi
+          if [[ "${{ github.event.inputs.include_afternoon }}" == "true" ]]; then
+            TIME_ARGS="$TIME_ARGS --afternoon"
+          fi
+          if [[ "${{ github.event.inputs.include_evening }}" == "true" ]]; then
+            TIME_ARGS="$TIME_ARGS --evening"
+          fi
+
+          # Run the log generator script
+          python scripts/generate_logs.py \
+            --output-dir ./sample_logs_generated \
+            --dates ${{ github.event.inputs.dates || 'today' }} \
+            --time-slots ${{ github.event.inputs.time_slots || 1 }} \
+            $TIME_ARGS
+
+      - name: Build and restart Docker SFTP server
+        run: |
+          docker-compose down || true
+          docker-compose up --build -d
+
+      - name: Analyze logs using log_analyzer.py
+        env:
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+          SSH_HOSTNAME: ${{ secrets.SSH_HOSTNAME }}
+        run: |
+          python src/log_analyzer.py
+
+      - name: Update README with tracker summary
+        run: |
+          pip install pandas tabulate
+          python -c "import re; import pandas as pd; from tabulate import tabulate; df = pd.read_excel('data/log_analysis_tracker.xlsx'); summary = tabulate(df, headers='keys', tablefmt='github'); with open('README.md', 'r') as f: content = f.read(); new_section = '\n## Latest Tracker Preview\n' + summary + '\n'; content = re.sub(r'(## Latest Tracker Preview[\s\S]*?)(?=\n## |\Z)', '', content, flags=re.MULTILINE); content += new_section if '## Latest Tracker Preview' not in content else new_section; with open('README.md', 'w') as f: f.write(content)"
+
+      - name: Commit and push changes
+        run: |
+          # Configure git
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Get current timestamp
+          TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+
+          # Commit and push changes
+          git add ./sample_logs_generated/ ./data/log_analysis_tracker.xlsx README.md
+          git commit -m "Update structured test log data and tracker summary - $TIMESTAMP" || echo "No changes to commit"
+          git push
