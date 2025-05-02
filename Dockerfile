@@ -58,16 +58,10 @@ WORKDIR /home/sftpuser
 
 # Create the log directory structure INSIDE the user's home directory
 # These directories need to be owned by the sftpuser so they can be accessed after chroot
-RUN mkdir -p logs/finance/billing \
-             logs/finance/reporting \
-             logs/marketing/analytics \
-             logs/marketing/campaigns && \
-    chown -R sftpuser:sftpusers logs
+RUN mkdir -p logs && chown -R sftpuser:sftpusers logs
 
-# Copy the locally created log structure into the container image
-# Make sure 'sample_logs_generated' directory exists in the build context
-COPY sample_logs_generated/finance /home/sftpuser/logs/finance
-COPY sample_logs_generated/marketing /home/sftpuser/logs/marketing
+# Copy the entire locally created log structure into the container image
+COPY sample_logs_generated/. /home/sftpuser/logs/
 
 # Ensure correct ownership of copied files
 RUN chown -R sftpuser:sftpusers /home/sftpuser/logs
