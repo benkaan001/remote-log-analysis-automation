@@ -46,12 +46,6 @@ jobs:
 
       - name: Generate structured log files
         run: |
-          # Create scripts directory if it doesn't exist
-          mkdir -p ./scripts
-
-          # Copy the script to the scripts directory
-          cp .github/workflows/scripts/generate_structured_logs.py ./scripts/
-
           # Build arguments for time periods
           TIME_ARGS=""
           if [[ "${{ github.event.inputs.include_morning }}" == "true" ]]; then
