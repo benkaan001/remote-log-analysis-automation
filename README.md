@@ -12,6 +12,7 @@ Remote Log Analysis Automation is a Python-based solution for automating the ret
 * Secure credential management with environment variables (`python-dotenv`)
 * Docker-based test environment for development and demonstration
 * Interactive Jupyter notebook support for step-by-step exploration
+* Automated log generation via CI/CD and local script usage
 
 ## Project Structure
 
@@ -24,13 +25,20 @@ remote-log-analysis-automation/
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
+├── .github/
+│   └── workflows/
+│       └── generate-structured-logs.yml
+├── scripts/
+│   └── generate_logs.py
 ├── notebooks/
 │   └── 01_setup_config.ipynb
 ├── src/
 │   └── log_analyzer.py
 ├── sample_logs_generated/
 │   ├── finance/
-│   └── marketing/
+│   ├── marketing/
+│   ├── operations/
+│   └── hr/
 ├── data/
 │   ├── log_analysis_tracker.xlsx
 │   └── downloaded_logs/
@@ -144,6 +152,39 @@ The script will:
 3. Analyze the logs for defined patterns
 4. Update the tracking spreadsheet with results
 5. Generate log files for the analysis process itself
+
+## Automated Log Generation & CI/CD
+
+This project includes a GitHub Actions workflow for automated log generation, analysis, and documentation updates.
+
+### GitHub Actions Workflow
+
+- **Workflow file:** `.github/workflows/generate-structured-logs.yml`
+- **Runs on:** Schedule (3x/week) and manual dispatch
+- **What it does:**
+  1. Runs the `scripts/generate_logs.py` script to generate fresh structured sample logs in `sample_logs_generated/`
+  2. Builds and restarts the Docker SFTP server
+  3. Runs the main log analysis script (`src/log_analyzer.py`)
+  4. Updates the tracker spreadsheet and README preview
+  5. Commits and pushes changes to the repository
+
+You can trigger the workflow manually from the GitHub Actions tab, specifying date ranges and time slots, or let it run on its schedule.
+
+### Local Log Generation
+
+You can also generate sample logs locally using the provided script:
+
+```bash
+python scripts/generate_logs.py --output-dir ./sample_logs_generated --dates today --time-slots 2 --morning --afternoon
+```
+
+**Options:**
+- `--output-dir`: Output directory for generated logs (default: `./sample_logs_generated`)
+- `--dates`: Comma-separated dates (YYYYMMDD), or `today`, `yesterday`, `last3days`
+- `--time-slots`: Number of time slots per date (default: 1)
+- `--morning`, `--afternoon`, `--evening`: Restrict log times to these periods
+
+See `python scripts/generate_logs.py --help` for all options.
 
 ## Configuration Options
 
