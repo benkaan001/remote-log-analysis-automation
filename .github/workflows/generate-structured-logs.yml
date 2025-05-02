@@ -1,7 +1,6 @@
 name: Generate Structured Test Log Data
 
 on:
-  # Run on schedule (twice a week)
   schedule:
     - cron: '0 0 * * 0,2,4'  # Runs at midnight on Sunday, Tuesday, and Thursday
 
