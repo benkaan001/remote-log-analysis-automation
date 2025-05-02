@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250502_234208
+----------------------
+20250502_234208 ## Passed Parameter Values:
+20250502_234208 DOMAIN: operations
+20250502_234208 SUB_DOMAIN: scheduling
+20250502_234208 USER_NAME: logistics_manager
+20250502_234208 TABLE_NAME: job_staff_roster
+20250502_234208 EXEC_SCOPE: UAT
+
+20250502_234208 ## Derived Variable Values:
+20250502_234208 STARTTIME: 234208
+20250502_234208 LOGDATE: 20250502_234208
+20250502_234208 JOB=job_staff_roster
+
+20250502_234208 ###############################################################
+20250502_234208 ### RUNNING STAFF ROSTER SCRIPT
+20250502_234208 ###############################################################
+
+20250502_234208 ## Checking if script exists
+20250502_234208 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20250502_234208 File exists...
+
+20250502_234208 ## Running script
+20250502_234208  *** Logon successfully completed.
+  *** Total elapsed time was 1 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250502_234259
+20250502_234259
+Execution Return Code: 4
+20250502_234259
+---------
+JOB ERROR
+---------
+Start Time: 234208, End Time: 234259

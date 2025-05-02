@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250502_063535
+----------------------
+20250502_063535 ## Passed Parameter Values:
+20250502_063535 DOMAIN: marketing
+20250502_063535 SUB_DOMAIN: campaigns
+20250502_063535 USER_NAME: analyst1
+20250502_063535 TABLE_NAME: job_update_crm
+20250502_063535 EXEC_SCOPE: TEST
+
+20250502_063535 ## Derived Variable Values:
+20250502_063535 STARTTIME: 063535
+20250502_063535 LOGDATE: 20250502_063535
+20250502_063535 JOB=job_update_crm
+
+20250502_063535 ###############################################################
+20250502_063535 ### RUNNING UPDATE CRM SCRIPT
+20250502_063535 ###############################################################
+
+20250502_063535 ## Checking if script exists
+20250502_063535 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250502_063535 File exists...
+
+20250502_063535 ## Running script
+20250502_063535  *** Logon successfully completed.
+  *** Total elapsed time was 1 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250502_063613
+20250502_063613
+Execution Return Code: 4
+20250502_063613
+---------
+JOB ERROR
+---------
+Start Time: 063535, End Time: 063613

@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250502_042132
+----------------------
+20250502_042132 ## Passed Parameter Values:
+20250502_042132 DOMAIN: hr
+20250502_042132 SUB_DOMAIN: payroll
+20250502_042132 USER_NAME: recruiter1
+20250502_042132 TABLE_NAME: job_tax_withhold
+20250502_042132 EXEC_SCOPE: UAT
+
+20250502_042132 ## Derived Variable Values:
+20250502_042132 STARTTIME: 042132
+20250502_042132 LOGDATE: 20250502_042132
+20250502_042132 JOB=job_tax_withhold
+
+20250502_042132 ###############################################################
+20250502_042132 ### RUNNING TAX WITHHOLD SCRIPT
+20250502_042132 ###############################################################
+
+20250502_042132 ## Checking if script exists
+20250502_042132 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250502_042132 File exists...
+
+20250502_042132 ## Running script
+20250502_042132  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250502_042217
+20250502_042217
+Execution Return Code: 1
+20250502_042217
+---------
+JOB ERROR
+---------
+Start Time: 042132, End Time: 042217

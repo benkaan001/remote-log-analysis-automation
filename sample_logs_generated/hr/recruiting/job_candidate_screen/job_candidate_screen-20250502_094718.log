@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250502_094718
+----------------------
+20250502_094718 ## Passed Parameter Values:
+20250502_094718 DOMAIN: hr
+20250502_094718 SUB_DOMAIN: recruiting
+20250502_094718 USER_NAME: hr_user1
+20250502_094718 TABLE_NAME: job_candidate_screen
+20250502_094718 EXEC_SCOPE: UAT
+
+20250502_094718 ## Derived Variable Values:
+20250502_094718 STARTTIME: 094718
+20250502_094718 LOGDATE: 20250502_094718
+20250502_094718 JOB=job_candidate_screen
+
+20250502_094718 ###############################################################
+20250502_094718 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250502_094718 ###############################################################
+
+20250502_094718 ## Checking if script exists
+20250502_094718 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250502_094718 File exists...
+
+20250502_094718 ## Running script
+20250502_094718  *** Logon successfully completed.
+  *** Total elapsed time was 1 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250502_094813
+20250502_094813
+Execution Return Code: 4
+20250502_094813
+---------
+JOB ERROR
+---------
+Start Time: 094718, End Time: 094813

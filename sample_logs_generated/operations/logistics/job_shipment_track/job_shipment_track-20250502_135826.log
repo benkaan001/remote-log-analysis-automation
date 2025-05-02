@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250502_135826
+----------------------
+20250502_135826 ## Passed Parameter Values:
+20250502_135826 DOMAIN: operations
+20250502_135826 SUB_DOMAIN: logistics
+20250502_135826 USER_NAME: logistics_manager
+20250502_135826 TABLE_NAME: job_shipment_track
+20250502_135826 EXEC_SCOPE: TEST
+
+20250502_135826 ## Derived Variable Values:
+20250502_135826 STARTTIME: 135826
+20250502_135826 LOGDATE: 20250502_135826
+20250502_135826 JOB=job_shipment_track
+
+20250502_135826 ###############################################################
+20250502_135826 ### RUNNING SHIPMENT TRACK SCRIPT
+20250502_135826 ###############################################################
+
+20250502_135826 ## Checking if script exists
+20250502_135826 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250502_135826 File exists...
+
+20250502_135826 ## Running script
+20250502_135826  *** Logon successfully completed.
+  *** Total elapsed time was 1 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250502_135900
+20250502_135900
+Execution Return Code: 1
+20250502_135900
+---------
+JOB ERROR
+---------
+Start Time: 135826, End Time: 135900
