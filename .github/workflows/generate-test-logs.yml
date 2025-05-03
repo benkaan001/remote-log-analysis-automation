@@ -3,8 +3,6 @@ name: Generate Test Log Data
 on:
   schedule:
     - cron: '0 0 * * 0,2,4'  # Runs at midnight on Sunday, Tuesday, and Thursday
-
-  # Allow manual triggering
   workflow_dispatch:
     inputs:
       dates:
