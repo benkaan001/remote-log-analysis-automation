@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250503_093751
+----------------------
+20250503_093751 ## Passed Parameter Values:
+20250503_093751 DOMAIN: operations
+20250503_093751 SUB_DOMAIN: logistics
+20250503_093751 USER_NAME: ops_user1
+20250503_093751 TABLE_NAME: job_warehouse_mgmt
+20250503_093751 EXEC_SCOPE: DEV
+
+20250503_093751 ## Derived Variable Values:
+20250503_093751 STARTTIME: 093751
+20250503_093751 LOGDATE: 20250503_093751
+20250503_093751 JOB=job_warehouse_mgmt
+
+20250503_093751 ###############################################################
+20250503_093751 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250503_093751 ###############################################################
+
+20250503_093751 ## Checking if script exists
+20250503_093751 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250503_093751 File exists...
+
+20250503_093751 ## Running script
+20250503_093751  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250503_093825
+20250503_093825
+Execution Return Code: 1
+20250503_093825
+---------
+JOB ERROR
+---------
+Start Time: 093751, End Time: 093825

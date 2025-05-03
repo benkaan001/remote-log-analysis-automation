@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250503_100452
+----------------------
+20250503_100452 ## Passed Parameter Values:
+20250503_100452 DOMAIN: finance
+20250503_100452 SUB_DOMAIN: billing
+20250503_100452 USER_NAME: finance_user1
+20250503_100452 TABLE_NAME: job_invoice_gen
+20250503_100452 EXEC_SCOPE: UAT
+
+20250503_100452 ## Derived Variable Values:
+20250503_100452 STARTTIME: 100452
+20250503_100452 LOGDATE: 20250503_100452
+20250503_100452 JOB=job_invoice_gen
+
+20250503_100452 ###############################################################
+20250503_100452 ### RUNNING INVOICE GEN SCRIPT
+20250503_100452 ###############################################################
+
+20250503_100452 ## Checking if script exists
+20250503_100452 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20250503_100452 File exists...
+
+20250503_100452 ## Running script
+20250503_100452  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Tax calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250503_100514
+20250503_100514
+Execution Return Code: 8
+20250503_100514
+---------
+JOB ERROR
+---------
+Start Time: 100452, End Time: 100514
