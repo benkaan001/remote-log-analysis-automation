@@ -101,6 +101,7 @@ jobs:
       - name: Update README with tracker summary
         run: |
           echo "Updating README with tracker summary..."
+          # Corrected python -c command with closing parenthesis for strip()
           python -c "import os; import re; import pandas as pd; from tabulate import tabulate; tracker_path = 'data/log_analysis_tracker.xlsx'; readme_path = 'README.md'; \
             print(f'Reading tracker: {tracker_path}'); \
             if not os.path.exists(tracker_path): print(f'Tracker file {tracker_path} not found. Skipping README update.'); exit(); \
