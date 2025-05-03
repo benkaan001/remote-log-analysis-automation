@@ -1,8 +1,10 @@
-name: Generate Test Log Data
+# .github/workflows/generate_and_analyze_logs.yml
+
+name: Generate Test Log Data and Analyze
 
 on:
   schedule:
-    - cron: '0 0 * * 0,2,4'  # Runs at midnight on Sunday, Tuesday, and Thursday
+    - cron: '0 0 * * 0,2,4' # Midnight UTC on Sun, Tue, Thu
   workflow_dispatch:
     inputs:
       dates:
@@ -30,27 +32,25 @@ on:
         type: boolean
 
 jobs:
-  generate-logs:
+  generate-and-analyze:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas tabulate openpyxl paramiko
-          # Add any additional dependencies your scripts might need
+          pip install -r requirements.txt
 
       - name: Generate structured log files
         run: |
-          # Build arguments for time periods
           TIME_ARGS=""
           if [[ "${{ github.event.inputs.include_morning }}" == "true" ]]; then
             TIME_ARGS="$TIME_ARGS --morning"
@@ -62,48 +62,76 @@ jobs:
             TIME_ARGS="$TIME_ARGS --evening"
           fi
 
-          # Run the log generator script
-          python scripts/generate_logs.py \
-            --output-dir ./sample_logs_generated \
-            --dates ${{ github.event.inputs.dates || 'today' }} \
-            --time-slots ${{ github.event.inputs.time_slots || 1 }} \
-            $TIME_ARGS
+          if [ -f "scripts/generate_logs.py" ]; then
+            echo "Running log generator script..."
+            python scripts/generate_logs.py \
+              --output-dir ./sample_logs_generated \
+              --dates ${{ github.event.inputs.dates || 'today' }} \
+              --time-slots ${{ github.event.inputs.time_slots || 1 }} \
+              $TIME_ARGS
+          else
+            echo "Skipping log generation: scripts/generate_logs.py not found."
+          fi
 
-      # Set up Docker and Docker Compose
-      - name: Set up Docker Compose
-        uses: docker/setup-buildx-action@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - name: Build and restart Docker SFTP server
+      - name: Build and start Docker SFTP server
         run: |
-          # Use docker compose (newer syntax) instead of docker-compose
-          docker compose down || true
-          docker compose up --build -d
+          echo "Building and starting SFTP server container..."
+          # Using 'down --remove-orphans' for cleaner stops, ignore errors if not running
+          docker compose down --remove-orphans || true
+          docker compose up --build -d sftp-server
 
-          # Allow a moment for services to start
-          sleep 5
+          echo "Waiting for SFTP server to start..."
+          sleep 10
+
+          echo "Checking container status:"
+          docker compose ps
 
       - name: Analyze logs using log_analyzer.py
         env:
+          SSH_HOSTNAME: ${{ secrets.SSH_HOSTNAME }}
           SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
-          SSH_HOSTNAME: ${{ secrets.SSH_HOSTNAME }}
         run: |
+          echo "Running log analyzer script..."
           python src/log_analyzer.py
 
       - name: Update README with tracker summary
         run: |
-          python -c "import re; import pandas as pd; from tabulate import tabulate; df = pd.read_excel('data/log_analysis_tracker.xlsx'); summary = tabulate(df, headers='keys', tablefmt='github'); with open('README.md', 'r') as f: content = f.read(); new_section = '\n## Latest Tracker Preview\n' + summary + '\n'; content = re.sub(r'(## Latest Tracker Preview[\s\S]*?)(?=\n## |\Z)', '', content, flags=re.MULTILINE); content += new_section if '## Latest Tracker Preview' not in content else new_section; with open('README.md', 'w') as f: f.write(content)"
+          echo "Updating README with tracker summary..."
+          python -c "import os; import re; import pandas as pd; from tabulate import tabulate; tracker_path = 'data/log_analysis_tracker.xlsx'; readme_path = 'README.md'; \
+            print(f'Reading tracker: {tracker_path}'); \
+            if not os.path.exists(tracker_path): print(f'Tracker file {tracker_path} not found. Skipping README update.'); exit(); \
+            df = pd.read_excel(tracker_path); \
+            summary = tabulate(df.head(10), headers='keys', tablefmt='github', showindex=False); \
+            print(f'Reading README: {readme_path}'); \
+            with open(readme_path, 'r', encoding='utf-8') as f: content = f.read(); \
+            new_section = '\n## Latest Tracker Preview (Top 10 Rows)\n\n' + summary + '\n'; \
+            content = re.sub(r'(## Latest Tracker Preview.*?)(?=\n## |\Z)', '', content, flags=re.DOTALL | re.MULTILINE); \
+            if '## Latest Tracker Preview' not in content: content += new_section; \
+            else: content = content.replace('## Latest Tracker Preview', '## Latest Tracker Preview (placeholder)', 1); content = content.replace('## Latest Tracker Preview (placeholder)', new_section.strip()); \
+            print(f'Writing updated README: {readme_path}'); \
+            with open(readme_path, 'w', encoding='utf-8') as f: f.write(content)"
 
       - name: Commit and push changes
         run: |
-          # Configure git
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          echo "Checking for changes to commit..."
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Get current timestamp
-          TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
-
-          # Commit and push changes
+          git status
           git add ./sample_logs_generated/ ./data/log_analysis_tracker.xlsx README.md
-          git commit -m "Update structured test log data and tracker summary - $TIMESTAMP" || echo "No changes to commit"
+
+          # Check diff-index to see if anything was actually staged
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S_UTC")
+          echo "Committing changes..."
+          git commit -m "Automated Log Analysis Update - $TIMESTAMP"
+          echo "Pushing changes..."
           git push

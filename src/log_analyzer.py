@@ -10,11 +10,10 @@ from dotenv import load_dotenv
 # Configuration Constants
 # ==============================================================================
 
-# --- File Paths (assuming script is run from project root) ---
+# --- File Paths ---
 PROJECT_ROOT = os.getcwd()
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
 LOGS_DIR = os.path.join(PROJECT_ROOT, 'logs') # For application logs
-ENV_FILE_PATH = os.path.join(PROJECT_ROOT, '.env')
 ANALYSIS_TRACKER_FILENAME = 'log_analysis_tracker.xlsx'
 ANALYSIS_TRACKER_PATH = os.path.join(DATA_DIR, ANALYSIS_TRACKER_FILENAME)
 LOCAL_LOG_STORAGE_BASE = os.path.join(DATA_DIR, 'downloaded_logs') # Base dir for downloaded logs
@@ -50,37 +49,35 @@ logging.basicConfig(
 # Helper Functions
 # ==============================================================================
 
-def load_environment_variables(env_path: str) -> dict:
+def load_environment_variables() -> dict:
     """
-    Loads required environment variables from a specified .env file.
-
-    Args:
-        env_path (str): The full path to the .env file.
+    Loads required SSH environment variables directly from the environment
+    (e.g., set by GitHub Actions secrets).
 
     Returns:
         dict: A dictionary containing SSH credentials and hostname.
 
     Raises:
-        FileNotFoundError: If the .env file is not found.
         ValueError: If any required environment variable is missing.
     """
-    if not os.path.exists(env_path):
-        error_msg = f".env file not found at {env_path}. Please create it based on .env.example"
-        logging.error(error_msg)
-        raise FileNotFoundError(error_msg)
+    logging.info("Loading environment variables using os.getenv()...")
+    # Relies on the variables being present in the execution environment.
 
-    load_dotenv(dotenv_path=env_path)
-    logging.info(f"Loading environment variables from: {env_path}")
     required_vars = ["SSH_HOSTNAME", "SSH_USERNAME", "SSH_PASSWORD"]
     env_vars = {var: os.getenv(var) for var in required_vars}
 
     missing_vars = [var for var, value in env_vars.items() if value is None]
     if missing_vars:
-        error_msg = f"Missing required environment variables in {env_path}: {', '.join(missing_vars)}."
+        # Log the specific missing variables for easier debugging in Actions
+        error_msg = f"Missing required environment variables: {', '.join(missing_vars)}. Check Actions secrets or local environment."
         logging.error(error_msg)
         raise ValueError(error_msg)
 
-    logging.info("Environment variables loaded successfully.")
+    logging.info("Environment variables loaded successfully via os.getenv().")
+    logging.info(f"SSH_HOSTNAME found: {env_vars.get('SSH_HOSTNAME')}")
+    logging.info(f"SSH_USERNAME found: {'Yes' if env_vars.get('SSH_USERNAME') else 'No'}")
+    logging.info(f"SSH_PASSWORD found: {'Yes' if env_vars.get('SSH_PASSWORD') else 'No'}")
+
     return env_vars
 
 def get_analysis_tracker(filename: str, required_col: str) -> pd.DataFrame | None:
@@ -174,7 +171,7 @@ def download_latest_logs(df: pd.DataFrame, ssh_config: dict, local_log_dir: str)
             port=SFTP_PORT,
             username=ssh_config.get('SSH_USERNAME'),
             password=ssh_config.get('SSH_PASSWORD'),
-            timeout=15
+            timeout=15 # Slightly longer timeout
         )
         logging.info("SSH connection established successfully.")
 
@@ -412,7 +409,8 @@ def main():
     try:
         # 1. Load Config
         logging.info("Step 1: Loading configuration...")
-        ssh_config = load_environment_variables(ENV_FILE_PATH)
+        # Directly reads from environment variables set by Actions secrets or local env
+        ssh_config = load_environment_variables()
         analysis_df = get_analysis_tracker(ANALYSIS_TRACKER_PATH, LOG_PATH_COLUMN)
         if analysis_df is None:
             raise ValueError("Failed to load or validate the analysis tracker Excel file.")
@@ -456,14 +454,15 @@ def main():
 
         logging.info("--- Remote Log Analysis Script Finished Successfully ---")
 
+    # Specific exceptions first
     except FileNotFoundError as fnf_err:
-        logging.error(f"Configuration Error: {fnf_err}")
+        logging.error(f"Configuration Error: Required file not found: {fnf_err}")
         exit_code = 1
     except ValueError as val_err:
         logging.error(f"Configuration or Data Error: {val_err}")
         exit_code = 1
     except paramiko.AuthenticationException:
-        logging.error("Critical Error: SSH Authentication failed.")
+        logging.error("Critical Error: SSH Authentication failed. Verify credentials (secrets in Actions).")
         exit_code = 2
     except paramiko.SSHException as ssh_ex:
         logging.error(f"Critical Error: SSH connection problem: {ssh_ex}")
@@ -477,9 +476,13 @@ def main():
     except PermissionError as pe:
          logging.error(f"File System Error: Could not save tracker file due to permissions: {pe}")
          exit_code = 3
+    except RuntimeError as rt_err:
+         logging.error(f"Runtime Error during processing: {rt_err}")
+         exit_code = 4
+    # Catch-all for any other unexpected errors
     except Exception as e:
         logging.exception("An unexpected critical error occurred during script execution.") # Logs full traceback
-        exit_code = 4
+        exit_code = 5
     finally:
         logging.info(f"--- Script finished with exit code {exit_code} ---")
         sys.exit(exit_code) # Exit with appropriate code
