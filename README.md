@@ -1,5 +1,7 @@
 # Remote Log Analysis Automation
 
+[![.github/workflows/generate-test-logs.yml](https://github.com/benkaan001/remote-log-analysis-automation/actions/workflows/generate-test-logs.yml/badge.svg)](https://github.com/benkaan001/remote-log-analysis-automation/actions/workflows/generate-test-logs.yml)
+
 ## Overview
 
 Remote Log Analysis Automation is a Python-based solution for automating the retrieval and analysis of log files from remote servers. This project demonstrates professional-grade automation for DevOps and system administration tasks by securely connecting via SSH/SFTP, downloading the latest log files from specified directories, parsing them for success, failure, or error patterns, and updating a tracking spreadsheet with the analysis results.
