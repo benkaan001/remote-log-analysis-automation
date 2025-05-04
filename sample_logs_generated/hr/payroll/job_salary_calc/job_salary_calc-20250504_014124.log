@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250504_014124
+----------------------
+20250504_014124 ## Passed Parameter Values:
+20250504_014124 DOMAIN: hr
+20250504_014124 SUB_DOMAIN: payroll
+20250504_014124 USER_NAME: hr_user1
+20250504_014124 TABLE_NAME: job_salary_calc
+20250504_014124 EXEC_SCOPE: PROD
+
+20250504_014124 ## Derived Variable Values:
+20250504_014124 STARTTIME: 014124
+20250504_014124 LOGDATE: 20250504_014124
+20250504_014124 JOB=job_salary_calc
+
+20250504_014124 ###############################################################
+20250504_014124 ### RUNNING SALARY CALC SCRIPT
+20250504_014124 ###############################################################
+
+20250504_014124 ## Checking if script exists
+20250504_014124 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250504_014124 File exists...
+
+20250504_014124 ## Running script
+20250504_014124  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250504_014202
+20250504_014202
+Execution Return Code: 4
+20250504_014202
+---------
+JOB ERROR
+---------
+Start Time: 014124, End Time: 014202
