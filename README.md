@@ -317,6 +317,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 *This project was created to demonstrate automation capabilities for system administration and DevOps tasks. It showcases skills in Python development, secure remote connections, data analysis, and Docker containerization.*
 
 
+
 ## Latest Tracker Preview Updated on 2025-05-05
 
 | remote_log_directory                             | analysis_results_20250505   | project    | department   | job_name             |
@@ -325,15 +326,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 | /logs/operations/scheduling/job_staff_roster     | success                     | operations | scheduling   | job_staff_roster     |
 | /logs/operations/scheduling/job_resource_alloc   | error                       | operations | scheduling   | job_resource_alloc   |
 | /logs/operations/logistics/job_warehouse_mgmt    | success                     | operations | logistics    | job_warehouse_mgmt   |
-| /logs/operations/logistics/job_shipment_track    | error                       | operations | logistics    | job_shipment_track   |
+| /logs/operations/logistics/job_shipment_track    | success                     | operations | logistics    | job_shipment_track   |
 | /logs/operations/logistics/job_inventory_check   | success                     | operations | logistics    | job_inventory_check  |
-| /logs/hr/payroll/job_tax_withhold                | success                     | hr         | payroll      | job_tax_withhold     |
-| /logs/hr/payroll/job_salary_calc                 | success                     | hr         | payroll      | job_salary_calc      |
-| /logs/hr/payroll/job_bonus_process               | success                     | hr         | payroll      | job_bonus_process    |
+| /logs/hr/payroll/job_tax_withhold                | error                       | hr         | payroll      | job_tax_withhold     |
+| /logs/hr/payroll/job_salary_calc                 | error                       | hr         | payroll      | job_salary_calc      |
+| /logs/hr/payroll/job_bonus_process               | error                       | hr         | payroll      | job_bonus_process    |
 | /logs/hr/recruiting/job_offer_gen                | success                     | hr         | recruiting   | job_offer_gen        |
 | /logs/hr/recruiting/job_interview_sched          | success                     | hr         | recruiting   | job_interview_sched  |
 | /logs/hr/recruiting/job_candidate_screen         | error                       | hr         | recruiting   | job_candidate_screen |
-| /logs/marketing/campaigns/job_segment_users      | success                     | marketing  | campaigns    | job_segment_users    |
+| /logs/marketing/campaigns/job_segment_users      | error                       | marketing  | campaigns    | job_segment_users    |
 | /logs/marketing/campaigns/job_update_crm         | success                     | marketing  | campaigns    | job_update_crm       |
 | /logs/marketing/campaigns/job_email_blast        | success                     | marketing  | campaigns    | job_email_blast      |
 | /logs/marketing/analytics/job_web_traffic        | error                       | marketing  | analytics    | job_web_traffic      |

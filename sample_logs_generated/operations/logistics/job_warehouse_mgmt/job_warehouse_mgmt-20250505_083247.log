@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250505_083247
+----------------------
+20250505_083247 ## Passed Parameter Values:
+20250505_083247 DOMAIN: operations
+20250505_083247 SUB_DOMAIN: logistics
+20250505_083247 USER_NAME: scheduler
+20250505_083247 TABLE_NAME: job_warehouse_mgmt
+20250505_083247 EXEC_SCOPE: TEST
+
+20250505_083247 ## Derived Variable Values:
+20250505_083247 STARTTIME: 083247
+20250505_083247 LOGDATE: 20250505_083247
+20250505_083247 JOB=job_warehouse_mgmt
+
+20250505_083247 ###############################################################
+20250505_083247 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250505_083247 ###############################################################
+
+20250505_083247 ## Checking if script exists
+20250505_083247 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250505_083247 File exists...
+
+20250505_083247 ## Running script
+20250505_083247  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250505_083325
+20250505_083325
+Execution Return Code: 4
+20250505_083325
+---------
+JOB ERROR
+---------
+Start Time: 083247, End Time: 083325

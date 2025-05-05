@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250505_082219
+----------------------
+20250505_082219 ## Passed Parameter Values:
+20250505_082219 DOMAIN: hr
+20250505_082219 SUB_DOMAIN: payroll
+20250505_082219 USER_NAME: hr_user1
+20250505_082219 TABLE_NAME: job_salary_calc
+20250505_082219 EXEC_SCOPE: PROD
+
+20250505_082219 ## Derived Variable Values:
+20250505_082219 STARTTIME: 082219
+20250505_082219 LOGDATE: 20250505_082219
+20250505_082219 JOB=job_salary_calc
+
+20250505_082219 ###############################################################
+20250505_082219 ### RUNNING SALARY CALC SCRIPT
+20250505_082219 ###############################################################
+
+20250505_082219 ## Checking if script exists
+20250505_082219 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250505_082219 File exists...
+
+20250505_082219 ## Running script
+20250505_082219  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250505_082247
+20250505_082247
+Execution Return Code: 2
+20250505_082247
+---------
+JOB ERROR
+---------
+Start Time: 082219, End Time: 082247

@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250505_080717
+----------------------
+20250505_080717 ## Passed Parameter Values:
+20250505_080717 DOMAIN: hr
+20250505_080717 SUB_DOMAIN: recruiting
+20250505_080717 USER_NAME: hr_user1
+20250505_080717 TABLE_NAME: job_offer_gen
+20250505_080717 EXEC_SCOPE: UAT
+
+20250505_080717 ## Derived Variable Values:
+20250505_080717 STARTTIME: 080717
+20250505_080717 LOGDATE: 20250505_080717
+20250505_080717 JOB=job_offer_gen
+
+20250505_080717 ###############################################################
+20250505_080717 ### RUNNING OFFER GEN SCRIPT
+20250505_080717 ###############################################################
+
+20250505_080717 ## Checking if script exists
+20250505_080717 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250505_080717 File exists...
+
+20250505_080717 ## Running script
+20250505_080717  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250505_080807
+20250505_080807
+Execution Return Code: 8
+20250505_080807
+---------
+JOB ERROR
+---------
+Start Time: 080717, End Time: 080807
