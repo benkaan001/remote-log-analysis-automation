@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250504_132231
+----------------------
+20250504_132231 ## Passed Parameter Values:
+20250504_132231 DOMAIN: operations
+20250504_132231 SUB_DOMAIN: scheduling
+20250504_132231 USER_NAME: scheduler
+20250504_132231 TABLE_NAME: job_resource_alloc
+20250504_132231 EXEC_SCOPE: UAT
+
+20250504_132231 ## Derived Variable Values:
+20250504_132231 STARTTIME: 132231
+20250504_132231 LOGDATE: 20250504_132231
+20250504_132231 JOB=job_resource_alloc
+
+20250504_132231 ###############################################################
+20250504_132231 ### RUNNING RESOURCE ALLOC SCRIPT
+20250504_132231 ###############################################################
+
+20250504_132231 ## Checking if script exists
+20250504_132231 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20250504_132231 File exists...
+
+20250504_132231 ## Running script
+20250504_132231  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250504_132242
+20250504_132242
+Execution Return Code: 2
+20250504_132242
+---------
+JOB ERROR
+---------
+Start Time: 132231, End Time: 132242

@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250504_164740
+----------------------
+20250504_164740 ## Passed Parameter Values:
+20250504_164740 DOMAIN: marketing
+20250504_164740 SUB_DOMAIN: campaigns
+20250504_164740 USER_NAME: analyst1
+20250504_164740 TABLE_NAME: job_segment_users
+20250504_164740 EXEC_SCOPE: TEST
+
+20250504_164740 ## Derived Variable Values:
+20250504_164740 STARTTIME: 164740
+20250504_164740 LOGDATE: 20250504_164740
+20250504_164740 JOB=job_segment_users
+
+20250504_164740 ###############################################################
+20250504_164740 ### RUNNING SEGMENT USERS SCRIPT
+20250504_164740 ###############################################################
+
+20250504_164740 ## Checking if script exists
+20250504_164740 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20250504_164740 File exists...
+
+20250504_164740 ## Running script
+20250504_164740  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250504_164805
+20250504_164805
+Execution Return Code: 2
+20250504_164805
+---------
+JOB ERROR
+---------
+Start Time: 164740, End Time: 164805
