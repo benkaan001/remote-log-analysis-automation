@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250505_182355
+----------------------
+20250505_182355 ## Passed Parameter Values:
+20250505_182355 DOMAIN: operations
+20250505_182355 SUB_DOMAIN: scheduling
+20250505_182355 USER_NAME: logistics_manager
+20250505_182355 TABLE_NAME: job_resource_alloc
+20250505_182355 EXEC_SCOPE: PROD
+
+20250505_182355 ## Derived Variable Values:
+20250505_182355 STARTTIME: 182355
+20250505_182355 LOGDATE: 20250505_182355
+20250505_182355 JOB=job_resource_alloc
+
+20250505_182355 ###############################################################
+20250505_182355 ### RUNNING RESOURCE ALLOC SCRIPT
+20250505_182355 ###############################################################
+
+20250505_182355 ## Checking if script exists
+20250505_182355 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20250505_182355 File exists...
+
+20250505_182355 ## Running script
+20250505_182355  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250505_182425
+20250505_182425
+Execution Return Code: 2
+20250505_182425
+---------
+JOB ERROR
+---------
+Start Time: 182355, End Time: 182425

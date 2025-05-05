@@ -60,6 +60,7 @@ def load_environment_variables() -> dict:
     Raises:
         ValueError: If any required environment variable is missing.
     """
+    load_dotenv()
     logging.info("Loading environment variables using os.getenv()...")
     # Relies on the variables being present in the execution environment.
 

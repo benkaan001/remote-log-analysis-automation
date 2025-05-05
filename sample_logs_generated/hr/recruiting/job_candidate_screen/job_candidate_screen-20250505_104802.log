@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250505_104802
+----------------------
+20250505_104802 ## Passed Parameter Values:
+20250505_104802 DOMAIN: hr
+20250505_104802 SUB_DOMAIN: recruiting
+20250505_104802 USER_NAME: payroll_admin
+20250505_104802 TABLE_NAME: job_candidate_screen
+20250505_104802 EXEC_SCOPE: TEST
+
+20250505_104802 ## Derived Variable Values:
+20250505_104802 STARTTIME: 104802
+20250505_104802 LOGDATE: 20250505_104802
+20250505_104802 JOB=job_candidate_screen
+
+20250505_104802 ###############################################################
+20250505_104802 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250505_104802 ###############################################################
+
+20250505_104802 ## Checking if script exists
+20250505_104802 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250505_104802 File exists...
+
+20250505_104802 ## Running script
+20250505_104802  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Recruiting aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250505_104848
+20250505_104848
+Execution Return Code: 1
+20250505_104848
+---------
+JOB ERROR
+---------
+Start Time: 104802, End Time: 104848

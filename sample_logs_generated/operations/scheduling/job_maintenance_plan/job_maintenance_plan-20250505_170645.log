@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250505_170645
+----------------------
+20250505_170645 ## Passed Parameter Values:
+20250505_170645 DOMAIN: operations
+20250505_170645 SUB_DOMAIN: scheduling
+20250505_170645 USER_NAME: logistics_manager
+20250505_170645 TABLE_NAME: job_maintenance_plan
+20250505_170645 EXEC_SCOPE: PROD
+
+20250505_170645 ## Derived Variable Values:
+20250505_170645 STARTTIME: 170645
+20250505_170645 LOGDATE: 20250505_170645
+20250505_170645 JOB=job_maintenance_plan
+
+20250505_170645 ###############################################################
+20250505_170645 ### RUNNING MAINTENANCE PLAN SCRIPT
+20250505_170645 ###############################################################
+
+20250505_170645 ## Checking if script exists
+20250505_170645 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20250505_170645 File exists...
+
+20250505_170645 ## Running script
+20250505_170645  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Scheduling report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250505_170652
+20250505_170652
+Execution Return Code: 4
+20250505_170652
+---------
+JOB ERROR
+---------
+Start Time: 170645, End Time: 170652
