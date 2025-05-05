@@ -1,6 +1,6 @@
 import tempfile
 import os
-from src.utils import date_helpers
+from src.utils.date_helpers import get_current_date_string, get_readme_date_string
 from src import log_analyzer
 import pandas as pd
 import pytest
@@ -8,12 +8,12 @@ from unittest import mock
 
 
 def test_get_current_date_string():
-    result = date_helpers.get_current_date_string()
+    result = get_current_date_string()
     assert len(result) == 8 and result.isdigit()
 
 
 def test_get_readme_date_string():
-    result = date_helpers.get_readme_date_string()
+    result = get_readme_date_string()
     assert len(result) == 10 and result[4] == '-' and result[7] == '-'
 
 
