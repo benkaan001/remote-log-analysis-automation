@@ -90,6 +90,7 @@ jobs:
           docker compose ps
 
       - name: Analyze logs using log_analyzer.py
+        working-directory: ${{ github.workspace }}
         env:
           SSH_HOSTNAME: ${{ secrets.SSH_HOSTNAME }}
           SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
