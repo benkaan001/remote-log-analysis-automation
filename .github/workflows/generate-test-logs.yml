@@ -98,23 +98,10 @@ jobs:
           echo "Running log analyzer script..."
           python src/log_analyzer.py
 
-      # - name: Update README with tracker summary
-      #   run: |
-      #     echo "Updating README with tracker summary..."
-      #     # Corrected python -c command with closing parenthesis for strip()
-      #     python -c "import os; import re; import pandas as pd; from tabulate import tabulate; tracker_path = 'data/log_analysis_tracker.xlsx'; readme_path = 'README.md'; \
-      #       print(f'Reading tracker: {tracker_path}'); \
-      #       if not os.path.exists(tracker_path): print(f'Tracker file {tracker_path} not found. Skipping README update.'); exit(); \
-      #       df = pd.read_excel(tracker_path); \
-      #       summary = tabulate(df.head(10), headers='keys', tablefmt='github', showindex=False); \
-      #       print(f'Reading README: {readme_path}'); \
-      #       with open(readme_path, 'r', encoding='utf-8') as f: content = f.read(); \
-      #       new_section = '\n## Latest Tracker Preview (Top 10 Rows)\n\n' + summary + '\n'; \
-      #       content = re.sub(r'(## Latest Tracker Preview.*?)(?=\n## |\Z)', '', content, flags=re.DOTALL | re.MULTILINE); \
-      #       if '## Latest Tracker Preview' not in content: content += new_section; \
-      #       else: content = content.replace('## Latest Tracker Preview', '## Latest Tracker Preview (placeholder)', 1); content = content.replace('## Latest Tracker Preview (placeholder)', new_section.strip()); \
-      #       print(f'Writing updated README: {readme_path}'); \
-      #       with open(readme_path, 'w', encoding='utf-8') as f: f.write(content)"
+      - name: Update README with tracker summary
+        run: |
+          echo "Updating README with tracker summary..."
+          python scripts/update_readme.py
 
       - name: Commit and push changes
         run: |

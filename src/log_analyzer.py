@@ -2,9 +2,10 @@ import os
 import sys
 import pandas as pd
 import paramiko
-from datetime import date
+# from datetime import date
 import logging
 from dotenv import load_dotenv
+from utils.date_helpers import get_current_date_string
 
 # ==============================================================================
 # Configuration Constants
@@ -109,9 +110,6 @@ def get_analysis_tracker(filename: str, required_col: str) -> pd.DataFrame | Non
         logging.error(f"Failed to read tracker file '{filename}': {e}")
         return None # Return None on failure
 
-def get_current_date_string() -> str:
-    """Returns today's date as a string in 'YYYYMMDD' format."""
-    return date.today().strftime('%Y%m%d')
 
 def create_log_download_directory(base_dir: str, date_string: str) -> str:
     """
