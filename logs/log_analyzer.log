@@ -555,3 +555,199 @@ paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect t
 2025-05-05 14:07:12,822 - INFO - [main] - Updated tracker saved successfully.
 2025-05-05 14:07:12,822 - INFO - [main] - --- Remote Log Analysis Script Finished Successfully ---
 2025-05-05 14:07:12,822 - INFO - [main] - --- Script finished with exit code 0 ---
+2025-05-05 15:42:12,657 INFO: Reading tracker: data/log_analysis_tracker.xlsx
+2025-05-05 15:42:12,730 INFO: Reading README: README.md
+2025-05-05 15:42:12,731 INFO: Writing updated README: README.md
+2025-05-05 15:42:12,731 INFO: README successfully updated with tracker data.
+2025-05-05 15:43:29,111 - INFO - [main] - --- Starting Remote Log Analysis Script ---
+2025-05-05 15:43:29,111 - INFO - [main] - Step 1: Loading configuration...
+2025-05-05 15:43:29,111 - INFO - [load_environment_variables] - Loading environment variables using os.getenv()...
+2025-05-05 15:43:29,112 - INFO - [load_environment_variables] - Environment variables loaded successfully via os.getenv().
+2025-05-05 15:43:29,112 - INFO - [load_environment_variables] - SSH_HOSTNAME found: localhost
+2025-05-05 15:43:29,112 - INFO - [load_environment_variables] - SSH_USERNAME found: Yes
+2025-05-05 15:43:29,112 - INFO - [load_environment_variables] - SSH_PASSWORD found: Yes
+2025-05-05 15:43:29,112 - INFO - [get_analysis_tracker] - Loading tracker file: '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/log_analysis_tracker.xlsx'
+2025-05-05 15:43:29,184 - INFO - [get_analysis_tracker] - Successfully loaded tracker with shape: (24, 5)
+2025-05-05 15:43:29,185 - INFO - [get_analysis_tracker] - Required column 'remote_log_directory' found in tracker.
+2025-05-05 15:43:29,185 - INFO - [main] - Configuration loaded successfully.
+2025-05-05 15:43:29,185 - INFO - [main] - Step 2: Preparing local directories...
+2025-05-05 15:43:29,185 - INFO - [main] - Local directory for today's logs: /Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs
+2025-05-05 15:43:29,185 - INFO - [main] - Step 3: Downloading logs...
+2025-05-05 15:43:29,185 - INFO - [download_latest_logs] - Starting log download process...
+2025-05-05 15:43:29,185 - INFO - [download_latest_logs] - Attempting SSH connection to: localhost:2222 as user 'sftpuser'...
+2025-05-05 15:43:29,205 - INFO - [_log] - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-05-05 15:43:29,381 - INFO - [_log] - Authentication (password) successful!
+2025-05-05 15:43:29,381 - INFO - [download_latest_logs] - SSH connection established successfully.
+2025-05-05 15:43:29,389 - INFO - [_log] - [chan 0] Opened sftp connection (server version 3)
+2025-05-05 15:43:29,389 - INFO - [download_latest_logs] - SFTP session opened successfully.
+2025-05-05 15:43:29,389 - INFO - [download_latest_logs] - Processing remote path: /logs/operations/scheduling/job_maintenance_plan
+2025-05-05 15:43:29,396 - INFO - [download_latest_logs] - Latest log file identified: job_maintenance_plan-20250505_170645.log
+2025-05-05 15:43:29,396 - INFO - [download_latest_logs] - Attempting download: '/logs/operations/scheduling/job_maintenance_plan/job_maintenance_plan-20250505_170645.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_maintenance_plan-20250505_170645.log'
+2025-05-05 15:43:29,401 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,401 - INFO - [download_latest_logs] - Processing remote path: /logs/operations/scheduling/job_staff_roster
+2025-05-05 15:43:29,404 - INFO - [download_latest_logs] - Latest log file identified: job_staff_roster-20250505_183423.log
+2025-05-05 15:43:29,404 - INFO - [download_latest_logs] - Attempting download: '/logs/operations/scheduling/job_staff_roster/job_staff_roster-20250505_183423.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_staff_roster-20250505_183423.log'
+2025-05-05 15:43:29,407 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,407 - INFO - [download_latest_logs] - Processing remote path: /logs/operations/scheduling/job_resource_alloc
+2025-05-05 15:43:29,409 - INFO - [download_latest_logs] - Latest log file identified: job_resource_alloc-20250505_182355.log
+2025-05-05 15:43:29,409 - INFO - [download_latest_logs] - Attempting download: '/logs/operations/scheduling/job_resource_alloc/job_resource_alloc-20250505_182355.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_resource_alloc-20250505_182355.log'
+2025-05-05 15:43:29,412 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,412 - INFO - [download_latest_logs] - Processing remote path: /logs/operations/logistics/job_warehouse_mgmt
+2025-05-05 15:43:29,415 - INFO - [download_latest_logs] - Latest log file identified: job_warehouse_mgmt-20250505_162631.log
+2025-05-05 15:43:29,415 - INFO - [download_latest_logs] - Attempting download: '/logs/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt-20250505_162631.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_warehouse_mgmt-20250505_162631.log'
+2025-05-05 15:43:29,418 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,418 - INFO - [download_latest_logs] - Processing remote path: /logs/operations/logistics/job_shipment_track
+2025-05-05 15:43:29,420 - INFO - [download_latest_logs] - Latest log file identified: job_shipment_track-20250505_083258.log
+2025-05-05 15:43:29,420 - INFO - [download_latest_logs] - Attempting download: '/logs/operations/logistics/job_shipment_track/job_shipment_track-20250505_083258.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_shipment_track-20250505_083258.log'
+2025-05-05 15:43:29,422 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,423 - INFO - [download_latest_logs] - Processing remote path: /logs/operations/logistics/job_inventory_check
+2025-05-05 15:43:29,424 - INFO - [download_latest_logs] - Latest log file identified: job_inventory_check-20250505_114321.log
+2025-05-05 15:43:29,425 - INFO - [download_latest_logs] - Attempting download: '/logs/operations/logistics/job_inventory_check/job_inventory_check-20250505_114321.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_inventory_check-20250505_114321.log'
+2025-05-05 15:43:29,427 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,427 - INFO - [download_latest_logs] - Processing remote path: /logs/hr/payroll/job_tax_withhold
+2025-05-05 15:43:29,430 - INFO - [download_latest_logs] - Latest log file identified: job_tax_withhold-20250505_032832.log
+2025-05-05 15:43:29,430 - INFO - [download_latest_logs] - Attempting download: '/logs/hr/payroll/job_tax_withhold/job_tax_withhold-20250505_032832.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_tax_withhold-20250505_032832.log'
+2025-05-05 15:43:29,432 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,432 - INFO - [download_latest_logs] - Processing remote path: /logs/hr/payroll/job_salary_calc
+2025-05-05 15:43:29,434 - INFO - [download_latest_logs] - Latest log file identified: job_salary_calc-20250505_011144.log
+2025-05-05 15:43:29,434 - INFO - [download_latest_logs] - Attempting download: '/logs/hr/payroll/job_salary_calc/job_salary_calc-20250505_011144.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_salary_calc-20250505_011144.log'
+2025-05-05 15:43:29,437 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,437 - INFO - [download_latest_logs] - Processing remote path: /logs/hr/payroll/job_bonus_process
+2025-05-05 15:43:29,439 - INFO - [download_latest_logs] - Latest log file identified: job_bonus_process-20250505_030000.log
+2025-05-05 15:43:29,439 - INFO - [download_latest_logs] - Attempting download: '/logs/hr/payroll/job_bonus_process/job_bonus_process-20250505_030000.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_bonus_process-20250505_030000.log'
+2025-05-05 15:43:29,441 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,442 - INFO - [download_latest_logs] - Processing remote path: /logs/hr/recruiting/job_offer_gen
+2025-05-05 15:43:29,444 - INFO - [download_latest_logs] - Latest log file identified: job_offer_gen-20250505_114733.log
+2025-05-05 15:43:29,444 - INFO - [download_latest_logs] - Attempting download: '/logs/hr/recruiting/job_offer_gen/job_offer_gen-20250505_114733.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_offer_gen-20250505_114733.log'
+2025-05-05 15:43:29,447 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,447 - INFO - [download_latest_logs] - Processing remote path: /logs/hr/recruiting/job_interview_sched
+2025-05-05 15:43:29,449 - INFO - [download_latest_logs] - Latest log file identified: job_interview_sched-20250505_024435.log
+2025-05-05 15:43:29,449 - INFO - [download_latest_logs] - Attempting download: '/logs/hr/recruiting/job_interview_sched/job_interview_sched-20250505_024435.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_interview_sched-20250505_024435.log'
+2025-05-05 15:43:29,451 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,451 - INFO - [download_latest_logs] - Processing remote path: /logs/hr/recruiting/job_candidate_screen
+2025-05-05 15:43:29,453 - INFO - [download_latest_logs] - Latest log file identified: job_candidate_screen-20250505_104802.log
+2025-05-05 15:43:29,453 - INFO - [download_latest_logs] - Attempting download: '/logs/hr/recruiting/job_candidate_screen/job_candidate_screen-20250505_104802.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_candidate_screen-20250505_104802.log'
+2025-05-05 15:43:29,456 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,457 - INFO - [download_latest_logs] - Processing remote path: /logs/marketing/campaigns/job_segment_users
+2025-05-05 15:43:29,459 - INFO - [download_latest_logs] - Latest log file identified: job_segment_users-20250505_024823.log
+2025-05-05 15:43:29,459 - INFO - [download_latest_logs] - Attempting download: '/logs/marketing/campaigns/job_segment_users/job_segment_users-20250505_024823.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_segment_users-20250505_024823.log'
+2025-05-05 15:43:29,462 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,462 - INFO - [download_latest_logs] - Processing remote path: /logs/marketing/campaigns/job_update_crm
+2025-05-05 15:43:29,464 - INFO - [download_latest_logs] - Latest log file identified: job_update_crm-20250505_170815.log
+2025-05-05 15:43:29,464 - INFO - [download_latest_logs] - Attempting download: '/logs/marketing/campaigns/job_update_crm/job_update_crm-20250505_170815.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_update_crm-20250505_170815.log'
+2025-05-05 15:43:29,467 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,467 - INFO - [download_latest_logs] - Processing remote path: /logs/marketing/campaigns/job_email_blast
+2025-05-05 15:43:29,469 - INFO - [download_latest_logs] - Latest log file identified: job_email_blast-20250505_011244.log
+2025-05-05 15:43:29,469 - INFO - [download_latest_logs] - Attempting download: '/logs/marketing/campaigns/job_email_blast/job_email_blast-20250505_011244.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_email_blast-20250505_011244.log'
+2025-05-05 15:43:29,472 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,472 - INFO - [download_latest_logs] - Processing remote path: /logs/marketing/analytics/job_web_traffic
+2025-05-05 15:43:29,474 - INFO - [download_latest_logs] - Latest log file identified: job_web_traffic-20250505_181105.log
+2025-05-05 15:43:29,474 - INFO - [download_latest_logs] - Attempting download: '/logs/marketing/analytics/job_web_traffic/job_web_traffic-20250505_181105.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_web_traffic-20250505_181105.log'
+2025-05-05 15:43:29,476 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,476 - INFO - [download_latest_logs] - Processing remote path: /logs/marketing/analytics/job_conversion_rate
+2025-05-05 15:43:29,479 - INFO - [download_latest_logs] - Latest log file identified: job_conversion_rate-20250505_094058.log
+2025-05-05 15:43:29,479 - INFO - [download_latest_logs] - Attempting download: '/logs/marketing/analytics/job_conversion_rate/job_conversion_rate-20250505_094058.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_conversion_rate-20250505_094058.log'
+2025-05-05 15:43:29,481 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,481 - INFO - [download_latest_logs] - Processing remote path: /logs/marketing/analytics/job_roi_report
+2025-05-05 15:43:29,484 - INFO - [download_latest_logs] - Latest log file identified: job_roi_report-20250505_201504.log
+2025-05-05 15:43:29,484 - INFO - [download_latest_logs] - Attempting download: '/logs/marketing/analytics/job_roi_report/job_roi_report-20250505_201504.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_roi_report-20250505_201504.log'
+2025-05-05 15:43:29,486 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,486 - INFO - [download_latest_logs] - Processing remote path: /logs/finance/reporting/job_report_daily
+2025-05-05 15:43:29,489 - INFO - [download_latest_logs] - Latest log file identified: job_report_daily-20250505_234255.log
+2025-05-05 15:43:29,489 - INFO - [download_latest_logs] - Attempting download: '/logs/finance/reporting/job_report_daily/job_report_daily-20250505_234255.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_report_daily-20250505_234255.log'
+2025-05-05 15:43:29,492 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,492 - INFO - [download_latest_logs] - Processing remote path: /logs/finance/reporting/job_report_weekly
+2025-05-05 15:43:29,494 - INFO - [download_latest_logs] - Latest log file identified: job_report_weekly-20250505_070524.log
+2025-05-05 15:43:29,494 - INFO - [download_latest_logs] - Attempting download: '/logs/finance/reporting/job_report_weekly/job_report_weekly-20250505_070524.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_report_weekly-20250505_070524.log'
+2025-05-05 15:43:29,497 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,497 - INFO - [download_latest_logs] - Processing remote path: /logs/finance/reporting/job_report_monthly
+2025-05-05 15:43:29,500 - INFO - [download_latest_logs] - Latest log file identified: job_report_monthly-20250505_054656.log
+2025-05-05 15:43:29,500 - INFO - [download_latest_logs] - Attempting download: '/logs/finance/reporting/job_report_monthly/job_report_monthly-20250505_054656.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_report_monthly-20250505_054656.log'
+2025-05-05 15:43:29,502 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,502 - INFO - [download_latest_logs] - Processing remote path: /logs/finance/billing/job_payment_proc
+2025-05-05 15:43:29,505 - INFO - [download_latest_logs] - Latest log file identified: job_payment_proc-20250505_213231.log
+2025-05-05 15:43:29,505 - INFO - [download_latest_logs] - Attempting download: '/logs/finance/billing/job_payment_proc/job_payment_proc-20250505_213231.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_payment_proc-20250505_213231.log'
+2025-05-05 15:43:29,508 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,508 - INFO - [download_latest_logs] - Processing remote path: /logs/finance/billing/job_tax_calc
+2025-05-05 15:43:29,510 - INFO - [download_latest_logs] - Latest log file identified: job_tax_calc-20250505_134355.log
+2025-05-05 15:43:29,510 - INFO - [download_latest_logs] - Attempting download: '/logs/finance/billing/job_tax_calc/job_tax_calc-20250505_134355.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_tax_calc-20250505_134355.log'
+2025-05-05 15:43:29,513 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,513 - INFO - [download_latest_logs] - Processing remote path: /logs/finance/billing/job_invoice_gen
+2025-05-05 15:43:29,515 - INFO - [download_latest_logs] - Latest log file identified: job_invoice_gen-20250505_204731.log
+2025-05-05 15:43:29,516 - INFO - [download_latest_logs] - Attempting download: '/logs/finance/billing/job_invoice_gen/job_invoice_gen-20250505_204731.log' -> '/Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs/job_invoice_gen-20250505_204731.log'
+2025-05-05 15:43:29,518 - INFO - [download_latest_logs] - Successfully downloaded.
+2025-05-05 15:43:29,518 - INFO - [_log] - [chan 0] sftp session closed.
+2025-05-05 15:43:29,518 - INFO - [download_latest_logs] - Log download process finished.
+2025-05-05 15:43:29,518 - INFO - [main] - Log download completed.
+2025-05-05 15:43:29,518 - INFO - [main] - Step 4: Analyzing downloaded logs...
+2025-05-05 15:43:29,518 - INFO - [analyze_downloaded_logs] - Starting analysis of logs in directory: /Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/downloaded_logs/20250505_logs
+2025-05-05 15:43:29,518 - INFO - [analyze_downloaded_logs] - Found 24 log files to analyze.
+2025-05-05 15:43:29,518 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_salary_calc-20250505_011144.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_report_monthly-20250505_054656.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_conversion_rate-20250505_094058.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_update_crm-20250505_170815.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_warehouse_mgmt-20250505_162631.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_staff_roster-20250505_183423.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_interview_sched-20250505_024435.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_email_blast-20250505_011244.log': success
+2025-05-05 15:43:29,519 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_report_daily-20250505_234255.log: *** Error: Report generation failed: Data source unavailable.
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_report_daily-20250505_234255.log': error
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_bonus_process-20250505_030000.log': success
+2025-05-05 15:43:29,519 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_maintenance_plan-20250505_170645.log: *** Error: Scheduling report failed: Missing required metrics.
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_maintenance_plan-20250505_170645.log': error
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_offer_gen-20250505_114733.log': success
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_inventory_check-20250505_114321.log': success
+2025-05-05 15:43:29,519 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_candidate_screen-20250505_104802.log: *** Error: Recruiting aggregation error: Inconsistent daily data.
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_candidate_screen-20250505_104802.log': error
+2025-05-05 15:43:29,519 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_report_weekly-20250505_070524.log': success
+2025-05-05 15:43:29,519 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_web_traffic-20250505_181105.log: *** Error: Division by zero encountered in calculation.
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_web_traffic-20250505_181105.log': error
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_tax_calc-20250505_134355.log': success
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_segment_users-20250505_024823.log': success
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_payment_proc-20250505_213231.log': success
+2025-05-05 15:43:29,520 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_resource_alloc-20250505_182355.log: *** Error: Configuration file contains deprecated parameters.
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_resource_alloc-20250505_182355.log': error
+2025-05-05 15:43:29,520 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_shipment_track-20250505_083258.log: *** Error: Logistics processing error: Gateway timeout.
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_shipment_track-20250505_083258.log': error
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_invoice_gen-20250505_204731.log': success
+2025-05-05 15:43:29,520 - WARNING - [analyze_downloaded_logs] - Found error keyword in job_roi_report-20250505_201504.log: *** Error: Performance warning: Query execution exceeded threshold.
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_roi_report-20250505_201504.log': error
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Analysis result for 'job_tax_withhold-20250505_032832.log': success
+2025-05-05 15:43:29,520 - INFO - [analyze_downloaded_logs] - Log analysis finished.
+2025-05-05 15:43:29,520 - INFO - [main] - Log analysis completed.
+2025-05-05 15:43:29,520 - INFO - [main] - Step 5: Updating analysis tracker...
+2025-05-05 15:43:29,520 - INFO - [update_tracker_with_results] - Updating tracker DataFrame with results in column: analysis_results_20250505
+2025-05-05 15:43:29,520 - INFO - [update_tracker_with_results] - Resetting existing results column: analysis_results_20250505
+2025-05-05 15:43:29,522 - INFO - [update_tracker_with_results] - Matched 'job_salary_calc-20250505_011144.log' (status: success) to 1 tracker rows (Indices: [7]).
+2025-05-05 15:43:29,522 - INFO - [update_tracker_with_results] - Matched 'job_report_monthly-20250505_054656.log' (status: success) to 1 tracker rows (Indices: [20]).
+2025-05-05 15:43:29,523 - INFO - [update_tracker_with_results] - Matched 'job_conversion_rate-20250505_094058.log' (status: success) to 1 tracker rows (Indices: [16]).
+2025-05-05 15:43:29,523 - INFO - [update_tracker_with_results] - Matched 'job_update_crm-20250505_170815.log' (status: success) to 1 tracker rows (Indices: [13]).
+2025-05-05 15:43:29,523 - INFO - [update_tracker_with_results] - Matched 'job_warehouse_mgmt-20250505_162631.log' (status: success) to 1 tracker rows (Indices: [3]).
+2025-05-05 15:43:29,524 - INFO - [update_tracker_with_results] - Matched 'job_staff_roster-20250505_183423.log' (status: success) to 1 tracker rows (Indices: [1]).
+2025-05-05 15:43:29,524 - INFO - [update_tracker_with_results] - Matched 'job_interview_sched-20250505_024435.log' (status: success) to 1 tracker rows (Indices: [10]).
+2025-05-05 15:43:29,525 - INFO - [update_tracker_with_results] - Matched 'job_email_blast-20250505_011244.log' (status: success) to 1 tracker rows (Indices: [14]).
+2025-05-05 15:43:29,525 - INFO - [update_tracker_with_results] - Matched 'job_report_daily-20250505_234255.log' (status: error) to 1 tracker rows (Indices: [18]).
+2025-05-05 15:43:29,525 - INFO - [update_tracker_with_results] - Matched 'job_bonus_process-20250505_030000.log' (status: success) to 1 tracker rows (Indices: [8]).
+2025-05-05 15:43:29,526 - INFO - [update_tracker_with_results] - Matched 'job_maintenance_plan-20250505_170645.log' (status: error) to 1 tracker rows (Indices: [0]).
+2025-05-05 15:43:29,526 - INFO - [update_tracker_with_results] - Matched 'job_offer_gen-20250505_114733.log' (status: success) to 1 tracker rows (Indices: [9]).
+2025-05-05 15:43:29,527 - INFO - [update_tracker_with_results] - Matched 'job_inventory_check-20250505_114321.log' (status: success) to 1 tracker rows (Indices: [5]).
+2025-05-05 15:43:29,527 - INFO - [update_tracker_with_results] - Matched 'job_candidate_screen-20250505_104802.log' (status: error) to 1 tracker rows (Indices: [11]).
+2025-05-05 15:43:29,528 - INFO - [update_tracker_with_results] - Matched 'job_report_weekly-20250505_070524.log' (status: success) to 1 tracker rows (Indices: [19]).
+2025-05-05 15:43:29,528 - INFO - [update_tracker_with_results] - Matched 'job_web_traffic-20250505_181105.log' (status: error) to 1 tracker rows (Indices: [15]).
+2025-05-05 15:43:29,529 - INFO - [update_tracker_with_results] - Matched 'job_tax_calc-20250505_134355.log' (status: success) to 1 tracker rows (Indices: [22]).
+2025-05-05 15:43:29,529 - INFO - [update_tracker_with_results] - Matched 'job_segment_users-20250505_024823.log' (status: success) to 1 tracker rows (Indices: [12]).
+2025-05-05 15:43:29,529 - INFO - [update_tracker_with_results] - Matched 'job_payment_proc-20250505_213231.log' (status: success) to 1 tracker rows (Indices: [21]).
+2025-05-05 15:43:29,530 - INFO - [update_tracker_with_results] - Matched 'job_resource_alloc-20250505_182355.log' (status: error) to 1 tracker rows (Indices: [2]).
+2025-05-05 15:43:29,530 - INFO - [update_tracker_with_results] - Matched 'job_shipment_track-20250505_083258.log' (status: error) to 1 tracker rows (Indices: [4]).
+2025-05-05 15:43:29,531 - INFO - [update_tracker_with_results] - Matched 'job_invoice_gen-20250505_204731.log' (status: success) to 1 tracker rows (Indices: [23]).
+2025-05-05 15:43:29,531 - INFO - [update_tracker_with_results] - Matched 'job_roi_report-20250505_201504.log' (status: error) to 1 tracker rows (Indices: [17]).
+2025-05-05 15:43:29,531 - INFO - [update_tracker_with_results] - Matched 'job_tax_withhold-20250505_032832.log' (status: success) to 1 tracker rows (Indices: [6]).
+2025-05-05 15:43:29,532 - INFO - [update_tracker_with_results] - Performing final status updates for rows without direct log matches...
+2025-05-05 15:43:29,532 - INFO - [update_tracker_with_results] - Tracker update process finished.
+2025-05-05 15:43:29,532 - INFO - [main] - Tracker update completed.
+2025-05-05 15:43:29,533 - INFO - [main] - Step 6: Saving updated tracker...
+2025-05-05 15:43:29,533 - INFO - [save_analysis_results] - Attempting to save updated tracker to: /Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/log_analysis_tracker.xlsx
+2025-05-05 15:43:29,541 - INFO - [save_analysis_results] - Analysis results saved successfully to: /Users/benkaan/Desktop/projects/remote-log-analysis-automation/data/log_analysis_tracker.xlsx
+2025-05-05 15:43:29,541 - INFO - [main] - Updated tracker saved successfully.
+2025-05-05 15:43:29,541 - INFO - [main] - --- Remote Log Analysis Script Finished Successfully ---
+2025-05-05 15:43:29,541 - INFO - [main] - --- Script finished with exit code 0 ---

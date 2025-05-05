@@ -90,12 +90,10 @@ jobs:
           docker compose ps
 
       - name: Analyze logs using log_analyzer.py
-        working-directory: ${{ github.workspace }}
         env:
           SSH_HOSTNAME: ${{ secrets.SSH_HOSTNAME }}
           SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
-          PYTHONPATH: ${{ github.workspace }}
         run: |
           echo "Running log analyzer script..."
           python src/log_analyzer.py
