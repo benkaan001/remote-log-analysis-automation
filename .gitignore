@@ -41,10 +41,6 @@ notebooks/00_*
 .idea/
 
 
-# Log files
-logs/*.log
-!logs/.gitkeep
-
 # Excel temporary files
 ~$*.xlsx
 ~$*.xls
