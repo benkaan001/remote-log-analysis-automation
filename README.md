@@ -1,6 +1,7 @@
 # Remote Log Analysis Automation
 
 [![.github/workflows/generate-test-logs.yml](https://github.com/benkaan001/remote-log-analysis-automation/actions/workflows/generate-test-logs.yml/badge.svg)](https://github.com/benkaan001/remote-log-analysis-automation/actions/workflows/generate-test-logs.yml)
+[![Run Tests](https://github.com/benkaan001/remote-log-analysis-automation/actions/workflows/run-tests.yml/badge.svg)](https://github.com/benkaan001/remote-log-analysis-automation/actions/workflows/run-tests.yml)
 
 ## Overview
 
@@ -15,6 +16,7 @@ Remote Log Analysis Automation is a Python-based solution for automating the ret
 * Docker-based test environment for development and demonstration
 * Interactive Jupyter notebook support for step-by-step exploration
 * Automated log generation via CI/CD and local script usage
+* Comprehensive test suite with code coverage reporting
 
 ## Project Structure
 
@@ -26,18 +28,24 @@ remote-log-analysis-automation/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
+├── requirements-dev.txt
+├── pytest.ini
 ├── README.md
 ├── .github/
 │   └── workflows/
-│       └── generate-structured-logs.yml
+│       ├── generate-structured-logs.yml
+│       └── run-tests.yml
 ├── scripts/
-│   └── generate_logs.py
+│   ├── generate_logs.py
+│   └── update_readme.py
 ├── notebooks/
 │   └── 01_setup_config.ipynb
 ├── src/
-│   └── log_analyzer.py
+│   ├── log_analyzer.py
 │   └── utils/
 │       └── helpers.py
+├── tests/
+│   └── test_log_analysis.py
 ├── sample_logs_generated/
 │   ├── finance/
 │   ├── marketing/
@@ -190,6 +198,49 @@ python scripts/generate_logs.py --output-dir ./sample_logs_generated --dates tod
 
 See `python scripts/generate_logs.py --help` for all options.
 
+## Testing
+
+The project includes a comprehensive test suite to ensure all components work correctly.
+
+### Setting up the test environment
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+The `requirements-dev.txt` file includes additional packages needed for testing, separate from production dependencies.
+
+### Running the tests
+
+```bash
+pytest
+```
+
+This will run all tests and generate a code coverage report.
+
+### Test coverage report
+
+To view the detailed HTML coverage report after running the tests:
+
+```bash
+# Open the HTML coverage report in your default browser
+python -m http.server 8000 --directory htmlcov
+```
+
+Then visit `http://localhost:8000/` in your browser.
+
+### Continuous Integration Testing
+
+The project includes a GitHub Actions workflow for automated testing:
+
+- **Workflow file:** `.github/workflows/run_tests.yml`
+- **Runs on:** Every push to main, pull requests, and manual dispatch
+- **What it does:**
+  1. Sets up the Python environment
+  2. Installs dependencies
+  3. Runs the test suite with pytest
+  4. Uploads the coverage report as an artifact
+
 ## Configuration Options
 
 The `.env` file supports the following configuration options:
@@ -220,6 +271,13 @@ The following libraries are required:
 * notebook==7.0.5
 * ipykernel==6.25.2
 
+For development and testing (in requirements-dev.txt):
+
+* pytest==7.4.3
+* pytest-cov==4.1.0
+* mock==5.1.0
+* tabulate==0.9.0
+
 ## Security Notes
 
 * The included Docker environment uses a fixed password for demonstration purposes only
@@ -240,6 +298,12 @@ The following libraries are required:
 * **No logs found** : Verify the paths in `log_analysis_tracker.xlsx` are correct
 * **Pattern matching failures** : Review the success/error patterns in your `.env` file
 
+### Testing Issues
+
+* **Import errors** : Make sure to run tests from the project root directory
+* **Missing dependencies** : Verify you've installed requirements-dev.txt
+* **SFTP connection errors** : Tests use mocks and don't require an actual SFTP server
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -251,11 +315,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 *This project was created to demonstrate automation capabilities for system administration and DevOps tasks. It showcases skills in Python development, secure remote connections, data analysis, and Docker containerization.*
-
-
-
-
-
 
 ## Latest Tracker Preview Updated on 2025-05-05
 

@@ -10,7 +10,7 @@ from tabulate import tabulate
 import logging
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
-from utils.date_helpers import get_readme_date_string
+from src.utils.date_helpers import get_readme_date_string
 
 # Configure logging
 LOG_FILE = 'logs/log_analyzer.log'

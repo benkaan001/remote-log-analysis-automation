@@ -1,0 +1,11 @@
+pandas
+paramiko
+python-dotenv
+openpyxl
+jupyter
+notebook
+ipykernel
+tabulate
+pytest
+pytest-cov
+mock
