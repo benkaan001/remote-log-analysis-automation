@@ -8,7 +8,6 @@ setup(
     author="Ben Kaan",
     author_email="benkaan001@gmail.com",
     python_requires=">=3.6",
-    # Add any package dependencies here
     install_requires=[
         "pandas",
         "paramiko",
@@ -19,10 +18,9 @@ setup(
         "ipykernel",
         "tabulate"
     ],
-    # Add entry points for command-line tools
     entry_points={
         'console_scripts': [
-            'log-analyzer=src.log_analyzer:main',  # Assumes you have a main() function
+            'log-analyzer=src.log_analyzer:main',
         ],
     },
 )
