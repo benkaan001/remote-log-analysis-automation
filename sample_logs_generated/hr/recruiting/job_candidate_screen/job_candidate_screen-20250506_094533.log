@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250506_094533
+----------------------
+20250506_094533 ## Passed Parameter Values:
+20250506_094533 DOMAIN: hr
+20250506_094533 SUB_DOMAIN: recruiting
+20250506_094533 USER_NAME: hr_user1
+20250506_094533 TABLE_NAME: job_candidate_screen
+20250506_094533 EXEC_SCOPE: TEST
+
+20250506_094533 ## Derived Variable Values:
+20250506_094533 STARTTIME: 094533
+20250506_094533 LOGDATE: 20250506_094533
+20250506_094533 JOB=job_candidate_screen
+
+20250506_094533 ###############################################################
+20250506_094533 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250506_094533 ###############################################################
+
+20250506_094533 ## Checking if script exists
+20250506_094533 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250506_094533 File exists...
+
+20250506_094533 ## Running script
+20250506_094533  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250506_094603
+20250506_094603
+Execution Return Code: 1
+20250506_094603
+---------
+JOB ERROR
+---------
+Start Time: 094533, End Time: 094603

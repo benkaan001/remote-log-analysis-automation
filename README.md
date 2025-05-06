@@ -318,31 +318,32 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-## Latest Tracker Preview Updated on 2025-05-05
 
-| remote_log_directory                             | analysis_results_20250505   | project    | department   | job_name             |
-|--------------------------------------------------|-----------------------------|------------|--------------|----------------------|
-| /logs/operations/scheduling/job_maintenance_plan | error                       | operations | scheduling   | job_maintenance_plan |
-| /logs/operations/scheduling/job_staff_roster     | success                     | operations | scheduling   | job_staff_roster     |
-| /logs/operations/scheduling/job_resource_alloc   | error                       | operations | scheduling   | job_resource_alloc   |
-| /logs/operations/logistics/job_warehouse_mgmt    | success                     | operations | logistics    | job_warehouse_mgmt   |
-| /logs/operations/logistics/job_shipment_track    | success                     | operations | logistics    | job_shipment_track   |
-| /logs/operations/logistics/job_inventory_check   | success                     | operations | logistics    | job_inventory_check  |
-| /logs/hr/payroll/job_tax_withhold                | error                       | hr         | payroll      | job_tax_withhold     |
-| /logs/hr/payroll/job_salary_calc                 | error                       | hr         | payroll      | job_salary_calc      |
-| /logs/hr/payroll/job_bonus_process               | error                       | hr         | payroll      | job_bonus_process    |
-| /logs/hr/recruiting/job_offer_gen                | success                     | hr         | recruiting   | job_offer_gen        |
-| /logs/hr/recruiting/job_interview_sched          | success                     | hr         | recruiting   | job_interview_sched  |
-| /logs/hr/recruiting/job_candidate_screen         | error                       | hr         | recruiting   | job_candidate_screen |
-| /logs/marketing/campaigns/job_segment_users      | error                       | marketing  | campaigns    | job_segment_users    |
-| /logs/marketing/campaigns/job_update_crm         | success                     | marketing  | campaigns    | job_update_crm       |
-| /logs/marketing/campaigns/job_email_blast        | success                     | marketing  | campaigns    | job_email_blast      |
-| /logs/marketing/analytics/job_web_traffic        | error                       | marketing  | analytics    | job_web_traffic      |
-| /logs/marketing/analytics/job_conversion_rate    | success                     | marketing  | analytics    | job_conversion_rate  |
-| /logs/marketing/analytics/job_roi_report         | error                       | marketing  | analytics    | job_roi_report       |
-| /logs/finance/reporting/job_report_daily         | error                       | finance    | reporting    | job_report_daily     |
-| /logs/finance/reporting/job_report_weekly        | success                     | finance    | reporting    | job_report_weekly    |
-| /logs/finance/reporting/job_report_monthly       | success                     | finance    | reporting    | job_report_monthly   |
-| /logs/finance/billing/job_payment_proc           | success                     | finance    | billing      | job_payment_proc     |
-| /logs/finance/billing/job_tax_calc               | success                     | finance    | billing      | job_tax_calc         |
-| /logs/finance/billing/job_invoice_gen            | success                     | finance    | billing      | job_invoice_gen      |
+## Latest Tracker Preview Updated on 2025-05-06
+
+| remote_log_directory                             | analysis_results_20250506   | analysis_results_20250505   | project    | department   | job_name             |
+|--------------------------------------------------|-----------------------------|-----------------------------|------------|--------------|----------------------|
+| /logs/operations/scheduling/job_maintenance_plan | error                       | error                       | operations | scheduling   | job_maintenance_plan |
+| /logs/operations/scheduling/job_staff_roster     | success                     | success                     | operations | scheduling   | job_staff_roster     |
+| /logs/operations/scheduling/job_resource_alloc   | success                     | error                       | operations | scheduling   | job_resource_alloc   |
+| /logs/operations/logistics/job_warehouse_mgmt    | success                     | success                     | operations | logistics    | job_warehouse_mgmt   |
+| /logs/operations/logistics/job_shipment_track    | error                       | success                     | operations | logistics    | job_shipment_track   |
+| /logs/operations/logistics/job_inventory_check   | error                       | success                     | operations | logistics    | job_inventory_check  |
+| /logs/hr/payroll/job_tax_withhold                | success                     | error                       | hr         | payroll      | job_tax_withhold     |
+| /logs/hr/payroll/job_salary_calc                 | success                     | error                       | hr         | payroll      | job_salary_calc      |
+| /logs/hr/payroll/job_bonus_process               | success                     | error                       | hr         | payroll      | job_bonus_process    |
+| /logs/hr/recruiting/job_offer_gen                | success                     | success                     | hr         | recruiting   | job_offer_gen        |
+| /logs/hr/recruiting/job_interview_sched          | success                     | success                     | hr         | recruiting   | job_interview_sched  |
+| /logs/hr/recruiting/job_candidate_screen         | error                       | error                       | hr         | recruiting   | job_candidate_screen |
+| /logs/marketing/campaigns/job_segment_users      | success                     | error                       | marketing  | campaigns    | job_segment_users    |
+| /logs/marketing/campaigns/job_update_crm         | success                     | success                     | marketing  | campaigns    | job_update_crm       |
+| /logs/marketing/campaigns/job_email_blast        | success                     | success                     | marketing  | campaigns    | job_email_blast      |
+| /logs/marketing/analytics/job_web_traffic        | success                     | error                       | marketing  | analytics    | job_web_traffic      |
+| /logs/marketing/analytics/job_conversion_rate    | success                     | success                     | marketing  | analytics    | job_conversion_rate  |
+| /logs/marketing/analytics/job_roi_report         | error                       | error                       | marketing  | analytics    | job_roi_report       |
+| /logs/finance/reporting/job_report_daily         | success                     | error                       | finance    | reporting    | job_report_daily     |
+| /logs/finance/reporting/job_report_weekly        | success                     | success                     | finance    | reporting    | job_report_weekly    |
+| /logs/finance/reporting/job_report_monthly       | error                       | success                     | finance    | reporting    | job_report_monthly   |
+| /logs/finance/billing/job_payment_proc           | success                     | success                     | finance    | billing      | job_payment_proc     |
+| /logs/finance/billing/job_tax_calc               | success                     | success                     | finance    | billing      | job_tax_calc         |
+| /logs/finance/billing/job_invoice_gen            | success                     | success                     | finance    | billing      | job_invoice_gen      |

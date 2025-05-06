@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250506_224627
+----------------------
+20250506_224627 ## Passed Parameter Values:
+20250506_224627 DOMAIN: operations
+20250506_224627 SUB_DOMAIN: scheduling
+20250506_224627 USER_NAME: logistics_manager
+20250506_224627 TABLE_NAME: job_maintenance_plan
+20250506_224627 EXEC_SCOPE: UAT
+
+20250506_224627 ## Derived Variable Values:
+20250506_224627 STARTTIME: 224627
+20250506_224627 LOGDATE: 20250506_224627
+20250506_224627 JOB=job_maintenance_plan
+
+20250506_224627 ###############################################################
+20250506_224627 ### RUNNING MAINTENANCE PLAN SCRIPT
+20250506_224627 ###############################################################
+
+20250506_224627 ## Checking if script exists
+20250506_224627 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20250506_224627 File exists...
+
+20250506_224627 ## Running script
+20250506_224627  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250506_224657
+20250506_224657
+Execution Return Code: 1
+20250506_224657
+---------
+JOB ERROR
+---------
+Start Time: 224627, End Time: 224657
