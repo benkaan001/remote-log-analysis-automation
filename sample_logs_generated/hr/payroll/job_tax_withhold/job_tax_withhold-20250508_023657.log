@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250508_023657
+----------------------
+20250508_023657 ## Passed Parameter Values:
+20250508_023657 DOMAIN: hr
+20250508_023657 SUB_DOMAIN: payroll
+20250508_023657 USER_NAME: payroll_admin
+20250508_023657 TABLE_NAME: job_tax_withhold
+20250508_023657 EXEC_SCOPE: DEV
+
+20250508_023657 ## Derived Variable Values:
+20250508_023657 STARTTIME: 023657
+20250508_023657 LOGDATE: 20250508_023657
+20250508_023657 JOB=job_tax_withhold
+
+20250508_023657 ###############################################################
+20250508_023657 ### RUNNING TAX WITHHOLD SCRIPT
+20250508_023657 ###############################################################
+
+20250508_023657 ## Checking if script exists
+20250508_023657 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250508_023657 File exists...
+
+20250508_023657 ## Running script
+20250508_023657  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250508_023714
+20250508_023714
+Execution Return Code: 2
+20250508_023714
+---------
+JOB ERROR
+---------
+Start Time: 023657, End Time: 023714

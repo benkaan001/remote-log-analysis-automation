@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250508_132703
+----------------------
+20250508_132703 ## Passed Parameter Values:
+20250508_132703 DOMAIN: hr
+20250508_132703 SUB_DOMAIN: recruiting
+20250508_132703 USER_NAME: hr_user1
+20250508_132703 TABLE_NAME: job_interview_sched
+20250508_132703 EXEC_SCOPE: PROD
+
+20250508_132703 ## Derived Variable Values:
+20250508_132703 STARTTIME: 132703
+20250508_132703 LOGDATE: 20250508_132703
+20250508_132703 JOB=job_interview_sched
+
+20250508_132703 ###############################################################
+20250508_132703 ### RUNNING INTERVIEW SCHED SCRIPT
+20250508_132703 ###############################################################
+
+20250508_132703 ## Checking if script exists
+20250508_132703 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250508_132703 File exists...
+
+20250508_132703 ## Running script
+20250508_132703  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250508_132732
+20250508_132732
+Execution Return Code: 2
+20250508_132732
+---------
+JOB ERROR
+---------
+Start Time: 132703, End Time: 132732
