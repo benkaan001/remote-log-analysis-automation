@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250511_141856
+----------------------
+20250511_141856 ## Passed Parameter Values:
+20250511_141856 DOMAIN: hr
+20250511_141856 SUB_DOMAIN: recruiting
+20250511_141856 USER_NAME: hr_user1
+20250511_141856 TABLE_NAME: job_interview_sched
+20250511_141856 EXEC_SCOPE: PROD
+
+20250511_141856 ## Derived Variable Values:
+20250511_141856 STARTTIME: 141856
+20250511_141856 LOGDATE: 20250511_141856
+20250511_141856 JOB=job_interview_sched
+
+20250511_141856 ###############################################################
+20250511_141856 ### RUNNING INTERVIEW SCHED SCRIPT
+20250511_141856 ###############################################################
+
+20250511_141856 ## Checking if script exists
+20250511_141856 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250511_141856 File exists...
+
+20250511_141856 ## Running script
+20250511_141856  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250511_141935
+20250511_141935
+Execution Return Code: 1
+20250511_141935
+---------
+JOB ERROR
+---------
+Start Time: 141856, End Time: 141935

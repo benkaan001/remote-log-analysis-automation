@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250511_225343
+----------------------
+20250511_225343 ## Passed Parameter Values:
+20250511_225343 DOMAIN: marketing
+20250511_225343 SUB_DOMAIN: analytics
+20250511_225343 USER_NAME: analyst1
+20250511_225343 TABLE_NAME: job_conversion_rate
+20250511_225343 EXEC_SCOPE: PROD
+
+20250511_225343 ## Derived Variable Values:
+20250511_225343 STARTTIME: 225343
+20250511_225343 LOGDATE: 20250511_225343
+20250511_225343 JOB=job_conversion_rate
+
+20250511_225343 ###############################################################
+20250511_225343 ### RUNNING CONVERSION RATE SCRIPT
+20250511_225343 ###############################################################
+
+20250511_225343 ## Checking if script exists
+20250511_225343 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20250511_225343 File exists...
+
+20250511_225343 ## Running script
+20250511_225343  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Conversion calculation error: Missing funnel stage data.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250511_225349
+20250511_225349
+Execution Return Code: 8
+20250511_225349
+---------
+JOB ERROR
+---------
+Start Time: 225343, End Time: 225349
