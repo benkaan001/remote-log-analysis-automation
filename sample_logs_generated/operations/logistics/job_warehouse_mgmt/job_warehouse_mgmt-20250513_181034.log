@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250513_181034
+----------------------
+20250513_181034 ## Passed Parameter Values:
+20250513_181034 DOMAIN: operations
+20250513_181034 SUB_DOMAIN: logistics
+20250513_181034 USER_NAME: logistics_manager
+20250513_181034 TABLE_NAME: job_warehouse_mgmt
+20250513_181034 EXEC_SCOPE: DEV
+
+20250513_181034 ## Derived Variable Values:
+20250513_181034 STARTTIME: 181034
+20250513_181034 LOGDATE: 20250513_181034
+20250513_181034 JOB=job_warehouse_mgmt
+
+20250513_181034 ###############################################################
+20250513_181034 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250513_181034 ###############################################################
+
+20250513_181034 ## Checking if script exists
+20250513_181034 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250513_181034 File exists...
+
+20250513_181034 ## Running script
+20250513_181034  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250513_181055
+20250513_181055
+Execution Return Code: 1
+20250513_181055
+---------
+JOB ERROR
+---------
+Start Time: 181034, End Time: 181055

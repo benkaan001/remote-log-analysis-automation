@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250513_071936
+----------------------
+20250513_071936 ## Passed Parameter Values:
+20250513_071936 DOMAIN: finance
+20250513_071936 SUB_DOMAIN: billing
+20250513_071936 USER_NAME: finance_admin
+20250513_071936 TABLE_NAME: job_invoice_gen
+20250513_071936 EXEC_SCOPE: UAT
+
+20250513_071936 ## Derived Variable Values:
+20250513_071936 STARTTIME: 071936
+20250513_071936 LOGDATE: 20250513_071936
+20250513_071936 JOB=job_invoice_gen
+
+20250513_071936 ###############################################################
+20250513_071936 ### RUNNING INVOICE GEN SCRIPT
+20250513_071936 ###############################################################
+
+20250513_071936 ## Checking if script exists
+20250513_071936 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20250513_071936 File exists...
+
+20250513_071936 ## Running script
+20250513_071936  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250513_071952
+20250513_071952
+Execution Return Code: 1
+20250513_071952
+---------
+JOB ERROR
+---------
+Start Time: 071936, End Time: 071952
