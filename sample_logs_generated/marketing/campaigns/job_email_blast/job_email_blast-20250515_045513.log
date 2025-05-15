@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250515_045513
+----------------------
+20250515_045513 ## Passed Parameter Values:
+20250515_045513 DOMAIN: marketing
+20250515_045513 SUB_DOMAIN: campaigns
+20250515_045513 USER_NAME: analyst1
+20250515_045513 TABLE_NAME: job_email_blast
+20250515_045513 EXEC_SCOPE: DEV
+
+20250515_045513 ## Derived Variable Values:
+20250515_045513 STARTTIME: 045513
+20250515_045513 LOGDATE: 20250515_045513
+20250515_045513 JOB=job_email_blast
+
+20250515_045513 ###############################################################
+20250515_045513 ### RUNNING EMAIL BLAST SCRIPT
+20250515_045513 ###############################################################
+
+20250515_045513 ## Checking if script exists
+20250515_045513 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20250515_045513 File exists...
+
+20250515_045513 ## Running script
+20250515_045513  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250515_045613
+20250515_045613
+Execution Return Code: 1
+20250515_045613
+---------
+JOB ERROR
+---------
+Start Time: 045513, End Time: 045613

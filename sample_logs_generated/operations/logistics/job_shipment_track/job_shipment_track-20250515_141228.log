@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250515_141228
+----------------------
+20250515_141228 ## Passed Parameter Values:
+20250515_141228 DOMAIN: operations
+20250515_141228 SUB_DOMAIN: logistics
+20250515_141228 USER_NAME: scheduler
+20250515_141228 TABLE_NAME: job_shipment_track
+20250515_141228 EXEC_SCOPE: DEV
+
+20250515_141228 ## Derived Variable Values:
+20250515_141228 STARTTIME: 141228
+20250515_141228 LOGDATE: 20250515_141228
+20250515_141228 JOB=job_shipment_track
+
+20250515_141228 ###############################################################
+20250515_141228 ### RUNNING SHIPMENT TRACK SCRIPT
+20250515_141228 ###############################################################
+
+20250515_141228 ## Checking if script exists
+20250515_141228 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250515_141228 File exists...
+
+20250515_141228 ## Running script
+20250515_141228  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250515_141240
+20250515_141240
+Execution Return Code: 4
+20250515_141240
+---------
+JOB ERROR
+---------
+Start Time: 141228, End Time: 141240

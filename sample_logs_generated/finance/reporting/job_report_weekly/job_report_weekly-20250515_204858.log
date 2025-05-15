@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250515_204858
+----------------------
+20250515_204858 ## Passed Parameter Values:
+20250515_204858 DOMAIN: finance
+20250515_204858 SUB_DOMAIN: reporting
+20250515_204858 USER_NAME: accountant1
+20250515_204858 TABLE_NAME: job_report_weekly
+20250515_204858 EXEC_SCOPE: PROD
+
+20250515_204858 ## Derived Variable Values:
+20250515_204858 STARTTIME: 204858
+20250515_204858 LOGDATE: 20250515_204858
+20250515_204858 JOB=job_report_weekly
+
+20250515_204858 ###############################################################
+20250515_204858 ### RUNNING REPORT WEEKLY SCRIPT
+20250515_204858 ###############################################################
+
+20250515_204858 ## Checking if script exists
+20250515_204858 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250515_204858 File exists...
+
+20250515_204858 ## Running script
+20250515_204858  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250515_204928
+20250515_204928
+Execution Return Code: 0
+20250515_204928
+-----------
+JOB SUCCESS
+-----------
+Start Time: 204858, End Time: 204928

@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250515_070049
+----------------------
+20250515_070049 ## Passed Parameter Values:
+20250515_070049 DOMAIN: hr
+20250515_070049 SUB_DOMAIN: payroll
+20250515_070049 USER_NAME: payroll_admin
+20250515_070049 TABLE_NAME: job_bonus_process
+20250515_070049 EXEC_SCOPE: UAT
+
+20250515_070049 ## Derived Variable Values:
+20250515_070049 STARTTIME: 070049
+20250515_070049 LOGDATE: 20250515_070049
+20250515_070049 JOB=job_bonus_process
+
+20250515_070049 ###############################################################
+20250515_070049 ### RUNNING BONUS PROCESS SCRIPT
+20250515_070049 ###############################################################
+
+20250515_070049 ## Checking if script exists
+20250515_070049 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20250515_070049 File exists...
+
+20250515_070049 ## Running script
+20250515_070049  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250515_070106
+20250515_070106
+Execution Return Code: 8
+20250515_070106
+---------
+JOB ERROR
+---------
+Start Time: 070049, End Time: 070106
