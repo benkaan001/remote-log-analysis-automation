@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250518_105445
+----------------------
+20250518_105445 ## Passed Parameter Values:
+20250518_105445 DOMAIN: hr
+20250518_105445 SUB_DOMAIN: payroll
+20250518_105445 USER_NAME: hr_user1
+20250518_105445 TABLE_NAME: job_salary_calc
+20250518_105445 EXEC_SCOPE: PROD
+
+20250518_105445 ## Derived Variable Values:
+20250518_105445 STARTTIME: 105445
+20250518_105445 LOGDATE: 20250518_105445
+20250518_105445 JOB=job_salary_calc
+
+20250518_105445 ###############################################################
+20250518_105445 ### RUNNING SALARY CALC SCRIPT
+20250518_105445 ###############################################################
+
+20250518_105445 ## Checking if script exists
+20250518_105445 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250518_105445 File exists...
+
+20250518_105445 ## Running script
+20250518_105445  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Payroll aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250518_105513
+20250518_105513
+Execution Return Code: 4
+20250518_105513
+---------
+JOB ERROR
+---------
+Start Time: 105445, End Time: 105513
