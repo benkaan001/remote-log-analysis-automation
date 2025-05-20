@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250520_224042
+----------------------
+20250520_224042 ## Passed Parameter Values:
+20250520_224042 DOMAIN: marketing
+20250520_224042 SUB_DOMAIN: campaigns
+20250520_224042 USER_NAME: campaign_manager
+20250520_224042 TABLE_NAME: job_update_crm
+20250520_224042 EXEC_SCOPE: PROD
+
+20250520_224042 ## Derived Variable Values:
+20250520_224042 STARTTIME: 224042
+20250520_224042 LOGDATE: 20250520_224042
+20250520_224042 JOB=job_update_crm
+
+20250520_224042 ###############################################################
+20250520_224042 ### RUNNING UPDATE CRM SCRIPT
+20250520_224042 ###############################################################
+
+20250520_224042 ## Checking if script exists
+20250520_224042 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250520_224042 File exists...
+
+20250520_224042 ## Running script
+20250520_224042  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250520_224059
+20250520_224059
+Execution Return Code: 0
+20250520_224059
+-----------
+JOB SUCCESS
+-----------
+Start Time: 224042, End Time: 224059

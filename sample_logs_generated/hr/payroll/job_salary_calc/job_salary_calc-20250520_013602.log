@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250520_013602
+----------------------
+20250520_013602 ## Passed Parameter Values:
+20250520_013602 DOMAIN: hr
+20250520_013602 SUB_DOMAIN: payroll
+20250520_013602 USER_NAME: recruiter1
+20250520_013602 TABLE_NAME: job_salary_calc
+20250520_013602 EXEC_SCOPE: DEV
+
+20250520_013602 ## Derived Variable Values:
+20250520_013602 STARTTIME: 013602
+20250520_013602 LOGDATE: 20250520_013602
+20250520_013602 JOB=job_salary_calc
+
+20250520_013602 ###############################################################
+20250520_013602 ### RUNNING SALARY CALC SCRIPT
+20250520_013602 ###############################################################
+
+20250520_013602 ## Checking if script exists
+20250520_013602 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250520_013602 File exists...
+
+20250520_013602 ## Running script
+20250520_013602  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Payroll generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250520_013637
+20250520_013637
+Execution Return Code: 8
+20250520_013637
+---------
+JOB ERROR
+---------
+Start Time: 013602, End Time: 013637

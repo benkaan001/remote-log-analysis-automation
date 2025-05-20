@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250520_052437
+----------------------
+20250520_052437 ## Passed Parameter Values:
+20250520_052437 DOMAIN: operations
+20250520_052437 SUB_DOMAIN: scheduling
+20250520_052437 USER_NAME: logistics_manager
+20250520_052437 TABLE_NAME: job_staff_roster
+20250520_052437 EXEC_SCOPE: PROD
+
+20250520_052437 ## Derived Variable Values:
+20250520_052437 STARTTIME: 052437
+20250520_052437 LOGDATE: 20250520_052437
+20250520_052437 JOB=job_staff_roster
+
+20250520_052437 ###############################################################
+20250520_052437 ### RUNNING STAFF ROSTER SCRIPT
+20250520_052437 ###############################################################
+
+20250520_052437 ## Checking if script exists
+20250520_052437 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20250520_052437 File exists...
+
+20250520_052437 ## Running script
+20250520_052437  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250520_052514
+20250520_052514
+Execution Return Code: 1
+20250520_052514
+---------
+JOB ERROR
+---------
+Start Time: 052437, End Time: 052514

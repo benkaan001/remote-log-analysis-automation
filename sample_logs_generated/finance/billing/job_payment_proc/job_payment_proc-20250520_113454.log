@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250520_113454
+----------------------
+20250520_113454 ## Passed Parameter Values:
+20250520_113454 DOMAIN: finance
+20250520_113454 SUB_DOMAIN: billing
+20250520_113454 USER_NAME: finance_user1
+20250520_113454 TABLE_NAME: job_payment_proc
+20250520_113454 EXEC_SCOPE: PROD
+
+20250520_113454 ## Derived Variable Values:
+20250520_113454 STARTTIME: 113454
+20250520_113454 LOGDATE: 20250520_113454
+20250520_113454 JOB=job_payment_proc
+
+20250520_113454 ###############################################################
+20250520_113454 ### RUNNING PAYMENT PROC SCRIPT
+20250520_113454 ###############################################################
+
+20250520_113454 ## Checking if script exists
+20250520_113454 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250520_113454 File exists...
+
+20250520_113454 ## Running script
+20250520_113454  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250520_113509
+20250520_113509
+Execution Return Code: 1
+20250520_113509
+---------
+JOB ERROR
+---------
+Start Time: 113454, End Time: 113509
