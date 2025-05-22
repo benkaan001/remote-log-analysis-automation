@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250522_210201
+----------------------
+20250522_210201 ## Passed Parameter Values:
+20250522_210201 DOMAIN: operations
+20250522_210201 SUB_DOMAIN: logistics
+20250522_210201 USER_NAME: logistics_manager
+20250522_210201 TABLE_NAME: job_warehouse_mgmt
+20250522_210201 EXEC_SCOPE: DEV
+
+20250522_210201 ## Derived Variable Values:
+20250522_210201 STARTTIME: 210201
+20250522_210201 LOGDATE: 20250522_210201
+20250522_210201 JOB=job_warehouse_mgmt
+
+20250522_210201 ###############################################################
+20250522_210201 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250522_210201 ###############################################################
+
+20250522_210201 ## Checking if script exists
+20250522_210201 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250522_210201 File exists...
+
+20250522_210201 ## Running script
+20250522_210201  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250522_210227
+20250522_210227
+Execution Return Code: 8
+20250522_210227
+---------
+JOB ERROR
+---------
+Start Time: 210201, End Time: 210227

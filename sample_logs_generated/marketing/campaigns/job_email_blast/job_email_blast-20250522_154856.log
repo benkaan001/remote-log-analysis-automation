@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250522_154856
+----------------------
+20250522_154856 ## Passed Parameter Values:
+20250522_154856 DOMAIN: marketing
+20250522_154856 SUB_DOMAIN: campaigns
+20250522_154856 USER_NAME: analyst1
+20250522_154856 TABLE_NAME: job_email_blast
+20250522_154856 EXEC_SCOPE: PROD
+
+20250522_154856 ## Derived Variable Values:
+20250522_154856 STARTTIME: 154856
+20250522_154856 LOGDATE: 20250522_154856
+20250522_154856 JOB=job_email_blast
+
+20250522_154856 ###############################################################
+20250522_154856 ### RUNNING EMAIL BLAST SCRIPT
+20250522_154856 ###############################################################
+
+20250522_154856 ## Checking if script exists
+20250522_154856 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20250522_154856 File exists...
+
+20250522_154856 ## Running script
+20250522_154856  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250522_154952
+20250522_154952
+Execution Return Code: 4
+20250522_154952
+---------
+JOB ERROR
+---------
+Start Time: 154856, End Time: 154952

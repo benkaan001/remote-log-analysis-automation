@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250522_163644
+----------------------
+20250522_163644 ## Passed Parameter Values:
+20250522_163644 DOMAIN: hr
+20250522_163644 SUB_DOMAIN: recruiting
+20250522_163644 USER_NAME: recruiter1
+20250522_163644 TABLE_NAME: job_interview_sched
+20250522_163644 EXEC_SCOPE: PROD
+
+20250522_163644 ## Derived Variable Values:
+20250522_163644 STARTTIME: 163644
+20250522_163644 LOGDATE: 20250522_163644
+20250522_163644 JOB=job_interview_sched
+
+20250522_163644 ###############################################################
+20250522_163644 ### RUNNING INTERVIEW SCHED SCRIPT
+20250522_163644 ###############################################################
+
+20250522_163644 ## Checking if script exists
+20250522_163644 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250522_163644 File exists...
+
+20250522_163644 ## Running script
+20250522_163644  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250522_163707
+20250522_163707
+Execution Return Code: 1
+20250522_163707
+---------
+JOB ERROR
+---------
+Start Time: 163644, End Time: 163707
