@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250525_014220
+----------------------
+20250525_014220 ## Passed Parameter Values:
+20250525_014220 DOMAIN: operations
+20250525_014220 SUB_DOMAIN: logistics
+20250525_014220 USER_NAME: logistics_manager
+20250525_014220 TABLE_NAME: job_warehouse_mgmt
+20250525_014220 EXEC_SCOPE: TEST
+
+20250525_014220 ## Derived Variable Values:
+20250525_014220 STARTTIME: 014220
+20250525_014220 LOGDATE: 20250525_014220
+20250525_014220 JOB=job_warehouse_mgmt
+
+20250525_014220 ###############################################################
+20250525_014220 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250525_014220 ###############################################################
+
+20250525_014220 ## Checking if script exists
+20250525_014220 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250525_014220 File exists...
+
+20250525_014220 ## Running script
+20250525_014220  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250525_014240
+20250525_014240
+Execution Return Code: 8
+20250525_014240
+---------
+JOB ERROR
+---------
+Start Time: 014220, End Time: 014240

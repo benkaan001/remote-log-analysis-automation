@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250525_162007
+----------------------
+20250525_162007 ## Passed Parameter Values:
+20250525_162007 DOMAIN: marketing
+20250525_162007 SUB_DOMAIN: analytics
+20250525_162007 USER_NAME: campaign_manager
+20250525_162007 TABLE_NAME: job_roi_report
+20250525_162007 EXEC_SCOPE: UAT
+
+20250525_162007 ## Derived Variable Values:
+20250525_162007 STARTTIME: 162007
+20250525_162007 LOGDATE: 20250525_162007
+20250525_162007 JOB=job_roi_report
+
+20250525_162007 ###############################################################
+20250525_162007 ### RUNNING ROI REPORT SCRIPT
+20250525_162007 ###############################################################
+
+20250525_162007 ## Checking if script exists
+20250525_162007 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20250525_162007 File exists...
+
+20250525_162007 ## Running script
+20250525_162007  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250525_162048
+20250525_162048
+Execution Return Code: 1
+20250525_162048
+---------
+JOB ERROR
+---------
+Start Time: 162007, End Time: 162048

@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250525_004012
+----------------------
+20250525_004012 ## Passed Parameter Values:
+20250525_004012 DOMAIN: marketing
+20250525_004012 SUB_DOMAIN: analytics
+20250525_004012 USER_NAME: campaign_manager
+20250525_004012 TABLE_NAME: job_web_traffic
+20250525_004012 EXEC_SCOPE: PROD
+
+20250525_004012 ## Derived Variable Values:
+20250525_004012 STARTTIME: 004012
+20250525_004012 LOGDATE: 20250525_004012
+20250525_004012 JOB=job_web_traffic
+
+20250525_004012 ###############################################################
+20250525_004012 ### RUNNING WEB TRAFFIC SCRIPT
+20250525_004012 ###############################################################
+
+20250525_004012 ## Checking if script exists
+20250525_004012 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250525_004012 File exists...
+
+20250525_004012 ## Running script
+20250525_004012  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250525_004017
+20250525_004017
+Execution Return Code: 4
+20250525_004017
+---------
+JOB ERROR
+---------
+Start Time: 004012, End Time: 004017
