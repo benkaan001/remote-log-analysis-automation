@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250527_072917
+----------------------
+20250527_072917 ## Passed Parameter Values:
+20250527_072917 DOMAIN: finance
+20250527_072917 SUB_DOMAIN: reporting
+20250527_072917 USER_NAME: accountant1
+20250527_072917 TABLE_NAME: job_report_weekly
+20250527_072917 EXEC_SCOPE: TEST
+
+20250527_072917 ## Derived Variable Values:
+20250527_072917 STARTTIME: 072917
+20250527_072917 LOGDATE: 20250527_072917
+20250527_072917 JOB=job_report_weekly
+
+20250527_072917 ###############################################################
+20250527_072917 ### RUNNING REPORT WEEKLY SCRIPT
+20250527_072917 ###############################################################
+
+20250527_072917 ## Checking if script exists
+20250527_072917 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250527_072917 File exists...
+
+20250527_072917 ## Running script
+20250527_072917  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250527_073012
+20250527_073012
+Execution Return Code: 4
+20250527_073012
+---------
+JOB ERROR
+---------
+Start Time: 072917, End Time: 073012
