@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250529_075520
+----------------------
+20250529_075520 ## Passed Parameter Values:
+20250529_075520 DOMAIN: finance
+20250529_075520 SUB_DOMAIN: billing
+20250529_075520 USER_NAME: accountant1
+20250529_075520 TABLE_NAME: job_payment_proc
+20250529_075520 EXEC_SCOPE: DEV
+
+20250529_075520 ## Derived Variable Values:
+20250529_075520 STARTTIME: 075520
+20250529_075520 LOGDATE: 20250529_075520
+20250529_075520 JOB=job_payment_proc
+
+20250529_075520 ###############################################################
+20250529_075520 ### RUNNING PAYMENT PROC SCRIPT
+20250529_075520 ###############################################################
+
+20250529_075520 ## Checking if script exists
+20250529_075520 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250529_075520 File exists...
+
+20250529_075520 ## Running script
+20250529_075520  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250529_075535
+20250529_075535
+Execution Return Code: 1
+20250529_075535
+---------
+JOB ERROR
+---------
+Start Time: 075520, End Time: 075535
