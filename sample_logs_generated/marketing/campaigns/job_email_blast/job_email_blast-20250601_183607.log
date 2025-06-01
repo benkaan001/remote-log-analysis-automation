@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250601_183607
+----------------------
+20250601_183607 ## Passed Parameter Values:
+20250601_183607 DOMAIN: marketing
+20250601_183607 SUB_DOMAIN: campaigns
+20250601_183607 USER_NAME: campaign_manager
+20250601_183607 TABLE_NAME: job_email_blast
+20250601_183607 EXEC_SCOPE: DEV
+
+20250601_183607 ## Derived Variable Values:
+20250601_183607 STARTTIME: 183607
+20250601_183607 LOGDATE: 20250601_183607
+20250601_183607 JOB=job_email_blast
+
+20250601_183607 ###############################################################
+20250601_183607 ### RUNNING EMAIL BLAST SCRIPT
+20250601_183607 ###############################################################
+
+20250601_183607 ## Checking if script exists
+20250601_183607 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20250601_183607 File exists...
+
+20250601_183607 ## Running script
+20250601_183607  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250601_183642
+20250601_183642
+Execution Return Code: 4
+20250601_183642
+---------
+JOB ERROR
+---------
+Start Time: 183607, End Time: 183642

@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250601_223937
+----------------------
+20250601_223937 ## Passed Parameter Values:
+20250601_223937 DOMAIN: finance
+20250601_223937 SUB_DOMAIN: reporting
+20250601_223937 USER_NAME: finance_user1
+20250601_223937 TABLE_NAME: job_report_daily
+20250601_223937 EXEC_SCOPE: UAT
+
+20250601_223937 ## Derived Variable Values:
+20250601_223937 STARTTIME: 223937
+20250601_223937 LOGDATE: 20250601_223937
+20250601_223937 JOB=job_report_daily
+
+20250601_223937 ###############################################################
+20250601_223937 ### RUNNING REPORT DAILY SCRIPT
+20250601_223937 ###############################################################
+
+20250601_223937 ## Checking if script exists
+20250601_223937 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20250601_223937 File exists...
+
+20250601_223937 ## Running script
+20250601_223937  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250601_223959
+20250601_223959
+Execution Return Code: 1
+20250601_223959
+---------
+JOB ERROR
+---------
+Start Time: 223937, End Time: 223959

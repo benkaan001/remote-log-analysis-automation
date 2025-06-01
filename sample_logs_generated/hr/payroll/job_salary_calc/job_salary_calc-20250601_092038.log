@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250601_092038
+----------------------
+20250601_092038 ## Passed Parameter Values:
+20250601_092038 DOMAIN: hr
+20250601_092038 SUB_DOMAIN: payroll
+20250601_092038 USER_NAME: payroll_admin
+20250601_092038 TABLE_NAME: job_salary_calc
+20250601_092038 EXEC_SCOPE: UAT
+
+20250601_092038 ## Derived Variable Values:
+20250601_092038 STARTTIME: 092038
+20250601_092038 LOGDATE: 20250601_092038
+20250601_092038 JOB=job_salary_calc
+
+20250601_092038 ###############################################################
+20250601_092038 ### RUNNING SALARY CALC SCRIPT
+20250601_092038 ###############################################################
+
+20250601_092038 ## Checking if script exists
+20250601_092038 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250601_092038 File exists...
+
+20250601_092038 ## Running script
+20250601_092038  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250601_092110
+20250601_092110
+Execution Return Code: 8
+20250601_092110
+---------
+JOB ERROR
+---------
+Start Time: 092038, End Time: 092110
