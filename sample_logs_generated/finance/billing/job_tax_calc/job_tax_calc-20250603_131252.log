@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250603_131252
+----------------------
+20250603_131252 ## Passed Parameter Values:
+20250603_131252 DOMAIN: finance
+20250603_131252 SUB_DOMAIN: billing
+20250603_131252 USER_NAME: finance_admin
+20250603_131252 TABLE_NAME: job_tax_calc
+20250603_131252 EXEC_SCOPE: UAT
+
+20250603_131252 ## Derived Variable Values:
+20250603_131252 STARTTIME: 131252
+20250603_131252 LOGDATE: 20250603_131252
+20250603_131252 JOB=job_tax_calc
+
+20250603_131252 ###############################################################
+20250603_131252 ### RUNNING TAX CALC SCRIPT
+20250603_131252 ###############################################################
+
+20250603_131252 ## Checking if script exists
+20250603_131252 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20250603_131252 File exists...
+
+20250603_131252 ## Running script
+20250603_131252  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250603_131307
+20250603_131307
+Execution Return Code: 2
+20250603_131307
+---------
+JOB ERROR
+---------
+Start Time: 131252, End Time: 131307

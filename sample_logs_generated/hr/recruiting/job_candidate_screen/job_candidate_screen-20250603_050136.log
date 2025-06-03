@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250603_050136
+----------------------
+20250603_050136 ## Passed Parameter Values:
+20250603_050136 DOMAIN: hr
+20250603_050136 SUB_DOMAIN: recruiting
+20250603_050136 USER_NAME: hr_user1
+20250603_050136 TABLE_NAME: job_candidate_screen
+20250603_050136 EXEC_SCOPE: PROD
+
+20250603_050136 ## Derived Variable Values:
+20250603_050136 STARTTIME: 050136
+20250603_050136 LOGDATE: 20250603_050136
+20250603_050136 JOB=job_candidate_screen
+
+20250603_050136 ###############################################################
+20250603_050136 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250603_050136 ###############################################################
+
+20250603_050136 ## Checking if script exists
+20250603_050136 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250603_050136 File exists...
+
+20250603_050136 ## Running script
+20250603_050136  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250603_050205
+20250603_050205
+Execution Return Code: 2
+20250603_050205
+---------
+JOB ERROR
+---------
+Start Time: 050136, End Time: 050205
