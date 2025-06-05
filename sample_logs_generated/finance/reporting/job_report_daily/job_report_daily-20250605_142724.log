@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250605_142724
+----------------------
+20250605_142724 ## Passed Parameter Values:
+20250605_142724 DOMAIN: finance
+20250605_142724 SUB_DOMAIN: reporting
+20250605_142724 USER_NAME: finance_user1
+20250605_142724 TABLE_NAME: job_report_daily
+20250605_142724 EXEC_SCOPE: TEST
+
+20250605_142724 ## Derived Variable Values:
+20250605_142724 STARTTIME: 142724
+20250605_142724 LOGDATE: 20250605_142724
+20250605_142724 JOB=job_report_daily
+
+20250605_142724 ###############################################################
+20250605_142724 ### RUNNING REPORT DAILY SCRIPT
+20250605_142724 ###############################################################
+
+20250605_142724 ## Checking if script exists
+20250605_142724 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20250605_142724 File exists...
+
+20250605_142724 ## Running script
+20250605_142724  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250605_142818
+20250605_142818
+Execution Return Code: 0
+20250605_142818
+-----------
+JOB SUCCESS
+-----------
+Start Time: 142724, End Time: 142818
