@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250608_190111
+----------------------
+20250608_190111 ## Passed Parameter Values:
+20250608_190111 DOMAIN: finance
+20250608_190111 SUB_DOMAIN: billing
+20250608_190111 USER_NAME: finance_user1
+20250608_190111 TABLE_NAME: job_tax_calc
+20250608_190111 EXEC_SCOPE: PROD
+
+20250608_190111 ## Derived Variable Values:
+20250608_190111 STARTTIME: 190111
+20250608_190111 LOGDATE: 20250608_190111
+20250608_190111 JOB=job_tax_calc
+
+20250608_190111 ###############################################################
+20250608_190111 ### RUNNING TAX CALC SCRIPT
+20250608_190111 ###############################################################
+
+20250608_190111 ## Checking if script exists
+20250608_190111 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20250608_190111 File exists...
+
+20250608_190111 ## Running script
+20250608_190111  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Invoice generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250608_190201
+20250608_190201
+Execution Return Code: 1
+20250608_190201
+---------
+JOB ERROR
+---------
+Start Time: 190111, End Time: 190201

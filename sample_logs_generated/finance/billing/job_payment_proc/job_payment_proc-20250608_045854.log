@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250608_045854
+----------------------
+20250608_045854 ## Passed Parameter Values:
+20250608_045854 DOMAIN: finance
+20250608_045854 SUB_DOMAIN: billing
+20250608_045854 USER_NAME: accountant1
+20250608_045854 TABLE_NAME: job_payment_proc
+20250608_045854 EXEC_SCOPE: PROD
+
+20250608_045854 ## Derived Variable Values:
+20250608_045854 STARTTIME: 045854
+20250608_045854 LOGDATE: 20250608_045854
+20250608_045854 JOB=job_payment_proc
+
+20250608_045854 ###############################################################
+20250608_045854 ### RUNNING PAYMENT PROC SCRIPT
+20250608_045854 ###############################################################
+
+20250608_045854 ## Checking if script exists
+20250608_045854 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250608_045854 File exists...
+
+20250608_045854 ## Running script
+20250608_045854  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250608_045933
+20250608_045933
+Execution Return Code: 8
+20250608_045933
+---------
+JOB ERROR
+---------
+Start Time: 045854, End Time: 045933

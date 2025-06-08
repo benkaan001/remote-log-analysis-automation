@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250608_015910
+----------------------
+20250608_015910 ## Passed Parameter Values:
+20250608_015910 DOMAIN: operations
+20250608_015910 SUB_DOMAIN: logistics
+20250608_015910 USER_NAME: ops_user1
+20250608_015910 TABLE_NAME: job_shipment_track
+20250608_015910 EXEC_SCOPE: UAT
+
+20250608_015910 ## Derived Variable Values:
+20250608_015910 STARTTIME: 015910
+20250608_015910 LOGDATE: 20250608_015910
+20250608_015910 JOB=job_shipment_track
+
+20250608_015910 ###############################################################
+20250608_015910 ### RUNNING SHIPMENT TRACK SCRIPT
+20250608_015910 ###############################################################
+
+20250608_015910 ## Checking if script exists
+20250608_015910 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250608_015910 File exists...
+
+20250608_015910 ## Running script
+20250608_015910  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250608_015920
+20250608_015920
+Execution Return Code: 4
+20250608_015920
+---------
+JOB ERROR
+---------
+Start Time: 015910, End Time: 015920

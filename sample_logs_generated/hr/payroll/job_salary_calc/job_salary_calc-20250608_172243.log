@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250608_172243
+----------------------
+20250608_172243 ## Passed Parameter Values:
+20250608_172243 DOMAIN: hr
+20250608_172243 SUB_DOMAIN: payroll
+20250608_172243 USER_NAME: payroll_admin
+20250608_172243 TABLE_NAME: job_salary_calc
+20250608_172243 EXEC_SCOPE: TEST
+
+20250608_172243 ## Derived Variable Values:
+20250608_172243 STARTTIME: 172243
+20250608_172243 LOGDATE: 20250608_172243
+20250608_172243 JOB=job_salary_calc
+
+20250608_172243 ###############################################################
+20250608_172243 ### RUNNING SALARY CALC SCRIPT
+20250608_172243 ###############################################################
+
+20250608_172243 ## Checking if script exists
+20250608_172243 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250608_172243 File exists...
+
+20250608_172243 ## Running script
+20250608_172243  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Payroll report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250608_172339
+20250608_172339
+Execution Return Code: 1
+20250608_172339
+---------
+JOB ERROR
+---------
+Start Time: 172243, End Time: 172339
