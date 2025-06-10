@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250610_125010
+----------------------
+20250610_125010 ## Passed Parameter Values:
+20250610_125010 DOMAIN: operations
+20250610_125010 SUB_DOMAIN: scheduling
+20250610_125010 USER_NAME: ops_user1
+20250610_125010 TABLE_NAME: job_resource_alloc
+20250610_125010 EXEC_SCOPE: DEV
+
+20250610_125010 ## Derived Variable Values:
+20250610_125010 STARTTIME: 125010
+20250610_125010 LOGDATE: 20250610_125010
+20250610_125010 JOB=job_resource_alloc
+
+20250610_125010 ###############################################################
+20250610_125010 ### RUNNING RESOURCE ALLOC SCRIPT
+20250610_125010 ###############################################################
+
+20250610_125010 ## Checking if script exists
+20250610_125010 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20250610_125010 File exists...
+
+20250610_125010 ## Running script
+20250610_125010  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250610_125108
+20250610_125108
+Execution Return Code: 4
+20250610_125108
+---------
+JOB ERROR
+---------
+Start Time: 125010, End Time: 125108

@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250610_084303
+----------------------
+20250610_084303 ## Passed Parameter Values:
+20250610_084303 DOMAIN: hr
+20250610_084303 SUB_DOMAIN: payroll
+20250610_084303 USER_NAME: payroll_admin
+20250610_084303 TABLE_NAME: job_tax_withhold
+20250610_084303 EXEC_SCOPE: PROD
+
+20250610_084303 ## Derived Variable Values:
+20250610_084303 STARTTIME: 084303
+20250610_084303 LOGDATE: 20250610_084303
+20250610_084303 JOB=job_tax_withhold
+
+20250610_084303 ###############################################################
+20250610_084303 ### RUNNING TAX WITHHOLD SCRIPT
+20250610_084303 ###############################################################
+
+20250610_084303 ## Checking if script exists
+20250610_084303 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250610_084303 File exists...
+
+20250610_084303 ## Running script
+20250610_084303  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250610_084320
+20250610_084320
+Execution Return Code: 4
+20250610_084320
+---------
+JOB ERROR
+---------
+Start Time: 084303, End Time: 084320

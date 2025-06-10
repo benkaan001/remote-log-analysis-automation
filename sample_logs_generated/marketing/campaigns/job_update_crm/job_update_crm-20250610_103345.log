@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250610_103345
+----------------------
+20250610_103345 ## Passed Parameter Values:
+20250610_103345 DOMAIN: marketing
+20250610_103345 SUB_DOMAIN: campaigns
+20250610_103345 USER_NAME: campaign_manager
+20250610_103345 TABLE_NAME: job_update_crm
+20250610_103345 EXEC_SCOPE: TEST
+
+20250610_103345 ## Derived Variable Values:
+20250610_103345 STARTTIME: 103345
+20250610_103345 LOGDATE: 20250610_103345
+20250610_103345 JOB=job_update_crm
+
+20250610_103345 ###############################################################
+20250610_103345 ### RUNNING UPDATE CRM SCRIPT
+20250610_103345 ###############################################################
+
+20250610_103345 ## Checking if script exists
+20250610_103345 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250610_103345 File exists...
+
+20250610_103345 ## Running script
+20250610_103345  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Email blast failed: SMTP server connection error.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250610_103403
+20250610_103403
+Execution Return Code: 4
+20250610_103403
+---------
+JOB ERROR
+---------
+Start Time: 103345, End Time: 103403
