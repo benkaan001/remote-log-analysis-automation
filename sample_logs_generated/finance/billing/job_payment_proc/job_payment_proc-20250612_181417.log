@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250612_181417
+----------------------
+20250612_181417 ## Passed Parameter Values:
+20250612_181417 DOMAIN: finance
+20250612_181417 SUB_DOMAIN: billing
+20250612_181417 USER_NAME: finance_user1
+20250612_181417 TABLE_NAME: job_payment_proc
+20250612_181417 EXEC_SCOPE: TEST
+
+20250612_181417 ## Derived Variable Values:
+20250612_181417 STARTTIME: 181417
+20250612_181417 LOGDATE: 20250612_181417
+20250612_181417 JOB=job_payment_proc
+
+20250612_181417 ###############################################################
+20250612_181417 ### RUNNING PAYMENT PROC SCRIPT
+20250612_181417 ###############################################################
+
+20250612_181417 ## Checking if script exists
+20250612_181417 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250612_181417 File exists...
+
+20250612_181417 ## Running script
+20250612_181417  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250612_181514
+20250612_181514
+Execution Return Code: 1
+20250612_181514
+---------
+JOB ERROR
+---------
+Start Time: 181417, End Time: 181514

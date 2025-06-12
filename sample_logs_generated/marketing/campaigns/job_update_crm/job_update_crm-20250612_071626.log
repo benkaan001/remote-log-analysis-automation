@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250612_071626
+----------------------
+20250612_071626 ## Passed Parameter Values:
+20250612_071626 DOMAIN: marketing
+20250612_071626 SUB_DOMAIN: campaigns
+20250612_071626 USER_NAME: analyst1
+20250612_071626 TABLE_NAME: job_update_crm
+20250612_071626 EXEC_SCOPE: UAT
+
+20250612_071626 ## Derived Variable Values:
+20250612_071626 STARTTIME: 071626
+20250612_071626 LOGDATE: 20250612_071626
+20250612_071626 JOB=job_update_crm
+
+20250612_071626 ###############################################################
+20250612_071626 ### RUNNING UPDATE CRM SCRIPT
+20250612_071626 ###############################################################
+
+20250612_071626 ## Checking if script exists
+20250612_071626 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250612_071626 File exists...
+
+20250612_071626 ## Running script
+20250612_071626  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: CRM update failed: API authentication error.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250612_071642
+20250612_071642
+Execution Return Code: 8
+20250612_071642
+---------
+JOB ERROR
+---------
+Start Time: 071626, End Time: 071642
