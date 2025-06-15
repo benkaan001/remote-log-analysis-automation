@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250615_203351
+----------------------
+20250615_203351 ## Passed Parameter Values:
+20250615_203351 DOMAIN: hr
+20250615_203351 SUB_DOMAIN: payroll
+20250615_203351 USER_NAME: recruiter1
+20250615_203351 TABLE_NAME: job_salary_calc
+20250615_203351 EXEC_SCOPE: PROD
+
+20250615_203351 ## Derived Variable Values:
+20250615_203351 STARTTIME: 203351
+20250615_203351 LOGDATE: 20250615_203351
+20250615_203351 JOB=job_salary_calc
+
+20250615_203351 ###############################################################
+20250615_203351 ### RUNNING SALARY CALC SCRIPT
+20250615_203351 ###############################################################
+
+20250615_203351 ## Checking if script exists
+20250615_203351 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250615_203351 File exists...
+
+20250615_203351 ## Running script
+20250615_203351  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250615_203406
+20250615_203406
+Execution Return Code: 4
+20250615_203406
+---------
+JOB ERROR
+---------
+Start Time: 203351, End Time: 203406

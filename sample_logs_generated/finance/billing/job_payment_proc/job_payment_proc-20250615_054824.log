@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250615_054824
+----------------------
+20250615_054824 ## Passed Parameter Values:
+20250615_054824 DOMAIN: finance
+20250615_054824 SUB_DOMAIN: billing
+20250615_054824 USER_NAME: accountant1
+20250615_054824 TABLE_NAME: job_payment_proc
+20250615_054824 EXEC_SCOPE: PROD
+
+20250615_054824 ## Derived Variable Values:
+20250615_054824 STARTTIME: 054824
+20250615_054824 LOGDATE: 20250615_054824
+20250615_054824 JOB=job_payment_proc
+
+20250615_054824 ###############################################################
+20250615_054824 ### RUNNING PAYMENT PROC SCRIPT
+20250615_054824 ###############################################################
+
+20250615_054824 ## Checking if script exists
+20250615_054824 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250615_054824 File exists...
+
+20250615_054824 ## Running script
+20250615_054824  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Invoice generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250615_054844
+20250615_054844
+Execution Return Code: 1
+20250615_054844
+---------
+JOB ERROR
+---------
+Start Time: 054824, End Time: 054844

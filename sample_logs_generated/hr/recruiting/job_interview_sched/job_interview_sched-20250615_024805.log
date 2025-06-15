@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250615_024805
+----------------------
+20250615_024805 ## Passed Parameter Values:
+20250615_024805 DOMAIN: hr
+20250615_024805 SUB_DOMAIN: recruiting
+20250615_024805 USER_NAME: payroll_admin
+20250615_024805 TABLE_NAME: job_interview_sched
+20250615_024805 EXEC_SCOPE: PROD
+
+20250615_024805 ## Derived Variable Values:
+20250615_024805 STARTTIME: 024805
+20250615_024805 LOGDATE: 20250615_024805
+20250615_024805 JOB=job_interview_sched
+
+20250615_024805 ###############################################################
+20250615_024805 ### RUNNING INTERVIEW SCHED SCRIPT
+20250615_024805 ###############################################################
+
+20250615_024805 ## Checking if script exists
+20250615_024805 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250615_024805 File exists...
+
+20250615_024805 ## Running script
+20250615_024805  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250615_024813
+20250615_024813
+Execution Return Code: 0
+20250615_024813
+-----------
+JOB SUCCESS
+-----------
+Start Time: 024805, End Time: 024813

@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250615_231341
+----------------------
+20250615_231341 ## Passed Parameter Values:
+20250615_231341 DOMAIN: hr
+20250615_231341 SUB_DOMAIN: recruiting
+20250615_231341 USER_NAME: recruiter1
+20250615_231341 TABLE_NAME: job_offer_gen
+20250615_231341 EXEC_SCOPE: UAT
+
+20250615_231341 ## Derived Variable Values:
+20250615_231341 STARTTIME: 231341
+20250615_231341 LOGDATE: 20250615_231341
+20250615_231341 JOB=job_offer_gen
+
+20250615_231341 ###############################################################
+20250615_231341 ### RUNNING OFFER GEN SCRIPT
+20250615_231341 ###############################################################
+
+20250615_231341 ## Checking if script exists
+20250615_231341 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250615_231341 File exists...
+
+20250615_231341 ## Running script
+20250615_231341  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250615_231406
+20250615_231406
+Execution Return Code: 8
+20250615_231406
+---------
+JOB ERROR
+---------
+Start Time: 231341, End Time: 231406
