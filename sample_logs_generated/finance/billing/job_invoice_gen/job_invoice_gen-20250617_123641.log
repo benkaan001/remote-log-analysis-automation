@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250617_123641
+----------------------
+20250617_123641 ## Passed Parameter Values:
+20250617_123641 DOMAIN: finance
+20250617_123641 SUB_DOMAIN: billing
+20250617_123641 USER_NAME: finance_admin
+20250617_123641 TABLE_NAME: job_invoice_gen
+20250617_123641 EXEC_SCOPE: TEST
+
+20250617_123641 ## Derived Variable Values:
+20250617_123641 STARTTIME: 123641
+20250617_123641 LOGDATE: 20250617_123641
+20250617_123641 JOB=job_invoice_gen
+
+20250617_123641 ###############################################################
+20250617_123641 ### RUNNING INVOICE GEN SCRIPT
+20250617_123641 ###############################################################
+
+20250617_123641 ## Checking if script exists
+20250617_123641 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20250617_123641 File exists...
+
+20250617_123641 ## Running script
+20250617_123641  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Payment processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250617_123716
+20250617_123716
+Execution Return Code: 1
+20250617_123716
+---------
+JOB ERROR
+---------
+Start Time: 123641, End Time: 123716

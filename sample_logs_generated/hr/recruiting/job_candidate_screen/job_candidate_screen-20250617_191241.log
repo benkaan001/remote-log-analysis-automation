@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250617_191241
+----------------------
+20250617_191241 ## Passed Parameter Values:
+20250617_191241 DOMAIN: hr
+20250617_191241 SUB_DOMAIN: recruiting
+20250617_191241 USER_NAME: payroll_admin
+20250617_191241 TABLE_NAME: job_candidate_screen
+20250617_191241 EXEC_SCOPE: TEST
+
+20250617_191241 ## Derived Variable Values:
+20250617_191241 STARTTIME: 191241
+20250617_191241 LOGDATE: 20250617_191241
+20250617_191241 JOB=job_candidate_screen
+
+20250617_191241 ###############################################################
+20250617_191241 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250617_191241 ###############################################################
+
+20250617_191241 ## Checking if script exists
+20250617_191241 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250617_191241 File exists...
+
+20250617_191241 ## Running script
+20250617_191241  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250617_191310
+20250617_191310
+Execution Return Code: 4
+20250617_191310
+---------
+JOB ERROR
+---------
+Start Time: 191241, End Time: 191310

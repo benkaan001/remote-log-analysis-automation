@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250617_183151
+----------------------
+20250617_183151 ## Passed Parameter Values:
+20250617_183151 DOMAIN: marketing
+20250617_183151 SUB_DOMAIN: analytics
+20250617_183151 USER_NAME: analyst1
+20250617_183151 TABLE_NAME: job_web_traffic
+20250617_183151 EXEC_SCOPE: TEST
+
+20250617_183151 ## Derived Variable Values:
+20250617_183151 STARTTIME: 183151
+20250617_183151 LOGDATE: 20250617_183151
+20250617_183151 JOB=job_web_traffic
+
+20250617_183151 ###############################################################
+20250617_183151 ### RUNNING WEB TRAFFIC SCRIPT
+20250617_183151 ###############################################################
+
+20250617_183151 ## Checking if script exists
+20250617_183151 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250617_183151 File exists...
+
+20250617_183151 ## Running script
+20250617_183151  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250617_183225
+20250617_183225
+Execution Return Code: 0
+20250617_183225
+-----------
+JOB SUCCESS
+-----------
+Start Time: 183151, End Time: 183225
