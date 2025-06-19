@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250619_055935
+----------------------
+20250619_055935 ## Passed Parameter Values:
+20250619_055935 DOMAIN: operations
+20250619_055935 SUB_DOMAIN: logistics
+20250619_055935 USER_NAME: ops_user1
+20250619_055935 TABLE_NAME: job_inventory_check
+20250619_055935 EXEC_SCOPE: UAT
+
+20250619_055935 ## Derived Variable Values:
+20250619_055935 STARTTIME: 055935
+20250619_055935 LOGDATE: 20250619_055935
+20250619_055935 JOB=job_inventory_check
+
+20250619_055935 ###############################################################
+20250619_055935 ### RUNNING INVENTORY CHECK SCRIPT
+20250619_055935 ###############################################################
+
+20250619_055935 ## Checking if script exists
+20250619_055935 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250619_055935 File exists...
+
+20250619_055935 ## Running script
+20250619_055935  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250619_060017
+20250619_060017
+Execution Return Code: 2
+20250619_060017
+---------
+JOB ERROR
+---------
+Start Time: 055935, End Time: 060017

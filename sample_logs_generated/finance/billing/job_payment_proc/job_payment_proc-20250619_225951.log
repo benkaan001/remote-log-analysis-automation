@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250619_225951
+----------------------
+20250619_225951 ## Passed Parameter Values:
+20250619_225951 DOMAIN: finance
+20250619_225951 SUB_DOMAIN: billing
+20250619_225951 USER_NAME: finance_admin
+20250619_225951 TABLE_NAME: job_payment_proc
+20250619_225951 EXEC_SCOPE: TEST
+
+20250619_225951 ## Derived Variable Values:
+20250619_225951 STARTTIME: 225951
+20250619_225951 LOGDATE: 20250619_225951
+20250619_225951 JOB=job_payment_proc
+
+20250619_225951 ###############################################################
+20250619_225951 ### RUNNING PAYMENT PROC SCRIPT
+20250619_225951 ###############################################################
+
+20250619_225951 ## Checking if script exists
+20250619_225951 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250619_225951 File exists...
+
+20250619_225951 ## Running script
+20250619_225951  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Payment processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250619_230001
+20250619_230001
+Execution Return Code: 8
+20250619_230001
+---------
+JOB ERROR
+---------
+Start Time: 225951, End Time: 230001

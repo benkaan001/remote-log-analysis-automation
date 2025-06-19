@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250619_081854
+----------------------
+20250619_081854 ## Passed Parameter Values:
+20250619_081854 DOMAIN: operations
+20250619_081854 SUB_DOMAIN: scheduling
+20250619_081854 USER_NAME: logistics_manager
+20250619_081854 TABLE_NAME: job_resource_alloc
+20250619_081854 EXEC_SCOPE: DEV
+
+20250619_081854 ## Derived Variable Values:
+20250619_081854 STARTTIME: 081854
+20250619_081854 LOGDATE: 20250619_081854
+20250619_081854 JOB=job_resource_alloc
+
+20250619_081854 ###############################################################
+20250619_081854 ### RUNNING RESOURCE ALLOC SCRIPT
+20250619_081854 ###############################################################
+
+20250619_081854 ## Checking if script exists
+20250619_081854 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20250619_081854 File exists...
+
+20250619_081854 ## Running script
+20250619_081854  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250619_081951
+20250619_081951
+Execution Return Code: 4
+20250619_081951
+---------
+JOB ERROR
+---------
+Start Time: 081854, End Time: 081951
