@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250622_223921
+----------------------
+20250622_223921 ## Passed Parameter Values:
+20250622_223921 DOMAIN: finance
+20250622_223921 SUB_DOMAIN: billing
+20250622_223921 USER_NAME: finance_user1
+20250622_223921 TABLE_NAME: job_tax_calc
+20250622_223921 EXEC_SCOPE: UAT
+
+20250622_223921 ## Derived Variable Values:
+20250622_223921 STARTTIME: 223921
+20250622_223921 LOGDATE: 20250622_223921
+20250622_223921 JOB=job_tax_calc
+
+20250622_223921 ###############################################################
+20250622_223921 ### RUNNING TAX CALC SCRIPT
+20250622_223921 ###############################################################
+
+20250622_223921 ## Checking if script exists
+20250622_223921 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20250622_223921 File exists...
+
+20250622_223921 ## Running script
+20250622_223921  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250622_223958
+20250622_223958
+Execution Return Code: 1
+20250622_223958
+---------
+JOB ERROR
+---------
+Start Time: 223921, End Time: 223958

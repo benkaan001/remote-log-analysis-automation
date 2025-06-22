@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250622_204959
+----------------------
+20250622_204959 ## Passed Parameter Values:
+20250622_204959 DOMAIN: operations
+20250622_204959 SUB_DOMAIN: scheduling
+20250622_204959 USER_NAME: scheduler
+20250622_204959 TABLE_NAME: job_resource_alloc
+20250622_204959 EXEC_SCOPE: DEV
+
+20250622_204959 ## Derived Variable Values:
+20250622_204959 STARTTIME: 204959
+20250622_204959 LOGDATE: 20250622_204959
+20250622_204959 JOB=job_resource_alloc
+
+20250622_204959 ###############################################################
+20250622_204959 ### RUNNING RESOURCE ALLOC SCRIPT
+20250622_204959 ###############################################################
+
+20250622_204959 ## Checking if script exists
+20250622_204959 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20250622_204959 File exists...
+
+20250622_204959 ## Running script
+20250622_204959  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250622_205056
+20250622_205056
+Execution Return Code: 4
+20250622_205056
+---------
+JOB ERROR
+---------
+Start Time: 204959, End Time: 205056
