@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250624_222757
+----------------------
+20250624_222757 ## Passed Parameter Values:
+20250624_222757 DOMAIN: hr
+20250624_222757 SUB_DOMAIN: recruiting
+20250624_222757 USER_NAME: payroll_admin
+20250624_222757 TABLE_NAME: job_offer_gen
+20250624_222757 EXEC_SCOPE: DEV
+
+20250624_222757 ## Derived Variable Values:
+20250624_222757 STARTTIME: 222757
+20250624_222757 LOGDATE: 20250624_222757
+20250624_222757 JOB=job_offer_gen
+
+20250624_222757 ###############################################################
+20250624_222757 ### RUNNING OFFER GEN SCRIPT
+20250624_222757 ###############################################################
+
+20250624_222757 ## Checking if script exists
+20250624_222757 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250624_222757 File exists...
+
+20250624_222757 ## Running script
+20250624_222757  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250624_222844
+20250624_222844
+Execution Return Code: 4
+20250624_222844
+---------
+JOB ERROR
+---------
+Start Time: 222757, End Time: 222844
