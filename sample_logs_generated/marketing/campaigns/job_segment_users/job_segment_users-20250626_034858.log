@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250626_034858
+----------------------
+20250626_034858 ## Passed Parameter Values:
+20250626_034858 DOMAIN: marketing
+20250626_034858 SUB_DOMAIN: campaigns
+20250626_034858 USER_NAME: marketing_user1
+20250626_034858 TABLE_NAME: job_segment_users
+20250626_034858 EXEC_SCOPE: UAT
+
+20250626_034858 ## Derived Variable Values:
+20250626_034858 STARTTIME: 034858
+20250626_034858 LOGDATE: 20250626_034858
+20250626_034858 JOB=job_segment_users
+
+20250626_034858 ###############################################################
+20250626_034858 ### RUNNING SEGMENT USERS SCRIPT
+20250626_034858 ###############################################################
+
+20250626_034858 ## Checking if script exists
+20250626_034858 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20250626_034858 File exists...
+
+20250626_034858 ## Running script
+20250626_034858  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250626_034949
+20250626_034949
+Execution Return Code: 4
+20250626_034949
+---------
+JOB ERROR
+---------
+Start Time: 034858, End Time: 034949
