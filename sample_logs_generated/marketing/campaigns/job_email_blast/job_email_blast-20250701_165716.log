@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250701_165716
+----------------------
+20250701_165716 ## Passed Parameter Values:
+20250701_165716 DOMAIN: marketing
+20250701_165716 SUB_DOMAIN: campaigns
+20250701_165716 USER_NAME: analyst1
+20250701_165716 TABLE_NAME: job_email_blast
+20250701_165716 EXEC_SCOPE: DEV
+
+20250701_165716 ## Derived Variable Values:
+20250701_165716 STARTTIME: 165716
+20250701_165716 LOGDATE: 20250701_165716
+20250701_165716 JOB=job_email_blast
+
+20250701_165716 ###############################################################
+20250701_165716 ### RUNNING EMAIL BLAST SCRIPT
+20250701_165716 ###############################################################
+
+20250701_165716 ## Checking if script exists
+20250701_165716 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20250701_165716 File exists...
+
+20250701_165716 ## Running script
+20250701_165716  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250701_165737
+20250701_165737
+Execution Return Code: 4
+20250701_165737
+---------
+JOB ERROR
+---------
+Start Time: 165716, End Time: 165737

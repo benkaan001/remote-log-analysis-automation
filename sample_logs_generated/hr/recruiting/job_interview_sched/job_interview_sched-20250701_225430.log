@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250701_225430
+----------------------
+20250701_225430 ## Passed Parameter Values:
+20250701_225430 DOMAIN: hr
+20250701_225430 SUB_DOMAIN: recruiting
+20250701_225430 USER_NAME: hr_user1
+20250701_225430 TABLE_NAME: job_interview_sched
+20250701_225430 EXEC_SCOPE: TEST
+
+20250701_225430 ## Derived Variable Values:
+20250701_225430 STARTTIME: 225430
+20250701_225430 LOGDATE: 20250701_225430
+20250701_225430 JOB=job_interview_sched
+
+20250701_225430 ###############################################################
+20250701_225430 ### RUNNING INTERVIEW SCHED SCRIPT
+20250701_225430 ###############################################################
+
+20250701_225430 ## Checking if script exists
+20250701_225430 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250701_225430 File exists...
+
+20250701_225430 ## Running script
+20250701_225430  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250701_225516
+20250701_225516
+Execution Return Code: 8
+20250701_225516
+---------
+JOB ERROR
+---------
+Start Time: 225430, End Time: 225516

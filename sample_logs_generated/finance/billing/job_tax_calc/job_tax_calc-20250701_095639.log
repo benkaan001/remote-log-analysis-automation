@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250701_095639
+----------------------
+20250701_095639 ## Passed Parameter Values:
+20250701_095639 DOMAIN: finance
+20250701_095639 SUB_DOMAIN: billing
+20250701_095639 USER_NAME: finance_user1
+20250701_095639 TABLE_NAME: job_tax_calc
+20250701_095639 EXEC_SCOPE: UAT
+
+20250701_095639 ## Derived Variable Values:
+20250701_095639 STARTTIME: 095639
+20250701_095639 LOGDATE: 20250701_095639
+20250701_095639 JOB=job_tax_calc
+
+20250701_095639 ###############################################################
+20250701_095639 ### RUNNING TAX CALC SCRIPT
+20250701_095639 ###############################################################
+
+20250701_095639 ## Checking if script exists
+20250701_095639 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20250701_095639 File exists...
+
+20250701_095639 ## Running script
+20250701_095639  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250701_095725
+20250701_095725
+Execution Return Code: 8
+20250701_095725
+---------
+JOB ERROR
+---------
+Start Time: 095639, End Time: 095725
