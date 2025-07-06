@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250706_020950
+----------------------
+20250706_020950 ## Passed Parameter Values:
+20250706_020950 DOMAIN: hr
+20250706_020950 SUB_DOMAIN: recruiting
+20250706_020950 USER_NAME: payroll_admin
+20250706_020950 TABLE_NAME: job_candidate_screen
+20250706_020950 EXEC_SCOPE: TEST
+
+20250706_020950 ## Derived Variable Values:
+20250706_020950 STARTTIME: 020950
+20250706_020950 LOGDATE: 20250706_020950
+20250706_020950 JOB=job_candidate_screen
+
+20250706_020950 ###############################################################
+20250706_020950 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250706_020950 ###############################################################
+
+20250706_020950 ## Checking if script exists
+20250706_020950 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250706_020950 File exists...
+
+20250706_020950 ## Running script
+20250706_020950  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250706_020956
+20250706_020956
+Execution Return Code: 1
+20250706_020956
+---------
+JOB ERROR
+---------
+Start Time: 020950, End Time: 020956
