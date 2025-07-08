@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250708_002907
+----------------------
+20250708_002907 ## Passed Parameter Values:
+20250708_002907 DOMAIN: operations
+20250708_002907 SUB_DOMAIN: logistics
+20250708_002907 USER_NAME: scheduler
+20250708_002907 TABLE_NAME: job_inventory_check
+20250708_002907 EXEC_SCOPE: DEV
+
+20250708_002907 ## Derived Variable Values:
+20250708_002907 STARTTIME: 002907
+20250708_002907 LOGDATE: 20250708_002907
+20250708_002907 JOB=job_inventory_check
+
+20250708_002907 ###############################################################
+20250708_002907 ### RUNNING INVENTORY CHECK SCRIPT
+20250708_002907 ###############################################################
+
+20250708_002907 ## Checking if script exists
+20250708_002907 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250708_002907 File exists...
+
+20250708_002907 ## Running script
+20250708_002907  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Logistics generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250708_002925
+20250708_002925
+Execution Return Code: 1
+20250708_002925
+---------
+JOB ERROR
+---------
+Start Time: 002907, End Time: 002925

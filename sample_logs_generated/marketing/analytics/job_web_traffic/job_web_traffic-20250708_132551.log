@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250708_132551
+----------------------
+20250708_132551 ## Passed Parameter Values:
+20250708_132551 DOMAIN: marketing
+20250708_132551 SUB_DOMAIN: analytics
+20250708_132551 USER_NAME: campaign_manager
+20250708_132551 TABLE_NAME: job_web_traffic
+20250708_132551 EXEC_SCOPE: TEST
+
+20250708_132551 ## Derived Variable Values:
+20250708_132551 STARTTIME: 132551
+20250708_132551 LOGDATE: 20250708_132551
+20250708_132551 JOB=job_web_traffic
+
+20250708_132551 ###############################################################
+20250708_132551 ### RUNNING WEB TRAFFIC SCRIPT
+20250708_132551 ###############################################################
+
+20250708_132551 ## Checking if script exists
+20250708_132551 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250708_132551 File exists...
+
+20250708_132551 ## Running script
+20250708_132551  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250708_132641
+20250708_132641
+Execution Return Code: 4
+20250708_132641
+---------
+JOB ERROR
+---------
+Start Time: 132551, End Time: 132641
