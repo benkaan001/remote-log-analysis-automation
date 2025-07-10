@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250710_141152
+----------------------
+20250710_141152 ## Passed Parameter Values:
+20250710_141152 DOMAIN: hr
+20250710_141152 SUB_DOMAIN: recruiting
+20250710_141152 USER_NAME: hr_user1
+20250710_141152 TABLE_NAME: job_offer_gen
+20250710_141152 EXEC_SCOPE: TEST
+
+20250710_141152 ## Derived Variable Values:
+20250710_141152 STARTTIME: 141152
+20250710_141152 LOGDATE: 20250710_141152
+20250710_141152 JOB=job_offer_gen
+
+20250710_141152 ###############################################################
+20250710_141152 ### RUNNING OFFER GEN SCRIPT
+20250710_141152 ###############################################################
+
+20250710_141152 ## Checking if script exists
+20250710_141152 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250710_141152 File exists...
+
+20250710_141152 ## Running script
+20250710_141152  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250710_141236
+20250710_141236
+Execution Return Code: 0
+20250710_141236
+-----------
+JOB SUCCESS
+-----------
+Start Time: 141152, End Time: 141236

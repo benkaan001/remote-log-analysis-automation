@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250710_095453
+----------------------
+20250710_095453 ## Passed Parameter Values:
+20250710_095453 DOMAIN: marketing
+20250710_095453 SUB_DOMAIN: analytics
+20250710_095453 USER_NAME: campaign_manager
+20250710_095453 TABLE_NAME: job_web_traffic
+20250710_095453 EXEC_SCOPE: PROD
+
+20250710_095453 ## Derived Variable Values:
+20250710_095453 STARTTIME: 095453
+20250710_095453 LOGDATE: 20250710_095453
+20250710_095453 JOB=job_web_traffic
+
+20250710_095453 ###############################################################
+20250710_095453 ### RUNNING WEB TRAFFIC SCRIPT
+20250710_095453 ###############################################################
+
+20250710_095453 ## Checking if script exists
+20250710_095453 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250710_095453 File exists...
+
+20250710_095453 ## Running script
+20250710_095453  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250710_095508
+20250710_095508
+Execution Return Code: 1
+20250710_095508
+---------
+JOB ERROR
+---------
+Start Time: 095453, End Time: 095508
