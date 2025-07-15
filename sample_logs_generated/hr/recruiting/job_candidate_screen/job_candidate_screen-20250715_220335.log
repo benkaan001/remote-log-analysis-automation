@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250715_220335
+----------------------
+20250715_220335 ## Passed Parameter Values:
+20250715_220335 DOMAIN: hr
+20250715_220335 SUB_DOMAIN: recruiting
+20250715_220335 USER_NAME: payroll_admin
+20250715_220335 TABLE_NAME: job_candidate_screen
+20250715_220335 EXEC_SCOPE: UAT
+
+20250715_220335 ## Derived Variable Values:
+20250715_220335 STARTTIME: 220335
+20250715_220335 LOGDATE: 20250715_220335
+20250715_220335 JOB=job_candidate_screen
+
+20250715_220335 ###############################################################
+20250715_220335 ### RUNNING CANDIDATE SCREEN SCRIPT
+20250715_220335 ###############################################################
+
+20250715_220335 ## Checking if script exists
+20250715_220335 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20250715_220335 File exists...
+
+20250715_220335 ## Running script
+20250715_220335  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250715_220357
+20250715_220357
+Execution Return Code: 0
+20250715_220357
+-----------
+JOB SUCCESS
+-----------
+Start Time: 220335, End Time: 220357

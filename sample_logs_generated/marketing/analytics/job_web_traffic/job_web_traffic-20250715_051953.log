@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250715_051953
+----------------------
+20250715_051953 ## Passed Parameter Values:
+20250715_051953 DOMAIN: marketing
+20250715_051953 SUB_DOMAIN: analytics
+20250715_051953 USER_NAME: marketing_user1
+20250715_051953 TABLE_NAME: job_web_traffic
+20250715_051953 EXEC_SCOPE: UAT
+
+20250715_051953 ## Derived Variable Values:
+20250715_051953 STARTTIME: 051953
+20250715_051953 LOGDATE: 20250715_051953
+20250715_051953 JOB=job_web_traffic
+
+20250715_051953 ###############################################################
+20250715_051953 ### RUNNING WEB TRAFFIC SCRIPT
+20250715_051953 ###############################################################
+
+20250715_051953 ## Checking if script exists
+20250715_051953 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250715_051953 File exists...
+
+20250715_051953 ## Running script
+20250715_051953  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250715_052030
+20250715_052030
+Execution Return Code: 1
+20250715_052030
+---------
+JOB ERROR
+---------
+Start Time: 051953, End Time: 052030
