@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250717_224115
+----------------------
+20250717_224115 ## Passed Parameter Values:
+20250717_224115 DOMAIN: marketing
+20250717_224115 SUB_DOMAIN: campaigns
+20250717_224115 USER_NAME: analyst1
+20250717_224115 TABLE_NAME: job_update_crm
+20250717_224115 EXEC_SCOPE: DEV
+
+20250717_224115 ## Derived Variable Values:
+20250717_224115 STARTTIME: 224115
+20250717_224115 LOGDATE: 20250717_224115
+20250717_224115 JOB=job_update_crm
+
+20250717_224115 ###############################################################
+20250717_224115 ### RUNNING UPDATE CRM SCRIPT
+20250717_224115 ###############################################################
+
+20250717_224115 ## Checking if script exists
+20250717_224115 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250717_224115 File exists...
+
+20250717_224115 ## Running script
+20250717_224115  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250717_224204
+20250717_224204
+Execution Return Code: 8
+20250717_224204
+---------
+JOB ERROR
+---------
+Start Time: 224115, End Time: 224204

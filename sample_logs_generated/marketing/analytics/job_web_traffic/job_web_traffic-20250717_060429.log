@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250717_060429
+----------------------
+20250717_060429 ## Passed Parameter Values:
+20250717_060429 DOMAIN: marketing
+20250717_060429 SUB_DOMAIN: analytics
+20250717_060429 USER_NAME: analyst1
+20250717_060429 TABLE_NAME: job_web_traffic
+20250717_060429 EXEC_SCOPE: PROD
+
+20250717_060429 ## Derived Variable Values:
+20250717_060429 STARTTIME: 060429
+20250717_060429 LOGDATE: 20250717_060429
+20250717_060429 JOB=job_web_traffic
+
+20250717_060429 ###############################################################
+20250717_060429 ### RUNNING WEB TRAFFIC SCRIPT
+20250717_060429 ###############################################################
+
+20250717_060429 ## Checking if script exists
+20250717_060429 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250717_060429 File exists...
+
+20250717_060429 ## Running script
+20250717_060429  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250717_060505
+20250717_060505
+Execution Return Code: 2
+20250717_060505
+---------
+JOB ERROR
+---------
+Start Time: 060429, End Time: 060505
