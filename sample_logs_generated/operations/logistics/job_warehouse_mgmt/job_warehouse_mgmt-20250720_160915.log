@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250720_160915
+----------------------
+20250720_160915 ## Passed Parameter Values:
+20250720_160915 DOMAIN: operations
+20250720_160915 SUB_DOMAIN: logistics
+20250720_160915 USER_NAME: logistics_manager
+20250720_160915 TABLE_NAME: job_warehouse_mgmt
+20250720_160915 EXEC_SCOPE: DEV
+
+20250720_160915 ## Derived Variable Values:
+20250720_160915 STARTTIME: 160915
+20250720_160915 LOGDATE: 20250720_160915
+20250720_160915 JOB=job_warehouse_mgmt
+
+20250720_160915 ###############################################################
+20250720_160915 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250720_160915 ###############################################################
+
+20250720_160915 ## Checking if script exists
+20250720_160915 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250720_160915 File exists...
+
+20250720_160915 ## Running script
+20250720_160915  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250720_160921
+20250720_160921
+Execution Return Code: 4
+20250720_160921
+---------
+JOB ERROR
+---------
+Start Time: 160915, End Time: 160921

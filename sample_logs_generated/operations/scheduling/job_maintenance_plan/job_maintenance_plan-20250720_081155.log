@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250720_081155
+----------------------
+20250720_081155 ## Passed Parameter Values:
+20250720_081155 DOMAIN: operations
+20250720_081155 SUB_DOMAIN: scheduling
+20250720_081155 USER_NAME: ops_user1
+20250720_081155 TABLE_NAME: job_maintenance_plan
+20250720_081155 EXEC_SCOPE: PROD
+
+20250720_081155 ## Derived Variable Values:
+20250720_081155 STARTTIME: 081155
+20250720_081155 LOGDATE: 20250720_081155
+20250720_081155 JOB=job_maintenance_plan
+
+20250720_081155 ###############################################################
+20250720_081155 ### RUNNING MAINTENANCE PLAN SCRIPT
+20250720_081155 ###############################################################
+
+20250720_081155 ## Checking if script exists
+20250720_081155 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20250720_081155 File exists...
+
+20250720_081155 ## Running script
+20250720_081155  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250720_081220
+20250720_081220
+Execution Return Code: 0
+20250720_081220
+-----------
+JOB SUCCESS
+-----------
+Start Time: 081155, End Time: 081220
