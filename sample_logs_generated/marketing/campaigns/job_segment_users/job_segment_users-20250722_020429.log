@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250722_020429
+----------------------
+20250722_020429 ## Passed Parameter Values:
+20250722_020429 DOMAIN: marketing
+20250722_020429 SUB_DOMAIN: campaigns
+20250722_020429 USER_NAME: analyst1
+20250722_020429 TABLE_NAME: job_segment_users
+20250722_020429 EXEC_SCOPE: TEST
+
+20250722_020429 ## Derived Variable Values:
+20250722_020429 STARTTIME: 020429
+20250722_020429 LOGDATE: 20250722_020429
+20250722_020429 JOB=job_segment_users
+
+20250722_020429 ###############################################################
+20250722_020429 ### RUNNING SEGMENT USERS SCRIPT
+20250722_020429 ###############################################################
+
+20250722_020429 ## Checking if script exists
+20250722_020429 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20250722_020429 File exists...
+
+20250722_020429 ## Running script
+20250722_020429  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Email blast failed: SMTP server connection error.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250722_020458
+20250722_020458
+Execution Return Code: 2
+20250722_020458
+---------
+JOB ERROR
+---------
+Start Time: 020429, End Time: 020458

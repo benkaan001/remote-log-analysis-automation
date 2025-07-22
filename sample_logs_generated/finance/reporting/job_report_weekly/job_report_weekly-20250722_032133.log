@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250722_032133
+----------------------
+20250722_032133 ## Passed Parameter Values:
+20250722_032133 DOMAIN: finance
+20250722_032133 SUB_DOMAIN: reporting
+20250722_032133 USER_NAME: accountant1
+20250722_032133 TABLE_NAME: job_report_weekly
+20250722_032133 EXEC_SCOPE: DEV
+
+20250722_032133 ## Derived Variable Values:
+20250722_032133 STARTTIME: 032133
+20250722_032133 LOGDATE: 20250722_032133
+20250722_032133 JOB=job_report_weekly
+
+20250722_032133 ###############################################################
+20250722_032133 ### RUNNING REPORT WEEKLY SCRIPT
+20250722_032133 ###############################################################
+
+20250722_032133 ## Checking if script exists
+20250722_032133 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250722_032133 File exists...
+
+20250722_032133 ## Running script
+20250722_032133  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250722_032228
+20250722_032228
+Execution Return Code: 8
+20250722_032228
+---------
+JOB ERROR
+---------
+Start Time: 032133, End Time: 032228

@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250722_185116
+----------------------
+20250722_185116 ## Passed Parameter Values:
+20250722_185116 DOMAIN: hr
+20250722_185116 SUB_DOMAIN: payroll
+20250722_185116 USER_NAME: payroll_admin
+20250722_185116 TABLE_NAME: job_bonus_process
+20250722_185116 EXEC_SCOPE: UAT
+
+20250722_185116 ## Derived Variable Values:
+20250722_185116 STARTTIME: 185116
+20250722_185116 LOGDATE: 20250722_185116
+20250722_185116 JOB=job_bonus_process
+
+20250722_185116 ###############################################################
+20250722_185116 ### RUNNING BONUS PROCESS SCRIPT
+20250722_185116 ###############################################################
+
+20250722_185116 ## Checking if script exists
+20250722_185116 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20250722_185116 File exists...
+
+20250722_185116 ## Running script
+20250722_185116  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Payroll report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250722_185205
+20250722_185205
+Execution Return Code: 1
+20250722_185205
+---------
+JOB ERROR
+---------
+Start Time: 185116, End Time: 185205

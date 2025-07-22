@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250722_164151
+----------------------
+20250722_164151 ## Passed Parameter Values:
+20250722_164151 DOMAIN: finance
+20250722_164151 SUB_DOMAIN: reporting
+20250722_164151 USER_NAME: finance_admin
+20250722_164151 TABLE_NAME: job_report_monthly
+20250722_164151 EXEC_SCOPE: TEST
+
+20250722_164151 ## Derived Variable Values:
+20250722_164151 STARTTIME: 164151
+20250722_164151 LOGDATE: 20250722_164151
+20250722_164151 JOB=job_report_monthly
+
+20250722_164151 ###############################################################
+20250722_164151 ### RUNNING REPORT MONTHLY SCRIPT
+20250722_164151 ###############################################################
+
+20250722_164151 ## Checking if script exists
+20250722_164151 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20250722_164151 File exists...
+
+20250722_164151 ## Running script
+20250722_164151  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Weekly report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250722_164215
+20250722_164215
+Execution Return Code: 1
+20250722_164215
+---------
+JOB ERROR
+---------
+Start Time: 164151, End Time: 164215

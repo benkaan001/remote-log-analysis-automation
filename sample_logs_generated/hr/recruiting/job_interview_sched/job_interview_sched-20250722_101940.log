@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250722_101940
+----------------------
+20250722_101940 ## Passed Parameter Values:
+20250722_101940 DOMAIN: hr
+20250722_101940 SUB_DOMAIN: recruiting
+20250722_101940 USER_NAME: hr_user1
+20250722_101940 TABLE_NAME: job_interview_sched
+20250722_101940 EXEC_SCOPE: DEV
+
+20250722_101940 ## Derived Variable Values:
+20250722_101940 STARTTIME: 101940
+20250722_101940 LOGDATE: 20250722_101940
+20250722_101940 JOB=job_interview_sched
+
+20250722_101940 ###############################################################
+20250722_101940 ### RUNNING INTERVIEW SCHED SCRIPT
+20250722_101940 ###############################################################
+
+20250722_101940 ## Checking if script exists
+20250722_101940 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250722_101940 File exists...
+
+20250722_101940 ## Running script
+20250722_101940  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250722_102033
+20250722_102033
+Execution Return Code: 1
+20250722_102033
+---------
+JOB ERROR
+---------
+Start Time: 101940, End Time: 102033
