@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250727_132143
+----------------------
+20250727_132143 ## Passed Parameter Values:
+20250727_132143 DOMAIN: hr
+20250727_132143 SUB_DOMAIN: payroll
+20250727_132143 USER_NAME: hr_user1
+20250727_132143 TABLE_NAME: job_tax_withhold
+20250727_132143 EXEC_SCOPE: TEST
+
+20250727_132143 ## Derived Variable Values:
+20250727_132143 STARTTIME: 132143
+20250727_132143 LOGDATE: 20250727_132143
+20250727_132143 JOB=job_tax_withhold
+
+20250727_132143 ###############################################################
+20250727_132143 ### RUNNING TAX WITHHOLD SCRIPT
+20250727_132143 ###############################################################
+
+20250727_132143 ## Checking if script exists
+20250727_132143 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250727_132143 File exists...
+
+20250727_132143 ## Running script
+20250727_132143  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250727_132157
+20250727_132157
+Execution Return Code: 1
+20250727_132157
+---------
+JOB ERROR
+---------
+Start Time: 132143, End Time: 132157

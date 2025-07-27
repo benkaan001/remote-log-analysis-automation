@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250727_014704
+----------------------
+20250727_014704 ## Passed Parameter Values:
+20250727_014704 DOMAIN: hr
+20250727_014704 SUB_DOMAIN: payroll
+20250727_014704 USER_NAME: payroll_admin
+20250727_014704 TABLE_NAME: job_salary_calc
+20250727_014704 EXEC_SCOPE: PROD
+
+20250727_014704 ## Derived Variable Values:
+20250727_014704 STARTTIME: 014704
+20250727_014704 LOGDATE: 20250727_014704
+20250727_014704 JOB=job_salary_calc
+
+20250727_014704 ###############################################################
+20250727_014704 ### RUNNING SALARY CALC SCRIPT
+20250727_014704 ###############################################################
+
+20250727_014704 ## Checking if script exists
+20250727_014704 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250727_014704 File exists...
+
+20250727_014704 ## Running script
+20250727_014704  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250727_014743
+20250727_014743
+Execution Return Code: 4
+20250727_014743
+---------
+JOB ERROR
+---------
+Start Time: 014704, End Time: 014743

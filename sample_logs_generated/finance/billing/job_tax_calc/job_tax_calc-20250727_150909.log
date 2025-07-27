@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250727_150909
+----------------------
+20250727_150909 ## Passed Parameter Values:
+20250727_150909 DOMAIN: finance
+20250727_150909 SUB_DOMAIN: billing
+20250727_150909 USER_NAME: finance_admin
+20250727_150909 TABLE_NAME: job_tax_calc
+20250727_150909 EXEC_SCOPE: UAT
+
+20250727_150909 ## Derived Variable Values:
+20250727_150909 STARTTIME: 150909
+20250727_150909 LOGDATE: 20250727_150909
+20250727_150909 JOB=job_tax_calc
+
+20250727_150909 ###############################################################
+20250727_150909 ### RUNNING TAX CALC SCRIPT
+20250727_150909 ###############################################################
+
+20250727_150909 ## Checking if script exists
+20250727_150909 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20250727_150909 File exists...
+
+20250727_150909 ## Running script
+20250727_150909  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250727_151006
+20250727_151006
+Execution Return Code: 0
+20250727_151006
+-----------
+JOB SUCCESS
+-----------
+Start Time: 150909, End Time: 151006
