@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250729_102007
+----------------------
+20250729_102007 ## Passed Parameter Values:
+20250729_102007 DOMAIN: operations
+20250729_102007 SUB_DOMAIN: logistics
+20250729_102007 USER_NAME: ops_user1
+20250729_102007 TABLE_NAME: job_inventory_check
+20250729_102007 EXEC_SCOPE: UAT
+
+20250729_102007 ## Derived Variable Values:
+20250729_102007 STARTTIME: 102007
+20250729_102007 LOGDATE: 20250729_102007
+20250729_102007 JOB=job_inventory_check
+
+20250729_102007 ###############################################################
+20250729_102007 ### RUNNING INVENTORY CHECK SCRIPT
+20250729_102007 ###############################################################
+
+20250729_102007 ## Checking if script exists
+20250729_102007 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250729_102007 File exists...
+
+20250729_102007 ## Running script
+20250729_102007  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Fatal error in data processing pipeline.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250729_102051
+20250729_102051
+Execution Return Code: 8
+20250729_102051
+---------
+JOB ERROR
+---------
+Start Time: 102007, End Time: 102051
