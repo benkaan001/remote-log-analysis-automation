@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250731_082335
+----------------------
+20250731_082335 ## Passed Parameter Values:
+20250731_082335 DOMAIN: hr
+20250731_082335 SUB_DOMAIN: recruiting
+20250731_082335 USER_NAME: recruiter1
+20250731_082335 TABLE_NAME: job_interview_sched
+20250731_082335 EXEC_SCOPE: DEV
+
+20250731_082335 ## Derived Variable Values:
+20250731_082335 STARTTIME: 082335
+20250731_082335 LOGDATE: 20250731_082335
+20250731_082335 JOB=job_interview_sched
+
+20250731_082335 ###############################################################
+20250731_082335 ### RUNNING INTERVIEW SCHED SCRIPT
+20250731_082335 ###############################################################
+
+20250731_082335 ## Checking if script exists
+20250731_082335 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250731_082335 File exists...
+
+20250731_082335 ## Running script
+20250731_082335  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250731_082414
+20250731_082414
+Execution Return Code: 4
+20250731_082414
+---------
+JOB ERROR
+---------
+Start Time: 082335, End Time: 082414
