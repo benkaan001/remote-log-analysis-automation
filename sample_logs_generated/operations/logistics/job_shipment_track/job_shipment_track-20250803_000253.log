@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250803_000253
+----------------------
+20250803_000253 ## Passed Parameter Values:
+20250803_000253 DOMAIN: operations
+20250803_000253 SUB_DOMAIN: logistics
+20250803_000253 USER_NAME: ops_user1
+20250803_000253 TABLE_NAME: job_shipment_track
+20250803_000253 EXEC_SCOPE: DEV
+
+20250803_000253 ## Derived Variable Values:
+20250803_000253 STARTTIME: 000253
+20250803_000253 LOGDATE: 20250803_000253
+20250803_000253 JOB=job_shipment_track
+
+20250803_000253 ###############################################################
+20250803_000253 ### RUNNING SHIPMENT TRACK SCRIPT
+20250803_000253 ###############################################################
+
+20250803_000253 ## Checking if script exists
+20250803_000253 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250803_000253 File exists...
+
+20250803_000253 ## Running script
+20250803_000253  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250803_000345
+20250803_000345
+Execution Return Code: 0
+20250803_000345
+-----------
+JOB SUCCESS
+-----------
+Start Time: 000253, End Time: 000345

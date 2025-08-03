@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250803_093338
+----------------------
+20250803_093338 ## Passed Parameter Values:
+20250803_093338 DOMAIN: marketing
+20250803_093338 SUB_DOMAIN: analytics
+20250803_093338 USER_NAME: marketing_user1
+20250803_093338 TABLE_NAME: job_conversion_rate
+20250803_093338 EXEC_SCOPE: UAT
+
+20250803_093338 ## Derived Variable Values:
+20250803_093338 STARTTIME: 093338
+20250803_093338 LOGDATE: 20250803_093338
+20250803_093338 JOB=job_conversion_rate
+
+20250803_093338 ###############################################################
+20250803_093338 ### RUNNING CONVERSION RATE SCRIPT
+20250803_093338 ###############################################################
+
+20250803_093338 ## Checking if script exists
+20250803_093338 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20250803_093338 File exists...
+
+20250803_093338 ## Running script
+20250803_093338  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: ROI calculation failed: Revenue data unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250803_093351
+20250803_093351
+Execution Return Code: 2
+20250803_093351
+---------
+JOB ERROR
+---------
+Start Time: 093338, End Time: 093351
