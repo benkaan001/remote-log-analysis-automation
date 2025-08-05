@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250805_051026
+----------------------
+20250805_051026 ## Passed Parameter Values:
+20250805_051026 DOMAIN: finance
+20250805_051026 SUB_DOMAIN: reporting
+20250805_051026 USER_NAME: finance_admin
+20250805_051026 TABLE_NAME: job_report_weekly
+20250805_051026 EXEC_SCOPE: TEST
+
+20250805_051026 ## Derived Variable Values:
+20250805_051026 STARTTIME: 051026
+20250805_051026 LOGDATE: 20250805_051026
+20250805_051026 JOB=job_report_weekly
+
+20250805_051026 ###############################################################
+20250805_051026 ### RUNNING REPORT WEEKLY SCRIPT
+20250805_051026 ###############################################################
+
+20250805_051026 ## Checking if script exists
+20250805_051026 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250805_051026 File exists...
+
+20250805_051026 ## Running script
+20250805_051026  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Weekly report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250805_051045
+20250805_051045
+Execution Return Code: 1
+20250805_051045
+---------
+JOB ERROR
+---------
+Start Time: 051026, End Time: 051045

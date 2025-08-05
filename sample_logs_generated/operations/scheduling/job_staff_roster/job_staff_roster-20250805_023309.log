@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250805_023309
+----------------------
+20250805_023309 ## Passed Parameter Values:
+20250805_023309 DOMAIN: operations
+20250805_023309 SUB_DOMAIN: scheduling
+20250805_023309 USER_NAME: logistics_manager
+20250805_023309 TABLE_NAME: job_staff_roster
+20250805_023309 EXEC_SCOPE: TEST
+
+20250805_023309 ## Derived Variable Values:
+20250805_023309 STARTTIME: 023309
+20250805_023309 LOGDATE: 20250805_023309
+20250805_023309 JOB=job_staff_roster
+
+20250805_023309 ###############################################################
+20250805_023309 ### RUNNING STAFF ROSTER SCRIPT
+20250805_023309 ###############################################################
+
+20250805_023309 ## Checking if script exists
+20250805_023309 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20250805_023309 File exists...
+
+20250805_023309 ## Running script
+20250805_023309  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250805_023407
+20250805_023407
+Execution Return Code: 0
+20250805_023407
+-----------
+JOB SUCCESS
+-----------
+Start Time: 023309, End Time: 023407

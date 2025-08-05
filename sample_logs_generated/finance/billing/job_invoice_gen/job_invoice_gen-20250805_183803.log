@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250805_183803
+----------------------
+20250805_183803 ## Passed Parameter Values:
+20250805_183803 DOMAIN: finance
+20250805_183803 SUB_DOMAIN: billing
+20250805_183803 USER_NAME: finance_admin
+20250805_183803 TABLE_NAME: job_invoice_gen
+20250805_183803 EXEC_SCOPE: DEV
+
+20250805_183803 ## Derived Variable Values:
+20250805_183803 STARTTIME: 183803
+20250805_183803 LOGDATE: 20250805_183803
+20250805_183803 JOB=job_invoice_gen
+
+20250805_183803 ###############################################################
+20250805_183803 ### RUNNING INVOICE GEN SCRIPT
+20250805_183803 ###############################################################
+
+20250805_183803 ## Checking if script exists
+20250805_183803 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20250805_183803 File exists...
+
+20250805_183803 ## Running script
+20250805_183803  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250805_183836
+20250805_183836
+Execution Return Code: 4
+20250805_183836
+---------
+JOB ERROR
+---------
+Start Time: 183803, End Time: 183836

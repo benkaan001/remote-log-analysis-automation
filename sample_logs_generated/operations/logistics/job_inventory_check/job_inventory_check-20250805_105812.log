@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250805_105812
+----------------------
+20250805_105812 ## Passed Parameter Values:
+20250805_105812 DOMAIN: operations
+20250805_105812 SUB_DOMAIN: logistics
+20250805_105812 USER_NAME: scheduler
+20250805_105812 TABLE_NAME: job_inventory_check
+20250805_105812 EXEC_SCOPE: PROD
+
+20250805_105812 ## Derived Variable Values:
+20250805_105812 STARTTIME: 105812
+20250805_105812 LOGDATE: 20250805_105812
+20250805_105812 JOB=job_inventory_check
+
+20250805_105812 ###############################################################
+20250805_105812 ### RUNNING INVENTORY CHECK SCRIPT
+20250805_105812 ###############################################################
+
+20250805_105812 ## Checking if script exists
+20250805_105812 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250805_105812 File exists...
+
+20250805_105812 ## Running script
+20250805_105812  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250805_105820
+20250805_105820
+Execution Return Code: 1
+20250805_105820
+---------
+JOB ERROR
+---------
+Start Time: 105812, End Time: 105820

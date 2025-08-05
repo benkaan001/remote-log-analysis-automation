@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250805_005121
+----------------------
+20250805_005121 ## Passed Parameter Values:
+20250805_005121 DOMAIN: hr
+20250805_005121 SUB_DOMAIN: recruiting
+20250805_005121 USER_NAME: payroll_admin
+20250805_005121 TABLE_NAME: job_offer_gen
+20250805_005121 EXEC_SCOPE: PROD
+
+20250805_005121 ## Derived Variable Values:
+20250805_005121 STARTTIME: 005121
+20250805_005121 LOGDATE: 20250805_005121
+20250805_005121 JOB=job_offer_gen
+
+20250805_005121 ###############################################################
+20250805_005121 ### RUNNING OFFER GEN SCRIPT
+20250805_005121 ###############################################################
+
+20250805_005121 ## Checking if script exists
+20250805_005121 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250805_005121 File exists...
+
+20250805_005121 ## Running script
+20250805_005121  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250805_005139
+20250805_005139
+Execution Return Code: 0
+20250805_005139
+-----------
+JOB SUCCESS
+-----------
+Start Time: 005121, End Time: 005139
