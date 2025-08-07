@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250807_191528
+----------------------
+20250807_191528 ## Passed Parameter Values:
+20250807_191528 DOMAIN: finance
+20250807_191528 SUB_DOMAIN: reporting
+20250807_191528 USER_NAME: finance_user1
+20250807_191528 TABLE_NAME: job_report_daily
+20250807_191528 EXEC_SCOPE: UAT
+
+20250807_191528 ## Derived Variable Values:
+20250807_191528 STARTTIME: 191528
+20250807_191528 LOGDATE: 20250807_191528
+20250807_191528 JOB=job_report_daily
+
+20250807_191528 ###############################################################
+20250807_191528 ### RUNNING REPORT DAILY SCRIPT
+20250807_191528 ###############################################################
+
+20250807_191528 ## Checking if script exists
+20250807_191528 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20250807_191528 File exists...
+
+20250807_191528 ## Running script
+20250807_191528  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250807_191619
+20250807_191619
+Execution Return Code: 1
+20250807_191619
+---------
+JOB ERROR
+---------
+Start Time: 191528, End Time: 191619

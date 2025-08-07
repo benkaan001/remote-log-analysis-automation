@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250807_173932
+----------------------
+20250807_173932 ## Passed Parameter Values:
+20250807_173932 DOMAIN: marketing
+20250807_173932 SUB_DOMAIN: analytics
+20250807_173932 USER_NAME: campaign_manager
+20250807_173932 TABLE_NAME: job_conversion_rate
+20250807_173932 EXEC_SCOPE: TEST
+
+20250807_173932 ## Derived Variable Values:
+20250807_173932 STARTTIME: 173932
+20250807_173932 LOGDATE: 20250807_173932
+20250807_173932 JOB=job_conversion_rate
+
+20250807_173932 ###############################################################
+20250807_173932 ### RUNNING CONVERSION RATE SCRIPT
+20250807_173932 ###############################################################
+
+20250807_173932 ## Checking if script exists
+20250807_173932 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20250807_173932 File exists...
+
+20250807_173932 ## Running script
+20250807_173932  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250807_174016
+20250807_174016
+Execution Return Code: 8
+20250807_174016
+---------
+JOB ERROR
+---------
+Start Time: 173932, End Time: 174016
