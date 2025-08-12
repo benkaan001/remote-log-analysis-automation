@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250812_010429
+----------------------
+20250812_010429 ## Passed Parameter Values:
+20250812_010429 DOMAIN: hr
+20250812_010429 SUB_DOMAIN: recruiting
+20250812_010429 USER_NAME: payroll_admin
+20250812_010429 TABLE_NAME: job_interview_sched
+20250812_010429 EXEC_SCOPE: PROD
+
+20250812_010429 ## Derived Variable Values:
+20250812_010429 STARTTIME: 010429
+20250812_010429 LOGDATE: 20250812_010429
+20250812_010429 JOB=job_interview_sched
+
+20250812_010429 ###############################################################
+20250812_010429 ### RUNNING INTERVIEW SCHED SCRIPT
+20250812_010429 ###############################################################
+
+20250812_010429 ## Checking if script exists
+20250812_010429 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250812_010429 File exists...
+
+20250812_010429 ## Running script
+20250812_010429  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Recruiting generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250812_010515
+20250812_010515
+Execution Return Code: 8
+20250812_010515
+---------
+JOB ERROR
+---------
+Start Time: 010429, End Time: 010515

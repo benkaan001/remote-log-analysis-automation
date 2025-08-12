@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250812_012834
+----------------------
+20250812_012834 ## Passed Parameter Values:
+20250812_012834 DOMAIN: marketing
+20250812_012834 SUB_DOMAIN: analytics
+20250812_012834 USER_NAME: campaign_manager
+20250812_012834 TABLE_NAME: job_conversion_rate
+20250812_012834 EXEC_SCOPE: DEV
+
+20250812_012834 ## Derived Variable Values:
+20250812_012834 STARTTIME: 012834
+20250812_012834 LOGDATE: 20250812_012834
+20250812_012834 JOB=job_conversion_rate
+
+20250812_012834 ###############################################################
+20250812_012834 ### RUNNING CONVERSION RATE SCRIPT
+20250812_012834 ###############################################################
+
+20250812_012834 ## Checking if script exists
+20250812_012834 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20250812_012834 File exists...
+
+20250812_012834 ## Running script
+20250812_012834  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250812_012853
+20250812_012853
+Execution Return Code: 0
+20250812_012853
+-----------
+JOB SUCCESS
+-----------
+Start Time: 012834, End Time: 012853
