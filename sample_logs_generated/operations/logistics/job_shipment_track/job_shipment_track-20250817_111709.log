@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250817_111709
+----------------------
+20250817_111709 ## Passed Parameter Values:
+20250817_111709 DOMAIN: operations
+20250817_111709 SUB_DOMAIN: logistics
+20250817_111709 USER_NAME: scheduler
+20250817_111709 TABLE_NAME: job_shipment_track
+20250817_111709 EXEC_SCOPE: UAT
+
+20250817_111709 ## Derived Variable Values:
+20250817_111709 STARTTIME: 111709
+20250817_111709 LOGDATE: 20250817_111709
+20250817_111709 JOB=job_shipment_track
+
+20250817_111709 ###############################################################
+20250817_111709 ### RUNNING SHIPMENT TRACK SCRIPT
+20250817_111709 ###############################################################
+
+20250817_111709 ## Checking if script exists
+20250817_111709 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250817_111709 File exists...
+
+20250817_111709 ## Running script
+20250817_111709  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250817_111724
+20250817_111724
+Execution Return Code: 4
+20250817_111724
+---------
+JOB ERROR
+---------
+Start Time: 111709, End Time: 111724
