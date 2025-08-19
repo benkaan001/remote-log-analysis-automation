@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250819_000115
+----------------------
+20250819_000115 ## Passed Parameter Values:
+20250819_000115 DOMAIN: operations
+20250819_000115 SUB_DOMAIN: logistics
+20250819_000115 USER_NAME: logistics_manager
+20250819_000115 TABLE_NAME: job_inventory_check
+20250819_000115 EXEC_SCOPE: DEV
+
+20250819_000115 ## Derived Variable Values:
+20250819_000115 STARTTIME: 000115
+20250819_000115 LOGDATE: 20250819_000115
+20250819_000115 JOB=job_inventory_check
+
+20250819_000115 ###############################################################
+20250819_000115 ### RUNNING INVENTORY CHECK SCRIPT
+20250819_000115 ###############################################################
+
+20250819_000115 ## Checking if script exists
+20250819_000115 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250819_000115 File exists...
+
+20250819_000115 ## Running script
+20250819_000115  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250819_000132
+20250819_000132
+Execution Return Code: 0
+20250819_000132
+-----------
+JOB SUCCESS
+-----------
+Start Time: 000115, End Time: 000132
