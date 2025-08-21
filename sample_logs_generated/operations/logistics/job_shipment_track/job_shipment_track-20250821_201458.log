@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250821_201458
+----------------------
+20250821_201458 ## Passed Parameter Values:
+20250821_201458 DOMAIN: operations
+20250821_201458 SUB_DOMAIN: logistics
+20250821_201458 USER_NAME: logistics_manager
+20250821_201458 TABLE_NAME: job_shipment_track
+20250821_201458 EXEC_SCOPE: UAT
+
+20250821_201458 ## Derived Variable Values:
+20250821_201458 STARTTIME: 201458
+20250821_201458 LOGDATE: 20250821_201458
+20250821_201458 JOB=job_shipment_track
+
+20250821_201458 ###############################################################
+20250821_201458 ### RUNNING SHIPMENT TRACK SCRIPT
+20250821_201458 ###############################################################
+
+20250821_201458 ## Checking if script exists
+20250821_201458 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250821_201458 File exists...
+
+20250821_201458 ## Running script
+20250821_201458  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250821_201520
+20250821_201520
+Execution Return Code: 4
+20250821_201520
+---------
+JOB ERROR
+---------
+Start Time: 201458, End Time: 201520
