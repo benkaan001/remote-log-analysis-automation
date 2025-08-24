@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250824_012348
+----------------------
+20250824_012348 ## Passed Parameter Values:
+20250824_012348 DOMAIN: hr
+20250824_012348 SUB_DOMAIN: recruiting
+20250824_012348 USER_NAME: recruiter1
+20250824_012348 TABLE_NAME: job_offer_gen
+20250824_012348 EXEC_SCOPE: DEV
+
+20250824_012348 ## Derived Variable Values:
+20250824_012348 STARTTIME: 012348
+20250824_012348 LOGDATE: 20250824_012348
+20250824_012348 JOB=job_offer_gen
+
+20250824_012348 ###############################################################
+20250824_012348 ### RUNNING OFFER GEN SCRIPT
+20250824_012348 ###############################################################
+
+20250824_012348 ## Checking if script exists
+20250824_012348 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250824_012348 File exists...
+
+20250824_012348 ## Running script
+20250824_012348  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Recruiting generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250824_012439
+20250824_012439
+Execution Return Code: 1
+20250824_012439
+---------
+JOB ERROR
+---------
+Start Time: 012348, End Time: 012439

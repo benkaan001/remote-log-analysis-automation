@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250824_022115
+----------------------
+20250824_022115 ## Passed Parameter Values:
+20250824_022115 DOMAIN: hr
+20250824_022115 SUB_DOMAIN: payroll
+20250824_022115 USER_NAME: recruiter1
+20250824_022115 TABLE_NAME: job_tax_withhold
+20250824_022115 EXEC_SCOPE: TEST
+
+20250824_022115 ## Derived Variable Values:
+20250824_022115 STARTTIME: 022115
+20250824_022115 LOGDATE: 20250824_022115
+20250824_022115 JOB=job_tax_withhold
+
+20250824_022115 ###############################################################
+20250824_022115 ### RUNNING TAX WITHHOLD SCRIPT
+20250824_022115 ###############################################################
+
+20250824_022115 ## Checking if script exists
+20250824_022115 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250824_022115 File exists...
+
+20250824_022115 ## Running script
+20250824_022115  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250824_022136
+20250824_022136
+Execution Return Code: 4
+20250824_022136
+---------
+JOB ERROR
+---------
+Start Time: 022115, End Time: 022136

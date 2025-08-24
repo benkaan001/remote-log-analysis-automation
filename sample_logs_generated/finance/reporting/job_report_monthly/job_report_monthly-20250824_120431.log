@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250824_120431
+----------------------
+20250824_120431 ## Passed Parameter Values:
+20250824_120431 DOMAIN: finance
+20250824_120431 SUB_DOMAIN: reporting
+20250824_120431 USER_NAME: finance_user1
+20250824_120431 TABLE_NAME: job_report_monthly
+20250824_120431 EXEC_SCOPE: DEV
+
+20250824_120431 ## Derived Variable Values:
+20250824_120431 STARTTIME: 120431
+20250824_120431 LOGDATE: 20250824_120431
+20250824_120431 JOB=job_report_monthly
+
+20250824_120431 ###############################################################
+20250824_120431 ### RUNNING REPORT MONTHLY SCRIPT
+20250824_120431 ###############################################################
+
+20250824_120431 ## Checking if script exists
+20250824_120431 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20250824_120431 File exists...
+
+20250824_120431 ## Running script
+20250824_120431  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250824_120529
+20250824_120529
+Execution Return Code: 8
+20250824_120529
+---------
+JOB ERROR
+---------
+Start Time: 120431, End Time: 120529
