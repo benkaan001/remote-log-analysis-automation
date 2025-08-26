@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250826_214516
+----------------------
+20250826_214516 ## Passed Parameter Values:
+20250826_214516 DOMAIN: hr
+20250826_214516 SUB_DOMAIN: payroll
+20250826_214516 USER_NAME: payroll_admin
+20250826_214516 TABLE_NAME: job_salary_calc
+20250826_214516 EXEC_SCOPE: DEV
+
+20250826_214516 ## Derived Variable Values:
+20250826_214516 STARTTIME: 214516
+20250826_214516 LOGDATE: 20250826_214516
+20250826_214516 JOB=job_salary_calc
+
+20250826_214516 ###############################################################
+20250826_214516 ### RUNNING SALARY CALC SCRIPT
+20250826_214516 ###############################################################
+
+20250826_214516 ## Checking if script exists
+20250826_214516 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20250826_214516 File exists...
+
+20250826_214516 ## Running script
+20250826_214516  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250826_214525
+20250826_214525
+Execution Return Code: 0
+20250826_214525
+-----------
+JOB SUCCESS
+-----------
+Start Time: 214516, End Time: 214525

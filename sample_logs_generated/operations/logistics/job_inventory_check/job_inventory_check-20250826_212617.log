@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250826_212617
+----------------------
+20250826_212617 ## Passed Parameter Values:
+20250826_212617 DOMAIN: operations
+20250826_212617 SUB_DOMAIN: logistics
+20250826_212617 USER_NAME: logistics_manager
+20250826_212617 TABLE_NAME: job_inventory_check
+20250826_212617 EXEC_SCOPE: UAT
+
+20250826_212617 ## Derived Variable Values:
+20250826_212617 STARTTIME: 212617
+20250826_212617 LOGDATE: 20250826_212617
+20250826_212617 JOB=job_inventory_check
+
+20250826_212617 ###############################################################
+20250826_212617 ### RUNNING INVENTORY CHECK SCRIPT
+20250826_212617 ###############################################################
+
+20250826_212617 ## Checking if script exists
+20250826_212617 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250826_212617 File exists...
+
+20250826_212617 ## Running script
+20250826_212617  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250826_212625
+20250826_212625
+Execution Return Code: 8
+20250826_212625
+---------
+JOB ERROR
+---------
+Start Time: 212617, End Time: 212625
