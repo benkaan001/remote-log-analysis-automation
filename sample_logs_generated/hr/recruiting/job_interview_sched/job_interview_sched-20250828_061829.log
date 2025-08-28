@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250828_061829
+----------------------
+20250828_061829 ## Passed Parameter Values:
+20250828_061829 DOMAIN: hr
+20250828_061829 SUB_DOMAIN: recruiting
+20250828_061829 USER_NAME: recruiter1
+20250828_061829 TABLE_NAME: job_interview_sched
+20250828_061829 EXEC_SCOPE: TEST
+
+20250828_061829 ## Derived Variable Values:
+20250828_061829 STARTTIME: 061829
+20250828_061829 LOGDATE: 20250828_061829
+20250828_061829 JOB=job_interview_sched
+
+20250828_061829 ###############################################################
+20250828_061829 ### RUNNING INTERVIEW SCHED SCRIPT
+20250828_061829 ###############################################################
+
+20250828_061829 ## Checking if script exists
+20250828_061829 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250828_061829 File exists...
+
+20250828_061829 ## Running script
+20250828_061829  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250828_061900
+20250828_061900
+Execution Return Code: 2
+20250828_061900
+---------
+JOB ERROR
+---------
+Start Time: 061829, End Time: 061900

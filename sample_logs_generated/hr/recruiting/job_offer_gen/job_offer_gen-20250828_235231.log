@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250828_235231
+----------------------
+20250828_235231 ## Passed Parameter Values:
+20250828_235231 DOMAIN: hr
+20250828_235231 SUB_DOMAIN: recruiting
+20250828_235231 USER_NAME: recruiter1
+20250828_235231 TABLE_NAME: job_offer_gen
+20250828_235231 EXEC_SCOPE: TEST
+
+20250828_235231 ## Derived Variable Values:
+20250828_235231 STARTTIME: 235231
+20250828_235231 LOGDATE: 20250828_235231
+20250828_235231 JOB=job_offer_gen
+
+20250828_235231 ###############################################################
+20250828_235231 ### RUNNING OFFER GEN SCRIPT
+20250828_235231 ###############################################################
+
+20250828_235231 ## Checking if script exists
+20250828_235231 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20250828_235231 File exists...
+
+20250828_235231 ## Running script
+20250828_235231  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250828_235246
+20250828_235246
+Execution Return Code: 1
+20250828_235246
+---------
+JOB ERROR
+---------
+Start Time: 235231, End Time: 235246

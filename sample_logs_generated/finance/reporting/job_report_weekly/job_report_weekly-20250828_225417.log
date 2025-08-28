@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250828_225417
+----------------------
+20250828_225417 ## Passed Parameter Values:
+20250828_225417 DOMAIN: finance
+20250828_225417 SUB_DOMAIN: reporting
+20250828_225417 USER_NAME: finance_user1
+20250828_225417 TABLE_NAME: job_report_weekly
+20250828_225417 EXEC_SCOPE: DEV
+
+20250828_225417 ## Derived Variable Values:
+20250828_225417 STARTTIME: 225417
+20250828_225417 LOGDATE: 20250828_225417
+20250828_225417 JOB=job_report_weekly
+
+20250828_225417 ###############################################################
+20250828_225417 ### RUNNING REPORT WEEKLY SCRIPT
+20250828_225417 ###############################################################
+
+20250828_225417 ## Checking if script exists
+20250828_225417 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250828_225417 File exists...
+
+20250828_225417 ## Running script
+20250828_225417  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250828_225427
+20250828_225427
+Execution Return Code: 4
+20250828_225427
+---------
+JOB ERROR
+---------
+Start Time: 225417, End Time: 225427
