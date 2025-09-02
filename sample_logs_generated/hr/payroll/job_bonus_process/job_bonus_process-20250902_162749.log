@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250902_162749
+----------------------
+20250902_162749 ## Passed Parameter Values:
+20250902_162749 DOMAIN: hr
+20250902_162749 SUB_DOMAIN: payroll
+20250902_162749 USER_NAME: recruiter1
+20250902_162749 TABLE_NAME: job_bonus_process
+20250902_162749 EXEC_SCOPE: UAT
+
+20250902_162749 ## Derived Variable Values:
+20250902_162749 STARTTIME: 162749
+20250902_162749 LOGDATE: 20250902_162749
+20250902_162749 JOB=job_bonus_process
+
+20250902_162749 ###############################################################
+20250902_162749 ### RUNNING BONUS PROCESS SCRIPT
+20250902_162749 ###############################################################
+
+20250902_162749 ## Checking if script exists
+20250902_162749 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20250902_162749 File exists...
+
+20250902_162749 ## Running script
+20250902_162749  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250902_162807
+20250902_162807
+Execution Return Code: 0
+20250902_162807
+-----------
+JOB SUCCESS
+-----------
+Start Time: 162749, End Time: 162807

@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250902_052808
+----------------------
+20250902_052808 ## Passed Parameter Values:
+20250902_052808 DOMAIN: marketing
+20250902_052808 SUB_DOMAIN: analytics
+20250902_052808 USER_NAME: campaign_manager
+20250902_052808 TABLE_NAME: job_roi_report
+20250902_052808 EXEC_SCOPE: DEV
+
+20250902_052808 ## Derived Variable Values:
+20250902_052808 STARTTIME: 052808
+20250902_052808 LOGDATE: 20250902_052808
+20250902_052808 JOB=job_roi_report
+
+20250902_052808 ###############################################################
+20250902_052808 ### RUNNING ROI REPORT SCRIPT
+20250902_052808 ###############################################################
+
+20250902_052808 ## Checking if script exists
+20250902_052808 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20250902_052808 File exists...
+
+20250902_052808 ## Running script
+20250902_052808  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250902_052813
+20250902_052813
+Execution Return Code: 4
+20250902_052813
+---------
+JOB ERROR
+---------
+Start Time: 052808, End Time: 052813
