@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20250907_020136
+----------------------
+20250907_020136 ## Passed Parameter Values:
+20250907_020136 DOMAIN: hr
+20250907_020136 SUB_DOMAIN: recruiting
+20250907_020136 USER_NAME: hr_user1
+20250907_020136 TABLE_NAME: job_interview_sched
+20250907_020136 EXEC_SCOPE: PROD
+
+20250907_020136 ## Derived Variable Values:
+20250907_020136 STARTTIME: 020136
+20250907_020136 LOGDATE: 20250907_020136
+20250907_020136 JOB=job_interview_sched
+
+20250907_020136 ###############################################################
+20250907_020136 ### RUNNING INTERVIEW SCHED SCRIPT
+20250907_020136 ###############################################################
+
+20250907_020136 ## Checking if script exists
+20250907_020136 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20250907_020136 File exists...
+
+20250907_020136 ## Running script
+20250907_020136  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250907_020144
+20250907_020144
+Execution Return Code: 4
+20250907_020144
+---------
+JOB ERROR
+---------
+Start Time: 020136, End Time: 020144
