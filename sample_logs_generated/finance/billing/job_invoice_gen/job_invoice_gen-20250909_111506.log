@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250909_111506
+----------------------
+20250909_111506 ## Passed Parameter Values:
+20250909_111506 DOMAIN: finance
+20250909_111506 SUB_DOMAIN: billing
+20250909_111506 USER_NAME: finance_admin
+20250909_111506 TABLE_NAME: job_invoice_gen
+20250909_111506 EXEC_SCOPE: DEV
+
+20250909_111506 ## Derived Variable Values:
+20250909_111506 STARTTIME: 111506
+20250909_111506 LOGDATE: 20250909_111506
+20250909_111506 JOB=job_invoice_gen
+
+20250909_111506 ###############################################################
+20250909_111506 ### RUNNING INVOICE GEN SCRIPT
+20250909_111506 ###############################################################
+
+20250909_111506 ## Checking if script exists
+20250909_111506 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20250909_111506 File exists...
+
+20250909_111506 ## Running script
+20250909_111506  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250909_111557
+20250909_111557
+Execution Return Code: 8
+20250909_111557
+---------
+JOB ERROR
+---------
+Start Time: 111506, End Time: 111557

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20250909_031713
+----------------------
+20250909_031713 ## Passed Parameter Values:
+20250909_031713 DOMAIN: operations
+20250909_031713 SUB_DOMAIN: scheduling
+20250909_031713 USER_NAME: ops_user1
+20250909_031713 TABLE_NAME: job_resource_alloc
+20250909_031713 EXEC_SCOPE: TEST
+
+20250909_031713 ## Derived Variable Values:
+20250909_031713 STARTTIME: 031713
+20250909_031713 LOGDATE: 20250909_031713
+20250909_031713 JOB=job_resource_alloc
+
+20250909_031713 ###############################################################
+20250909_031713 ### RUNNING RESOURCE ALLOC SCRIPT
+20250909_031713 ###############################################################
+
+20250909_031713 ## Checking if script exists
+20250909_031713 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20250909_031713 File exists...
+
+20250909_031713 ## Running script
+20250909_031713  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250909_031741
+20250909_031741
+Execution Return Code: 2
+20250909_031741
+---------
+JOB ERROR
+---------
+Start Time: 031713, End Time: 031741

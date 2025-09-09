@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250909_203947
+----------------------
+20250909_203947 ## Passed Parameter Values:
+20250909_203947 DOMAIN: marketing
+20250909_203947 SUB_DOMAIN: campaigns
+20250909_203947 USER_NAME: marketing_user1
+20250909_203947 TABLE_NAME: job_email_blast
+20250909_203947 EXEC_SCOPE: TEST
+
+20250909_203947 ## Derived Variable Values:
+20250909_203947 STARTTIME: 203947
+20250909_203947 LOGDATE: 20250909_203947
+20250909_203947 JOB=job_email_blast
+
+20250909_203947 ###############################################################
+20250909_203947 ### RUNNING EMAIL BLAST SCRIPT
+20250909_203947 ###############################################################
+
+20250909_203947 ## Checking if script exists
+20250909_203947 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20250909_203947 File exists...
+
+20250909_203947 ## Running script
+20250909_203947  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250909_204039
+20250909_204039
+Execution Return Code: 2
+20250909_204039
+---------
+JOB ERROR
+---------
+Start Time: 203947, End Time: 204039
