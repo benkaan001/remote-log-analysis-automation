@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250911_174715
+----------------------
+20250911_174715 ## Passed Parameter Values:
+20250911_174715 DOMAIN: hr
+20250911_174715 SUB_DOMAIN: payroll
+20250911_174715 USER_NAME: payroll_admin
+20250911_174715 TABLE_NAME: job_tax_withhold
+20250911_174715 EXEC_SCOPE: UAT
+
+20250911_174715 ## Derived Variable Values:
+20250911_174715 STARTTIME: 174715
+20250911_174715 LOGDATE: 20250911_174715
+20250911_174715 JOB=job_tax_withhold
+
+20250911_174715 ###############################################################
+20250911_174715 ### RUNNING TAX WITHHOLD SCRIPT
+20250911_174715 ###############################################################
+
+20250911_174715 ## Checking if script exists
+20250911_174715 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250911_174715 File exists...
+
+20250911_174715 ## Running script
+20250911_174715  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Fatal error in data processing pipeline.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250911_174745
+20250911_174745
+Execution Return Code: 8
+20250911_174745
+---------
+JOB ERROR
+---------
+Start Time: 174715, End Time: 174745

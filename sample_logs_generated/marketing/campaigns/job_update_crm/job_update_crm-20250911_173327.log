@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250911_173327
+----------------------
+20250911_173327 ## Passed Parameter Values:
+20250911_173327 DOMAIN: marketing
+20250911_173327 SUB_DOMAIN: campaigns
+20250911_173327 USER_NAME: campaign_manager
+20250911_173327 TABLE_NAME: job_update_crm
+20250911_173327 EXEC_SCOPE: TEST
+
+20250911_173327 ## Derived Variable Values:
+20250911_173327 STARTTIME: 173327
+20250911_173327 LOGDATE: 20250911_173327
+20250911_173327 JOB=job_update_crm
+
+20250911_173327 ###############################################################
+20250911_173327 ### RUNNING UPDATE CRM SCRIPT
+20250911_173327 ###############################################################
+
+20250911_173327 ## Checking if script exists
+20250911_173327 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250911_173327 File exists...
+
+20250911_173327 ## Running script
+20250911_173327  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250911_173400
+20250911_173400
+Execution Return Code: 2
+20250911_173400
+---------
+JOB ERROR
+---------
+Start Time: 173327, End Time: 173400

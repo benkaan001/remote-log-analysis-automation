@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250911_150258
+----------------------
+20250911_150258 ## Passed Parameter Values:
+20250911_150258 DOMAIN: finance
+20250911_150258 SUB_DOMAIN: reporting
+20250911_150258 USER_NAME: accountant1
+20250911_150258 TABLE_NAME: job_report_daily
+20250911_150258 EXEC_SCOPE: PROD
+
+20250911_150258 ## Derived Variable Values:
+20250911_150258 STARTTIME: 150258
+20250911_150258 LOGDATE: 20250911_150258
+20250911_150258 JOB=job_report_daily
+
+20250911_150258 ###############################################################
+20250911_150258 ### RUNNING REPORT DAILY SCRIPT
+20250911_150258 ###############################################################
+
+20250911_150258 ## Checking if script exists
+20250911_150258 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20250911_150258 File exists...
+
+20250911_150258 ## Running script
+20250911_150258  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250911_150337
+20250911_150337
+Execution Return Code: 2
+20250911_150337
+---------
+JOB ERROR
+---------
+Start Time: 150258, End Time: 150337
