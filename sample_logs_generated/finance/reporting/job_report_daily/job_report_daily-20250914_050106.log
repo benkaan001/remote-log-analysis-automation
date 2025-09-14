@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250914_050106
+----------------------
+20250914_050106 ## Passed Parameter Values:
+20250914_050106 DOMAIN: finance
+20250914_050106 SUB_DOMAIN: reporting
+20250914_050106 USER_NAME: finance_admin
+20250914_050106 TABLE_NAME: job_report_daily
+20250914_050106 EXEC_SCOPE: DEV
+
+20250914_050106 ## Derived Variable Values:
+20250914_050106 STARTTIME: 050106
+20250914_050106 LOGDATE: 20250914_050106
+20250914_050106 JOB=job_report_daily
+
+20250914_050106 ###############################################################
+20250914_050106 ### RUNNING REPORT DAILY SCRIPT
+20250914_050106 ###############################################################
+
+20250914_050106 ## Checking if script exists
+20250914_050106 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20250914_050106 File exists...
+
+20250914_050106 ## Running script
+20250914_050106  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20250914_050152
+20250914_050152
+Execution Return Code: 0
+20250914_050152
+-----------
+JOB SUCCESS
+-----------
+Start Time: 050106, End Time: 050152
