@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250916_181629
+----------------------
+20250916_181629 ## Passed Parameter Values:
+20250916_181629 DOMAIN: operations
+20250916_181629 SUB_DOMAIN: logistics
+20250916_181629 USER_NAME: ops_user1
+20250916_181629 TABLE_NAME: job_inventory_check
+20250916_181629 EXEC_SCOPE: UAT
+
+20250916_181629 ## Derived Variable Values:
+20250916_181629 STARTTIME: 181629
+20250916_181629 LOGDATE: 20250916_181629
+20250916_181629 JOB=job_inventory_check
+
+20250916_181629 ###############################################################
+20250916_181629 ### RUNNING INVENTORY CHECK SCRIPT
+20250916_181629 ###############################################################
+
+20250916_181629 ## Checking if script exists
+20250916_181629 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250916_181629 File exists...
+
+20250916_181629 ## Running script
+20250916_181629  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250916_181634
+20250916_181634
+Execution Return Code: 4
+20250916_181634
+---------
+JOB ERROR
+---------
+Start Time: 181629, End Time: 181634

@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20250916_065933
+----------------------
+20250916_065933 ## Passed Parameter Values:
+20250916_065933 DOMAIN: hr
+20250916_065933 SUB_DOMAIN: payroll
+20250916_065933 USER_NAME: recruiter1
+20250916_065933 TABLE_NAME: job_tax_withhold
+20250916_065933 EXEC_SCOPE: TEST
+
+20250916_065933 ## Derived Variable Values:
+20250916_065933 STARTTIME: 065933
+20250916_065933 LOGDATE: 20250916_065933
+20250916_065933 JOB=job_tax_withhold
+
+20250916_065933 ###############################################################
+20250916_065933 ### RUNNING TAX WITHHOLD SCRIPT
+20250916_065933 ###############################################################
+
+20250916_065933 ## Checking if script exists
+20250916_065933 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20250916_065933 File exists...
+
+20250916_065933 ## Running script
+20250916_065933  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250916_070024
+20250916_070024
+Execution Return Code: 4
+20250916_070024
+---------
+JOB ERROR
+---------
+Start Time: 065933, End Time: 070024
