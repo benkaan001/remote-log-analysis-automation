@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250918_184705
+----------------------
+20250918_184705 ## Passed Parameter Values:
+20250918_184705 DOMAIN: operations
+20250918_184705 SUB_DOMAIN: logistics
+20250918_184705 USER_NAME: scheduler
+20250918_184705 TABLE_NAME: job_inventory_check
+20250918_184705 EXEC_SCOPE: PROD
+
+20250918_184705 ## Derived Variable Values:
+20250918_184705 STARTTIME: 184705
+20250918_184705 LOGDATE: 20250918_184705
+20250918_184705 JOB=job_inventory_check
+
+20250918_184705 ###############################################################
+20250918_184705 ### RUNNING INVENTORY CHECK SCRIPT
+20250918_184705 ###############################################################
+
+20250918_184705 ## Checking if script exists
+20250918_184705 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20250918_184705 File exists...
+
+20250918_184705 ## Running script
+20250918_184705  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250918_184733
+20250918_184733
+Execution Return Code: 4
+20250918_184733
+---------
+JOB ERROR
+---------
+Start Time: 184705, End Time: 184733
