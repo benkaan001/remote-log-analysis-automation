@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250921_224811
+----------------------
+20250921_224811 ## Passed Parameter Values:
+20250921_224811 DOMAIN: marketing
+20250921_224811 SUB_DOMAIN: analytics
+20250921_224811 USER_NAME: analyst1
+20250921_224811 TABLE_NAME: job_conversion_rate
+20250921_224811 EXEC_SCOPE: TEST
+
+20250921_224811 ## Derived Variable Values:
+20250921_224811 STARTTIME: 224811
+20250921_224811 LOGDATE: 20250921_224811
+20250921_224811 JOB=job_conversion_rate
+
+20250921_224811 ###############################################################
+20250921_224811 ### RUNNING CONVERSION RATE SCRIPT
+20250921_224811 ###############################################################
+
+20250921_224811 ## Checking if script exists
+20250921_224811 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20250921_224811 File exists...
+
+20250921_224811 ## Running script
+20250921_224811  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250921_224824
+20250921_224824
+Execution Return Code: 1
+20250921_224824
+---------
+JOB ERROR
+---------
+Start Time: 224811, End Time: 224824

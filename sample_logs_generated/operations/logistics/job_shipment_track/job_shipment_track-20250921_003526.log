@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250921_003526
+----------------------
+20250921_003526 ## Passed Parameter Values:
+20250921_003526 DOMAIN: operations
+20250921_003526 SUB_DOMAIN: logistics
+20250921_003526 USER_NAME: scheduler
+20250921_003526 TABLE_NAME: job_shipment_track
+20250921_003526 EXEC_SCOPE: TEST
+
+20250921_003526 ## Derived Variable Values:
+20250921_003526 STARTTIME: 003526
+20250921_003526 LOGDATE: 20250921_003526
+20250921_003526 JOB=job_shipment_track
+
+20250921_003526 ###############################################################
+20250921_003526 ### RUNNING SHIPMENT TRACK SCRIPT
+20250921_003526 ###############################################################
+
+20250921_003526 ## Checking if script exists
+20250921_003526 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250921_003526 File exists...
+
+20250921_003526 ## Running script
+20250921_003526  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250921_003623
+20250921_003623
+Execution Return Code: 4
+20250921_003623
+---------
+JOB ERROR
+---------
+Start Time: 003526, End Time: 003623

@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250921_215518
+----------------------
+20250921_215518 ## Passed Parameter Values:
+20250921_215518 DOMAIN: finance
+20250921_215518 SUB_DOMAIN: billing
+20250921_215518 USER_NAME: finance_user1
+20250921_215518 TABLE_NAME: job_tax_calc
+20250921_215518 EXEC_SCOPE: TEST
+
+20250921_215518 ## Derived Variable Values:
+20250921_215518 STARTTIME: 215518
+20250921_215518 LOGDATE: 20250921_215518
+20250921_215518 JOB=job_tax_calc
+
+20250921_215518 ###############################################################
+20250921_215518 ### RUNNING TAX CALC SCRIPT
+20250921_215518 ###############################################################
+
+20250921_215518 ## Checking if script exists
+20250921_215518 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20250921_215518 File exists...
+
+20250921_215518 ## Running script
+20250921_215518  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250921_215556
+20250921_215556
+Execution Return Code: 1
+20250921_215556
+---------
+JOB ERROR
+---------
+Start Time: 215518, End Time: 215556

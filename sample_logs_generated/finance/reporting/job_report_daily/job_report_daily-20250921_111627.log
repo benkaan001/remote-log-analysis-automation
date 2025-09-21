@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250921_111627
+----------------------
+20250921_111627 ## Passed Parameter Values:
+20250921_111627 DOMAIN: finance
+20250921_111627 SUB_DOMAIN: reporting
+20250921_111627 USER_NAME: finance_admin
+20250921_111627 TABLE_NAME: job_report_daily
+20250921_111627 EXEC_SCOPE: TEST
+
+20250921_111627 ## Derived Variable Values:
+20250921_111627 STARTTIME: 111627
+20250921_111627 LOGDATE: 20250921_111627
+20250921_111627 JOB=job_report_daily
+
+20250921_111627 ###############################################################
+20250921_111627 ### RUNNING REPORT DAILY SCRIPT
+20250921_111627 ###############################################################
+
+20250921_111627 ## Checking if script exists
+20250921_111627 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20250921_111627 File exists...
+
+20250921_111627 ## Running script
+20250921_111627  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250921_111705
+20250921_111705
+Execution Return Code: 4
+20250921_111705
+---------
+JOB ERROR
+---------
+Start Time: 111627, End Time: 111705

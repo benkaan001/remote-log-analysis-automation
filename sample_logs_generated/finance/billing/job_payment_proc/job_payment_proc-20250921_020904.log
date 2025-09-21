@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20250921_020904
+----------------------
+20250921_020904 ## Passed Parameter Values:
+20250921_020904 DOMAIN: finance
+20250921_020904 SUB_DOMAIN: billing
+20250921_020904 USER_NAME: accountant1
+20250921_020904 TABLE_NAME: job_payment_proc
+20250921_020904 EXEC_SCOPE: DEV
+
+20250921_020904 ## Derived Variable Values:
+20250921_020904 STARTTIME: 020904
+20250921_020904 LOGDATE: 20250921_020904
+20250921_020904 JOB=job_payment_proc
+
+20250921_020904 ###############################################################
+20250921_020904 ### RUNNING PAYMENT PROC SCRIPT
+20250921_020904 ###############################################################
+
+20250921_020904 ## Checking if script exists
+20250921_020904 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20250921_020904 File exists...
+
+20250921_020904 ## Running script
+20250921_020904  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Tax calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250921_021001
+20250921_021001
+Execution Return Code: 1
+20250921_021001
+---------
+JOB ERROR
+---------
+Start Time: 020904, End Time: 021001

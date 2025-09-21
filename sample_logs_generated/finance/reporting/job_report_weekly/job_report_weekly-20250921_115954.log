@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20250921_115954
+----------------------
+20250921_115954 ## Passed Parameter Values:
+20250921_115954 DOMAIN: finance
+20250921_115954 SUB_DOMAIN: reporting
+20250921_115954 USER_NAME: finance_user1
+20250921_115954 TABLE_NAME: job_report_weekly
+20250921_115954 EXEC_SCOPE: DEV
+
+20250921_115954 ## Derived Variable Values:
+20250921_115954 STARTTIME: 115954
+20250921_115954 LOGDATE: 20250921_115954
+20250921_115954 JOB=job_report_weekly
+
+20250921_115954 ###############################################################
+20250921_115954 ### RUNNING REPORT WEEKLY SCRIPT
+20250921_115954 ###############################################################
+
+20250921_115954 ## Checking if script exists
+20250921_115954 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20250921_115954 File exists...
+
+20250921_115954 ## Running script
+20250921_115954  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Monthly aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20250921_120010
+20250921_120010
+Execution Return Code: 4
+20250921_120010
+---------
+JOB ERROR
+---------
+Start Time: 115954, End Time: 120010
