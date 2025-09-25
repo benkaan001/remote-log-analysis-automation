@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250925_000750
+----------------------
+20250925_000750 ## Passed Parameter Values:
+20250925_000750 DOMAIN: marketing
+20250925_000750 SUB_DOMAIN: analytics
+20250925_000750 USER_NAME: marketing_user1
+20250925_000750 TABLE_NAME: job_web_traffic
+20250925_000750 EXEC_SCOPE: DEV
+
+20250925_000750 ## Derived Variable Values:
+20250925_000750 STARTTIME: 000750
+20250925_000750 LOGDATE: 20250925_000750
+20250925_000750 JOB=job_web_traffic
+
+20250925_000750 ###############################################################
+20250925_000750 ### RUNNING WEB TRAFFIC SCRIPT
+20250925_000750 ###############################################################
+
+20250925_000750 ## Checking if script exists
+20250925_000750 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20250925_000750 File exists...
+
+20250925_000750 ## Running script
+20250925_000750  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Traffic analysis error: Invalid source attribution.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250925_000824
+20250925_000824
+Execution Return Code: 1
+20250925_000824
+---------
+JOB ERROR
+---------
+Start Time: 000750, End Time: 000824

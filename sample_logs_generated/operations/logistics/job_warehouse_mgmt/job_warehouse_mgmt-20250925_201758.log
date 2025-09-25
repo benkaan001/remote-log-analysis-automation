@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250925_201758
+----------------------
+20250925_201758 ## Passed Parameter Values:
+20250925_201758 DOMAIN: operations
+20250925_201758 SUB_DOMAIN: logistics
+20250925_201758 USER_NAME: logistics_manager
+20250925_201758 TABLE_NAME: job_warehouse_mgmt
+20250925_201758 EXEC_SCOPE: UAT
+
+20250925_201758 ## Derived Variable Values:
+20250925_201758 STARTTIME: 201758
+20250925_201758 LOGDATE: 20250925_201758
+20250925_201758 JOB=job_warehouse_mgmt
+
+20250925_201758 ###############################################################
+20250925_201758 ### RUNNING WAREHOUSE MGMT SCRIPT
+20250925_201758 ###############################################################
+
+20250925_201758 ## Checking if script exists
+20250925_201758 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20250925_201758 File exists...
+
+20250925_201758 ## Running script
+20250925_201758  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20250925_201847
+20250925_201847
+Execution Return Code: 2
+20250925_201847
+---------
+JOB ERROR
+---------
+Start Time: 201758, End Time: 201847
