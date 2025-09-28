@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20250928_193724
+----------------------
+20250928_193724 ## Passed Parameter Values:
+20250928_193724 DOMAIN: marketing
+20250928_193724 SUB_DOMAIN: analytics
+20250928_193724 USER_NAME: analyst1
+20250928_193724 TABLE_NAME: job_roi_report
+20250928_193724 EXEC_SCOPE: PROD
+
+20250928_193724 ## Derived Variable Values:
+20250928_193724 STARTTIME: 193724
+20250928_193724 LOGDATE: 20250928_193724
+20250928_193724 JOB=job_roi_report
+
+20250928_193724 ###############################################################
+20250928_193724 ### RUNNING ROI REPORT SCRIPT
+20250928_193724 ###############################################################
+
+20250928_193724 ## Checking if script exists
+20250928_193724 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20250928_193724 File exists...
+
+20250928_193724 ## Running script
+20250928_193724  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20250928_193810
+20250928_193810
+Execution Return Code: 8
+20250928_193810
+---------
+JOB ERROR
+---------
+Start Time: 193724, End Time: 193810

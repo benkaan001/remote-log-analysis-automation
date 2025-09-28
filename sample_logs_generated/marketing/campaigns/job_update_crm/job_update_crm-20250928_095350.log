@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250928_095350
+----------------------
+20250928_095350 ## Passed Parameter Values:
+20250928_095350 DOMAIN: marketing
+20250928_095350 SUB_DOMAIN: campaigns
+20250928_095350 USER_NAME: campaign_manager
+20250928_095350 TABLE_NAME: job_update_crm
+20250928_095350 EXEC_SCOPE: UAT
+
+20250928_095350 ## Derived Variable Values:
+20250928_095350 STARTTIME: 095350
+20250928_095350 LOGDATE: 20250928_095350
+20250928_095350 JOB=job_update_crm
+
+20250928_095350 ###############################################################
+20250928_095350 ### RUNNING UPDATE CRM SCRIPT
+20250928_095350 ###############################################################
+
+20250928_095350 ## Checking if script exists
+20250928_095350 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20250928_095350 File exists...
+
+20250928_095350 ## Running script
+20250928_095350  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250928_095448
+20250928_095448
+Execution Return Code: 1
+20250928_095448
+---------
+JOB ERROR
+---------
+Start Time: 095350, End Time: 095448
