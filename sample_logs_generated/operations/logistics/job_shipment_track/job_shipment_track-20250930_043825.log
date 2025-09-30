@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20250930_043825
+----------------------
+20250930_043825 ## Passed Parameter Values:
+20250930_043825 DOMAIN: operations
+20250930_043825 SUB_DOMAIN: logistics
+20250930_043825 USER_NAME: ops_user1
+20250930_043825 TABLE_NAME: job_shipment_track
+20250930_043825 EXEC_SCOPE: UAT
+
+20250930_043825 ## Derived Variable Values:
+20250930_043825 STARTTIME: 043825
+20250930_043825 LOGDATE: 20250930_043825
+20250930_043825 JOB=job_shipment_track
+
+20250930_043825 ###############################################################
+20250930_043825 ### RUNNING SHIPMENT TRACK SCRIPT
+20250930_043825 ###############################################################
+
+20250930_043825 ## Checking if script exists
+20250930_043825 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20250930_043825 File exists...
+
+20250930_043825 ## Running script
+20250930_043825  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250930_043836
+20250930_043836
+Execution Return Code: 1
+20250930_043836
+---------
+JOB ERROR
+---------
+Start Time: 043825, End Time: 043836

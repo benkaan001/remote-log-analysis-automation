@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20250930_154133
+----------------------
+20250930_154133 ## Passed Parameter Values:
+20250930_154133 DOMAIN: marketing
+20250930_154133 SUB_DOMAIN: campaigns
+20250930_154133 USER_NAME: marketing_user1
+20250930_154133 TABLE_NAME: job_email_blast
+20250930_154133 EXEC_SCOPE: UAT
+
+20250930_154133 ## Derived Variable Values:
+20250930_154133 STARTTIME: 154133
+20250930_154133 LOGDATE: 20250930_154133
+20250930_154133 JOB=job_email_blast
+
+20250930_154133 ###############################################################
+20250930_154133 ### RUNNING EMAIL BLAST SCRIPT
+20250930_154133 ###############################################################
+
+20250930_154133 ## Checking if script exists
+20250930_154133 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20250930_154133 File exists...
+
+20250930_154133 ## Running script
+20250930_154133  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20250930_154213
+20250930_154213
+Execution Return Code: 1
+20250930_154213
+---------
+JOB ERROR
+---------
+Start Time: 154133, End Time: 154213
