@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251002_214446
+----------------------
+20251002_214446 ## Passed Parameter Values:
+20251002_214446 DOMAIN: finance
+20251002_214446 SUB_DOMAIN: billing
+20251002_214446 USER_NAME: finance_user1
+20251002_214446 TABLE_NAME: job_tax_calc
+20251002_214446 EXEC_SCOPE: TEST
+
+20251002_214446 ## Derived Variable Values:
+20251002_214446 STARTTIME: 214446
+20251002_214446 LOGDATE: 20251002_214446
+20251002_214446 JOB=job_tax_calc
+
+20251002_214446 ###############################################################
+20251002_214446 ### RUNNING TAX CALC SCRIPT
+20251002_214446 ###############################################################
+
+20251002_214446 ## Checking if script exists
+20251002_214446 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20251002_214446 File exists...
+
+20251002_214446 ## Running script
+20251002_214446  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251002_214455
+20251002_214455
+Execution Return Code: 4
+20251002_214455
+---------
+JOB ERROR
+---------
+Start Time: 214446, End Time: 214455
