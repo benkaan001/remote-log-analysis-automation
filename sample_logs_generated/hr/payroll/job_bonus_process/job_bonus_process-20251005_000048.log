@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20251005_000048
+----------------------
+20251005_000048 ## Passed Parameter Values:
+20251005_000048 DOMAIN: hr
+20251005_000048 SUB_DOMAIN: payroll
+20251005_000048 USER_NAME: recruiter1
+20251005_000048 TABLE_NAME: job_bonus_process
+20251005_000048 EXEC_SCOPE: PROD
+
+20251005_000048 ## Derived Variable Values:
+20251005_000048 STARTTIME: 000048
+20251005_000048 LOGDATE: 20251005_000048
+20251005_000048 JOB=job_bonus_process
+
+20251005_000048 ###############################################################
+20251005_000048 ### RUNNING BONUS PROCESS SCRIPT
+20251005_000048 ###############################################################
+
+20251005_000048 ## Checking if script exists
+20251005_000048 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20251005_000048 File exists...
+
+20251005_000048 ## Running script
+20251005_000048  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251005_000110
+20251005_000110
+Execution Return Code: 4
+20251005_000110
+---------
+JOB ERROR
+---------
+Start Time: 000048, End Time: 000110
