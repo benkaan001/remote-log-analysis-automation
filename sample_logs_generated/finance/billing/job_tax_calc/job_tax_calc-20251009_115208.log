@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251009_115208
+----------------------
+20251009_115208 ## Passed Parameter Values:
+20251009_115208 DOMAIN: finance
+20251009_115208 SUB_DOMAIN: billing
+20251009_115208 USER_NAME: finance_admin
+20251009_115208 TABLE_NAME: job_tax_calc
+20251009_115208 EXEC_SCOPE: UAT
+
+20251009_115208 ## Derived Variable Values:
+20251009_115208 STARTTIME: 115208
+20251009_115208 LOGDATE: 20251009_115208
+20251009_115208 JOB=job_tax_calc
+
+20251009_115208 ###############################################################
+20251009_115208 ### RUNNING TAX CALC SCRIPT
+20251009_115208 ###############################################################
+
+20251009_115208 ## Checking if script exists
+20251009_115208 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20251009_115208 File exists...
+
+20251009_115208 ## Running script
+20251009_115208  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251009_115239
+20251009_115239
+Execution Return Code: 8
+20251009_115239
+---------
+JOB ERROR
+---------
+Start Time: 115208, End Time: 115239

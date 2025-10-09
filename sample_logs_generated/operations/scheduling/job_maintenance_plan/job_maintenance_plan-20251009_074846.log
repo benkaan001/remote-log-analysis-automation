@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251009_074846
+----------------------
+20251009_074846 ## Passed Parameter Values:
+20251009_074846 DOMAIN: operations
+20251009_074846 SUB_DOMAIN: scheduling
+20251009_074846 USER_NAME: logistics_manager
+20251009_074846 TABLE_NAME: job_maintenance_plan
+20251009_074846 EXEC_SCOPE: DEV
+
+20251009_074846 ## Derived Variable Values:
+20251009_074846 STARTTIME: 074846
+20251009_074846 LOGDATE: 20251009_074846
+20251009_074846 JOB=job_maintenance_plan
+
+20251009_074846 ###############################################################
+20251009_074846 ### RUNNING MAINTENANCE PLAN SCRIPT
+20251009_074846 ###############################################################
+
+20251009_074846 ## Checking if script exists
+20251009_074846 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20251009_074846 File exists...
+
+20251009_074846 ## Running script
+20251009_074846  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251009_074928
+20251009_074928
+Execution Return Code: 4
+20251009_074928
+---------
+JOB ERROR
+---------
+Start Time: 074846, End Time: 074928

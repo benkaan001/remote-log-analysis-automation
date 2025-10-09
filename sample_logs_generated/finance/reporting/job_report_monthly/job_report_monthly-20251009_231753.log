@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251009_231753
+----------------------
+20251009_231753 ## Passed Parameter Values:
+20251009_231753 DOMAIN: finance
+20251009_231753 SUB_DOMAIN: reporting
+20251009_231753 USER_NAME: finance_admin
+20251009_231753 TABLE_NAME: job_report_monthly
+20251009_231753 EXEC_SCOPE: UAT
+
+20251009_231753 ## Derived Variable Values:
+20251009_231753 STARTTIME: 231753
+20251009_231753 LOGDATE: 20251009_231753
+20251009_231753 JOB=job_report_monthly
+
+20251009_231753 ###############################################################
+20251009_231753 ### RUNNING REPORT MONTHLY SCRIPT
+20251009_231753 ###############################################################
+
+20251009_231753 ## Checking if script exists
+20251009_231753 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20251009_231753 File exists...
+
+20251009_231753 ## Running script
+20251009_231753  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251009_231800
+20251009_231800
+Execution Return Code: 8
+20251009_231800
+---------
+JOB ERROR
+---------
+Start Time: 231753, End Time: 231800
