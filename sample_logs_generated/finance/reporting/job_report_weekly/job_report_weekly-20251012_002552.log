@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251012_002552
+----------------------
+20251012_002552 ## Passed Parameter Values:
+20251012_002552 DOMAIN: finance
+20251012_002552 SUB_DOMAIN: reporting
+20251012_002552 USER_NAME: accountant1
+20251012_002552 TABLE_NAME: job_report_weekly
+20251012_002552 EXEC_SCOPE: PROD
+
+20251012_002552 ## Derived Variable Values:
+20251012_002552 STARTTIME: 002552
+20251012_002552 LOGDATE: 20251012_002552
+20251012_002552 JOB=job_report_weekly
+
+20251012_002552 ###############################################################
+20251012_002552 ### RUNNING REPORT WEEKLY SCRIPT
+20251012_002552 ###############################################################
+
+20251012_002552 ## Checking if script exists
+20251012_002552 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20251012_002552 File exists...
+
+20251012_002552 ## Running script
+20251012_002552  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251012_002602
+20251012_002602
+Execution Return Code: 8
+20251012_002602
+---------
+JOB ERROR
+---------
+Start Time: 002552, End Time: 002602

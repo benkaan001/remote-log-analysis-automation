@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251012_144250
+----------------------
+20251012_144250 ## Passed Parameter Values:
+20251012_144250 DOMAIN: operations
+20251012_144250 SUB_DOMAIN: scheduling
+20251012_144250 USER_NAME: logistics_manager
+20251012_144250 TABLE_NAME: job_resource_alloc
+20251012_144250 EXEC_SCOPE: DEV
+
+20251012_144250 ## Derived Variable Values:
+20251012_144250 STARTTIME: 144250
+20251012_144250 LOGDATE: 20251012_144250
+20251012_144250 JOB=job_resource_alloc
+
+20251012_144250 ###############################################################
+20251012_144250 ### RUNNING RESOURCE ALLOC SCRIPT
+20251012_144250 ###############################################################
+
+20251012_144250 ## Checking if script exists
+20251012_144250 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251012_144250 File exists...
+
+20251012_144250 ## Running script
+20251012_144250  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251012_144300
+20251012_144300
+Execution Return Code: 1
+20251012_144300
+---------
+JOB ERROR
+---------
+Start Time: 144250, End Time: 144300

@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251012_112324
+----------------------
+20251012_112324 ## Passed Parameter Values:
+20251012_112324 DOMAIN: hr
+20251012_112324 SUB_DOMAIN: recruiting
+20251012_112324 USER_NAME: hr_user1
+20251012_112324 TABLE_NAME: job_offer_gen
+20251012_112324 EXEC_SCOPE: PROD
+
+20251012_112324 ## Derived Variable Values:
+20251012_112324 STARTTIME: 112324
+20251012_112324 LOGDATE: 20251012_112324
+20251012_112324 JOB=job_offer_gen
+
+20251012_112324 ###############################################################
+20251012_112324 ### RUNNING OFFER GEN SCRIPT
+20251012_112324 ###############################################################
+
+20251012_112324 ## Checking if script exists
+20251012_112324 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20251012_112324 File exists...
+
+20251012_112324 ## Running script
+20251012_112324  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251012_112332
+20251012_112332
+Execution Return Code: 2
+20251012_112332
+---------
+JOB ERROR
+---------
+Start Time: 112324, End Time: 112332
