@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251014_070011
+----------------------
+20251014_070011 ## Passed Parameter Values:
+20251014_070011 DOMAIN: hr
+20251014_070011 SUB_DOMAIN: recruiting
+20251014_070011 USER_NAME: recruiter1
+20251014_070011 TABLE_NAME: job_offer_gen
+20251014_070011 EXEC_SCOPE: UAT
+
+20251014_070011 ## Derived Variable Values:
+20251014_070011 STARTTIME: 070011
+20251014_070011 LOGDATE: 20251014_070011
+20251014_070011 JOB=job_offer_gen
+
+20251014_070011 ###############################################################
+20251014_070011 ### RUNNING OFFER GEN SCRIPT
+20251014_070011 ###############################################################
+
+20251014_070011 ## Checking if script exists
+20251014_070011 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20251014_070011 File exists...
+
+20251014_070011 ## Running script
+20251014_070011  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Recruiting report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251014_070053
+20251014_070053
+Execution Return Code: 1
+20251014_070053
+---------
+JOB ERROR
+---------
+Start Time: 070011, End Time: 070053
