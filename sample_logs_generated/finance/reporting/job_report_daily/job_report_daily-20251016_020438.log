@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251016_020438
+----------------------
+20251016_020438 ## Passed Parameter Values:
+20251016_020438 DOMAIN: finance
+20251016_020438 SUB_DOMAIN: reporting
+20251016_020438 USER_NAME: finance_user1
+20251016_020438 TABLE_NAME: job_report_daily
+20251016_020438 EXEC_SCOPE: UAT
+
+20251016_020438 ## Derived Variable Values:
+20251016_020438 STARTTIME: 020438
+20251016_020438 LOGDATE: 20251016_020438
+20251016_020438 JOB=job_report_daily
+
+20251016_020438 ###############################################################
+20251016_020438 ### RUNNING REPORT DAILY SCRIPT
+20251016_020438 ###############################################################
+
+20251016_020438 ## Checking if script exists
+20251016_020438 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20251016_020438 File exists...
+
+20251016_020438 ## Running script
+20251016_020438  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251016_020451
+20251016_020451
+Execution Return Code: 4
+20251016_020451
+---------
+JOB ERROR
+---------
+Start Time: 020438, End Time: 020451
