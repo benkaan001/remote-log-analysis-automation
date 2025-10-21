@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251021_025926
+----------------------
+20251021_025926 ## Passed Parameter Values:
+20251021_025926 DOMAIN: finance
+20251021_025926 SUB_DOMAIN: reporting
+20251021_025926 USER_NAME: finance_user1
+20251021_025926 TABLE_NAME: job_report_weekly
+20251021_025926 EXEC_SCOPE: DEV
+
+20251021_025926 ## Derived Variable Values:
+20251021_025926 STARTTIME: 025926
+20251021_025926 LOGDATE: 20251021_025926
+20251021_025926 JOB=job_report_weekly
+
+20251021_025926 ###############################################################
+20251021_025926 ### RUNNING REPORT WEEKLY SCRIPT
+20251021_025926 ###############################################################
+
+20251021_025926 ## Checking if script exists
+20251021_025926 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20251021_025926 File exists...
+
+20251021_025926 ## Running script
+20251021_025926  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251021_025933
+20251021_025933
+Execution Return Code: 2
+20251021_025933
+---------
+JOB ERROR
+---------
+Start Time: 025926, End Time: 025933

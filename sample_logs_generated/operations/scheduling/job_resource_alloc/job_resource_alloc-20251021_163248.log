@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251021_163248
+----------------------
+20251021_163248 ## Passed Parameter Values:
+20251021_163248 DOMAIN: operations
+20251021_163248 SUB_DOMAIN: scheduling
+20251021_163248 USER_NAME: ops_user1
+20251021_163248 TABLE_NAME: job_resource_alloc
+20251021_163248 EXEC_SCOPE: UAT
+
+20251021_163248 ## Derived Variable Values:
+20251021_163248 STARTTIME: 163248
+20251021_163248 LOGDATE: 20251021_163248
+20251021_163248 JOB=job_resource_alloc
+
+20251021_163248 ###############################################################
+20251021_163248 ### RUNNING RESOURCE ALLOC SCRIPT
+20251021_163248 ###############################################################
+
+20251021_163248 ## Checking if script exists
+20251021_163248 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251021_163248 File exists...
+
+20251021_163248 ## Running script
+20251021_163248  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251021_163346
+20251021_163346
+Execution Return Code: 4
+20251021_163346
+---------
+JOB ERROR
+---------
+Start Time: 163248, End Time: 163346

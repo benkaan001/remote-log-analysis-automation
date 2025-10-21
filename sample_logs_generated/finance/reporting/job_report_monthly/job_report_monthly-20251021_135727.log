@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251021_135727
+----------------------
+20251021_135727 ## Passed Parameter Values:
+20251021_135727 DOMAIN: finance
+20251021_135727 SUB_DOMAIN: reporting
+20251021_135727 USER_NAME: finance_user1
+20251021_135727 TABLE_NAME: job_report_monthly
+20251021_135727 EXEC_SCOPE: TEST
+
+20251021_135727 ## Derived Variable Values:
+20251021_135727 STARTTIME: 135727
+20251021_135727 LOGDATE: 20251021_135727
+20251021_135727 JOB=job_report_monthly
+
+20251021_135727 ###############################################################
+20251021_135727 ### RUNNING REPORT MONTHLY SCRIPT
+20251021_135727 ###############################################################
+
+20251021_135727 ## Checking if script exists
+20251021_135727 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20251021_135727 File exists...
+
+20251021_135727 ## Running script
+20251021_135727  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Report generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251021_135754
+20251021_135754
+Execution Return Code: 2
+20251021_135754
+---------
+JOB ERROR
+---------
+Start Time: 135727, End Time: 135754

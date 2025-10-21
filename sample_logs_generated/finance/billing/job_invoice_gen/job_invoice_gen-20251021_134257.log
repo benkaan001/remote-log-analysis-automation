@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251021_134257
+----------------------
+20251021_134257 ## Passed Parameter Values:
+20251021_134257 DOMAIN: finance
+20251021_134257 SUB_DOMAIN: billing
+20251021_134257 USER_NAME: finance_user1
+20251021_134257 TABLE_NAME: job_invoice_gen
+20251021_134257 EXEC_SCOPE: UAT
+
+20251021_134257 ## Derived Variable Values:
+20251021_134257 STARTTIME: 134257
+20251021_134257 LOGDATE: 20251021_134257
+20251021_134257 JOB=job_invoice_gen
+
+20251021_134257 ###############################################################
+20251021_134257 ### RUNNING INVOICE GEN SCRIPT
+20251021_134257 ###############################################################
+
+20251021_134257 ## Checking if script exists
+20251021_134257 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20251021_134257 File exists...
+
+20251021_134257 ## Running script
+20251021_134257  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251021_134350
+20251021_134350
+Execution Return Code: 0
+20251021_134350
+-----------
+JOB SUCCESS
+-----------
+Start Time: 134257, End Time: 134350
