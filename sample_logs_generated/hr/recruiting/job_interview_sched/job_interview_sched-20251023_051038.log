@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251023_051038
+----------------------
+20251023_051038 ## Passed Parameter Values:
+20251023_051038 DOMAIN: hr
+20251023_051038 SUB_DOMAIN: recruiting
+20251023_051038 USER_NAME: recruiter1
+20251023_051038 TABLE_NAME: job_interview_sched
+20251023_051038 EXEC_SCOPE: UAT
+
+20251023_051038 ## Derived Variable Values:
+20251023_051038 STARTTIME: 051038
+20251023_051038 LOGDATE: 20251023_051038
+20251023_051038 JOB=job_interview_sched
+
+20251023_051038 ###############################################################
+20251023_051038 ### RUNNING INTERVIEW SCHED SCRIPT
+20251023_051038 ###############################################################
+
+20251023_051038 ## Checking if script exists
+20251023_051038 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20251023_051038 File exists...
+
+20251023_051038 ## Running script
+20251023_051038  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251023_051120
+20251023_051120
+Execution Return Code: 1
+20251023_051120
+---------
+JOB ERROR
+---------
+Start Time: 051038, End Time: 051120

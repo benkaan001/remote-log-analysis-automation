@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251023_091438
+----------------------
+20251023_091438 ## Passed Parameter Values:
+20251023_091438 DOMAIN: finance
+20251023_091438 SUB_DOMAIN: reporting
+20251023_091438 USER_NAME: accountant1
+20251023_091438 TABLE_NAME: job_report_daily
+20251023_091438 EXEC_SCOPE: UAT
+
+20251023_091438 ## Derived Variable Values:
+20251023_091438 STARTTIME: 091438
+20251023_091438 LOGDATE: 20251023_091438
+20251023_091438 JOB=job_report_daily
+
+20251023_091438 ###############################################################
+20251023_091438 ### RUNNING REPORT DAILY SCRIPT
+20251023_091438 ###############################################################
+
+20251023_091438 ## Checking if script exists
+20251023_091438 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20251023_091438 File exists...
+
+20251023_091438 ## Running script
+20251023_091438  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251023_091505
+20251023_091505
+Execution Return Code: 4
+20251023_091505
+---------
+JOB ERROR
+---------
+Start Time: 091438, End Time: 091505
