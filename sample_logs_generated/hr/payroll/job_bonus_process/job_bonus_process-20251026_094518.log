@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20251026_094518
+----------------------
+20251026_094518 ## Passed Parameter Values:
+20251026_094518 DOMAIN: hr
+20251026_094518 SUB_DOMAIN: payroll
+20251026_094518 USER_NAME: recruiter1
+20251026_094518 TABLE_NAME: job_bonus_process
+20251026_094518 EXEC_SCOPE: TEST
+
+20251026_094518 ## Derived Variable Values:
+20251026_094518 STARTTIME: 094518
+20251026_094518 LOGDATE: 20251026_094518
+20251026_094518 JOB=job_bonus_process
+
+20251026_094518 ###############################################################
+20251026_094518 ### RUNNING BONUS PROCESS SCRIPT
+20251026_094518 ###############################################################
+
+20251026_094518 ## Checking if script exists
+20251026_094518 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20251026_094518 File exists...
+
+20251026_094518 ## Running script
+20251026_094518  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251026_094613
+20251026_094613
+Execution Return Code: 0
+20251026_094613
+-----------
+JOB SUCCESS
+-----------
+Start Time: 094518, End Time: 094613
