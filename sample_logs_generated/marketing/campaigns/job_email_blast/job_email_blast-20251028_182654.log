@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251028_182654
+----------------------
+20251028_182654 ## Passed Parameter Values:
+20251028_182654 DOMAIN: marketing
+20251028_182654 SUB_DOMAIN: campaigns
+20251028_182654 USER_NAME: campaign_manager
+20251028_182654 TABLE_NAME: job_email_blast
+20251028_182654 EXEC_SCOPE: PROD
+
+20251028_182654 ## Derived Variable Values:
+20251028_182654 STARTTIME: 182654
+20251028_182654 LOGDATE: 20251028_182654
+20251028_182654 JOB=job_email_blast
+
+20251028_182654 ###############################################################
+20251028_182654 ### RUNNING EMAIL BLAST SCRIPT
+20251028_182654 ###############################################################
+
+20251028_182654 ## Checking if script exists
+20251028_182654 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20251028_182654 File exists...
+
+20251028_182654 ## Running script
+20251028_182654  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251028_182725
+20251028_182725
+Execution Return Code: 0
+20251028_182725
+-----------
+JOB SUCCESS
+-----------
+Start Time: 182654, End Time: 182725

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251028_210721
+----------------------
+20251028_210721 ## Passed Parameter Values:
+20251028_210721 DOMAIN: operations
+20251028_210721 SUB_DOMAIN: scheduling
+20251028_210721 USER_NAME: scheduler
+20251028_210721 TABLE_NAME: job_staff_roster
+20251028_210721 EXEC_SCOPE: UAT
+
+20251028_210721 ## Derived Variable Values:
+20251028_210721 STARTTIME: 210721
+20251028_210721 LOGDATE: 20251028_210721
+20251028_210721 JOB=job_staff_roster
+
+20251028_210721 ###############################################################
+20251028_210721 ### RUNNING STAFF ROSTER SCRIPT
+20251028_210721 ###############################################################
+
+20251028_210721 ## Checking if script exists
+20251028_210721 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20251028_210721 File exists...
+
+20251028_210721 ## Running script
+20251028_210721  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251028_210752
+20251028_210752
+Execution Return Code: 4
+20251028_210752
+---------
+JOB ERROR
+---------
+Start Time: 210721, End Time: 210752

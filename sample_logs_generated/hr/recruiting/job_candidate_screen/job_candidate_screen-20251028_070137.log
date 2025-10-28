@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251028_070137
+----------------------
+20251028_070137 ## Passed Parameter Values:
+20251028_070137 DOMAIN: hr
+20251028_070137 SUB_DOMAIN: recruiting
+20251028_070137 USER_NAME: payroll_admin
+20251028_070137 TABLE_NAME: job_candidate_screen
+20251028_070137 EXEC_SCOPE: PROD
+
+20251028_070137 ## Derived Variable Values:
+20251028_070137 STARTTIME: 070137
+20251028_070137 LOGDATE: 20251028_070137
+20251028_070137 JOB=job_candidate_screen
+
+20251028_070137 ###############################################################
+20251028_070137 ### RUNNING CANDIDATE SCREEN SCRIPT
+20251028_070137 ###############################################################
+
+20251028_070137 ## Checking if script exists
+20251028_070137 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20251028_070137 File exists...
+
+20251028_070137 ## Running script
+20251028_070137  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251028_070220
+20251028_070220
+Execution Return Code: 8
+20251028_070220
+---------
+JOB ERROR
+---------
+Start Time: 070137, End Time: 070220
