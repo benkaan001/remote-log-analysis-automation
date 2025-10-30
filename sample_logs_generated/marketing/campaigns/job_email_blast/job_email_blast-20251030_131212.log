@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251030_131212
+----------------------
+20251030_131212 ## Passed Parameter Values:
+20251030_131212 DOMAIN: marketing
+20251030_131212 SUB_DOMAIN: campaigns
+20251030_131212 USER_NAME: campaign_manager
+20251030_131212 TABLE_NAME: job_email_blast
+20251030_131212 EXEC_SCOPE: TEST
+
+20251030_131212 ## Derived Variable Values:
+20251030_131212 STARTTIME: 131212
+20251030_131212 LOGDATE: 20251030_131212
+20251030_131212 JOB=job_email_blast
+
+20251030_131212 ###############################################################
+20251030_131212 ### RUNNING EMAIL BLAST SCRIPT
+20251030_131212 ###############################################################
+
+20251030_131212 ## Checking if script exists
+20251030_131212 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20251030_131212 File exists...
+
+20251030_131212 ## Running script
+20251030_131212  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Email blast failed: SMTP server connection error.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251030_131256
+20251030_131256
+Execution Return Code: 8
+20251030_131256
+---------
+JOB ERROR
+---------
+Start Time: 131212, End Time: 131256

@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251030_082946
+----------------------
+20251030_082946 ## Passed Parameter Values:
+20251030_082946 DOMAIN: finance
+20251030_082946 SUB_DOMAIN: billing
+20251030_082946 USER_NAME: accountant1
+20251030_082946 TABLE_NAME: job_payment_proc
+20251030_082946 EXEC_SCOPE: TEST
+
+20251030_082946 ## Derived Variable Values:
+20251030_082946 STARTTIME: 082946
+20251030_082946 LOGDATE: 20251030_082946
+20251030_082946 JOB=job_payment_proc
+
+20251030_082946 ###############################################################
+20251030_082946 ### RUNNING PAYMENT PROC SCRIPT
+20251030_082946 ###############################################################
+
+20251030_082946 ## Checking if script exists
+20251030_082946 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20251030_082946 File exists...
+
+20251030_082946 ## Running script
+20251030_082946  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251030_083014
+20251030_083014
+Execution Return Code: 1
+20251030_083014
+---------
+JOB ERROR
+---------
+Start Time: 082946, End Time: 083014

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251030_135150
+----------------------
+20251030_135150 ## Passed Parameter Values:
+20251030_135150 DOMAIN: operations
+20251030_135150 SUB_DOMAIN: scheduling
+20251030_135150 USER_NAME: logistics_manager
+20251030_135150 TABLE_NAME: job_staff_roster
+20251030_135150 EXEC_SCOPE: PROD
+
+20251030_135150 ## Derived Variable Values:
+20251030_135150 STARTTIME: 135150
+20251030_135150 LOGDATE: 20251030_135150
+20251030_135150 JOB=job_staff_roster
+
+20251030_135150 ###############################################################
+20251030_135150 ### RUNNING STAFF ROSTER SCRIPT
+20251030_135150 ###############################################################
+
+20251030_135150 ## Checking if script exists
+20251030_135150 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20251030_135150 File exists...
+
+20251030_135150 ## Running script
+20251030_135150  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Scheduling report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251030_135221
+20251030_135221
+Execution Return Code: 8
+20251030_135221
+---------
+JOB ERROR
+---------
+Start Time: 135150, End Time: 135221

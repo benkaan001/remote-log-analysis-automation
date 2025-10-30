@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251030_204500
+----------------------
+20251030_204500 ## Passed Parameter Values:
+20251030_204500 DOMAIN: operations
+20251030_204500 SUB_DOMAIN: scheduling
+20251030_204500 USER_NAME: logistics_manager
+20251030_204500 TABLE_NAME: job_resource_alloc
+20251030_204500 EXEC_SCOPE: PROD
+
+20251030_204500 ## Derived Variable Values:
+20251030_204500 STARTTIME: 204500
+20251030_204500 LOGDATE: 20251030_204500
+20251030_204500 JOB=job_resource_alloc
+
+20251030_204500 ###############################################################
+20251030_204500 ### RUNNING RESOURCE ALLOC SCRIPT
+20251030_204500 ###############################################################
+
+20251030_204500 ## Checking if script exists
+20251030_204500 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251030_204500 File exists...
+
+20251030_204500 ## Running script
+20251030_204500  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251030_204512
+20251030_204512
+Execution Return Code: 1
+20251030_204512
+---------
+JOB ERROR
+---------
+Start Time: 204500, End Time: 204512
