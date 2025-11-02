@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251102_061921
+----------------------
+20251102_061921 ## Passed Parameter Values:
+20251102_061921 DOMAIN: marketing
+20251102_061921 SUB_DOMAIN: campaigns
+20251102_061921 USER_NAME: analyst1
+20251102_061921 TABLE_NAME: job_email_blast
+20251102_061921 EXEC_SCOPE: TEST
+
+20251102_061921 ## Derived Variable Values:
+20251102_061921 STARTTIME: 061921
+20251102_061921 LOGDATE: 20251102_061921
+20251102_061921 JOB=job_email_blast
+
+20251102_061921 ###############################################################
+20251102_061921 ### RUNNING EMAIL BLAST SCRIPT
+20251102_061921 ###############################################################
+
+20251102_061921 ## Checking if script exists
+20251102_061921 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20251102_061921 File exists...
+
+20251102_061921 ## Running script
+20251102_061921  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: User segmentation failed: Invalid criteria specified.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251102_062007
+20251102_062007
+Execution Return Code: 1
+20251102_062007
+---------
+JOB ERROR
+---------
+Start Time: 061921, End Time: 062007
