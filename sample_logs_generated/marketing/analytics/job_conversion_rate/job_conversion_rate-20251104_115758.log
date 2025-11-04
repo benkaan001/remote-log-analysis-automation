@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20251104_115758
+----------------------
+20251104_115758 ## Passed Parameter Values:
+20251104_115758 DOMAIN: marketing
+20251104_115758 SUB_DOMAIN: analytics
+20251104_115758 USER_NAME: marketing_user1
+20251104_115758 TABLE_NAME: job_conversion_rate
+20251104_115758 EXEC_SCOPE: UAT
+
+20251104_115758 ## Derived Variable Values:
+20251104_115758 STARTTIME: 115758
+20251104_115758 LOGDATE: 20251104_115758
+20251104_115758 JOB=job_conversion_rate
+
+20251104_115758 ###############################################################
+20251104_115758 ### RUNNING CONVERSION RATE SCRIPT
+20251104_115758 ###############################################################
+
+20251104_115758 ## Checking if script exists
+20251104_115758 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20251104_115758 File exists...
+
+20251104_115758 ## Running script
+20251104_115758  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251104_115819
+20251104_115819
+Execution Return Code: 4
+20251104_115819
+---------
+JOB ERROR
+---------
+Start Time: 115758, End Time: 115819

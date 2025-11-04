@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251104_133831
+----------------------
+20251104_133831 ## Passed Parameter Values:
+20251104_133831 DOMAIN: operations
+20251104_133831 SUB_DOMAIN: scheduling
+20251104_133831 USER_NAME: ops_user1
+20251104_133831 TABLE_NAME: job_staff_roster
+20251104_133831 EXEC_SCOPE: UAT
+
+20251104_133831 ## Derived Variable Values:
+20251104_133831 STARTTIME: 133831
+20251104_133831 LOGDATE: 20251104_133831
+20251104_133831 JOB=job_staff_roster
+
+20251104_133831 ###############################################################
+20251104_133831 ### RUNNING STAFF ROSTER SCRIPT
+20251104_133831 ###############################################################
+
+20251104_133831 ## Checking if script exists
+20251104_133831 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20251104_133831 File exists...
+
+20251104_133831 ## Running script
+20251104_133831  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251104_133916
+20251104_133916
+Execution Return Code: 4
+20251104_133916
+---------
+JOB ERROR
+---------
+Start Time: 133831, End Time: 133916

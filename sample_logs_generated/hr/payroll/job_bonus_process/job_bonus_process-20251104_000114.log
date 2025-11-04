@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20251104_000114
+----------------------
+20251104_000114 ## Passed Parameter Values:
+20251104_000114 DOMAIN: hr
+20251104_000114 SUB_DOMAIN: payroll
+20251104_000114 USER_NAME: payroll_admin
+20251104_000114 TABLE_NAME: job_bonus_process
+20251104_000114 EXEC_SCOPE: TEST
+
+20251104_000114 ## Derived Variable Values:
+20251104_000114 STARTTIME: 000114
+20251104_000114 LOGDATE: 20251104_000114
+20251104_000114 JOB=job_bonus_process
+
+20251104_000114 ###############################################################
+20251104_000114 ### RUNNING BONUS PROCESS SCRIPT
+20251104_000114 ###############################################################
+
+20251104_000114 ## Checking if script exists
+20251104_000114 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20251104_000114 File exists...
+
+20251104_000114 ## Running script
+20251104_000114  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251104_000126
+20251104_000126
+Execution Return Code: 2
+20251104_000126
+---------
+JOB ERROR
+---------
+Start Time: 000114, End Time: 000126

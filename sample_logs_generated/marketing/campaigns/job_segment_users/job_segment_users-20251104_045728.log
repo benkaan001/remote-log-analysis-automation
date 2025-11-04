@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251104_045728
+----------------------
+20251104_045728 ## Passed Parameter Values:
+20251104_045728 DOMAIN: marketing
+20251104_045728 SUB_DOMAIN: campaigns
+20251104_045728 USER_NAME: marketing_user1
+20251104_045728 TABLE_NAME: job_segment_users
+20251104_045728 EXEC_SCOPE: UAT
+
+20251104_045728 ## Derived Variable Values:
+20251104_045728 STARTTIME: 045728
+20251104_045728 LOGDATE: 20251104_045728
+20251104_045728 JOB=job_segment_users
+
+20251104_045728 ###############################################################
+20251104_045728 ### RUNNING SEGMENT USERS SCRIPT
+20251104_045728 ###############################################################
+
+20251104_045728 ## Checking if script exists
+20251104_045728 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20251104_045728 File exists...
+
+20251104_045728 ## Running script
+20251104_045728  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: CRM update failed: API authentication error.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251104_045817
+20251104_045817
+Execution Return Code: 1
+20251104_045817
+---------
+JOB ERROR
+---------
+Start Time: 045728, End Time: 045817
