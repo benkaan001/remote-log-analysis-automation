@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251106_133634
+----------------------
+20251106_133634 ## Passed Parameter Values:
+20251106_133634 DOMAIN: hr
+20251106_133634 SUB_DOMAIN: recruiting
+20251106_133634 USER_NAME: payroll_admin
+20251106_133634 TABLE_NAME: job_offer_gen
+20251106_133634 EXEC_SCOPE: UAT
+
+20251106_133634 ## Derived Variable Values:
+20251106_133634 STARTTIME: 133634
+20251106_133634 LOGDATE: 20251106_133634
+20251106_133634 JOB=job_offer_gen
+
+20251106_133634 ###############################################################
+20251106_133634 ### RUNNING OFFER GEN SCRIPT
+20251106_133634 ###############################################################
+
+20251106_133634 ## Checking if script exists
+20251106_133634 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20251106_133634 File exists...
+
+20251106_133634 ## Running script
+20251106_133634  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Recruiting generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251106_133643
+20251106_133643
+Execution Return Code: 4
+20251106_133643
+---------
+JOB ERROR
+---------
+Start Time: 133634, End Time: 133643

@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251106_074938
+----------------------
+20251106_074938 ## Passed Parameter Values:
+20251106_074938 DOMAIN: operations
+20251106_074938 SUB_DOMAIN: logistics
+20251106_074938 USER_NAME: ops_user1
+20251106_074938 TABLE_NAME: job_warehouse_mgmt
+20251106_074938 EXEC_SCOPE: PROD
+
+20251106_074938 ## Derived Variable Values:
+20251106_074938 STARTTIME: 074938
+20251106_074938 LOGDATE: 20251106_074938
+20251106_074938 JOB=job_warehouse_mgmt
+
+20251106_074938 ###############################################################
+20251106_074938 ### RUNNING WAREHOUSE MGMT SCRIPT
+20251106_074938 ###############################################################
+
+20251106_074938 ## Checking if script exists
+20251106_074938 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20251106_074938 File exists...
+
+20251106_074938 ## Running script
+20251106_074938  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251106_075032
+20251106_075032
+Execution Return Code: 4
+20251106_075032
+---------
+JOB ERROR
+---------
+Start Time: 074938, End Time: 075032
