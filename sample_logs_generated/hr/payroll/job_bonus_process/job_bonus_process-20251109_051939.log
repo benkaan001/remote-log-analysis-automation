@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20251109_051939
+----------------------
+20251109_051939 ## Passed Parameter Values:
+20251109_051939 DOMAIN: hr
+20251109_051939 SUB_DOMAIN: payroll
+20251109_051939 USER_NAME: payroll_admin
+20251109_051939 TABLE_NAME: job_bonus_process
+20251109_051939 EXEC_SCOPE: UAT
+
+20251109_051939 ## Derived Variable Values:
+20251109_051939 STARTTIME: 051939
+20251109_051939 LOGDATE: 20251109_051939
+20251109_051939 JOB=job_bonus_process
+
+20251109_051939 ###############################################################
+20251109_051939 ### RUNNING BONUS PROCESS SCRIPT
+20251109_051939 ###############################################################
+
+20251109_051939 ## Checking if script exists
+20251109_051939 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20251109_051939 File exists...
+
+20251109_051939 ## Running script
+20251109_051939  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251109_052023
+20251109_052023
+Execution Return Code: 1
+20251109_052023
+---------
+JOB ERROR
+---------
+Start Time: 051939, End Time: 052023

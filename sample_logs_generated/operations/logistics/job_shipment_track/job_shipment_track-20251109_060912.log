@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251109_060912
+----------------------
+20251109_060912 ## Passed Parameter Values:
+20251109_060912 DOMAIN: operations
+20251109_060912 SUB_DOMAIN: logistics
+20251109_060912 USER_NAME: logistics_manager
+20251109_060912 TABLE_NAME: job_shipment_track
+20251109_060912 EXEC_SCOPE: PROD
+
+20251109_060912 ## Derived Variable Values:
+20251109_060912 STARTTIME: 060912
+20251109_060912 LOGDATE: 20251109_060912
+20251109_060912 JOB=job_shipment_track
+
+20251109_060912 ###############################################################
+20251109_060912 ### RUNNING SHIPMENT TRACK SCRIPT
+20251109_060912 ###############################################################
+
+20251109_060912 ## Checking if script exists
+20251109_060912 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20251109_060912 File exists...
+
+20251109_060912 ## Running script
+20251109_060912  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251109_060936
+20251109_060936
+Execution Return Code: 1
+20251109_060936
+---------
+JOB ERROR
+---------
+Start Time: 060912, End Time: 060936
