@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251111_065141
+----------------------
+20251111_065141 ## Passed Parameter Values:
+20251111_065141 DOMAIN: hr
+20251111_065141 SUB_DOMAIN: recruiting
+20251111_065141 USER_NAME: payroll_admin
+20251111_065141 TABLE_NAME: job_offer_gen
+20251111_065141 EXEC_SCOPE: UAT
+
+20251111_065141 ## Derived Variable Values:
+20251111_065141 STARTTIME: 065141
+20251111_065141 LOGDATE: 20251111_065141
+20251111_065141 JOB=job_offer_gen
+
+20251111_065141 ###############################################################
+20251111_065141 ### RUNNING OFFER GEN SCRIPT
+20251111_065141 ###############################################################
+
+20251111_065141 ## Checking if script exists
+20251111_065141 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20251111_065141 File exists...
+
+20251111_065141 ## Running script
+20251111_065141  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251111_065201
+20251111_065201
+Execution Return Code: 2
+20251111_065201
+---------
+JOB ERROR
+---------
+Start Time: 065141, End Time: 065201

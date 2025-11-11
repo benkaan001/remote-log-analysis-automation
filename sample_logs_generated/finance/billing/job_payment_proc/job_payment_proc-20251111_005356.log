@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251111_005356
+----------------------
+20251111_005356 ## Passed Parameter Values:
+20251111_005356 DOMAIN: finance
+20251111_005356 SUB_DOMAIN: billing
+20251111_005356 USER_NAME: finance_admin
+20251111_005356 TABLE_NAME: job_payment_proc
+20251111_005356 EXEC_SCOPE: DEV
+
+20251111_005356 ## Derived Variable Values:
+20251111_005356 STARTTIME: 005356
+20251111_005356 LOGDATE: 20251111_005356
+20251111_005356 JOB=job_payment_proc
+
+20251111_005356 ###############################################################
+20251111_005356 ### RUNNING PAYMENT PROC SCRIPT
+20251111_005356 ###############################################################
+
+20251111_005356 ## Checking if script exists
+20251111_005356 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20251111_005356 File exists...
+
+20251111_005356 ## Running script
+20251111_005356  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251111_005412
+20251111_005412
+Execution Return Code: 0
+20251111_005412
+-----------
+JOB SUCCESS
+-----------
+Start Time: 005356, End Time: 005412
