@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251116_212528
+----------------------
+20251116_212528 ## Passed Parameter Values:
+20251116_212528 DOMAIN: operations
+20251116_212528 SUB_DOMAIN: logistics
+20251116_212528 USER_NAME: logistics_manager
+20251116_212528 TABLE_NAME: job_inventory_check
+20251116_212528 EXEC_SCOPE: UAT
+
+20251116_212528 ## Derived Variable Values:
+20251116_212528 STARTTIME: 212528
+20251116_212528 LOGDATE: 20251116_212528
+20251116_212528 JOB=job_inventory_check
+
+20251116_212528 ###############################################################
+20251116_212528 ### RUNNING INVENTORY CHECK SCRIPT
+20251116_212528 ###############################################################
+
+20251116_212528 ## Checking if script exists
+20251116_212528 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20251116_212528 File exists...
+
+20251116_212528 ## Running script
+20251116_212528  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251116_212541
+20251116_212541
+Execution Return Code: 8
+20251116_212541
+---------
+JOB ERROR
+---------
+Start Time: 212528, End Time: 212541
