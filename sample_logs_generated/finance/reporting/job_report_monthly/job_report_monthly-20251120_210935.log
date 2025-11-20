@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251120_210935
+----------------------
+20251120_210935 ## Passed Parameter Values:
+20251120_210935 DOMAIN: finance
+20251120_210935 SUB_DOMAIN: reporting
+20251120_210935 USER_NAME: accountant1
+20251120_210935 TABLE_NAME: job_report_monthly
+20251120_210935 EXEC_SCOPE: UAT
+
+20251120_210935 ## Derived Variable Values:
+20251120_210935 STARTTIME: 210935
+20251120_210935 LOGDATE: 20251120_210935
+20251120_210935 JOB=job_report_monthly
+
+20251120_210935 ###############################################################
+20251120_210935 ### RUNNING REPORT MONTHLY SCRIPT
+20251120_210935 ###############################################################
+
+20251120_210935 ## Checking if script exists
+20251120_210935 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20251120_210935 File exists...
+
+20251120_210935 ## Running script
+20251120_210935  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251120_211007
+20251120_211007
+Execution Return Code: 0
+20251120_211007
+-----------
+JOB SUCCESS
+-----------
+Start Time: 210935, End Time: 211007
