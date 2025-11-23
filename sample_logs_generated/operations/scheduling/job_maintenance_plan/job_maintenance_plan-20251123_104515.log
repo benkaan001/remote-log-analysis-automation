@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251123_104515
+----------------------
+20251123_104515 ## Passed Parameter Values:
+20251123_104515 DOMAIN: operations
+20251123_104515 SUB_DOMAIN: scheduling
+20251123_104515 USER_NAME: logistics_manager
+20251123_104515 TABLE_NAME: job_maintenance_plan
+20251123_104515 EXEC_SCOPE: TEST
+
+20251123_104515 ## Derived Variable Values:
+20251123_104515 STARTTIME: 104515
+20251123_104515 LOGDATE: 20251123_104515
+20251123_104515 JOB=job_maintenance_plan
+
+20251123_104515 ###############################################################
+20251123_104515 ### RUNNING MAINTENANCE PLAN SCRIPT
+20251123_104515 ###############################################################
+
+20251123_104515 ## Checking if script exists
+20251123_104515 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20251123_104515 File exists...
+
+20251123_104515 ## Running script
+20251123_104515  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251123_104539
+20251123_104539
+Execution Return Code: 1
+20251123_104539
+---------
+JOB ERROR
+---------
+Start Time: 104515, End Time: 104539

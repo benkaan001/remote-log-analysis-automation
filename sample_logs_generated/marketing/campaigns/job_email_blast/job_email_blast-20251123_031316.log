@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251123_031316
+----------------------
+20251123_031316 ## Passed Parameter Values:
+20251123_031316 DOMAIN: marketing
+20251123_031316 SUB_DOMAIN: campaigns
+20251123_031316 USER_NAME: marketing_user1
+20251123_031316 TABLE_NAME: job_email_blast
+20251123_031316 EXEC_SCOPE: PROD
+
+20251123_031316 ## Derived Variable Values:
+20251123_031316 STARTTIME: 031316
+20251123_031316 LOGDATE: 20251123_031316
+20251123_031316 JOB=job_email_blast
+
+20251123_031316 ###############################################################
+20251123_031316 ### RUNNING EMAIL BLAST SCRIPT
+20251123_031316 ###############################################################
+
+20251123_031316 ## Checking if script exists
+20251123_031316 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20251123_031316 File exists...
+
+20251123_031316 ## Running script
+20251123_031316  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251123_031333
+20251123_031333
+Execution Return Code: 8
+20251123_031333
+---------
+JOB ERROR
+---------
+Start Time: 031316, End Time: 031333
