@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251125_172237
+----------------------
+20251125_172237 ## Passed Parameter Values:
+20251125_172237 DOMAIN: operations
+20251125_172237 SUB_DOMAIN: logistics
+20251125_172237 USER_NAME: ops_user1
+20251125_172237 TABLE_NAME: job_warehouse_mgmt
+20251125_172237 EXEC_SCOPE: UAT
+
+20251125_172237 ## Derived Variable Values:
+20251125_172237 STARTTIME: 172237
+20251125_172237 LOGDATE: 20251125_172237
+20251125_172237 JOB=job_warehouse_mgmt
+
+20251125_172237 ###############################################################
+20251125_172237 ### RUNNING WAREHOUSE MGMT SCRIPT
+20251125_172237 ###############################################################
+
+20251125_172237 ## Checking if script exists
+20251125_172237 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20251125_172237 File exists...
+
+20251125_172237 ## Running script
+20251125_172237  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251125_172322
+20251125_172322
+Execution Return Code: 4
+20251125_172322
+---------
+JOB ERROR
+---------
+Start Time: 172237, End Time: 172322

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251125_041626
+----------------------
+20251125_041626 ## Passed Parameter Values:
+20251125_041626 DOMAIN: operations
+20251125_041626 SUB_DOMAIN: scheduling
+20251125_041626 USER_NAME: scheduler
+20251125_041626 TABLE_NAME: job_resource_alloc
+20251125_041626 EXEC_SCOPE: DEV
+
+20251125_041626 ## Derived Variable Values:
+20251125_041626 STARTTIME: 041626
+20251125_041626 LOGDATE: 20251125_041626
+20251125_041626 JOB=job_resource_alloc
+
+20251125_041626 ###############################################################
+20251125_041626 ### RUNNING RESOURCE ALLOC SCRIPT
+20251125_041626 ###############################################################
+
+20251125_041626 ## Checking if script exists
+20251125_041626 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251125_041626 File exists...
+
+20251125_041626 ## Running script
+20251125_041626  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251125_041718
+20251125_041718
+Execution Return Code: 8
+20251125_041718
+---------
+JOB ERROR
+---------
+Start Time: 041626, End Time: 041718
