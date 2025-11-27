@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251127_213143
+----------------------
+20251127_213143 ## Passed Parameter Values:
+20251127_213143 DOMAIN: marketing
+20251127_213143 SUB_DOMAIN: campaigns
+20251127_213143 USER_NAME: analyst1
+20251127_213143 TABLE_NAME: job_segment_users
+20251127_213143 EXEC_SCOPE: PROD
+
+20251127_213143 ## Derived Variable Values:
+20251127_213143 STARTTIME: 213143
+20251127_213143 LOGDATE: 20251127_213143
+20251127_213143 JOB=job_segment_users
+
+20251127_213143 ###############################################################
+20251127_213143 ### RUNNING SEGMENT USERS SCRIPT
+20251127_213143 ###############################################################
+
+20251127_213143 ## Checking if script exists
+20251127_213143 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20251127_213143 File exists...
+
+20251127_213143 ## Running script
+20251127_213143  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251127_213159
+20251127_213159
+Execution Return Code: 4
+20251127_213159
+---------
+JOB ERROR
+---------
+Start Time: 213143, End Time: 213159

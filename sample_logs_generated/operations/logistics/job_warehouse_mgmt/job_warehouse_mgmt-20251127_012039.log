@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251127_012039
+----------------------
+20251127_012039 ## Passed Parameter Values:
+20251127_012039 DOMAIN: operations
+20251127_012039 SUB_DOMAIN: logistics
+20251127_012039 USER_NAME: ops_user1
+20251127_012039 TABLE_NAME: job_warehouse_mgmt
+20251127_012039 EXEC_SCOPE: UAT
+
+20251127_012039 ## Derived Variable Values:
+20251127_012039 STARTTIME: 012039
+20251127_012039 LOGDATE: 20251127_012039
+20251127_012039 JOB=job_warehouse_mgmt
+
+20251127_012039 ###############################################################
+20251127_012039 ### RUNNING WAREHOUSE MGMT SCRIPT
+20251127_012039 ###############################################################
+
+20251127_012039 ## Checking if script exists
+20251127_012039 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20251127_012039 File exists...
+
+20251127_012039 ## Running script
+20251127_012039  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251127_012131
+20251127_012131
+Execution Return Code: 0
+20251127_012131
+-----------
+JOB SUCCESS
+-----------
+Start Time: 012039, End Time: 012131

@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20251127_053047
+----------------------
+20251127_053047 ## Passed Parameter Values:
+20251127_053047 DOMAIN: marketing
+20251127_053047 SUB_DOMAIN: analytics
+20251127_053047 USER_NAME: marketing_user1
+20251127_053047 TABLE_NAME: job_web_traffic
+20251127_053047 EXEC_SCOPE: DEV
+
+20251127_053047 ## Derived Variable Values:
+20251127_053047 STARTTIME: 053047
+20251127_053047 LOGDATE: 20251127_053047
+20251127_053047 JOB=job_web_traffic
+
+20251127_053047 ###############################################################
+20251127_053047 ### RUNNING WEB TRAFFIC SCRIPT
+20251127_053047 ###############################################################
+
+20251127_053047 ## Checking if script exists
+20251127_053047 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20251127_053047 File exists...
+
+20251127_053047 ## Running script
+20251127_053047  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: ROI calculation failed: Revenue data unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251127_053138
+20251127_053138
+Execution Return Code: 4
+20251127_053138
+---------
+JOB ERROR
+---------
+Start Time: 053047, End Time: 053138
