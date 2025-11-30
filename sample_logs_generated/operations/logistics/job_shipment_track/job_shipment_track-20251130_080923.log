@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251130_080923
+----------------------
+20251130_080923 ## Passed Parameter Values:
+20251130_080923 DOMAIN: operations
+20251130_080923 SUB_DOMAIN: logistics
+20251130_080923 USER_NAME: scheduler
+20251130_080923 TABLE_NAME: job_shipment_track
+20251130_080923 EXEC_SCOPE: PROD
+
+20251130_080923 ## Derived Variable Values:
+20251130_080923 STARTTIME: 080923
+20251130_080923 LOGDATE: 20251130_080923
+20251130_080923 JOB=job_shipment_track
+
+20251130_080923 ###############################################################
+20251130_080923 ### RUNNING SHIPMENT TRACK SCRIPT
+20251130_080923 ###############################################################
+
+20251130_080923 ## Checking if script exists
+20251130_080923 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20251130_080923 File exists...
+
+20251130_080923 ## Running script
+20251130_080923  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Logistics calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251130_080930
+20251130_080930
+Execution Return Code: 8
+20251130_080930
+---------
+JOB ERROR
+---------
+Start Time: 080923, End Time: 080930
