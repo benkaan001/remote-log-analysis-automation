@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20251202_225354
+----------------------
+20251202_225354 ## Passed Parameter Values:
+20251202_225354 DOMAIN: marketing
+20251202_225354 SUB_DOMAIN: campaigns
+20251202_225354 USER_NAME: campaign_manager
+20251202_225354 TABLE_NAME: job_segment_users
+20251202_225354 EXEC_SCOPE: DEV
+
+20251202_225354 ## Derived Variable Values:
+20251202_225354 STARTTIME: 225354
+20251202_225354 LOGDATE: 20251202_225354
+20251202_225354 JOB=job_segment_users
+
+20251202_225354 ###############################################################
+20251202_225354 ### RUNNING SEGMENT USERS SCRIPT
+20251202_225354 ###############################################################
+
+20251202_225354 ## Checking if script exists
+20251202_225354 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20251202_225354 File exists...
+
+20251202_225354 ## Running script
+20251202_225354  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251202_225436
+20251202_225436
+Execution Return Code: 0
+20251202_225436
+-----------
+JOB SUCCESS
+-----------
+Start Time: 225354, End Time: 225436

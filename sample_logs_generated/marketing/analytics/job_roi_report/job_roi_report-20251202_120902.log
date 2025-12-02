@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20251202_120902
+----------------------
+20251202_120902 ## Passed Parameter Values:
+20251202_120902 DOMAIN: marketing
+20251202_120902 SUB_DOMAIN: analytics
+20251202_120902 USER_NAME: analyst1
+20251202_120902 TABLE_NAME: job_roi_report
+20251202_120902 EXEC_SCOPE: TEST
+
+20251202_120902 ## Derived Variable Values:
+20251202_120902 STARTTIME: 120902
+20251202_120902 LOGDATE: 20251202_120902
+20251202_120902 JOB=job_roi_report
+
+20251202_120902 ###############################################################
+20251202_120902 ### RUNNING ROI REPORT SCRIPT
+20251202_120902 ###############################################################
+
+20251202_120902 ## Checking if script exists
+20251202_120902 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20251202_120902 File exists...
+
+20251202_120902 ## Running script
+20251202_120902  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Conversion calculation error: Missing funnel stage data.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251202_120917
+20251202_120917
+Execution Return Code: 1
+20251202_120917
+---------
+JOB ERROR
+---------
+Start Time: 120902, End Time: 120917

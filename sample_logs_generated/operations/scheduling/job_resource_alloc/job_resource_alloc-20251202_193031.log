@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251202_193031
+----------------------
+20251202_193031 ## Passed Parameter Values:
+20251202_193031 DOMAIN: operations
+20251202_193031 SUB_DOMAIN: scheduling
+20251202_193031 USER_NAME: scheduler
+20251202_193031 TABLE_NAME: job_resource_alloc
+20251202_193031 EXEC_SCOPE: TEST
+
+20251202_193031 ## Derived Variable Values:
+20251202_193031 STARTTIME: 193031
+20251202_193031 LOGDATE: 20251202_193031
+20251202_193031 JOB=job_resource_alloc
+
+20251202_193031 ###############################################################
+20251202_193031 ### RUNNING RESOURCE ALLOC SCRIPT
+20251202_193031 ###############################################################
+
+20251202_193031 ## Checking if script exists
+20251202_193031 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251202_193031 File exists...
+
+20251202_193031 ## Running script
+20251202_193031  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251202_193113
+20251202_193113
+Execution Return Code: 4
+20251202_193113
+---------
+JOB ERROR
+---------
+Start Time: 193031, End Time: 193113
