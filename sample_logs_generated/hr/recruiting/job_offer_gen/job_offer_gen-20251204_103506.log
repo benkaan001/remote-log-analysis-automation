@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20251204_103506
+----------------------
+20251204_103506 ## Passed Parameter Values:
+20251204_103506 DOMAIN: hr
+20251204_103506 SUB_DOMAIN: recruiting
+20251204_103506 USER_NAME: hr_user1
+20251204_103506 TABLE_NAME: job_offer_gen
+20251204_103506 EXEC_SCOPE: UAT
+
+20251204_103506 ## Derived Variable Values:
+20251204_103506 STARTTIME: 103506
+20251204_103506 LOGDATE: 20251204_103506
+20251204_103506 JOB=job_offer_gen
+
+20251204_103506 ###############################################################
+20251204_103506 ### RUNNING OFFER GEN SCRIPT
+20251204_103506 ###############################################################
+
+20251204_103506 ## Checking if script exists
+20251204_103506 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20251204_103506 File exists...
+
+20251204_103506 ## Running script
+20251204_103506  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251204_103529
+20251204_103529
+Execution Return Code: 1
+20251204_103529
+---------
+JOB ERROR
+---------
+Start Time: 103506, End Time: 103529

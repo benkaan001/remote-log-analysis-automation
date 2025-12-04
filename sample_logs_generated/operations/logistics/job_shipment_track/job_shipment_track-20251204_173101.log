@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251204_173101
+----------------------
+20251204_173101 ## Passed Parameter Values:
+20251204_173101 DOMAIN: operations
+20251204_173101 SUB_DOMAIN: logistics
+20251204_173101 USER_NAME: logistics_manager
+20251204_173101 TABLE_NAME: job_shipment_track
+20251204_173101 EXEC_SCOPE: DEV
+
+20251204_173101 ## Derived Variable Values:
+20251204_173101 STARTTIME: 173101
+20251204_173101 LOGDATE: 20251204_173101
+20251204_173101 JOB=job_shipment_track
+
+20251204_173101 ###############################################################
+20251204_173101 ### RUNNING SHIPMENT TRACK SCRIPT
+20251204_173101 ###############################################################
+
+20251204_173101 ## Checking if script exists
+20251204_173101 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20251204_173101 File exists...
+
+20251204_173101 ## Running script
+20251204_173101  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251204_173135
+20251204_173135
+Execution Return Code: 1
+20251204_173135
+---------
+JOB ERROR
+---------
+Start Time: 173101, End Time: 173135

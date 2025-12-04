@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251204_150345
+----------------------
+20251204_150345 ## Passed Parameter Values:
+20251204_150345 DOMAIN: finance
+20251204_150345 SUB_DOMAIN: billing
+20251204_150345 USER_NAME: finance_admin
+20251204_150345 TABLE_NAME: job_tax_calc
+20251204_150345 EXEC_SCOPE: UAT
+
+20251204_150345 ## Derived Variable Values:
+20251204_150345 STARTTIME: 150345
+20251204_150345 LOGDATE: 20251204_150345
+20251204_150345 JOB=job_tax_calc
+
+20251204_150345 ###############################################################
+20251204_150345 ### RUNNING TAX CALC SCRIPT
+20251204_150345 ###############################################################
+
+20251204_150345 ## Checking if script exists
+20251204_150345 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20251204_150345 File exists...
+
+20251204_150345 ## Running script
+20251204_150345  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251204_150443
+20251204_150443
+Execution Return Code: 2
+20251204_150443
+---------
+JOB ERROR
+---------
+Start Time: 150345, End Time: 150443
