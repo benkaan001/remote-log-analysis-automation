@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20251207_191428
+----------------------
+20251207_191428 ## Passed Parameter Values:
+20251207_191428 DOMAIN: hr
+20251207_191428 SUB_DOMAIN: payroll
+20251207_191428 USER_NAME: recruiter1
+20251207_191428 TABLE_NAME: job_tax_withhold
+20251207_191428 EXEC_SCOPE: TEST
+
+20251207_191428 ## Derived Variable Values:
+20251207_191428 STARTTIME: 191428
+20251207_191428 LOGDATE: 20251207_191428
+20251207_191428 JOB=job_tax_withhold
+
+20251207_191428 ###############################################################
+20251207_191428 ### RUNNING TAX WITHHOLD SCRIPT
+20251207_191428 ###############################################################
+
+20251207_191428 ## Checking if script exists
+20251207_191428 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20251207_191428 File exists...
+
+20251207_191428 ## Running script
+20251207_191428  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Payroll generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20251207_191443
+20251207_191443
+Execution Return Code: 2
+20251207_191443
+---------
+JOB ERROR
+---------
+Start Time: 191428, End Time: 191443

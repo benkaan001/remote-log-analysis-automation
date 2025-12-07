@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251207_010048
+----------------------
+20251207_010048 ## Passed Parameter Values:
+20251207_010048 DOMAIN: operations
+20251207_010048 SUB_DOMAIN: scheduling
+20251207_010048 USER_NAME: logistics_manager
+20251207_010048 TABLE_NAME: job_resource_alloc
+20251207_010048 EXEC_SCOPE: TEST
+
+20251207_010048 ## Derived Variable Values:
+20251207_010048 STARTTIME: 010048
+20251207_010048 LOGDATE: 20251207_010048
+20251207_010048 JOB=job_resource_alloc
+
+20251207_010048 ###############################################################
+20251207_010048 ### RUNNING RESOURCE ALLOC SCRIPT
+20251207_010048 ###############################################################
+
+20251207_010048 ## Checking if script exists
+20251207_010048 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251207_010048 File exists...
+
+20251207_010048 ## Running script
+20251207_010048  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20251207_010124
+20251207_010124
+Execution Return Code: 0
+20251207_010124
+-----------
+JOB SUCCESS
+-----------
+Start Time: 010048, End Time: 010124

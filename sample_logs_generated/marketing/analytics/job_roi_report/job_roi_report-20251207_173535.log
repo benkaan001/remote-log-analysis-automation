@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20251207_173535
+----------------------
+20251207_173535 ## Passed Parameter Values:
+20251207_173535 DOMAIN: marketing
+20251207_173535 SUB_DOMAIN: analytics
+20251207_173535 USER_NAME: campaign_manager
+20251207_173535 TABLE_NAME: job_roi_report
+20251207_173535 EXEC_SCOPE: DEV
+
+20251207_173535 ## Derived Variable Values:
+20251207_173535 STARTTIME: 173535
+20251207_173535 LOGDATE: 20251207_173535
+20251207_173535 JOB=job_roi_report
+
+20251207_173535 ###############################################################
+20251207_173535 ### RUNNING ROI REPORT SCRIPT
+20251207_173535 ###############################################################
+
+20251207_173535 ## Checking if script exists
+20251207_173535 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20251207_173535 File exists...
+
+20251207_173535 ## Running script
+20251207_173535  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: ROI calculation failed: Revenue data unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251207_173625
+20251207_173625
+Execution Return Code: 8
+20251207_173625
+---------
+JOB ERROR
+---------
+Start Time: 173535, End Time: 173625
