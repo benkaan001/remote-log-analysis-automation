@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20251218_091657
+----------------------
+20251218_091657 ## Passed Parameter Values:
+20251218_091657 DOMAIN: marketing
+20251218_091657 SUB_DOMAIN: analytics
+20251218_091657 USER_NAME: analyst1
+20251218_091657 TABLE_NAME: job_conversion_rate
+20251218_091657 EXEC_SCOPE: PROD
+
+20251218_091657 ## Derived Variable Values:
+20251218_091657 STARTTIME: 091657
+20251218_091657 LOGDATE: 20251218_091657
+20251218_091657 JOB=job_conversion_rate
+
+20251218_091657 ###############################################################
+20251218_091657 ### RUNNING CONVERSION RATE SCRIPT
+20251218_091657 ###############################################################
+
+20251218_091657 ## Checking if script exists
+20251218_091657 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20251218_091657 File exists...
+
+20251218_091657 ## Running script
+20251218_091657  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Fatal error in data processing pipeline.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251218_091713
+20251218_091713
+Execution Return Code: 8
+20251218_091713
+---------
+JOB ERROR
+---------
+Start Time: 091657, End Time: 091713

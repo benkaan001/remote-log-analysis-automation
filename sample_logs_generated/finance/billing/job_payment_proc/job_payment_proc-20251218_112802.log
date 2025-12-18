@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251218_112802
+----------------------
+20251218_112802 ## Passed Parameter Values:
+20251218_112802 DOMAIN: finance
+20251218_112802 SUB_DOMAIN: billing
+20251218_112802 USER_NAME: finance_user1
+20251218_112802 TABLE_NAME: job_payment_proc
+20251218_112802 EXEC_SCOPE: PROD
+
+20251218_112802 ## Derived Variable Values:
+20251218_112802 STARTTIME: 112802
+20251218_112802 LOGDATE: 20251218_112802
+20251218_112802 JOB=job_payment_proc
+
+20251218_112802 ###############################################################
+20251218_112802 ### RUNNING PAYMENT PROC SCRIPT
+20251218_112802 ###############################################################
+
+20251218_112802 ## Checking if script exists
+20251218_112802 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20251218_112802 File exists...
+
+20251218_112802 ## Running script
+20251218_112802  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251218_112819
+20251218_112819
+Execution Return Code: 8
+20251218_112819
+---------
+JOB ERROR
+---------
+Start Time: 112802, End Time: 112819
