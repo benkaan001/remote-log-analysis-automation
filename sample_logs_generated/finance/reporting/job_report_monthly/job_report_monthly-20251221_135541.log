@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20251221_135541
+----------------------
+20251221_135541 ## Passed Parameter Values:
+20251221_135541 DOMAIN: finance
+20251221_135541 SUB_DOMAIN: reporting
+20251221_135541 USER_NAME: finance_admin
+20251221_135541 TABLE_NAME: job_report_monthly
+20251221_135541 EXEC_SCOPE: DEV
+
+20251221_135541 ## Derived Variable Values:
+20251221_135541 STARTTIME: 135541
+20251221_135541 LOGDATE: 20251221_135541
+20251221_135541 JOB=job_report_monthly
+
+20251221_135541 ###############################################################
+20251221_135541 ### RUNNING REPORT MONTHLY SCRIPT
+20251221_135541 ###############################################################
+
+20251221_135541 ## Checking if script exists
+20251221_135541 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20251221_135541 File exists...
+
+20251221_135541 ## Running script
+20251221_135541  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Fatal error in data processing pipeline.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251221_135612
+20251221_135612
+Execution Return Code: 8
+20251221_135612
+---------
+JOB ERROR
+---------
+Start Time: 135541, End Time: 135612

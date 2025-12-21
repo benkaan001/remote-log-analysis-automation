@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20251221_191619
+----------------------
+20251221_191619 ## Passed Parameter Values:
+20251221_191619 DOMAIN: finance
+20251221_191619 SUB_DOMAIN: billing
+20251221_191619 USER_NAME: accountant1
+20251221_191619 TABLE_NAME: job_payment_proc
+20251221_191619 EXEC_SCOPE: UAT
+
+20251221_191619 ## Derived Variable Values:
+20251221_191619 STARTTIME: 191619
+20251221_191619 LOGDATE: 20251221_191619
+20251221_191619 JOB=job_payment_proc
+
+20251221_191619 ###############################################################
+20251221_191619 ### RUNNING PAYMENT PROC SCRIPT
+20251221_191619 ###############################################################
+
+20251221_191619 ## Checking if script exists
+20251221_191619 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20251221_191619 File exists...
+
+20251221_191619 ## Running script
+20251221_191619  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251221_191712
+20251221_191712
+Execution Return Code: 4
+20251221_191712
+---------
+JOB ERROR
+---------
+Start Time: 191619, End Time: 191712
