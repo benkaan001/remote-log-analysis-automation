@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20251223_074404
+----------------------
+20251223_074404 ## Passed Parameter Values:
+20251223_074404 DOMAIN: operations
+20251223_074404 SUB_DOMAIN: logistics
+20251223_074404 USER_NAME: logistics_manager
+20251223_074404 TABLE_NAME: job_warehouse_mgmt
+20251223_074404 EXEC_SCOPE: PROD
+
+20251223_074404 ## Derived Variable Values:
+20251223_074404 STARTTIME: 074404
+20251223_074404 LOGDATE: 20251223_074404
+20251223_074404 JOB=job_warehouse_mgmt
+
+20251223_074404 ###############################################################
+20251223_074404 ### RUNNING WAREHOUSE MGMT SCRIPT
+20251223_074404 ###############################################################
+
+20251223_074404 ## Checking if script exists
+20251223_074404 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20251223_074404 File exists...
+
+20251223_074404 ## Running script
+20251223_074404  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Logistics generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251223_074427
+20251223_074427
+Execution Return Code: 1
+20251223_074427
+---------
+JOB ERROR
+---------
+Start Time: 074404, End Time: 074427

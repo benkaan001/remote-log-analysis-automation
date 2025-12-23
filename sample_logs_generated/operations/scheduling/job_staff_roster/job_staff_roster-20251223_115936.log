@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251223_115936
+----------------------
+20251223_115936 ## Passed Parameter Values:
+20251223_115936 DOMAIN: operations
+20251223_115936 SUB_DOMAIN: scheduling
+20251223_115936 USER_NAME: logistics_manager
+20251223_115936 TABLE_NAME: job_staff_roster
+20251223_115936 EXEC_SCOPE: DEV
+
+20251223_115936 ## Derived Variable Values:
+20251223_115936 STARTTIME: 115936
+20251223_115936 LOGDATE: 20251223_115936
+20251223_115936 JOB=job_staff_roster
+
+20251223_115936 ###############################################################
+20251223_115936 ### RUNNING STAFF ROSTER SCRIPT
+20251223_115936 ###############################################################
+
+20251223_115936 ## Checking if script exists
+20251223_115936 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20251223_115936 File exists...
+
+20251223_115936 ## Running script
+20251223_115936  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251223_120002
+20251223_120002
+Execution Return Code: 4
+20251223_120002
+---------
+JOB ERROR
+---------
+Start Time: 115936, End Time: 120002
