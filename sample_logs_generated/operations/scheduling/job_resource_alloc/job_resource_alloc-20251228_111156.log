@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251228_111156
+----------------------
+20251228_111156 ## Passed Parameter Values:
+20251228_111156 DOMAIN: operations
+20251228_111156 SUB_DOMAIN: scheduling
+20251228_111156 USER_NAME: logistics_manager
+20251228_111156 TABLE_NAME: job_resource_alloc
+20251228_111156 EXEC_SCOPE: DEV
+
+20251228_111156 ## Derived Variable Values:
+20251228_111156 STARTTIME: 111156
+20251228_111156 LOGDATE: 20251228_111156
+20251228_111156 JOB=job_resource_alloc
+
+20251228_111156 ###############################################################
+20251228_111156 ### RUNNING RESOURCE ALLOC SCRIPT
+20251228_111156 ###############################################################
+
+20251228_111156 ## Checking if script exists
+20251228_111156 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20251228_111156 File exists...
+
+20251228_111156 ## Running script
+20251228_111156  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251228_111243
+20251228_111243
+Execution Return Code: 1
+20251228_111243
+---------
+JOB ERROR
+---------
+Start Time: 111156, End Time: 111243

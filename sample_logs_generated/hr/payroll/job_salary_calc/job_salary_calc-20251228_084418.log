@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20251228_084418
+----------------------
+20251228_084418 ## Passed Parameter Values:
+20251228_084418 DOMAIN: hr
+20251228_084418 SUB_DOMAIN: payroll
+20251228_084418 USER_NAME: recruiter1
+20251228_084418 TABLE_NAME: job_salary_calc
+20251228_084418 EXEC_SCOPE: PROD
+
+20251228_084418 ## Derived Variable Values:
+20251228_084418 STARTTIME: 084418
+20251228_084418 LOGDATE: 20251228_084418
+20251228_084418 JOB=job_salary_calc
+
+20251228_084418 ###############################################################
+20251228_084418 ### RUNNING SALARY CALC SCRIPT
+20251228_084418 ###############################################################
+
+20251228_084418 ## Checking if script exists
+20251228_084418 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20251228_084418 File exists...
+
+20251228_084418 ## Running script
+20251228_084418  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20251228_084500
+20251228_084500
+Execution Return Code: 1
+20251228_084500
+---------
+JOB ERROR
+---------
+Start Time: 084418, End Time: 084500
