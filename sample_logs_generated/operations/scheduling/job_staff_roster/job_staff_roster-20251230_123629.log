@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20251230_123629
+----------------------
+20251230_123629 ## Passed Parameter Values:
+20251230_123629 DOMAIN: operations
+20251230_123629 SUB_DOMAIN: scheduling
+20251230_123629 USER_NAME: scheduler
+20251230_123629 TABLE_NAME: job_staff_roster
+20251230_123629 EXEC_SCOPE: PROD
+
+20251230_123629 ## Derived Variable Values:
+20251230_123629 STARTTIME: 123629
+20251230_123629 LOGDATE: 20251230_123629
+20251230_123629 JOB=job_staff_roster
+
+20251230_123629 ###############################################################
+20251230_123629 ### RUNNING STAFF ROSTER SCRIPT
+20251230_123629 ###############################################################
+
+20251230_123629 ## Checking if script exists
+20251230_123629 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20251230_123629 File exists...
+
+20251230_123629 ## Running script
+20251230_123629  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20251230_123700
+20251230_123700
+Execution Return Code: 8
+20251230_123700
+---------
+JOB ERROR
+---------
+Start Time: 123629, End Time: 123700

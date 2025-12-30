@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20251230_222641
+----------------------
+20251230_222641 ## Passed Parameter Values:
+20251230_222641 DOMAIN: marketing
+20251230_222641 SUB_DOMAIN: analytics
+20251230_222641 USER_NAME: marketing_user1
+20251230_222641 TABLE_NAME: job_roi_report
+20251230_222641 EXEC_SCOPE: DEV
+
+20251230_222641 ## Derived Variable Values:
+20251230_222641 STARTTIME: 222641
+20251230_222641 LOGDATE: 20251230_222641
+20251230_222641 JOB=job_roi_report
+
+20251230_222641 ###############################################################
+20251230_222641 ### RUNNING ROI REPORT SCRIPT
+20251230_222641 ###############################################################
+
+20251230_222641 ## Checking if script exists
+20251230_222641 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20251230_222641 File exists...
+
+20251230_222641 ## Running script
+20251230_222641  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Conversion calculation error: Missing funnel stage data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20251230_222649
+20251230_222649
+Execution Return Code: 4
+20251230_222649
+---------
+JOB ERROR
+---------
+Start Time: 222641, End Time: 222649
