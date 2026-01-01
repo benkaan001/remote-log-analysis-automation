@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260101_023448
+----------------------
+20260101_023448 ## Passed Parameter Values:
+20260101_023448 DOMAIN: finance
+20260101_023448 SUB_DOMAIN: reporting
+20260101_023448 USER_NAME: finance_admin
+20260101_023448 TABLE_NAME: job_report_monthly
+20260101_023448 EXEC_SCOPE: TEST
+
+20260101_023448 ## Derived Variable Values:
+20260101_023448 STARTTIME: 023448
+20260101_023448 LOGDATE: 20260101_023448
+20260101_023448 JOB=job_report_monthly
+
+20260101_023448 ###############################################################
+20260101_023448 ### RUNNING REPORT MONTHLY SCRIPT
+20260101_023448 ###############################################################
+
+20260101_023448 ## Checking if script exists
+20260101_023448 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260101_023448 File exists...
+
+20260101_023448 ## Running script
+20260101_023448  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260101_023529
+20260101_023529
+Execution Return Code: 2
+20260101_023529
+---------
+JOB ERROR
+---------
+Start Time: 023448, End Time: 023529

@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260101_021005
+----------------------
+20260101_021005 ## Passed Parameter Values:
+20260101_021005 DOMAIN: operations
+20260101_021005 SUB_DOMAIN: logistics
+20260101_021005 USER_NAME: ops_user1
+20260101_021005 TABLE_NAME: job_inventory_check
+20260101_021005 EXEC_SCOPE: DEV
+
+20260101_021005 ## Derived Variable Values:
+20260101_021005 STARTTIME: 021005
+20260101_021005 LOGDATE: 20260101_021005
+20260101_021005 JOB=job_inventory_check
+
+20260101_021005 ###############################################################
+20260101_021005 ### RUNNING INVENTORY CHECK SCRIPT
+20260101_021005 ###############################################################
+
+20260101_021005 ## Checking if script exists
+20260101_021005 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260101_021005 File exists...
+
+20260101_021005 ## Running script
+20260101_021005  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260101_021022
+20260101_021022
+Execution Return Code: 4
+20260101_021022
+---------
+JOB ERROR
+---------
+Start Time: 021005, End Time: 021022

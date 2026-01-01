@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260101_075345
+----------------------
+20260101_075345 ## Passed Parameter Values:
+20260101_075345 DOMAIN: finance
+20260101_075345 SUB_DOMAIN: reporting
+20260101_075345 USER_NAME: finance_user1
+20260101_075345 TABLE_NAME: job_report_daily
+20260101_075345 EXEC_SCOPE: PROD
+
+20260101_075345 ## Derived Variable Values:
+20260101_075345 STARTTIME: 075345
+20260101_075345 LOGDATE: 20260101_075345
+20260101_075345 JOB=job_report_daily
+
+20260101_075345 ###############################################################
+20260101_075345 ### RUNNING REPORT DAILY SCRIPT
+20260101_075345 ###############################################################
+
+20260101_075345 ## Checking if script exists
+20260101_075345 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260101_075345 File exists...
+
+20260101_075345 ## Running script
+20260101_075345  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260101_075441
+20260101_075441
+Execution Return Code: 1
+20260101_075441
+---------
+JOB ERROR
+---------
+Start Time: 075345, End Time: 075441
