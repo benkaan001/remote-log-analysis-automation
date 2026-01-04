@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260104_151223
+----------------------
+20260104_151223 ## Passed Parameter Values:
+20260104_151223 DOMAIN: hr
+20260104_151223 SUB_DOMAIN: recruiting
+20260104_151223 USER_NAME: payroll_admin
+20260104_151223 TABLE_NAME: job_interview_sched
+20260104_151223 EXEC_SCOPE: PROD
+
+20260104_151223 ## Derived Variable Values:
+20260104_151223 STARTTIME: 151223
+20260104_151223 LOGDATE: 20260104_151223
+20260104_151223 JOB=job_interview_sched
+
+20260104_151223 ###############################################################
+20260104_151223 ### RUNNING INTERVIEW SCHED SCRIPT
+20260104_151223 ###############################################################
+
+20260104_151223 ## Checking if script exists
+20260104_151223 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20260104_151223 File exists...
+
+20260104_151223 ## Running script
+20260104_151223  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260104_151231
+20260104_151231
+Execution Return Code: 2
+20260104_151231
+---------
+JOB ERROR
+---------
+Start Time: 151223, End Time: 151231
