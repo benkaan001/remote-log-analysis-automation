@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260108_015500
+----------------------
+20260108_015500 ## Passed Parameter Values:
+20260108_015500 DOMAIN: operations
+20260108_015500 SUB_DOMAIN: scheduling
+20260108_015500 USER_NAME: logistics_manager
+20260108_015500 TABLE_NAME: job_maintenance_plan
+20260108_015500 EXEC_SCOPE: PROD
+
+20260108_015500 ## Derived Variable Values:
+20260108_015500 STARTTIME: 015500
+20260108_015500 LOGDATE: 20260108_015500
+20260108_015500 JOB=job_maintenance_plan
+
+20260108_015500 ###############################################################
+20260108_015500 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260108_015500 ###############################################################
+
+20260108_015500 ## Checking if script exists
+20260108_015500 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260108_015500 File exists...
+
+20260108_015500 ## Running script
+20260108_015500  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260108_015532
+20260108_015532
+Execution Return Code: 2
+20260108_015532
+---------
+JOB ERROR
+---------
+Start Time: 015500, End Time: 015532

@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260108_045813
+----------------------
+20260108_045813 ## Passed Parameter Values:
+20260108_045813 DOMAIN: finance
+20260108_045813 SUB_DOMAIN: billing
+20260108_045813 USER_NAME: accountant1
+20260108_045813 TABLE_NAME: job_tax_calc
+20260108_045813 EXEC_SCOPE: DEV
+
+20260108_045813 ## Derived Variable Values:
+20260108_045813 STARTTIME: 045813
+20260108_045813 LOGDATE: 20260108_045813
+20260108_045813 JOB=job_tax_calc
+
+20260108_045813 ###############################################################
+20260108_045813 ### RUNNING TAX CALC SCRIPT
+20260108_045813 ###############################################################
+
+20260108_045813 ## Checking if script exists
+20260108_045813 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260108_045813 File exists...
+
+20260108_045813 ## Running script
+20260108_045813  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260108_045830
+20260108_045830
+Execution Return Code: 0
+20260108_045830
+-----------
+JOB SUCCESS
+-----------
+Start Time: 045813, End Time: 045830
