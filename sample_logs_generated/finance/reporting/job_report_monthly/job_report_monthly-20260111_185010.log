@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260111_185010
+----------------------
+20260111_185010 ## Passed Parameter Values:
+20260111_185010 DOMAIN: finance
+20260111_185010 SUB_DOMAIN: reporting
+20260111_185010 USER_NAME: finance_user1
+20260111_185010 TABLE_NAME: job_report_monthly
+20260111_185010 EXEC_SCOPE: DEV
+
+20260111_185010 ## Derived Variable Values:
+20260111_185010 STARTTIME: 185010
+20260111_185010 LOGDATE: 20260111_185010
+20260111_185010 JOB=job_report_monthly
+
+20260111_185010 ###############################################################
+20260111_185010 ### RUNNING REPORT MONTHLY SCRIPT
+20260111_185010 ###############################################################
+
+20260111_185010 ## Checking if script exists
+20260111_185010 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260111_185010 File exists...
+
+20260111_185010 ## Running script
+20260111_185010  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260111_185056
+20260111_185056
+Execution Return Code: 0
+20260111_185056
+-----------
+JOB SUCCESS
+-----------
+Start Time: 185010, End Time: 185056

@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260111_211145
+----------------------
+20260111_211145 ## Passed Parameter Values:
+20260111_211145 DOMAIN: finance
+20260111_211145 SUB_DOMAIN: billing
+20260111_211145 USER_NAME: finance_user1
+20260111_211145 TABLE_NAME: job_tax_calc
+20260111_211145 EXEC_SCOPE: PROD
+
+20260111_211145 ## Derived Variable Values:
+20260111_211145 STARTTIME: 211145
+20260111_211145 LOGDATE: 20260111_211145
+20260111_211145 JOB=job_tax_calc
+
+20260111_211145 ###############################################################
+20260111_211145 ### RUNNING TAX CALC SCRIPT
+20260111_211145 ###############################################################
+
+20260111_211145 ## Checking if script exists
+20260111_211145 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260111_211145 File exists...
+
+20260111_211145 ## Running script
+20260111_211145  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260111_211216
+20260111_211216
+Execution Return Code: 4
+20260111_211216
+---------
+JOB ERROR
+---------
+Start Time: 211145, End Time: 211216

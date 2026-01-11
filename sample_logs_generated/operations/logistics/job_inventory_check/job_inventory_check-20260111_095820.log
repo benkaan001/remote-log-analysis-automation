@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260111_095820
+----------------------
+20260111_095820 ## Passed Parameter Values:
+20260111_095820 DOMAIN: operations
+20260111_095820 SUB_DOMAIN: logistics
+20260111_095820 USER_NAME: scheduler
+20260111_095820 TABLE_NAME: job_inventory_check
+20260111_095820 EXEC_SCOPE: UAT
+
+20260111_095820 ## Derived Variable Values:
+20260111_095820 STARTTIME: 095820
+20260111_095820 LOGDATE: 20260111_095820
+20260111_095820 JOB=job_inventory_check
+
+20260111_095820 ###############################################################
+20260111_095820 ### RUNNING INVENTORY CHECK SCRIPT
+20260111_095820 ###############################################################
+
+20260111_095820 ## Checking if script exists
+20260111_095820 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260111_095820 File exists...
+
+20260111_095820 ## Running script
+20260111_095820  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260111_095857
+20260111_095857
+Execution Return Code: 1
+20260111_095857
+---------
+JOB ERROR
+---------
+Start Time: 095820, End Time: 095857

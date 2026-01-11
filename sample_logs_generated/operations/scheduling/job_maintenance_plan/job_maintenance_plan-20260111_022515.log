@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260111_022515
+----------------------
+20260111_022515 ## Passed Parameter Values:
+20260111_022515 DOMAIN: operations
+20260111_022515 SUB_DOMAIN: scheduling
+20260111_022515 USER_NAME: ops_user1
+20260111_022515 TABLE_NAME: job_maintenance_plan
+20260111_022515 EXEC_SCOPE: UAT
+
+20260111_022515 ## Derived Variable Values:
+20260111_022515 STARTTIME: 022515
+20260111_022515 LOGDATE: 20260111_022515
+20260111_022515 JOB=job_maintenance_plan
+
+20260111_022515 ###############################################################
+20260111_022515 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260111_022515 ###############################################################
+
+20260111_022515 ## Checking if script exists
+20260111_022515 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260111_022515 File exists...
+
+20260111_022515 ## Running script
+20260111_022515  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260111_022525
+20260111_022525
+Execution Return Code: 0
+20260111_022525
+-----------
+JOB SUCCESS
+-----------
+Start Time: 022515, End Time: 022525
