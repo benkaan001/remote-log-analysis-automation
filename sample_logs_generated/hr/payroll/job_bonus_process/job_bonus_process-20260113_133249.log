@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260113_133249
+----------------------
+20260113_133249 ## Passed Parameter Values:
+20260113_133249 DOMAIN: hr
+20260113_133249 SUB_DOMAIN: payroll
+20260113_133249 USER_NAME: payroll_admin
+20260113_133249 TABLE_NAME: job_bonus_process
+20260113_133249 EXEC_SCOPE: DEV
+
+20260113_133249 ## Derived Variable Values:
+20260113_133249 STARTTIME: 133249
+20260113_133249 LOGDATE: 20260113_133249
+20260113_133249 JOB=job_bonus_process
+
+20260113_133249 ###############################################################
+20260113_133249 ### RUNNING BONUS PROCESS SCRIPT
+20260113_133249 ###############################################################
+
+20260113_133249 ## Checking if script exists
+20260113_133249 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260113_133249 File exists...
+
+20260113_133249 ## Running script
+20260113_133249  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Payroll generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260113_133256
+20260113_133256
+Execution Return Code: 8
+20260113_133256
+---------
+JOB ERROR
+---------
+Start Time: 133249, End Time: 133256
