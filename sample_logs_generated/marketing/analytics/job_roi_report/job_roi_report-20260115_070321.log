@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260115_070321
+----------------------
+20260115_070321 ## Passed Parameter Values:
+20260115_070321 DOMAIN: marketing
+20260115_070321 SUB_DOMAIN: analytics
+20260115_070321 USER_NAME: campaign_manager
+20260115_070321 TABLE_NAME: job_roi_report
+20260115_070321 EXEC_SCOPE: UAT
+
+20260115_070321 ## Derived Variable Values:
+20260115_070321 STARTTIME: 070321
+20260115_070321 LOGDATE: 20260115_070321
+20260115_070321 JOB=job_roi_report
+
+20260115_070321 ###############################################################
+20260115_070321 ### RUNNING ROI REPORT SCRIPT
+20260115_070321 ###############################################################
+
+20260115_070321 ## Checking if script exists
+20260115_070321 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260115_070321 File exists...
+
+20260115_070321 ## Running script
+20260115_070321  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260115_070400
+20260115_070400
+Execution Return Code: 0
+20260115_070400
+-----------
+JOB SUCCESS
+-----------
+Start Time: 070321, End Time: 070400

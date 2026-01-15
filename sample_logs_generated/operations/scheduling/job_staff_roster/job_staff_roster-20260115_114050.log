@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260115_114050
+----------------------
+20260115_114050 ## Passed Parameter Values:
+20260115_114050 DOMAIN: operations
+20260115_114050 SUB_DOMAIN: scheduling
+20260115_114050 USER_NAME: logistics_manager
+20260115_114050 TABLE_NAME: job_staff_roster
+20260115_114050 EXEC_SCOPE: PROD
+
+20260115_114050 ## Derived Variable Values:
+20260115_114050 STARTTIME: 114050
+20260115_114050 LOGDATE: 20260115_114050
+20260115_114050 JOB=job_staff_roster
+
+20260115_114050 ###############################################################
+20260115_114050 ### RUNNING STAFF ROSTER SCRIPT
+20260115_114050 ###############################################################
+
+20260115_114050 ## Checking if script exists
+20260115_114050 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260115_114050 File exists...
+
+20260115_114050 ## Running script
+20260115_114050  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260115_114144
+20260115_114144
+Execution Return Code: 4
+20260115_114144
+---------
+JOB ERROR
+---------
+Start Time: 114050, End Time: 114144

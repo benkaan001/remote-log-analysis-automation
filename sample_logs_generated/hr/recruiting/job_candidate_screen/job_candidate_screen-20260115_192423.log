@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260115_192423
+----------------------
+20260115_192423 ## Passed Parameter Values:
+20260115_192423 DOMAIN: hr
+20260115_192423 SUB_DOMAIN: recruiting
+20260115_192423 USER_NAME: recruiter1
+20260115_192423 TABLE_NAME: job_candidate_screen
+20260115_192423 EXEC_SCOPE: DEV
+
+20260115_192423 ## Derived Variable Values:
+20260115_192423 STARTTIME: 192423
+20260115_192423 LOGDATE: 20260115_192423
+20260115_192423 JOB=job_candidate_screen
+
+20260115_192423 ###############################################################
+20260115_192423 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260115_192423 ###############################################################
+
+20260115_192423 ## Checking if script exists
+20260115_192423 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260115_192423 File exists...
+
+20260115_192423 ## Running script
+20260115_192423  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260115_192428
+20260115_192428
+Execution Return Code: 1
+20260115_192428
+---------
+JOB ERROR
+---------
+Start Time: 192423, End Time: 192428

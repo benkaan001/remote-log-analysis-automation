@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260115_095339
+----------------------
+20260115_095339 ## Passed Parameter Values:
+20260115_095339 DOMAIN: hr
+20260115_095339 SUB_DOMAIN: recruiting
+20260115_095339 USER_NAME: hr_user1
+20260115_095339 TABLE_NAME: job_interview_sched
+20260115_095339 EXEC_SCOPE: DEV
+
+20260115_095339 ## Derived Variable Values:
+20260115_095339 STARTTIME: 095339
+20260115_095339 LOGDATE: 20260115_095339
+20260115_095339 JOB=job_interview_sched
+
+20260115_095339 ###############################################################
+20260115_095339 ### RUNNING INTERVIEW SCHED SCRIPT
+20260115_095339 ###############################################################
+
+20260115_095339 ## Checking if script exists
+20260115_095339 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20260115_095339 File exists...
+
+20260115_095339 ## Running script
+20260115_095339  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260115_095412
+20260115_095412
+Execution Return Code: 8
+20260115_095412
+---------
+JOB ERROR
+---------
+Start Time: 095339, End Time: 095412
