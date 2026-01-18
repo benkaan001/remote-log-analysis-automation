@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260118_035015
+----------------------
+20260118_035015 ## Passed Parameter Values:
+20260118_035015 DOMAIN: operations
+20260118_035015 SUB_DOMAIN: scheduling
+20260118_035015 USER_NAME: logistics_manager
+20260118_035015 TABLE_NAME: job_staff_roster
+20260118_035015 EXEC_SCOPE: UAT
+
+20260118_035015 ## Derived Variable Values:
+20260118_035015 STARTTIME: 035015
+20260118_035015 LOGDATE: 20260118_035015
+20260118_035015 JOB=job_staff_roster
+
+20260118_035015 ###############################################################
+20260118_035015 ### RUNNING STAFF ROSTER SCRIPT
+20260118_035015 ###############################################################
+
+20260118_035015 ## Checking if script exists
+20260118_035015 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260118_035015 File exists...
+
+20260118_035015 ## Running script
+20260118_035015  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260118_035048
+20260118_035048
+Execution Return Code: 4
+20260118_035048
+---------
+JOB ERROR
+---------
+Start Time: 035015, End Time: 035048

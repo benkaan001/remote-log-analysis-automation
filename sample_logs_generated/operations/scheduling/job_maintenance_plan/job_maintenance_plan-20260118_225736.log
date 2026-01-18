@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260118_225736
+----------------------
+20260118_225736 ## Passed Parameter Values:
+20260118_225736 DOMAIN: operations
+20260118_225736 SUB_DOMAIN: scheduling
+20260118_225736 USER_NAME: scheduler
+20260118_225736 TABLE_NAME: job_maintenance_plan
+20260118_225736 EXEC_SCOPE: PROD
+
+20260118_225736 ## Derived Variable Values:
+20260118_225736 STARTTIME: 225736
+20260118_225736 LOGDATE: 20260118_225736
+20260118_225736 JOB=job_maintenance_plan
+
+20260118_225736 ###############################################################
+20260118_225736 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260118_225736 ###############################################################
+
+20260118_225736 ## Checking if script exists
+20260118_225736 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260118_225736 File exists...
+
+20260118_225736 ## Running script
+20260118_225736  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260118_225829
+20260118_225829
+Execution Return Code: 0
+20260118_225829
+-----------
+JOB SUCCESS
+-----------
+Start Time: 225736, End Time: 225829

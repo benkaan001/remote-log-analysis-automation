@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260118_044115
+----------------------
+20260118_044115 ## Passed Parameter Values:
+20260118_044115 DOMAIN: operations
+20260118_044115 SUB_DOMAIN: logistics
+20260118_044115 USER_NAME: logistics_manager
+20260118_044115 TABLE_NAME: job_warehouse_mgmt
+20260118_044115 EXEC_SCOPE: TEST
+
+20260118_044115 ## Derived Variable Values:
+20260118_044115 STARTTIME: 044115
+20260118_044115 LOGDATE: 20260118_044115
+20260118_044115 JOB=job_warehouse_mgmt
+
+20260118_044115 ###############################################################
+20260118_044115 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260118_044115 ###############################################################
+
+20260118_044115 ## Checking if script exists
+20260118_044115 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260118_044115 File exists...
+
+20260118_044115 ## Running script
+20260118_044115  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260118_044130
+20260118_044130
+Execution Return Code: 2
+20260118_044130
+---------
+JOB ERROR
+---------
+Start Time: 044115, End Time: 044130
