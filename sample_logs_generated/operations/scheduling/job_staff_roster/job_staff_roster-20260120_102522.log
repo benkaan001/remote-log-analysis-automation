@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260120_102522
+----------------------
+20260120_102522 ## Passed Parameter Values:
+20260120_102522 DOMAIN: operations
+20260120_102522 SUB_DOMAIN: scheduling
+20260120_102522 USER_NAME: scheduler
+20260120_102522 TABLE_NAME: job_staff_roster
+20260120_102522 EXEC_SCOPE: UAT
+
+20260120_102522 ## Derived Variable Values:
+20260120_102522 STARTTIME: 102522
+20260120_102522 LOGDATE: 20260120_102522
+20260120_102522 JOB=job_staff_roster
+
+20260120_102522 ###############################################################
+20260120_102522 ### RUNNING STAFF ROSTER SCRIPT
+20260120_102522 ###############################################################
+
+20260120_102522 ## Checking if script exists
+20260120_102522 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260120_102522 File exists...
+
+20260120_102522 ## Running script
+20260120_102522  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260120_102539
+20260120_102539
+Execution Return Code: 1
+20260120_102539
+---------
+JOB ERROR
+---------
+Start Time: 102522, End Time: 102539

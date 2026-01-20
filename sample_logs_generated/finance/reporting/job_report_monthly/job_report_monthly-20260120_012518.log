@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260120_012518
+----------------------
+20260120_012518 ## Passed Parameter Values:
+20260120_012518 DOMAIN: finance
+20260120_012518 SUB_DOMAIN: reporting
+20260120_012518 USER_NAME: finance_user1
+20260120_012518 TABLE_NAME: job_report_monthly
+20260120_012518 EXEC_SCOPE: PROD
+
+20260120_012518 ## Derived Variable Values:
+20260120_012518 STARTTIME: 012518
+20260120_012518 LOGDATE: 20260120_012518
+20260120_012518 JOB=job_report_monthly
+
+20260120_012518 ###############################################################
+20260120_012518 ### RUNNING REPORT MONTHLY SCRIPT
+20260120_012518 ###############################################################
+
+20260120_012518 ## Checking if script exists
+20260120_012518 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260120_012518 File exists...
+
+20260120_012518 ## Running script
+20260120_012518  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260120_012550
+20260120_012550
+Execution Return Code: 1
+20260120_012550
+---------
+JOB ERROR
+---------
+Start Time: 012518, End Time: 012550

@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260120_235642
+----------------------
+20260120_235642 ## Passed Parameter Values:
+20260120_235642 DOMAIN: marketing
+20260120_235642 SUB_DOMAIN: campaigns
+20260120_235642 USER_NAME: campaign_manager
+20260120_235642 TABLE_NAME: job_email_blast
+20260120_235642 EXEC_SCOPE: UAT
+
+20260120_235642 ## Derived Variable Values:
+20260120_235642 STARTTIME: 235642
+20260120_235642 LOGDATE: 20260120_235642
+20260120_235642 JOB=job_email_blast
+
+20260120_235642 ###############################################################
+20260120_235642 ### RUNNING EMAIL BLAST SCRIPT
+20260120_235642 ###############################################################
+
+20260120_235642 ## Checking if script exists
+20260120_235642 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20260120_235642 File exists...
+
+20260120_235642 ## Running script
+20260120_235642  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260120_235715
+20260120_235715
+Execution Return Code: 4
+20260120_235715
+---------
+JOB ERROR
+---------
+Start Time: 235642, End Time: 235715
