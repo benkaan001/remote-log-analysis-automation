@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260122_111721
+----------------------
+20260122_111721 ## Passed Parameter Values:
+20260122_111721 DOMAIN: hr
+20260122_111721 SUB_DOMAIN: recruiting
+20260122_111721 USER_NAME: recruiter1
+20260122_111721 TABLE_NAME: job_interview_sched
+20260122_111721 EXEC_SCOPE: UAT
+
+20260122_111721 ## Derived Variable Values:
+20260122_111721 STARTTIME: 111721
+20260122_111721 LOGDATE: 20260122_111721
+20260122_111721 JOB=job_interview_sched
+
+20260122_111721 ###############################################################
+20260122_111721 ### RUNNING INTERVIEW SCHED SCRIPT
+20260122_111721 ###############################################################
+
+20260122_111721 ## Checking if script exists
+20260122_111721 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20260122_111721 File exists...
+
+20260122_111721 ## Running script
+20260122_111721  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Recruiting report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260122_111741
+20260122_111741
+Execution Return Code: 2
+20260122_111741
+---------
+JOB ERROR
+---------
+Start Time: 111721, End Time: 111741

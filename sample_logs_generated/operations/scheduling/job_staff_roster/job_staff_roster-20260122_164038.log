@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260122_164038
+----------------------
+20260122_164038 ## Passed Parameter Values:
+20260122_164038 DOMAIN: operations
+20260122_164038 SUB_DOMAIN: scheduling
+20260122_164038 USER_NAME: scheduler
+20260122_164038 TABLE_NAME: job_staff_roster
+20260122_164038 EXEC_SCOPE: DEV
+
+20260122_164038 ## Derived Variable Values:
+20260122_164038 STARTTIME: 164038
+20260122_164038 LOGDATE: 20260122_164038
+20260122_164038 JOB=job_staff_roster
+
+20260122_164038 ###############################################################
+20260122_164038 ### RUNNING STAFF ROSTER SCRIPT
+20260122_164038 ###############################################################
+
+20260122_164038 ## Checking if script exists
+20260122_164038 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260122_164038 File exists...
+
+20260122_164038 ## Running script
+20260122_164038  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260122_164130
+20260122_164130
+Execution Return Code: 2
+20260122_164130
+---------
+JOB ERROR
+---------
+Start Time: 164038, End Time: 164130
