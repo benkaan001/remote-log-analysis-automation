@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260125_053658
+----------------------
+20260125_053658 ## Passed Parameter Values:
+20260125_053658 DOMAIN: hr
+20260125_053658 SUB_DOMAIN: recruiting
+20260125_053658 USER_NAME: payroll_admin
+20260125_053658 TABLE_NAME: job_offer_gen
+20260125_053658 EXEC_SCOPE: PROD
+
+20260125_053658 ## Derived Variable Values:
+20260125_053658 STARTTIME: 053658
+20260125_053658 LOGDATE: 20260125_053658
+20260125_053658 JOB=job_offer_gen
+
+20260125_053658 ###############################################################
+20260125_053658 ### RUNNING OFFER GEN SCRIPT
+20260125_053658 ###############################################################
+
+20260125_053658 ## Checking if script exists
+20260125_053658 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260125_053658 File exists...
+
+20260125_053658 ## Running script
+20260125_053658  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260125_053730
+20260125_053730
+Execution Return Code: 2
+20260125_053730
+---------
+JOB ERROR
+---------
+Start Time: 053658, End Time: 053730

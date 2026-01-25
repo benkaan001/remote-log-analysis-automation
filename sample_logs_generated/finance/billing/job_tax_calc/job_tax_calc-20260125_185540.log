@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260125_185540
+----------------------
+20260125_185540 ## Passed Parameter Values:
+20260125_185540 DOMAIN: finance
+20260125_185540 SUB_DOMAIN: billing
+20260125_185540 USER_NAME: accountant1
+20260125_185540 TABLE_NAME: job_tax_calc
+20260125_185540 EXEC_SCOPE: TEST
+
+20260125_185540 ## Derived Variable Values:
+20260125_185540 STARTTIME: 185540
+20260125_185540 LOGDATE: 20260125_185540
+20260125_185540 JOB=job_tax_calc
+
+20260125_185540 ###############################################################
+20260125_185540 ### RUNNING TAX CALC SCRIPT
+20260125_185540 ###############################################################
+
+20260125_185540 ## Checking if script exists
+20260125_185540 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260125_185540 File exists...
+
+20260125_185540 ## Running script
+20260125_185540  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260125_185602
+20260125_185602
+Execution Return Code: 8
+20260125_185602
+---------
+JOB ERROR
+---------
+Start Time: 185540, End Time: 185602

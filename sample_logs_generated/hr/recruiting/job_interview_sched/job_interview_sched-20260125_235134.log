@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260125_235134
+----------------------
+20260125_235134 ## Passed Parameter Values:
+20260125_235134 DOMAIN: hr
+20260125_235134 SUB_DOMAIN: recruiting
+20260125_235134 USER_NAME: payroll_admin
+20260125_235134 TABLE_NAME: job_interview_sched
+20260125_235134 EXEC_SCOPE: PROD
+
+20260125_235134 ## Derived Variable Values:
+20260125_235134 STARTTIME: 235134
+20260125_235134 LOGDATE: 20260125_235134
+20260125_235134 JOB=job_interview_sched
+
+20260125_235134 ###############################################################
+20260125_235134 ### RUNNING INTERVIEW SCHED SCRIPT
+20260125_235134 ###############################################################
+
+20260125_235134 ## Checking if script exists
+20260125_235134 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20260125_235134 File exists...
+
+20260125_235134 ## Running script
+20260125_235134  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260125_235152
+20260125_235152
+Execution Return Code: 2
+20260125_235152
+---------
+JOB ERROR
+---------
+Start Time: 235134, End Time: 235152

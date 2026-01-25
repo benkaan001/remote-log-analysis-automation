@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260125_161653
+----------------------
+20260125_161653 ## Passed Parameter Values:
+20260125_161653 DOMAIN: finance
+20260125_161653 SUB_DOMAIN: reporting
+20260125_161653 USER_NAME: finance_user1
+20260125_161653 TABLE_NAME: job_report_weekly
+20260125_161653 EXEC_SCOPE: TEST
+
+20260125_161653 ## Derived Variable Values:
+20260125_161653 STARTTIME: 161653
+20260125_161653 LOGDATE: 20260125_161653
+20260125_161653 JOB=job_report_weekly
+
+20260125_161653 ###############################################################
+20260125_161653 ### RUNNING REPORT WEEKLY SCRIPT
+20260125_161653 ###############################################################
+
+20260125_161653 ## Checking if script exists
+20260125_161653 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260125_161653 File exists...
+
+20260125_161653 ## Running script
+20260125_161653  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260125_161723
+20260125_161723
+Execution Return Code: 0
+20260125_161723
+-----------
+JOB SUCCESS
+-----------
+Start Time: 161653, End Time: 161723
