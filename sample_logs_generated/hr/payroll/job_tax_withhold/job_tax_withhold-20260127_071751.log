@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260127_071751
+----------------------
+20260127_071751 ## Passed Parameter Values:
+20260127_071751 DOMAIN: hr
+20260127_071751 SUB_DOMAIN: payroll
+20260127_071751 USER_NAME: hr_user1
+20260127_071751 TABLE_NAME: job_tax_withhold
+20260127_071751 EXEC_SCOPE: UAT
+
+20260127_071751 ## Derived Variable Values:
+20260127_071751 STARTTIME: 071751
+20260127_071751 LOGDATE: 20260127_071751
+20260127_071751 JOB=job_tax_withhold
+
+20260127_071751 ###############################################################
+20260127_071751 ### RUNNING TAX WITHHOLD SCRIPT
+20260127_071751 ###############################################################
+
+20260127_071751 ## Checking if script exists
+20260127_071751 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260127_071751 File exists...
+
+20260127_071751 ## Running script
+20260127_071751  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260127_071846
+20260127_071846
+Execution Return Code: 1
+20260127_071846
+---------
+JOB ERROR
+---------
+Start Time: 071751, End Time: 071846

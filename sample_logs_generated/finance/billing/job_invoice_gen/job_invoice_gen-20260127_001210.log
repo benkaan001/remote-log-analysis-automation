@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260127_001210
+----------------------
+20260127_001210 ## Passed Parameter Values:
+20260127_001210 DOMAIN: finance
+20260127_001210 SUB_DOMAIN: billing
+20260127_001210 USER_NAME: accountant1
+20260127_001210 TABLE_NAME: job_invoice_gen
+20260127_001210 EXEC_SCOPE: PROD
+
+20260127_001210 ## Derived Variable Values:
+20260127_001210 STARTTIME: 001210
+20260127_001210 LOGDATE: 20260127_001210
+20260127_001210 JOB=job_invoice_gen
+
+20260127_001210 ###############################################################
+20260127_001210 ### RUNNING INVOICE GEN SCRIPT
+20260127_001210 ###############################################################
+
+20260127_001210 ## Checking if script exists
+20260127_001210 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260127_001210 File exists...
+
+20260127_001210 ## Running script
+20260127_001210  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260127_001223
+20260127_001223
+Execution Return Code: 1
+20260127_001223
+---------
+JOB ERROR
+---------
+Start Time: 001210, End Time: 001223
