@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260129_133123
+----------------------
+20260129_133123 ## Passed Parameter Values:
+20260129_133123 DOMAIN: finance
+20260129_133123 SUB_DOMAIN: billing
+20260129_133123 USER_NAME: accountant1
+20260129_133123 TABLE_NAME: job_invoice_gen
+20260129_133123 EXEC_SCOPE: UAT
+
+20260129_133123 ## Derived Variable Values:
+20260129_133123 STARTTIME: 133123
+20260129_133123 LOGDATE: 20260129_133123
+20260129_133123 JOB=job_invoice_gen
+
+20260129_133123 ###############################################################
+20260129_133123 ### RUNNING INVOICE GEN SCRIPT
+20260129_133123 ###############################################################
+
+20260129_133123 ## Checking if script exists
+20260129_133123 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260129_133123 File exists...
+
+20260129_133123 ## Running script
+20260129_133123  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260129_133142
+20260129_133142
+Execution Return Code: 1
+20260129_133142
+---------
+JOB ERROR
+---------
+Start Time: 133123, End Time: 133142

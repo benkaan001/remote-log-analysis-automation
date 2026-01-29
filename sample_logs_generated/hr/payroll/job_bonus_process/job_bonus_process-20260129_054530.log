@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260129_054530
+----------------------
+20260129_054530 ## Passed Parameter Values:
+20260129_054530 DOMAIN: hr
+20260129_054530 SUB_DOMAIN: payroll
+20260129_054530 USER_NAME: recruiter1
+20260129_054530 TABLE_NAME: job_bonus_process
+20260129_054530 EXEC_SCOPE: DEV
+
+20260129_054530 ## Derived Variable Values:
+20260129_054530 STARTTIME: 054530
+20260129_054530 LOGDATE: 20260129_054530
+20260129_054530 JOB=job_bonus_process
+
+20260129_054530 ###############################################################
+20260129_054530 ### RUNNING BONUS PROCESS SCRIPT
+20260129_054530 ###############################################################
+
+20260129_054530 ## Checking if script exists
+20260129_054530 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260129_054530 File exists...
+
+20260129_054530 ## Running script
+20260129_054530  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260129_054617
+20260129_054617
+Execution Return Code: 4
+20260129_054617
+---------
+JOB ERROR
+---------
+Start Time: 054530, End Time: 054617

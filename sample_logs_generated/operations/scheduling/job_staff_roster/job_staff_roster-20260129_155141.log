@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260129_155141
+----------------------
+20260129_155141 ## Passed Parameter Values:
+20260129_155141 DOMAIN: operations
+20260129_155141 SUB_DOMAIN: scheduling
+20260129_155141 USER_NAME: ops_user1
+20260129_155141 TABLE_NAME: job_staff_roster
+20260129_155141 EXEC_SCOPE: TEST
+
+20260129_155141 ## Derived Variable Values:
+20260129_155141 STARTTIME: 155141
+20260129_155141 LOGDATE: 20260129_155141
+20260129_155141 JOB=job_staff_roster
+
+20260129_155141 ###############################################################
+20260129_155141 ### RUNNING STAFF ROSTER SCRIPT
+20260129_155141 ###############################################################
+
+20260129_155141 ## Checking if script exists
+20260129_155141 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260129_155141 File exists...
+
+20260129_155141 ## Running script
+20260129_155141  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260129_155149
+20260129_155149
+Execution Return Code: 1
+20260129_155149
+---------
+JOB ERROR
+---------
+Start Time: 155141, End Time: 155149
