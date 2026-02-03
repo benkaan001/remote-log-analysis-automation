@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260203_121446
+----------------------
+20260203_121446 ## Passed Parameter Values:
+20260203_121446 DOMAIN: marketing
+20260203_121446 SUB_DOMAIN: campaigns
+20260203_121446 USER_NAME: campaign_manager
+20260203_121446 TABLE_NAME: job_update_crm
+20260203_121446 EXEC_SCOPE: DEV
+
+20260203_121446 ## Derived Variable Values:
+20260203_121446 STARTTIME: 121446
+20260203_121446 LOGDATE: 20260203_121446
+20260203_121446 JOB=job_update_crm
+
+20260203_121446 ###############################################################
+20260203_121446 ### RUNNING UPDATE CRM SCRIPT
+20260203_121446 ###############################################################
+
+20260203_121446 ## Checking if script exists
+20260203_121446 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20260203_121446 File exists...
+
+20260203_121446 ## Running script
+20260203_121446  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260203_121530
+20260203_121530
+Execution Return Code: 1
+20260203_121530
+---------
+JOB ERROR
+---------
+Start Time: 121446, End Time: 121530
