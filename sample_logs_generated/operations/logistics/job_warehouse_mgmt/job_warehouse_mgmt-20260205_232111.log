@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260205_232111
+----------------------
+20260205_232111 ## Passed Parameter Values:
+20260205_232111 DOMAIN: operations
+20260205_232111 SUB_DOMAIN: logistics
+20260205_232111 USER_NAME: scheduler
+20260205_232111 TABLE_NAME: job_warehouse_mgmt
+20260205_232111 EXEC_SCOPE: UAT
+
+20260205_232111 ## Derived Variable Values:
+20260205_232111 STARTTIME: 232111
+20260205_232111 LOGDATE: 20260205_232111
+20260205_232111 JOB=job_warehouse_mgmt
+
+20260205_232111 ###############################################################
+20260205_232111 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260205_232111 ###############################################################
+
+20260205_232111 ## Checking if script exists
+20260205_232111 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260205_232111 File exists...
+
+20260205_232111 ## Running script
+20260205_232111  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Logistics calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260205_232150
+20260205_232150
+Execution Return Code: 2
+20260205_232150
+---------
+JOB ERROR
+---------
+Start Time: 232111, End Time: 232150

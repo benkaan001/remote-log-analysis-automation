@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260205_121359
+----------------------
+20260205_121359 ## Passed Parameter Values:
+20260205_121359 DOMAIN: hr
+20260205_121359 SUB_DOMAIN: payroll
+20260205_121359 USER_NAME: recruiter1
+20260205_121359 TABLE_NAME: job_bonus_process
+20260205_121359 EXEC_SCOPE: DEV
+
+20260205_121359 ## Derived Variable Values:
+20260205_121359 STARTTIME: 121359
+20260205_121359 LOGDATE: 20260205_121359
+20260205_121359 JOB=job_bonus_process
+
+20260205_121359 ###############################################################
+20260205_121359 ### RUNNING BONUS PROCESS SCRIPT
+20260205_121359 ###############################################################
+
+20260205_121359 ## Checking if script exists
+20260205_121359 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260205_121359 File exists...
+
+20260205_121359 ## Running script
+20260205_121359  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Payroll aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260205_121422
+20260205_121422
+Execution Return Code: 2
+20260205_121422
+---------
+JOB ERROR
+---------
+Start Time: 121359, End Time: 121422
