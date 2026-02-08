@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260208_061423
+----------------------
+20260208_061423 ## Passed Parameter Values:
+20260208_061423 DOMAIN: operations
+20260208_061423 SUB_DOMAIN: scheduling
+20260208_061423 USER_NAME: ops_user1
+20260208_061423 TABLE_NAME: job_maintenance_plan
+20260208_061423 EXEC_SCOPE: UAT
+
+20260208_061423 ## Derived Variable Values:
+20260208_061423 STARTTIME: 061423
+20260208_061423 LOGDATE: 20260208_061423
+20260208_061423 JOB=job_maintenance_plan
+
+20260208_061423 ###############################################################
+20260208_061423 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260208_061423 ###############################################################
+
+20260208_061423 ## Checking if script exists
+20260208_061423 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260208_061423 File exists...
+
+20260208_061423 ## Running script
+20260208_061423  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260208_061517
+20260208_061517
+Execution Return Code: 1
+20260208_061517
+---------
+JOB ERROR
+---------
+Start Time: 061423, End Time: 061517
