@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260210_084932
+----------------------
+20260210_084932 ## Passed Parameter Values:
+20260210_084932 DOMAIN: operations
+20260210_084932 SUB_DOMAIN: logistics
+20260210_084932 USER_NAME: logistics_manager
+20260210_084932 TABLE_NAME: job_shipment_track
+20260210_084932 EXEC_SCOPE: UAT
+
+20260210_084932 ## Derived Variable Values:
+20260210_084932 STARTTIME: 084932
+20260210_084932 LOGDATE: 20260210_084932
+20260210_084932 JOB=job_shipment_track
+
+20260210_084932 ###############################################################
+20260210_084932 ### RUNNING SHIPMENT TRACK SCRIPT
+20260210_084932 ###############################################################
+
+20260210_084932 ## Checking if script exists
+20260210_084932 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260210_084932 File exists...
+
+20260210_084932 ## Running script
+20260210_084932  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260210_085021
+20260210_085021
+Execution Return Code: 0
+20260210_085021
+-----------
+JOB SUCCESS
+-----------
+Start Time: 084932, End Time: 085021
