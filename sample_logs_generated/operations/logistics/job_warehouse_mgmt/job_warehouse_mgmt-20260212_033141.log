@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260212_033141
+----------------------
+20260212_033141 ## Passed Parameter Values:
+20260212_033141 DOMAIN: operations
+20260212_033141 SUB_DOMAIN: logistics
+20260212_033141 USER_NAME: ops_user1
+20260212_033141 TABLE_NAME: job_warehouse_mgmt
+20260212_033141 EXEC_SCOPE: DEV
+
+20260212_033141 ## Derived Variable Values:
+20260212_033141 STARTTIME: 033141
+20260212_033141 LOGDATE: 20260212_033141
+20260212_033141 JOB=job_warehouse_mgmt
+
+20260212_033141 ###############################################################
+20260212_033141 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260212_033141 ###############################################################
+
+20260212_033141 ## Checking if script exists
+20260212_033141 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260212_033141 File exists...
+
+20260212_033141 ## Running script
+20260212_033141  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260212_033208
+20260212_033208
+Execution Return Code: 8
+20260212_033208
+---------
+JOB ERROR
+---------
+Start Time: 033141, End Time: 033208
