@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260217_185703
+----------------------
+20260217_185703 ## Passed Parameter Values:
+20260217_185703 DOMAIN: hr
+20260217_185703 SUB_DOMAIN: payroll
+20260217_185703 USER_NAME: hr_user1
+20260217_185703 TABLE_NAME: job_tax_withhold
+20260217_185703 EXEC_SCOPE: TEST
+
+20260217_185703 ## Derived Variable Values:
+20260217_185703 STARTTIME: 185703
+20260217_185703 LOGDATE: 20260217_185703
+20260217_185703 JOB=job_tax_withhold
+
+20260217_185703 ###############################################################
+20260217_185703 ### RUNNING TAX WITHHOLD SCRIPT
+20260217_185703 ###############################################################
+
+20260217_185703 ## Checking if script exists
+20260217_185703 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260217_185703 File exists...
+
+20260217_185703 ## Running script
+20260217_185703  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260217_185729
+20260217_185729
+Execution Return Code: 8
+20260217_185729
+---------
+JOB ERROR
+---------
+Start Time: 185703, End Time: 185729

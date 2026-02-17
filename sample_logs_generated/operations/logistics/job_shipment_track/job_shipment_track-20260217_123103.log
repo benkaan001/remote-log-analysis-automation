@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260217_123103
+----------------------
+20260217_123103 ## Passed Parameter Values:
+20260217_123103 DOMAIN: operations
+20260217_123103 SUB_DOMAIN: logistics
+20260217_123103 USER_NAME: logistics_manager
+20260217_123103 TABLE_NAME: job_shipment_track
+20260217_123103 EXEC_SCOPE: UAT
+
+20260217_123103 ## Derived Variable Values:
+20260217_123103 STARTTIME: 123103
+20260217_123103 LOGDATE: 20260217_123103
+20260217_123103 JOB=job_shipment_track
+
+20260217_123103 ###############################################################
+20260217_123103 ### RUNNING SHIPMENT TRACK SCRIPT
+20260217_123103 ###############################################################
+
+20260217_123103 ## Checking if script exists
+20260217_123103 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260217_123103 File exists...
+
+20260217_123103 ## Running script
+20260217_123103  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260217_123114
+20260217_123114
+Execution Return Code: 2
+20260217_123114
+---------
+JOB ERROR
+---------
+Start Time: 123103, End Time: 123114
