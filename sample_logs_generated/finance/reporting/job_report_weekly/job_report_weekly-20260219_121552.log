@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260219_121552
+----------------------
+20260219_121552 ## Passed Parameter Values:
+20260219_121552 DOMAIN: finance
+20260219_121552 SUB_DOMAIN: reporting
+20260219_121552 USER_NAME: finance_user1
+20260219_121552 TABLE_NAME: job_report_weekly
+20260219_121552 EXEC_SCOPE: DEV
+
+20260219_121552 ## Derived Variable Values:
+20260219_121552 STARTTIME: 121552
+20260219_121552 LOGDATE: 20260219_121552
+20260219_121552 JOB=job_report_weekly
+
+20260219_121552 ###############################################################
+20260219_121552 ### RUNNING REPORT WEEKLY SCRIPT
+20260219_121552 ###############################################################
+
+20260219_121552 ## Checking if script exists
+20260219_121552 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260219_121552 File exists...
+
+20260219_121552 ## Running script
+20260219_121552  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Report generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260219_121628
+20260219_121628
+Execution Return Code: 2
+20260219_121628
+---------
+JOB ERROR
+---------
+Start Time: 121552, End Time: 121628

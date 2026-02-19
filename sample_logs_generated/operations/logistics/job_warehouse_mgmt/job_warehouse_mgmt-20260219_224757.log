@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260219_224757
+----------------------
+20260219_224757 ## Passed Parameter Values:
+20260219_224757 DOMAIN: operations
+20260219_224757 SUB_DOMAIN: logistics
+20260219_224757 USER_NAME: scheduler
+20260219_224757 TABLE_NAME: job_warehouse_mgmt
+20260219_224757 EXEC_SCOPE: DEV
+
+20260219_224757 ## Derived Variable Values:
+20260219_224757 STARTTIME: 224757
+20260219_224757 LOGDATE: 20260219_224757
+20260219_224757 JOB=job_warehouse_mgmt
+
+20260219_224757 ###############################################################
+20260219_224757 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260219_224757 ###############################################################
+
+20260219_224757 ## Checking if script exists
+20260219_224757 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260219_224757 File exists...
+
+20260219_224757 ## Running script
+20260219_224757  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Logistics generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260219_224840
+20260219_224840
+Execution Return Code: 4
+20260219_224840
+---------
+JOB ERROR
+---------
+Start Time: 224757, End Time: 224840
