@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260222_180133
+----------------------
+20260222_180133 ## Passed Parameter Values:
+20260222_180133 DOMAIN: operations
+20260222_180133 SUB_DOMAIN: logistics
+20260222_180133 USER_NAME: logistics_manager
+20260222_180133 TABLE_NAME: job_inventory_check
+20260222_180133 EXEC_SCOPE: PROD
+
+20260222_180133 ## Derived Variable Values:
+20260222_180133 STARTTIME: 180133
+20260222_180133 LOGDATE: 20260222_180133
+20260222_180133 JOB=job_inventory_check
+
+20260222_180133 ###############################################################
+20260222_180133 ### RUNNING INVENTORY CHECK SCRIPT
+20260222_180133 ###############################################################
+
+20260222_180133 ## Checking if script exists
+20260222_180133 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260222_180133 File exists...
+
+20260222_180133 ## Running script
+20260222_180133  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260222_180143
+20260222_180143
+Execution Return Code: 1
+20260222_180143
+---------
+JOB ERROR
+---------
+Start Time: 180133, End Time: 180143

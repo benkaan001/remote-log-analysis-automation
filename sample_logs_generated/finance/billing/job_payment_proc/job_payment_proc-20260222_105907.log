@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260222_105907
+----------------------
+20260222_105907 ## Passed Parameter Values:
+20260222_105907 DOMAIN: finance
+20260222_105907 SUB_DOMAIN: billing
+20260222_105907 USER_NAME: finance_user1
+20260222_105907 TABLE_NAME: job_payment_proc
+20260222_105907 EXEC_SCOPE: DEV
+
+20260222_105907 ## Derived Variable Values:
+20260222_105907 STARTTIME: 105907
+20260222_105907 LOGDATE: 20260222_105907
+20260222_105907 JOB=job_payment_proc
+
+20260222_105907 ###############################################################
+20260222_105907 ### RUNNING PAYMENT PROC SCRIPT
+20260222_105907 ###############################################################
+
+20260222_105907 ## Checking if script exists
+20260222_105907 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260222_105907 File exists...
+
+20260222_105907 ## Running script
+20260222_105907  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260222_105933
+20260222_105933
+Execution Return Code: 0
+20260222_105933
+-----------
+JOB SUCCESS
+-----------
+Start Time: 105907, End Time: 105933

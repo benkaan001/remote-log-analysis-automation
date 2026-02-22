@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260222_175418
+----------------------
+20260222_175418 ## Passed Parameter Values:
+20260222_175418 DOMAIN: marketing
+20260222_175418 SUB_DOMAIN: analytics
+20260222_175418 USER_NAME: campaign_manager
+20260222_175418 TABLE_NAME: job_web_traffic
+20260222_175418 EXEC_SCOPE: DEV
+
+20260222_175418 ## Derived Variable Values:
+20260222_175418 STARTTIME: 175418
+20260222_175418 LOGDATE: 20260222_175418
+20260222_175418 JOB=job_web_traffic
+
+20260222_175418 ###############################################################
+20260222_175418 ### RUNNING WEB TRAFFIC SCRIPT
+20260222_175418 ###############################################################
+
+20260222_175418 ## Checking if script exists
+20260222_175418 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20260222_175418 File exists...
+
+20260222_175418 ## Running script
+20260222_175418  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260222_175450
+20260222_175450
+Execution Return Code: 0
+20260222_175450
+-----------
+JOB SUCCESS
+-----------
+Start Time: 175418, End Time: 175450

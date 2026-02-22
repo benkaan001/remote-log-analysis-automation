@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260222_094107
+----------------------
+20260222_094107 ## Passed Parameter Values:
+20260222_094107 DOMAIN: hr
+20260222_094107 SUB_DOMAIN: recruiting
+20260222_094107 USER_NAME: payroll_admin
+20260222_094107 TABLE_NAME: job_candidate_screen
+20260222_094107 EXEC_SCOPE: PROD
+
+20260222_094107 ## Derived Variable Values:
+20260222_094107 STARTTIME: 094107
+20260222_094107 LOGDATE: 20260222_094107
+20260222_094107 JOB=job_candidate_screen
+
+20260222_094107 ###############################################################
+20260222_094107 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260222_094107 ###############################################################
+
+20260222_094107 ## Checking if script exists
+20260222_094107 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260222_094107 File exists...
+
+20260222_094107 ## Running script
+20260222_094107  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260222_094200
+20260222_094200
+Execution Return Code: 0
+20260222_094200
+-----------
+JOB SUCCESS
+-----------
+Start Time: 094107, End Time: 094200

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260222_094503
+----------------------
+20260222_094503 ## Passed Parameter Values:
+20260222_094503 DOMAIN: operations
+20260222_094503 SUB_DOMAIN: scheduling
+20260222_094503 USER_NAME: scheduler
+20260222_094503 TABLE_NAME: job_staff_roster
+20260222_094503 EXEC_SCOPE: TEST
+
+20260222_094503 ## Derived Variable Values:
+20260222_094503 STARTTIME: 094503
+20260222_094503 LOGDATE: 20260222_094503
+20260222_094503 JOB=job_staff_roster
+
+20260222_094503 ###############################################################
+20260222_094503 ### RUNNING STAFF ROSTER SCRIPT
+20260222_094503 ###############################################################
+
+20260222_094503 ## Checking if script exists
+20260222_094503 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260222_094503 File exists...
+
+20260222_094503 ## Running script
+20260222_094503  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260222_094529
+20260222_094529
+Execution Return Code: 0
+20260222_094529
+-----------
+JOB SUCCESS
+-----------
+Start Time: 094503, End Time: 094529

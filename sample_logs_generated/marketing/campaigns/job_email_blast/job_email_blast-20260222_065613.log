@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260222_065613
+----------------------
+20260222_065613 ## Passed Parameter Values:
+20260222_065613 DOMAIN: marketing
+20260222_065613 SUB_DOMAIN: campaigns
+20260222_065613 USER_NAME: analyst1
+20260222_065613 TABLE_NAME: job_email_blast
+20260222_065613 EXEC_SCOPE: PROD
+
+20260222_065613 ## Derived Variable Values:
+20260222_065613 STARTTIME: 065613
+20260222_065613 LOGDATE: 20260222_065613
+20260222_065613 JOB=job_email_blast
+
+20260222_065613 ###############################################################
+20260222_065613 ### RUNNING EMAIL BLAST SCRIPT
+20260222_065613 ###############################################################
+
+20260222_065613 ## Checking if script exists
+20260222_065613 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20260222_065613 File exists...
+
+20260222_065613 ## Running script
+20260222_065613  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Email blast failed: SMTP server connection error.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260222_065626
+20260222_065626
+Execution Return Code: 1
+20260222_065626
+---------
+JOB ERROR
+---------
+Start Time: 065613, End Time: 065626

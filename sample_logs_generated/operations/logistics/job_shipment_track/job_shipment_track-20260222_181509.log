@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260222_181509
+----------------------
+20260222_181509 ## Passed Parameter Values:
+20260222_181509 DOMAIN: operations
+20260222_181509 SUB_DOMAIN: logistics
+20260222_181509 USER_NAME: logistics_manager
+20260222_181509 TABLE_NAME: job_shipment_track
+20260222_181509 EXEC_SCOPE: UAT
+
+20260222_181509 ## Derived Variable Values:
+20260222_181509 STARTTIME: 181509
+20260222_181509 LOGDATE: 20260222_181509
+20260222_181509 JOB=job_shipment_track
+
+20260222_181509 ###############################################################
+20260222_181509 ### RUNNING SHIPMENT TRACK SCRIPT
+20260222_181509 ###############################################################
+
+20260222_181509 ## Checking if script exists
+20260222_181509 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260222_181509 File exists...
+
+20260222_181509 ## Running script
+20260222_181509  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260222_181537
+20260222_181537
+Execution Return Code: 4
+20260222_181537
+---------
+JOB ERROR
+---------
+Start Time: 181509, End Time: 181537
