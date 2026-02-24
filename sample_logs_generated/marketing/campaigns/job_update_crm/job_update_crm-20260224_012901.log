@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260224_012901
+----------------------
+20260224_012901 ## Passed Parameter Values:
+20260224_012901 DOMAIN: marketing
+20260224_012901 SUB_DOMAIN: campaigns
+20260224_012901 USER_NAME: marketing_user1
+20260224_012901 TABLE_NAME: job_update_crm
+20260224_012901 EXEC_SCOPE: PROD
+
+20260224_012901 ## Derived Variable Values:
+20260224_012901 STARTTIME: 012901
+20260224_012901 LOGDATE: 20260224_012901
+20260224_012901 JOB=job_update_crm
+
+20260224_012901 ###############################################################
+20260224_012901 ### RUNNING UPDATE CRM SCRIPT
+20260224_012901 ###############################################################
+
+20260224_012901 ## Checking if script exists
+20260224_012901 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20260224_012901 File exists...
+
+20260224_012901 ## Running script
+20260224_012901  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260224_012950
+20260224_012950
+Execution Return Code: 4
+20260224_012950
+---------
+JOB ERROR
+---------
+Start Time: 012901, End Time: 012950

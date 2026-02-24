@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260224_023854
+----------------------
+20260224_023854 ## Passed Parameter Values:
+20260224_023854 DOMAIN: operations
+20260224_023854 SUB_DOMAIN: logistics
+20260224_023854 USER_NAME: logistics_manager
+20260224_023854 TABLE_NAME: job_warehouse_mgmt
+20260224_023854 EXEC_SCOPE: PROD
+
+20260224_023854 ## Derived Variable Values:
+20260224_023854 STARTTIME: 023854
+20260224_023854 LOGDATE: 20260224_023854
+20260224_023854 JOB=job_warehouse_mgmt
+
+20260224_023854 ###############################################################
+20260224_023854 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260224_023854 ###############################################################
+
+20260224_023854 ## Checking if script exists
+20260224_023854 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260224_023854 File exists...
+
+20260224_023854 ## Running script
+20260224_023854  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260224_023907
+20260224_023907
+Execution Return Code: 8
+20260224_023907
+---------
+JOB ERROR
+---------
+Start Time: 023854, End Time: 023907

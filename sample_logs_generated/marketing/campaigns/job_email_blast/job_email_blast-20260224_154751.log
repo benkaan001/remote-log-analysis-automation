@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260224_154751
+----------------------
+20260224_154751 ## Passed Parameter Values:
+20260224_154751 DOMAIN: marketing
+20260224_154751 SUB_DOMAIN: campaigns
+20260224_154751 USER_NAME: campaign_manager
+20260224_154751 TABLE_NAME: job_email_blast
+20260224_154751 EXEC_SCOPE: DEV
+
+20260224_154751 ## Derived Variable Values:
+20260224_154751 STARTTIME: 154751
+20260224_154751 LOGDATE: 20260224_154751
+20260224_154751 JOB=job_email_blast
+
+20260224_154751 ###############################################################
+20260224_154751 ### RUNNING EMAIL BLAST SCRIPT
+20260224_154751 ###############################################################
+
+20260224_154751 ## Checking if script exists
+20260224_154751 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20260224_154751 File exists...
+
+20260224_154751 ## Running script
+20260224_154751  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: CRM update failed: API authentication error.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260224_154813
+20260224_154813
+Execution Return Code: 4
+20260224_154813
+---------
+JOB ERROR
+---------
+Start Time: 154751, End Time: 154813

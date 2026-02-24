@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260224_153543
+----------------------
+20260224_153543 ## Passed Parameter Values:
+20260224_153543 DOMAIN: operations
+20260224_153543 SUB_DOMAIN: scheduling
+20260224_153543 USER_NAME: ops_user1
+20260224_153543 TABLE_NAME: job_resource_alloc
+20260224_153543 EXEC_SCOPE: PROD
+
+20260224_153543 ## Derived Variable Values:
+20260224_153543 STARTTIME: 153543
+20260224_153543 LOGDATE: 20260224_153543
+20260224_153543 JOB=job_resource_alloc
+
+20260224_153543 ###############################################################
+20260224_153543 ### RUNNING RESOURCE ALLOC SCRIPT
+20260224_153543 ###############################################################
+
+20260224_153543 ## Checking if script exists
+20260224_153543 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260224_153543 File exists...
+
+20260224_153543 ## Running script
+20260224_153543  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260224_153619
+20260224_153619
+Execution Return Code: 0
+20260224_153619
+-----------
+JOB SUCCESS
+-----------
+Start Time: 153543, End Time: 153619

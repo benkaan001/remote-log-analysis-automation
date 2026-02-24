@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260224_233720
+----------------------
+20260224_233720 ## Passed Parameter Values:
+20260224_233720 DOMAIN: marketing
+20260224_233720 SUB_DOMAIN: analytics
+20260224_233720 USER_NAME: analyst1
+20260224_233720 TABLE_NAME: job_roi_report
+20260224_233720 EXEC_SCOPE: DEV
+
+20260224_233720 ## Derived Variable Values:
+20260224_233720 STARTTIME: 233720
+20260224_233720 LOGDATE: 20260224_233720
+20260224_233720 JOB=job_roi_report
+
+20260224_233720 ###############################################################
+20260224_233720 ### RUNNING ROI REPORT SCRIPT
+20260224_233720 ###############################################################
+
+20260224_233720 ## Checking if script exists
+20260224_233720 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260224_233720 File exists...
+
+20260224_233720 ## Running script
+20260224_233720  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260224_233734
+20260224_233734
+Execution Return Code: 2
+20260224_233734
+---------
+JOB ERROR
+---------
+Start Time: 233720, End Time: 233734
