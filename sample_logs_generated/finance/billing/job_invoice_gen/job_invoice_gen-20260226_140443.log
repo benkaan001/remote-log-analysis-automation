@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260226_140443
+----------------------
+20260226_140443 ## Passed Parameter Values:
+20260226_140443 DOMAIN: finance
+20260226_140443 SUB_DOMAIN: billing
+20260226_140443 USER_NAME: finance_admin
+20260226_140443 TABLE_NAME: job_invoice_gen
+20260226_140443 EXEC_SCOPE: TEST
+
+20260226_140443 ## Derived Variable Values:
+20260226_140443 STARTTIME: 140443
+20260226_140443 LOGDATE: 20260226_140443
+20260226_140443 JOB=job_invoice_gen
+
+20260226_140443 ###############################################################
+20260226_140443 ### RUNNING INVOICE GEN SCRIPT
+20260226_140443 ###############################################################
+
+20260226_140443 ## Checking if script exists
+20260226_140443 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260226_140443 File exists...
+
+20260226_140443 ## Running script
+20260226_140443  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Payment processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260226_140540
+20260226_140540
+Execution Return Code: 4
+20260226_140540
+---------
+JOB ERROR
+---------
+Start Time: 140443, End Time: 140540
