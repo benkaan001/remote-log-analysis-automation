@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260301_041909
+----------------------
+20260301_041909 ## Passed Parameter Values:
+20260301_041909 DOMAIN: operations
+20260301_041909 SUB_DOMAIN: logistics
+20260301_041909 USER_NAME: scheduler
+20260301_041909 TABLE_NAME: job_warehouse_mgmt
+20260301_041909 EXEC_SCOPE: TEST
+
+20260301_041909 ## Derived Variable Values:
+20260301_041909 STARTTIME: 041909
+20260301_041909 LOGDATE: 20260301_041909
+20260301_041909 JOB=job_warehouse_mgmt
+
+20260301_041909 ###############################################################
+20260301_041909 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260301_041909 ###############################################################
+
+20260301_041909 ## Checking if script exists
+20260301_041909 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260301_041909 File exists...
+
+20260301_041909 ## Running script
+20260301_041909  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260301_042006
+20260301_042006
+Execution Return Code: 8
+20260301_042006
+---------
+JOB ERROR
+---------
+Start Time: 041909, End Time: 042006

@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260301_151856
+----------------------
+20260301_151856 ## Passed Parameter Values:
+20260301_151856 DOMAIN: finance
+20260301_151856 SUB_DOMAIN: reporting
+20260301_151856 USER_NAME: finance_user1
+20260301_151856 TABLE_NAME: job_report_daily
+20260301_151856 EXEC_SCOPE: PROD
+
+20260301_151856 ## Derived Variable Values:
+20260301_151856 STARTTIME: 151856
+20260301_151856 LOGDATE: 20260301_151856
+20260301_151856 JOB=job_report_daily
+
+20260301_151856 ###############################################################
+20260301_151856 ### RUNNING REPORT DAILY SCRIPT
+20260301_151856 ###############################################################
+
+20260301_151856 ## Checking if script exists
+20260301_151856 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260301_151856 File exists...
+
+20260301_151856 ## Running script
+20260301_151856  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Report generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260301_151913
+20260301_151913
+Execution Return Code: 1
+20260301_151913
+---------
+JOB ERROR
+---------
+Start Time: 151856, End Time: 151913
