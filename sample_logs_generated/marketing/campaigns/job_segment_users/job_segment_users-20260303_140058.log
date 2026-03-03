@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260303_140058
+----------------------
+20260303_140058 ## Passed Parameter Values:
+20260303_140058 DOMAIN: marketing
+20260303_140058 SUB_DOMAIN: campaigns
+20260303_140058 USER_NAME: marketing_user1
+20260303_140058 TABLE_NAME: job_segment_users
+20260303_140058 EXEC_SCOPE: DEV
+
+20260303_140058 ## Derived Variable Values:
+20260303_140058 STARTTIME: 140058
+20260303_140058 LOGDATE: 20260303_140058
+20260303_140058 JOB=job_segment_users
+
+20260303_140058 ###############################################################
+20260303_140058 ### RUNNING SEGMENT USERS SCRIPT
+20260303_140058 ###############################################################
+
+20260303_140058 ## Checking if script exists
+20260303_140058 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260303_140058 File exists...
+
+20260303_140058 ## Running script
+20260303_140058  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260303_140120
+20260303_140120
+Execution Return Code: 4
+20260303_140120
+---------
+JOB ERROR
+---------
+Start Time: 140058, End Time: 140120

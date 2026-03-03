@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260303_114220
+----------------------
+20260303_114220 ## Passed Parameter Values:
+20260303_114220 DOMAIN: hr
+20260303_114220 SUB_DOMAIN: recruiting
+20260303_114220 USER_NAME: recruiter1
+20260303_114220 TABLE_NAME: job_candidate_screen
+20260303_114220 EXEC_SCOPE: DEV
+
+20260303_114220 ## Derived Variable Values:
+20260303_114220 STARTTIME: 114220
+20260303_114220 LOGDATE: 20260303_114220
+20260303_114220 JOB=job_candidate_screen
+
+20260303_114220 ###############################################################
+20260303_114220 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260303_114220 ###############################################################
+
+20260303_114220 ## Checking if script exists
+20260303_114220 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260303_114220 File exists...
+
+20260303_114220 ## Running script
+20260303_114220  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260303_114319
+20260303_114319
+Execution Return Code: 0
+20260303_114319
+-----------
+JOB SUCCESS
+-----------
+Start Time: 114220, End Time: 114319
