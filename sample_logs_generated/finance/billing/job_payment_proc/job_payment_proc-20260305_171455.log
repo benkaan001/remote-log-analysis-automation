@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260305_171455
+----------------------
+20260305_171455 ## Passed Parameter Values:
+20260305_171455 DOMAIN: finance
+20260305_171455 SUB_DOMAIN: billing
+20260305_171455 USER_NAME: finance_admin
+20260305_171455 TABLE_NAME: job_payment_proc
+20260305_171455 EXEC_SCOPE: DEV
+
+20260305_171455 ## Derived Variable Values:
+20260305_171455 STARTTIME: 171455
+20260305_171455 LOGDATE: 20260305_171455
+20260305_171455 JOB=job_payment_proc
+
+20260305_171455 ###############################################################
+20260305_171455 ### RUNNING PAYMENT PROC SCRIPT
+20260305_171455 ###############################################################
+
+20260305_171455 ## Checking if script exists
+20260305_171455 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260305_171455 File exists...
+
+20260305_171455 ## Running script
+20260305_171455  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Payment processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260305_171548
+20260305_171548
+Execution Return Code: 2
+20260305_171548
+---------
+JOB ERROR
+---------
+Start Time: 171455, End Time: 171548

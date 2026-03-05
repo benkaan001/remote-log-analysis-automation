@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260305_153136
+----------------------
+20260305_153136 ## Passed Parameter Values:
+20260305_153136 DOMAIN: marketing
+20260305_153136 SUB_DOMAIN: analytics
+20260305_153136 USER_NAME: campaign_manager
+20260305_153136 TABLE_NAME: job_roi_report
+20260305_153136 EXEC_SCOPE: TEST
+
+20260305_153136 ## Derived Variable Values:
+20260305_153136 STARTTIME: 153136
+20260305_153136 LOGDATE: 20260305_153136
+20260305_153136 JOB=job_roi_report
+
+20260305_153136 ###############################################################
+20260305_153136 ### RUNNING ROI REPORT SCRIPT
+20260305_153136 ###############################################################
+
+20260305_153136 ## Checking if script exists
+20260305_153136 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260305_153136 File exists...
+
+20260305_153136 ## Running script
+20260305_153136  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260305_153217
+20260305_153217
+Execution Return Code: 1
+20260305_153217
+---------
+JOB ERROR
+---------
+Start Time: 153136, End Time: 153217

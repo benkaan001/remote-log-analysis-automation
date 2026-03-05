@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260305_045852
+----------------------
+20260305_045852 ## Passed Parameter Values:
+20260305_045852 DOMAIN: operations
+20260305_045852 SUB_DOMAIN: scheduling
+20260305_045852 USER_NAME: logistics_manager
+20260305_045852 TABLE_NAME: job_maintenance_plan
+20260305_045852 EXEC_SCOPE: UAT
+
+20260305_045852 ## Derived Variable Values:
+20260305_045852 STARTTIME: 045852
+20260305_045852 LOGDATE: 20260305_045852
+20260305_045852 JOB=job_maintenance_plan
+
+20260305_045852 ###############################################################
+20260305_045852 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260305_045852 ###############################################################
+
+20260305_045852 ## Checking if script exists
+20260305_045852 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260305_045852 File exists...
+
+20260305_045852 ## Running script
+20260305_045852  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260305_045903
+20260305_045903
+Execution Return Code: 0
+20260305_045903
+-----------
+JOB SUCCESS
+-----------
+Start Time: 045852, End Time: 045903
