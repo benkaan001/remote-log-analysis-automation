@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260308_021414
+----------------------
+20260308_021414 ## Passed Parameter Values:
+20260308_021414 DOMAIN: hr
+20260308_021414 SUB_DOMAIN: recruiting
+20260308_021414 USER_NAME: payroll_admin
+20260308_021414 TABLE_NAME: job_offer_gen
+20260308_021414 EXEC_SCOPE: TEST
+
+20260308_021414 ## Derived Variable Values:
+20260308_021414 STARTTIME: 021414
+20260308_021414 LOGDATE: 20260308_021414
+20260308_021414 JOB=job_offer_gen
+
+20260308_021414 ###############################################################
+20260308_021414 ### RUNNING OFFER GEN SCRIPT
+20260308_021414 ###############################################################
+
+20260308_021414 ## Checking if script exists
+20260308_021414 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260308_021414 File exists...
+
+20260308_021414 ## Running script
+20260308_021414  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260308_021505
+20260308_021505
+Execution Return Code: 1
+20260308_021505
+---------
+JOB ERROR
+---------
+Start Time: 021414, End Time: 021505

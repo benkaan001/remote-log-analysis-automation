@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260308_183034
+----------------------
+20260308_183034 ## Passed Parameter Values:
+20260308_183034 DOMAIN: hr
+20260308_183034 SUB_DOMAIN: payroll
+20260308_183034 USER_NAME: recruiter1
+20260308_183034 TABLE_NAME: job_tax_withhold
+20260308_183034 EXEC_SCOPE: PROD
+
+20260308_183034 ## Derived Variable Values:
+20260308_183034 STARTTIME: 183034
+20260308_183034 LOGDATE: 20260308_183034
+20260308_183034 JOB=job_tax_withhold
+
+20260308_183034 ###############################################################
+20260308_183034 ### RUNNING TAX WITHHOLD SCRIPT
+20260308_183034 ###############################################################
+
+20260308_183034 ## Checking if script exists
+20260308_183034 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260308_183034 File exists...
+
+20260308_183034 ## Running script
+20260308_183034  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260308_183041
+20260308_183041
+Execution Return Code: 0
+20260308_183041
+-----------
+JOB SUCCESS
+-----------
+Start Time: 183034, End Time: 183041

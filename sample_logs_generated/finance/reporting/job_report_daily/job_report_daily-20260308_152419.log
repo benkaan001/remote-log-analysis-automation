@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260308_152419
+----------------------
+20260308_152419 ## Passed Parameter Values:
+20260308_152419 DOMAIN: finance
+20260308_152419 SUB_DOMAIN: reporting
+20260308_152419 USER_NAME: finance_user1
+20260308_152419 TABLE_NAME: job_report_daily
+20260308_152419 EXEC_SCOPE: UAT
+
+20260308_152419 ## Derived Variable Values:
+20260308_152419 STARTTIME: 152419
+20260308_152419 LOGDATE: 20260308_152419
+20260308_152419 JOB=job_report_daily
+
+20260308_152419 ###############################################################
+20260308_152419 ### RUNNING REPORT DAILY SCRIPT
+20260308_152419 ###############################################################
+
+20260308_152419 ## Checking if script exists
+20260308_152419 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260308_152419 File exists...
+
+20260308_152419 ## Running script
+20260308_152419  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260308_152434
+20260308_152434
+Execution Return Code: 0
+20260308_152434
+-----------
+JOB SUCCESS
+-----------
+Start Time: 152419, End Time: 152434
