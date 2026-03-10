@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260310_181710
+----------------------
+20260310_181710 ## Passed Parameter Values:
+20260310_181710 DOMAIN: operations
+20260310_181710 SUB_DOMAIN: scheduling
+20260310_181710 USER_NAME: logistics_manager
+20260310_181710 TABLE_NAME: job_staff_roster
+20260310_181710 EXEC_SCOPE: DEV
+
+20260310_181710 ## Derived Variable Values:
+20260310_181710 STARTTIME: 181710
+20260310_181710 LOGDATE: 20260310_181710
+20260310_181710 JOB=job_staff_roster
+
+20260310_181710 ###############################################################
+20260310_181710 ### RUNNING STAFF ROSTER SCRIPT
+20260310_181710 ###############################################################
+
+20260310_181710 ## Checking if script exists
+20260310_181710 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260310_181710 File exists...
+
+20260310_181710 ## Running script
+20260310_181710  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260310_181745
+20260310_181745
+Execution Return Code: 4
+20260310_181745
+---------
+JOB ERROR
+---------
+Start Time: 181710, End Time: 181745

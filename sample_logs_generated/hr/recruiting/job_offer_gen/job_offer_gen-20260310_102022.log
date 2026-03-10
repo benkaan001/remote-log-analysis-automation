@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260310_102022
+----------------------
+20260310_102022 ## Passed Parameter Values:
+20260310_102022 DOMAIN: hr
+20260310_102022 SUB_DOMAIN: recruiting
+20260310_102022 USER_NAME: recruiter1
+20260310_102022 TABLE_NAME: job_offer_gen
+20260310_102022 EXEC_SCOPE: DEV
+
+20260310_102022 ## Derived Variable Values:
+20260310_102022 STARTTIME: 102022
+20260310_102022 LOGDATE: 20260310_102022
+20260310_102022 JOB=job_offer_gen
+
+20260310_102022 ###############################################################
+20260310_102022 ### RUNNING OFFER GEN SCRIPT
+20260310_102022 ###############################################################
+
+20260310_102022 ## Checking if script exists
+20260310_102022 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260310_102022 File exists...
+
+20260310_102022 ## Running script
+20260310_102022  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260310_102048
+20260310_102048
+Execution Return Code: 4
+20260310_102048
+---------
+JOB ERROR
+---------
+Start Time: 102022, End Time: 102048
