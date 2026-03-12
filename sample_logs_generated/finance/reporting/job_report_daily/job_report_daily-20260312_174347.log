@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260312_174347
+----------------------
+20260312_174347 ## Passed Parameter Values:
+20260312_174347 DOMAIN: finance
+20260312_174347 SUB_DOMAIN: reporting
+20260312_174347 USER_NAME: finance_user1
+20260312_174347 TABLE_NAME: job_report_daily
+20260312_174347 EXEC_SCOPE: PROD
+
+20260312_174347 ## Derived Variable Values:
+20260312_174347 STARTTIME: 174347
+20260312_174347 LOGDATE: 20260312_174347
+20260312_174347 JOB=job_report_daily
+
+20260312_174347 ###############################################################
+20260312_174347 ### RUNNING REPORT DAILY SCRIPT
+20260312_174347 ###############################################################
+
+20260312_174347 ## Checking if script exists
+20260312_174347 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260312_174347 File exists...
+
+20260312_174347 ## Running script
+20260312_174347  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260312_174440
+20260312_174440
+Execution Return Code: 4
+20260312_174440
+---------
+JOB ERROR
+---------
+Start Time: 174347, End Time: 174440

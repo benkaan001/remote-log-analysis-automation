@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260312_114612
+----------------------
+20260312_114612 ## Passed Parameter Values:
+20260312_114612 DOMAIN: marketing
+20260312_114612 SUB_DOMAIN: analytics
+20260312_114612 USER_NAME: campaign_manager
+20260312_114612 TABLE_NAME: job_web_traffic
+20260312_114612 EXEC_SCOPE: TEST
+
+20260312_114612 ## Derived Variable Values:
+20260312_114612 STARTTIME: 114612
+20260312_114612 LOGDATE: 20260312_114612
+20260312_114612 JOB=job_web_traffic
+
+20260312_114612 ###############################################################
+20260312_114612 ### RUNNING WEB TRAFFIC SCRIPT
+20260312_114612 ###############################################################
+
+20260312_114612 ## Checking if script exists
+20260312_114612 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20260312_114612 File exists...
+
+20260312_114612 ## Running script
+20260312_114612  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260312_114635
+20260312_114635
+Execution Return Code: 2
+20260312_114635
+---------
+JOB ERROR
+---------
+Start Time: 114612, End Time: 114635

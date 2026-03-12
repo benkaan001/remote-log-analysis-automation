@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260312_031538
+----------------------
+20260312_031538 ## Passed Parameter Values:
+20260312_031538 DOMAIN: operations
+20260312_031538 SUB_DOMAIN: logistics
+20260312_031538 USER_NAME: logistics_manager
+20260312_031538 TABLE_NAME: job_inventory_check
+20260312_031538 EXEC_SCOPE: DEV
+
+20260312_031538 ## Derived Variable Values:
+20260312_031538 STARTTIME: 031538
+20260312_031538 LOGDATE: 20260312_031538
+20260312_031538 JOB=job_inventory_check
+
+20260312_031538 ###############################################################
+20260312_031538 ### RUNNING INVENTORY CHECK SCRIPT
+20260312_031538 ###############################################################
+
+20260312_031538 ## Checking if script exists
+20260312_031538 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260312_031538 File exists...
+
+20260312_031538 ## Running script
+20260312_031538  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260312_031611
+20260312_031611
+Execution Return Code: 1
+20260312_031611
+---------
+JOB ERROR
+---------
+Start Time: 031538, End Time: 031611

@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260312_074116
+----------------------
+20260312_074116 ## Passed Parameter Values:
+20260312_074116 DOMAIN: finance
+20260312_074116 SUB_DOMAIN: reporting
+20260312_074116 USER_NAME: finance_admin
+20260312_074116 TABLE_NAME: job_report_weekly
+20260312_074116 EXEC_SCOPE: TEST
+
+20260312_074116 ## Derived Variable Values:
+20260312_074116 STARTTIME: 074116
+20260312_074116 LOGDATE: 20260312_074116
+20260312_074116 JOB=job_report_weekly
+
+20260312_074116 ###############################################################
+20260312_074116 ### RUNNING REPORT WEEKLY SCRIPT
+20260312_074116 ###############################################################
+
+20260312_074116 ## Checking if script exists
+20260312_074116 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260312_074116 File exists...
+
+20260312_074116 ## Running script
+20260312_074116  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260312_074121
+20260312_074121
+Execution Return Code: 0
+20260312_074121
+-----------
+JOB SUCCESS
+-----------
+Start Time: 074116, End Time: 074121

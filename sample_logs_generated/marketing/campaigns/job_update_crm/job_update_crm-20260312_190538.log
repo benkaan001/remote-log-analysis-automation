@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260312_190538
+----------------------
+20260312_190538 ## Passed Parameter Values:
+20260312_190538 DOMAIN: marketing
+20260312_190538 SUB_DOMAIN: campaigns
+20260312_190538 USER_NAME: marketing_user1
+20260312_190538 TABLE_NAME: job_update_crm
+20260312_190538 EXEC_SCOPE: DEV
+
+20260312_190538 ## Derived Variable Values:
+20260312_190538 STARTTIME: 190538
+20260312_190538 LOGDATE: 20260312_190538
+20260312_190538 JOB=job_update_crm
+
+20260312_190538 ###############################################################
+20260312_190538 ### RUNNING UPDATE CRM SCRIPT
+20260312_190538 ###############################################################
+
+20260312_190538 ## Checking if script exists
+20260312_190538 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20260312_190538 File exists...
+
+20260312_190538 ## Running script
+20260312_190538  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: User segmentation failed: Invalid criteria specified.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260312_190638
+20260312_190638
+Execution Return Code: 1
+20260312_190638
+---------
+JOB ERROR
+---------
+Start Time: 190538, End Time: 190638
