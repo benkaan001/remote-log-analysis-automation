@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260315_162107
+----------------------
+20260315_162107 ## Passed Parameter Values:
+20260315_162107 DOMAIN: finance
+20260315_162107 SUB_DOMAIN: reporting
+20260315_162107 USER_NAME: accountant1
+20260315_162107 TABLE_NAME: job_report_monthly
+20260315_162107 EXEC_SCOPE: PROD
+
+20260315_162107 ## Derived Variable Values:
+20260315_162107 STARTTIME: 162107
+20260315_162107 LOGDATE: 20260315_162107
+20260315_162107 JOB=job_report_monthly
+
+20260315_162107 ###############################################################
+20260315_162107 ### RUNNING REPORT MONTHLY SCRIPT
+20260315_162107 ###############################################################
+
+20260315_162107 ## Checking if script exists
+20260315_162107 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260315_162107 File exists...
+
+20260315_162107 ## Running script
+20260315_162107  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260315_162115
+20260315_162115
+Execution Return Code: 4
+20260315_162115
+---------
+JOB ERROR
+---------
+Start Time: 162107, End Time: 162115

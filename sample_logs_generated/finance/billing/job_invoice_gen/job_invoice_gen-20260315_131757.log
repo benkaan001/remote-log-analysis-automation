@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260315_131757
+----------------------
+20260315_131757 ## Passed Parameter Values:
+20260315_131757 DOMAIN: finance
+20260315_131757 SUB_DOMAIN: billing
+20260315_131757 USER_NAME: finance_admin
+20260315_131757 TABLE_NAME: job_invoice_gen
+20260315_131757 EXEC_SCOPE: PROD
+
+20260315_131757 ## Derived Variable Values:
+20260315_131757 STARTTIME: 131757
+20260315_131757 LOGDATE: 20260315_131757
+20260315_131757 JOB=job_invoice_gen
+
+20260315_131757 ###############################################################
+20260315_131757 ### RUNNING INVOICE GEN SCRIPT
+20260315_131757 ###############################################################
+
+20260315_131757 ## Checking if script exists
+20260315_131757 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260315_131757 File exists...
+
+20260315_131757 ## Running script
+20260315_131757  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invoice generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260315_131854
+20260315_131854
+Execution Return Code: 4
+20260315_131854
+---------
+JOB ERROR
+---------
+Start Time: 131757, End Time: 131854
