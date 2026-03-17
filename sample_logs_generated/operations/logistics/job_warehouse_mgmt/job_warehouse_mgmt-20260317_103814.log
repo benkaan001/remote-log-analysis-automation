@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260317_103814
+----------------------
+20260317_103814 ## Passed Parameter Values:
+20260317_103814 DOMAIN: operations
+20260317_103814 SUB_DOMAIN: logistics
+20260317_103814 USER_NAME: ops_user1
+20260317_103814 TABLE_NAME: job_warehouse_mgmt
+20260317_103814 EXEC_SCOPE: UAT
+
+20260317_103814 ## Derived Variable Values:
+20260317_103814 STARTTIME: 103814
+20260317_103814 LOGDATE: 20260317_103814
+20260317_103814 JOB=job_warehouse_mgmt
+
+20260317_103814 ###############################################################
+20260317_103814 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260317_103814 ###############################################################
+
+20260317_103814 ## Checking if script exists
+20260317_103814 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260317_103814 File exists...
+
+20260317_103814 ## Running script
+20260317_103814  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260317_103845
+20260317_103845
+Execution Return Code: 2
+20260317_103845
+---------
+JOB ERROR
+---------
+Start Time: 103814, End Time: 103845

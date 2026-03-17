@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260317_052740
+----------------------
+20260317_052740 ## Passed Parameter Values:
+20260317_052740 DOMAIN: hr
+20260317_052740 SUB_DOMAIN: payroll
+20260317_052740 USER_NAME: hr_user1
+20260317_052740 TABLE_NAME: job_salary_calc
+20260317_052740 EXEC_SCOPE: PROD
+
+20260317_052740 ## Derived Variable Values:
+20260317_052740 STARTTIME: 052740
+20260317_052740 LOGDATE: 20260317_052740
+20260317_052740 JOB=job_salary_calc
+
+20260317_052740 ###############################################################
+20260317_052740 ### RUNNING SALARY CALC SCRIPT
+20260317_052740 ###############################################################
+
+20260317_052740 ## Checking if script exists
+20260317_052740 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20260317_052740 File exists...
+
+20260317_052740 ## Running script
+20260317_052740  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260317_052809
+20260317_052809
+Execution Return Code: 8
+20260317_052809
+---------
+JOB ERROR
+---------
+Start Time: 052740, End Time: 052809

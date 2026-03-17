@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260317_070618
+----------------------
+20260317_070618 ## Passed Parameter Values:
+20260317_070618 DOMAIN: operations
+20260317_070618 SUB_DOMAIN: logistics
+20260317_070618 USER_NAME: logistics_manager
+20260317_070618 TABLE_NAME: job_shipment_track
+20260317_070618 EXEC_SCOPE: UAT
+
+20260317_070618 ## Derived Variable Values:
+20260317_070618 STARTTIME: 070618
+20260317_070618 LOGDATE: 20260317_070618
+20260317_070618 JOB=job_shipment_track
+
+20260317_070618 ###############################################################
+20260317_070618 ### RUNNING SHIPMENT TRACK SCRIPT
+20260317_070618 ###############################################################
+
+20260317_070618 ## Checking if script exists
+20260317_070618 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260317_070618 File exists...
+
+20260317_070618 ## Running script
+20260317_070618  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260317_070629
+20260317_070629
+Execution Return Code: 4
+20260317_070629
+---------
+JOB ERROR
+---------
+Start Time: 070618, End Time: 070629

@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260317_034803
+----------------------
+20260317_034803 ## Passed Parameter Values:
+20260317_034803 DOMAIN: finance
+20260317_034803 SUB_DOMAIN: reporting
+20260317_034803 USER_NAME: finance_admin
+20260317_034803 TABLE_NAME: job_report_daily
+20260317_034803 EXEC_SCOPE: DEV
+
+20260317_034803 ## Derived Variable Values:
+20260317_034803 STARTTIME: 034803
+20260317_034803 LOGDATE: 20260317_034803
+20260317_034803 JOB=job_report_daily
+
+20260317_034803 ###############################################################
+20260317_034803 ### RUNNING REPORT DAILY SCRIPT
+20260317_034803 ###############################################################
+
+20260317_034803 ## Checking if script exists
+20260317_034803 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260317_034803 File exists...
+
+20260317_034803 ## Running script
+20260317_034803  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Weekly report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260317_034841
+20260317_034841
+Execution Return Code: 1
+20260317_034841
+---------
+JOB ERROR
+---------
+Start Time: 034803, End Time: 034841
