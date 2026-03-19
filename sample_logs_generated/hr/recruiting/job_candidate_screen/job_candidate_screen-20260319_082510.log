@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260319_082510
+----------------------
+20260319_082510 ## Passed Parameter Values:
+20260319_082510 DOMAIN: hr
+20260319_082510 SUB_DOMAIN: recruiting
+20260319_082510 USER_NAME: hr_user1
+20260319_082510 TABLE_NAME: job_candidate_screen
+20260319_082510 EXEC_SCOPE: DEV
+
+20260319_082510 ## Derived Variable Values:
+20260319_082510 STARTTIME: 082510
+20260319_082510 LOGDATE: 20260319_082510
+20260319_082510 JOB=job_candidate_screen
+
+20260319_082510 ###############################################################
+20260319_082510 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260319_082510 ###############################################################
+
+20260319_082510 ## Checking if script exists
+20260319_082510 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260319_082510 File exists...
+
+20260319_082510 ## Running script
+20260319_082510  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Recruiting report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260319_082530
+20260319_082530
+Execution Return Code: 4
+20260319_082530
+---------
+JOB ERROR
+---------
+Start Time: 082510, End Time: 082530

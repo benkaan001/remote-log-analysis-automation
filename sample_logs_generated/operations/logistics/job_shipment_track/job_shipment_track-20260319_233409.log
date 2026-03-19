@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260319_233409
+----------------------
+20260319_233409 ## Passed Parameter Values:
+20260319_233409 DOMAIN: operations
+20260319_233409 SUB_DOMAIN: logistics
+20260319_233409 USER_NAME: scheduler
+20260319_233409 TABLE_NAME: job_shipment_track
+20260319_233409 EXEC_SCOPE: UAT
+
+20260319_233409 ## Derived Variable Values:
+20260319_233409 STARTTIME: 233409
+20260319_233409 LOGDATE: 20260319_233409
+20260319_233409 JOB=job_shipment_track
+
+20260319_233409 ###############################################################
+20260319_233409 ### RUNNING SHIPMENT TRACK SCRIPT
+20260319_233409 ###############################################################
+
+20260319_233409 ## Checking if script exists
+20260319_233409 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260319_233409 File exists...
+
+20260319_233409 ## Running script
+20260319_233409  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260319_233438
+20260319_233438
+Execution Return Code: 1
+20260319_233438
+---------
+JOB ERROR
+---------
+Start Time: 233409, End Time: 233438

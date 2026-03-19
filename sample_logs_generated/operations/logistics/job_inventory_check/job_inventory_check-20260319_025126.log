@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260319_025126
+----------------------
+20260319_025126 ## Passed Parameter Values:
+20260319_025126 DOMAIN: operations
+20260319_025126 SUB_DOMAIN: logistics
+20260319_025126 USER_NAME: logistics_manager
+20260319_025126 TABLE_NAME: job_inventory_check
+20260319_025126 EXEC_SCOPE: PROD
+
+20260319_025126 ## Derived Variable Values:
+20260319_025126 STARTTIME: 025126
+20260319_025126 LOGDATE: 20260319_025126
+20260319_025126 JOB=job_inventory_check
+
+20260319_025126 ###############################################################
+20260319_025126 ### RUNNING INVENTORY CHECK SCRIPT
+20260319_025126 ###############################################################
+
+20260319_025126 ## Checking if script exists
+20260319_025126 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260319_025126 File exists...
+
+20260319_025126 ## Running script
+20260319_025126  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260319_025141
+20260319_025141
+Execution Return Code: 0
+20260319_025141
+-----------
+JOB SUCCESS
+-----------
+Start Time: 025126, End Time: 025141
