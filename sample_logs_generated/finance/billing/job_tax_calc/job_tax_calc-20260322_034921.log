@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260322_034921
+----------------------
+20260322_034921 ## Passed Parameter Values:
+20260322_034921 DOMAIN: finance
+20260322_034921 SUB_DOMAIN: billing
+20260322_034921 USER_NAME: finance_admin
+20260322_034921 TABLE_NAME: job_tax_calc
+20260322_034921 EXEC_SCOPE: TEST
+
+20260322_034921 ## Derived Variable Values:
+20260322_034921 STARTTIME: 034921
+20260322_034921 LOGDATE: 20260322_034921
+20260322_034921 JOB=job_tax_calc
+
+20260322_034921 ###############################################################
+20260322_034921 ### RUNNING TAX CALC SCRIPT
+20260322_034921 ###############################################################
+
+20260322_034921 ## Checking if script exists
+20260322_034921 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260322_034921 File exists...
+
+20260322_034921 ## Running script
+20260322_034921  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260322_034929
+20260322_034929
+Execution Return Code: 2
+20260322_034929
+---------
+JOB ERROR
+---------
+Start Time: 034921, End Time: 034929
