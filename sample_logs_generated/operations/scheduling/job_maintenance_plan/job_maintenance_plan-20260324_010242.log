@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260324_010242
+----------------------
+20260324_010242 ## Passed Parameter Values:
+20260324_010242 DOMAIN: operations
+20260324_010242 SUB_DOMAIN: scheduling
+20260324_010242 USER_NAME: scheduler
+20260324_010242 TABLE_NAME: job_maintenance_plan
+20260324_010242 EXEC_SCOPE: UAT
+
+20260324_010242 ## Derived Variable Values:
+20260324_010242 STARTTIME: 010242
+20260324_010242 LOGDATE: 20260324_010242
+20260324_010242 JOB=job_maintenance_plan
+
+20260324_010242 ###############################################################
+20260324_010242 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260324_010242 ###############################################################
+
+20260324_010242 ## Checking if script exists
+20260324_010242 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260324_010242 File exists...
+
+20260324_010242 ## Running script
+20260324_010242  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260324_010330
+20260324_010330
+Execution Return Code: 4
+20260324_010330
+---------
+JOB ERROR
+---------
+Start Time: 010242, End Time: 010330
