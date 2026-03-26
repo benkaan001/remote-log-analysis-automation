@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260326_123141
+----------------------
+20260326_123141 ## Passed Parameter Values:
+20260326_123141 DOMAIN: finance
+20260326_123141 SUB_DOMAIN: reporting
+20260326_123141 USER_NAME: finance_user1
+20260326_123141 TABLE_NAME: job_report_daily
+20260326_123141 EXEC_SCOPE: TEST
+
+20260326_123141 ## Derived Variable Values:
+20260326_123141 STARTTIME: 123141
+20260326_123141 LOGDATE: 20260326_123141
+20260326_123141 JOB=job_report_daily
+
+20260326_123141 ###############################################################
+20260326_123141 ### RUNNING REPORT DAILY SCRIPT
+20260326_123141 ###############################################################
+
+20260326_123141 ## Checking if script exists
+20260326_123141 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260326_123141 File exists...
+
+20260326_123141 ## Running script
+20260326_123141  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260326_123155
+20260326_123155
+Execution Return Code: 4
+20260326_123155
+---------
+JOB ERROR
+---------
+Start Time: 123141, End Time: 123155
