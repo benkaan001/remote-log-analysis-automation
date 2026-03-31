@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260331_000415
+----------------------
+20260331_000415 ## Passed Parameter Values:
+20260331_000415 DOMAIN: operations
+20260331_000415 SUB_DOMAIN: logistics
+20260331_000415 USER_NAME: logistics_manager
+20260331_000415 TABLE_NAME: job_inventory_check
+20260331_000415 EXEC_SCOPE: PROD
+
+20260331_000415 ## Derived Variable Values:
+20260331_000415 STARTTIME: 000415
+20260331_000415 LOGDATE: 20260331_000415
+20260331_000415 JOB=job_inventory_check
+
+20260331_000415 ###############################################################
+20260331_000415 ### RUNNING INVENTORY CHECK SCRIPT
+20260331_000415 ###############################################################
+
+20260331_000415 ## Checking if script exists
+20260331_000415 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260331_000415 File exists...
+
+20260331_000415 ## Running script
+20260331_000415  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260331_000441
+20260331_000441
+Execution Return Code: 4
+20260331_000441
+---------
+JOB ERROR
+---------
+Start Time: 000415, End Time: 000441
