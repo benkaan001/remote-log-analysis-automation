@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260402_090124
+----------------------
+20260402_090124 ## Passed Parameter Values:
+20260402_090124 DOMAIN: marketing
+20260402_090124 SUB_DOMAIN: analytics
+20260402_090124 USER_NAME: analyst1
+20260402_090124 TABLE_NAME: job_web_traffic
+20260402_090124 EXEC_SCOPE: DEV
+
+20260402_090124 ## Derived Variable Values:
+20260402_090124 STARTTIME: 090124
+20260402_090124 LOGDATE: 20260402_090124
+20260402_090124 JOB=job_web_traffic
+
+20260402_090124 ###############################################################
+20260402_090124 ### RUNNING WEB TRAFFIC SCRIPT
+20260402_090124 ###############################################################
+
+20260402_090124 ## Checking if script exists
+20260402_090124 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20260402_090124 File exists...
+
+20260402_090124 ## Running script
+20260402_090124  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260402_090134
+20260402_090134
+Execution Return Code: 2
+20260402_090134
+---------
+JOB ERROR
+---------
+Start Time: 090124, End Time: 090134
