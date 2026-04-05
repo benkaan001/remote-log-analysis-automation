@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260405_111046
+----------------------
+20260405_111046 ## Passed Parameter Values:
+20260405_111046 DOMAIN: marketing
+20260405_111046 SUB_DOMAIN: analytics
+20260405_111046 USER_NAME: campaign_manager
+20260405_111046 TABLE_NAME: job_conversion_rate
+20260405_111046 EXEC_SCOPE: DEV
+
+20260405_111046 ## Derived Variable Values:
+20260405_111046 STARTTIME: 111046
+20260405_111046 LOGDATE: 20260405_111046
+20260405_111046 JOB=job_conversion_rate
+
+20260405_111046 ###############################################################
+20260405_111046 ### RUNNING CONVERSION RATE SCRIPT
+20260405_111046 ###############################################################
+
+20260405_111046 ## Checking if script exists
+20260405_111046 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20260405_111046 File exists...
+
+20260405_111046 ## Running script
+20260405_111046  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260405_111128
+20260405_111128
+Execution Return Code: 8
+20260405_111128
+---------
+JOB ERROR
+---------
+Start Time: 111046, End Time: 111128

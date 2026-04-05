@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260405_095406
+----------------------
+20260405_095406 ## Passed Parameter Values:
+20260405_095406 DOMAIN: operations
+20260405_095406 SUB_DOMAIN: logistics
+20260405_095406 USER_NAME: scheduler
+20260405_095406 TABLE_NAME: job_shipment_track
+20260405_095406 EXEC_SCOPE: TEST
+
+20260405_095406 ## Derived Variable Values:
+20260405_095406 STARTTIME: 095406
+20260405_095406 LOGDATE: 20260405_095406
+20260405_095406 JOB=job_shipment_track
+
+20260405_095406 ###############################################################
+20260405_095406 ### RUNNING SHIPMENT TRACK SCRIPT
+20260405_095406 ###############################################################
+
+20260405_095406 ## Checking if script exists
+20260405_095406 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260405_095406 File exists...
+
+20260405_095406 ## Running script
+20260405_095406  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260405_095424
+20260405_095424
+Execution Return Code: 1
+20260405_095424
+---------
+JOB ERROR
+---------
+Start Time: 095406, End Time: 095424

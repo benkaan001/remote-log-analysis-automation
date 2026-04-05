@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260405_211815
+----------------------
+20260405_211815 ## Passed Parameter Values:
+20260405_211815 DOMAIN: marketing
+20260405_211815 SUB_DOMAIN: campaigns
+20260405_211815 USER_NAME: marketing_user1
+20260405_211815 TABLE_NAME: job_email_blast
+20260405_211815 EXEC_SCOPE: UAT
+
+20260405_211815 ## Derived Variable Values:
+20260405_211815 STARTTIME: 211815
+20260405_211815 LOGDATE: 20260405_211815
+20260405_211815 JOB=job_email_blast
+
+20260405_211815 ###############################################################
+20260405_211815 ### RUNNING EMAIL BLAST SCRIPT
+20260405_211815 ###############################################################
+
+20260405_211815 ## Checking if script exists
+20260405_211815 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20260405_211815 File exists...
+
+20260405_211815 ## Running script
+20260405_211815  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260405_211828
+20260405_211828
+Execution Return Code: 4
+20260405_211828
+---------
+JOB ERROR
+---------
+Start Time: 211815, End Time: 211828

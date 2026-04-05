@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260405_070351
+----------------------
+20260405_070351 ## Passed Parameter Values:
+20260405_070351 DOMAIN: operations
+20260405_070351 SUB_DOMAIN: scheduling
+20260405_070351 USER_NAME: scheduler
+20260405_070351 TABLE_NAME: job_staff_roster
+20260405_070351 EXEC_SCOPE: DEV
+
+20260405_070351 ## Derived Variable Values:
+20260405_070351 STARTTIME: 070351
+20260405_070351 LOGDATE: 20260405_070351
+20260405_070351 JOB=job_staff_roster
+
+20260405_070351 ###############################################################
+20260405_070351 ### RUNNING STAFF ROSTER SCRIPT
+20260405_070351 ###############################################################
+
+20260405_070351 ## Checking if script exists
+20260405_070351 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260405_070351 File exists...
+
+20260405_070351 ## Running script
+20260405_070351  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260405_070451
+20260405_070451
+Execution Return Code: 1
+20260405_070451
+---------
+JOB ERROR
+---------
+Start Time: 070351, End Time: 070451
