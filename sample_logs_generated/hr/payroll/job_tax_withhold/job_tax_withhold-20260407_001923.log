@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260407_001923
+----------------------
+20260407_001923 ## Passed Parameter Values:
+20260407_001923 DOMAIN: hr
+20260407_001923 SUB_DOMAIN: payroll
+20260407_001923 USER_NAME: recruiter1
+20260407_001923 TABLE_NAME: job_tax_withhold
+20260407_001923 EXEC_SCOPE: DEV
+
+20260407_001923 ## Derived Variable Values:
+20260407_001923 STARTTIME: 001923
+20260407_001923 LOGDATE: 20260407_001923
+20260407_001923 JOB=job_tax_withhold
+
+20260407_001923 ###############################################################
+20260407_001923 ### RUNNING TAX WITHHOLD SCRIPT
+20260407_001923 ###############################################################
+
+20260407_001923 ## Checking if script exists
+20260407_001923 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260407_001923 File exists...
+
+20260407_001923 ## Running script
+20260407_001923  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Payroll report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260407_001930
+20260407_001930
+Execution Return Code: 1
+20260407_001930
+---------
+JOB ERROR
+---------
+Start Time: 001923, End Time: 001930
