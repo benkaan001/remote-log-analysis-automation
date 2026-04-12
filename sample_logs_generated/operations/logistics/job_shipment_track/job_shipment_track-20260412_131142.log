@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260412_131142
+----------------------
+20260412_131142 ## Passed Parameter Values:
+20260412_131142 DOMAIN: operations
+20260412_131142 SUB_DOMAIN: logistics
+20260412_131142 USER_NAME: scheduler
+20260412_131142 TABLE_NAME: job_shipment_track
+20260412_131142 EXEC_SCOPE: PROD
+
+20260412_131142 ## Derived Variable Values:
+20260412_131142 STARTTIME: 131142
+20260412_131142 LOGDATE: 20260412_131142
+20260412_131142 JOB=job_shipment_track
+
+20260412_131142 ###############################################################
+20260412_131142 ### RUNNING SHIPMENT TRACK SCRIPT
+20260412_131142 ###############################################################
+
+20260412_131142 ## Checking if script exists
+20260412_131142 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260412_131142 File exists...
+
+20260412_131142 ## Running script
+20260412_131142  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260412_131242
+20260412_131242
+Execution Return Code: 0
+20260412_131242
+-----------
+JOB SUCCESS
+-----------
+Start Time: 131142, End Time: 131242

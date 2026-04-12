@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260412_082533
+----------------------
+20260412_082533 ## Passed Parameter Values:
+20260412_082533 DOMAIN: hr
+20260412_082533 SUB_DOMAIN: payroll
+20260412_082533 USER_NAME: hr_user1
+20260412_082533 TABLE_NAME: job_tax_withhold
+20260412_082533 EXEC_SCOPE: UAT
+
+20260412_082533 ## Derived Variable Values:
+20260412_082533 STARTTIME: 082533
+20260412_082533 LOGDATE: 20260412_082533
+20260412_082533 JOB=job_tax_withhold
+
+20260412_082533 ###############################################################
+20260412_082533 ### RUNNING TAX WITHHOLD SCRIPT
+20260412_082533 ###############################################################
+
+20260412_082533 ## Checking if script exists
+20260412_082533 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260412_082533 File exists...
+
+20260412_082533 ## Running script
+20260412_082533  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260412_082620
+20260412_082620
+Execution Return Code: 8
+20260412_082620
+---------
+JOB ERROR
+---------
+Start Time: 082533, End Time: 082620

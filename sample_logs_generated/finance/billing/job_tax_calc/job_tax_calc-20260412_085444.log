@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260412_085444
+----------------------
+20260412_085444 ## Passed Parameter Values:
+20260412_085444 DOMAIN: finance
+20260412_085444 SUB_DOMAIN: billing
+20260412_085444 USER_NAME: finance_admin
+20260412_085444 TABLE_NAME: job_tax_calc
+20260412_085444 EXEC_SCOPE: UAT
+
+20260412_085444 ## Derived Variable Values:
+20260412_085444 STARTTIME: 085444
+20260412_085444 LOGDATE: 20260412_085444
+20260412_085444 JOB=job_tax_calc
+
+20260412_085444 ###############################################################
+20260412_085444 ### RUNNING TAX CALC SCRIPT
+20260412_085444 ###############################################################
+
+20260412_085444 ## Checking if script exists
+20260412_085444 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260412_085444 File exists...
+
+20260412_085444 ## Running script
+20260412_085444  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260412_085518
+20260412_085518
+Execution Return Code: 0
+20260412_085518
+-----------
+JOB SUCCESS
+-----------
+Start Time: 085444, End Time: 085518
