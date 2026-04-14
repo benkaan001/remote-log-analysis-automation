@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260414_233536
+----------------------
+20260414_233536 ## Passed Parameter Values:
+20260414_233536 DOMAIN: operations
+20260414_233536 SUB_DOMAIN: logistics
+20260414_233536 USER_NAME: ops_user1
+20260414_233536 TABLE_NAME: job_inventory_check
+20260414_233536 EXEC_SCOPE: PROD
+
+20260414_233536 ## Derived Variable Values:
+20260414_233536 STARTTIME: 233536
+20260414_233536 LOGDATE: 20260414_233536
+20260414_233536 JOB=job_inventory_check
+
+20260414_233536 ###############################################################
+20260414_233536 ### RUNNING INVENTORY CHECK SCRIPT
+20260414_233536 ###############################################################
+
+20260414_233536 ## Checking if script exists
+20260414_233536 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260414_233536 File exists...
+
+20260414_233536 ## Running script
+20260414_233536  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260414_233636
+20260414_233636
+Execution Return Code: 4
+20260414_233636
+---------
+JOB ERROR
+---------
+Start Time: 233536, End Time: 233636

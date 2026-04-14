@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260414_132149
+----------------------
+20260414_132149 ## Passed Parameter Values:
+20260414_132149 DOMAIN: hr
+20260414_132149 SUB_DOMAIN: payroll
+20260414_132149 USER_NAME: hr_user1
+20260414_132149 TABLE_NAME: job_tax_withhold
+20260414_132149 EXEC_SCOPE: UAT
+
+20260414_132149 ## Derived Variable Values:
+20260414_132149 STARTTIME: 132149
+20260414_132149 LOGDATE: 20260414_132149
+20260414_132149 JOB=job_tax_withhold
+
+20260414_132149 ###############################################################
+20260414_132149 ### RUNNING TAX WITHHOLD SCRIPT
+20260414_132149 ###############################################################
+
+20260414_132149 ## Checking if script exists
+20260414_132149 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260414_132149 File exists...
+
+20260414_132149 ## Running script
+20260414_132149  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260414_132218
+20260414_132218
+Execution Return Code: 4
+20260414_132218
+---------
+JOB ERROR
+---------
+Start Time: 132149, End Time: 132218
