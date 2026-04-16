@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260416_080602
+----------------------
+20260416_080602 ## Passed Parameter Values:
+20260416_080602 DOMAIN: operations
+20260416_080602 SUB_DOMAIN: scheduling
+20260416_080602 USER_NAME: scheduler
+20260416_080602 TABLE_NAME: job_staff_roster
+20260416_080602 EXEC_SCOPE: UAT
+
+20260416_080602 ## Derived Variable Values:
+20260416_080602 STARTTIME: 080602
+20260416_080602 LOGDATE: 20260416_080602
+20260416_080602 JOB=job_staff_roster
+
+20260416_080602 ###############################################################
+20260416_080602 ### RUNNING STAFF ROSTER SCRIPT
+20260416_080602 ###############################################################
+
+20260416_080602 ## Checking if script exists
+20260416_080602 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260416_080602 File exists...
+
+20260416_080602 ## Running script
+20260416_080602  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Scheduling report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260416_080618
+20260416_080618
+Execution Return Code: 4
+20260416_080618
+---------
+JOB ERROR
+---------
+Start Time: 080602, End Time: 080618
