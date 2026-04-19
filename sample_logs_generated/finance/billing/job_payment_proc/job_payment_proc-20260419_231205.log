@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260419_231205
+----------------------
+20260419_231205 ## Passed Parameter Values:
+20260419_231205 DOMAIN: finance
+20260419_231205 SUB_DOMAIN: billing
+20260419_231205 USER_NAME: finance_user1
+20260419_231205 TABLE_NAME: job_payment_proc
+20260419_231205 EXEC_SCOPE: UAT
+
+20260419_231205 ## Derived Variable Values:
+20260419_231205 STARTTIME: 231205
+20260419_231205 LOGDATE: 20260419_231205
+20260419_231205 JOB=job_payment_proc
+
+20260419_231205 ###############################################################
+20260419_231205 ### RUNNING PAYMENT PROC SCRIPT
+20260419_231205 ###############################################################
+
+20260419_231205 ## Checking if script exists
+20260419_231205 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260419_231205 File exists...
+
+20260419_231205 ## Running script
+20260419_231205  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260419_231210
+20260419_231210
+Execution Return Code: 4
+20260419_231210
+---------
+JOB ERROR
+---------
+Start Time: 231205, End Time: 231210
