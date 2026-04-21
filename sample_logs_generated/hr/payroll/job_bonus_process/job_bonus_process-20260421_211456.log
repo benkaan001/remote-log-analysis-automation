@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260421_211456
+----------------------
+20260421_211456 ## Passed Parameter Values:
+20260421_211456 DOMAIN: hr
+20260421_211456 SUB_DOMAIN: payroll
+20260421_211456 USER_NAME: recruiter1
+20260421_211456 TABLE_NAME: job_bonus_process
+20260421_211456 EXEC_SCOPE: PROD
+
+20260421_211456 ## Derived Variable Values:
+20260421_211456 STARTTIME: 211456
+20260421_211456 LOGDATE: 20260421_211456
+20260421_211456 JOB=job_bonus_process
+
+20260421_211456 ###############################################################
+20260421_211456 ### RUNNING BONUS PROCESS SCRIPT
+20260421_211456 ###############################################################
+
+20260421_211456 ## Checking if script exists
+20260421_211456 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260421_211456 File exists...
+
+20260421_211456 ## Running script
+20260421_211456  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260421_211516
+20260421_211516
+Execution Return Code: 1
+20260421_211516
+---------
+JOB ERROR
+---------
+Start Time: 211456, End Time: 211516
