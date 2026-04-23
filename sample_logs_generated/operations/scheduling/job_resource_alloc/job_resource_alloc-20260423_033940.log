@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260423_033940
+----------------------
+20260423_033940 ## Passed Parameter Values:
+20260423_033940 DOMAIN: operations
+20260423_033940 SUB_DOMAIN: scheduling
+20260423_033940 USER_NAME: ops_user1
+20260423_033940 TABLE_NAME: job_resource_alloc
+20260423_033940 EXEC_SCOPE: UAT
+
+20260423_033940 ## Derived Variable Values:
+20260423_033940 STARTTIME: 033940
+20260423_033940 LOGDATE: 20260423_033940
+20260423_033940 JOB=job_resource_alloc
+
+20260423_033940 ###############################################################
+20260423_033940 ### RUNNING RESOURCE ALLOC SCRIPT
+20260423_033940 ###############################################################
+
+20260423_033940 ## Checking if script exists
+20260423_033940 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260423_033940 File exists...
+
+20260423_033940 ## Running script
+20260423_033940  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260423_034004
+20260423_034004
+Execution Return Code: 8
+20260423_034004
+---------
+JOB ERROR
+---------
+Start Time: 033940, End Time: 034004
