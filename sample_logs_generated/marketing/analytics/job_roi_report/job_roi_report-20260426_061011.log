@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260426_061011
+----------------------
+20260426_061011 ## Passed Parameter Values:
+20260426_061011 DOMAIN: marketing
+20260426_061011 SUB_DOMAIN: analytics
+20260426_061011 USER_NAME: analyst1
+20260426_061011 TABLE_NAME: job_roi_report
+20260426_061011 EXEC_SCOPE: DEV
+
+20260426_061011 ## Derived Variable Values:
+20260426_061011 STARTTIME: 061011
+20260426_061011 LOGDATE: 20260426_061011
+20260426_061011 JOB=job_roi_report
+
+20260426_061011 ###############################################################
+20260426_061011 ### RUNNING ROI REPORT SCRIPT
+20260426_061011 ###############################################################
+
+20260426_061011 ## Checking if script exists
+20260426_061011 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260426_061011 File exists...
+
+20260426_061011 ## Running script
+20260426_061011  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260426_061057
+20260426_061057
+Execution Return Code: 8
+20260426_061057
+---------
+JOB ERROR
+---------
+Start Time: 061011, End Time: 061057
