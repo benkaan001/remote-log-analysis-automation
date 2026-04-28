@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260428_022200
+----------------------
+20260428_022200 ## Passed Parameter Values:
+20260428_022200 DOMAIN: hr
+20260428_022200 SUB_DOMAIN: payroll
+20260428_022200 USER_NAME: recruiter1
+20260428_022200 TABLE_NAME: job_bonus_process
+20260428_022200 EXEC_SCOPE: PROD
+
+20260428_022200 ## Derived Variable Values:
+20260428_022200 STARTTIME: 022200
+20260428_022200 LOGDATE: 20260428_022200
+20260428_022200 JOB=job_bonus_process
+
+20260428_022200 ###############################################################
+20260428_022200 ### RUNNING BONUS PROCESS SCRIPT
+20260428_022200 ###############################################################
+
+20260428_022200 ## Checking if script exists
+20260428_022200 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260428_022200 File exists...
+
+20260428_022200 ## Running script
+20260428_022200  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260428_022252
+20260428_022252
+Execution Return Code: 4
+20260428_022252
+---------
+JOB ERROR
+---------
+Start Time: 022200, End Time: 022252

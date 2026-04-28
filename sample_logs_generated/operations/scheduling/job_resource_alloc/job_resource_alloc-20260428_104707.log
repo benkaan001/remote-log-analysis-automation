@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260428_104707
+----------------------
+20260428_104707 ## Passed Parameter Values:
+20260428_104707 DOMAIN: operations
+20260428_104707 SUB_DOMAIN: scheduling
+20260428_104707 USER_NAME: scheduler
+20260428_104707 TABLE_NAME: job_resource_alloc
+20260428_104707 EXEC_SCOPE: TEST
+
+20260428_104707 ## Derived Variable Values:
+20260428_104707 STARTTIME: 104707
+20260428_104707 LOGDATE: 20260428_104707
+20260428_104707 JOB=job_resource_alloc
+
+20260428_104707 ###############################################################
+20260428_104707 ### RUNNING RESOURCE ALLOC SCRIPT
+20260428_104707 ###############################################################
+
+20260428_104707 ## Checking if script exists
+20260428_104707 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260428_104707 File exists...
+
+20260428_104707 ## Running script
+20260428_104707  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260428_104756
+20260428_104756
+Execution Return Code: 8
+20260428_104756
+---------
+JOB ERROR
+---------
+Start Time: 104707, End Time: 104756
