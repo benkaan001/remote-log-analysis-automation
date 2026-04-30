@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260430_002338
+----------------------
+20260430_002338 ## Passed Parameter Values:
+20260430_002338 DOMAIN: marketing
+20260430_002338 SUB_DOMAIN: campaigns
+20260430_002338 USER_NAME: campaign_manager
+20260430_002338 TABLE_NAME: job_update_crm
+20260430_002338 EXEC_SCOPE: TEST
+
+20260430_002338 ## Derived Variable Values:
+20260430_002338 STARTTIME: 002338
+20260430_002338 LOGDATE: 20260430_002338
+20260430_002338 JOB=job_update_crm
+
+20260430_002338 ###############################################################
+20260430_002338 ### RUNNING UPDATE CRM SCRIPT
+20260430_002338 ###############################################################
+
+20260430_002338 ## Checking if script exists
+20260430_002338 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20260430_002338 File exists...
+
+20260430_002338 ## Running script
+20260430_002338  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260430_002349
+20260430_002349
+Execution Return Code: 2
+20260430_002349
+---------
+JOB ERROR
+---------
+Start Time: 002338, End Time: 002349

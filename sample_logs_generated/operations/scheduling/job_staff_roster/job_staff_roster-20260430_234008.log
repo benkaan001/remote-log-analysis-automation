@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260430_234008
+----------------------
+20260430_234008 ## Passed Parameter Values:
+20260430_234008 DOMAIN: operations
+20260430_234008 SUB_DOMAIN: scheduling
+20260430_234008 USER_NAME: logistics_manager
+20260430_234008 TABLE_NAME: job_staff_roster
+20260430_234008 EXEC_SCOPE: PROD
+
+20260430_234008 ## Derived Variable Values:
+20260430_234008 STARTTIME: 234008
+20260430_234008 LOGDATE: 20260430_234008
+20260430_234008 JOB=job_staff_roster
+
+20260430_234008 ###############################################################
+20260430_234008 ### RUNNING STAFF ROSTER SCRIPT
+20260430_234008 ###############################################################
+
+20260430_234008 ## Checking if script exists
+20260430_234008 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260430_234008 File exists...
+
+20260430_234008 ## Running script
+20260430_234008  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260430_234045
+20260430_234045
+Execution Return Code: 2
+20260430_234045
+---------
+JOB ERROR
+---------
+Start Time: 234008, End Time: 234045

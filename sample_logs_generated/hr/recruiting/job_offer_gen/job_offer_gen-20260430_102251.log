@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260430_102251
+----------------------
+20260430_102251 ## Passed Parameter Values:
+20260430_102251 DOMAIN: hr
+20260430_102251 SUB_DOMAIN: recruiting
+20260430_102251 USER_NAME: hr_user1
+20260430_102251 TABLE_NAME: job_offer_gen
+20260430_102251 EXEC_SCOPE: DEV
+
+20260430_102251 ## Derived Variable Values:
+20260430_102251 STARTTIME: 102251
+20260430_102251 LOGDATE: 20260430_102251
+20260430_102251 JOB=job_offer_gen
+
+20260430_102251 ###############################################################
+20260430_102251 ### RUNNING OFFER GEN SCRIPT
+20260430_102251 ###############################################################
+
+20260430_102251 ## Checking if script exists
+20260430_102251 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260430_102251 File exists...
+
+20260430_102251 ## Running script
+20260430_102251  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260430_102315
+20260430_102315
+Execution Return Code: 4
+20260430_102315
+---------
+JOB ERROR
+---------
+Start Time: 102251, End Time: 102315

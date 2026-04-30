@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260430_111225
+----------------------
+20260430_111225 ## Passed Parameter Values:
+20260430_111225 DOMAIN: operations
+20260430_111225 SUB_DOMAIN: logistics
+20260430_111225 USER_NAME: scheduler
+20260430_111225 TABLE_NAME: job_shipment_track
+20260430_111225 EXEC_SCOPE: UAT
+
+20260430_111225 ## Derived Variable Values:
+20260430_111225 STARTTIME: 111225
+20260430_111225 LOGDATE: 20260430_111225
+20260430_111225 JOB=job_shipment_track
+
+20260430_111225 ###############################################################
+20260430_111225 ### RUNNING SHIPMENT TRACK SCRIPT
+20260430_111225 ###############################################################
+
+20260430_111225 ## Checking if script exists
+20260430_111225 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260430_111225 File exists...
+
+20260430_111225 ## Running script
+20260430_111225  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Logistics generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260430_111323
+20260430_111323
+Execution Return Code: 1
+20260430_111323
+---------
+JOB ERROR
+---------
+Start Time: 111225, End Time: 111323
