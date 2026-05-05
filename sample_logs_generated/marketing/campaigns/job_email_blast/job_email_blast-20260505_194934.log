@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260505_194934
+----------------------
+20260505_194934 ## Passed Parameter Values:
+20260505_194934 DOMAIN: marketing
+20260505_194934 SUB_DOMAIN: campaigns
+20260505_194934 USER_NAME: campaign_manager
+20260505_194934 TABLE_NAME: job_email_blast
+20260505_194934 EXEC_SCOPE: DEV
+
+20260505_194934 ## Derived Variable Values:
+20260505_194934 STARTTIME: 194934
+20260505_194934 LOGDATE: 20260505_194934
+20260505_194934 JOB=job_email_blast
+
+20260505_194934 ###############################################################
+20260505_194934 ### RUNNING EMAIL BLAST SCRIPT
+20260505_194934 ###############################################################
+
+20260505_194934 ## Checking if script exists
+20260505_194934 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20260505_194934 File exists...
+
+20260505_194934 ## Running script
+20260505_194934  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260505_194945
+20260505_194945
+Execution Return Code: 1
+20260505_194945
+---------
+JOB ERROR
+---------
+Start Time: 194934, End Time: 194945
