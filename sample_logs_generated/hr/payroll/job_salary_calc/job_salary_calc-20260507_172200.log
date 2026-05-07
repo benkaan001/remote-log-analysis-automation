@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260507_172200
+----------------------
+20260507_172200 ## Passed Parameter Values:
+20260507_172200 DOMAIN: hr
+20260507_172200 SUB_DOMAIN: payroll
+20260507_172200 USER_NAME: payroll_admin
+20260507_172200 TABLE_NAME: job_salary_calc
+20260507_172200 EXEC_SCOPE: UAT
+
+20260507_172200 ## Derived Variable Values:
+20260507_172200 STARTTIME: 172200
+20260507_172200 LOGDATE: 20260507_172200
+20260507_172200 JOB=job_salary_calc
+
+20260507_172200 ###############################################################
+20260507_172200 ### RUNNING SALARY CALC SCRIPT
+20260507_172200 ###############################################################
+
+20260507_172200 ## Checking if script exists
+20260507_172200 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20260507_172200 File exists...
+
+20260507_172200 ## Running script
+20260507_172200  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260507_172257
+20260507_172257
+Execution Return Code: 1
+20260507_172257
+---------
+JOB ERROR
+---------
+Start Time: 172200, End Time: 172257

@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260507_120759
+----------------------
+20260507_120759 ## Passed Parameter Values:
+20260507_120759 DOMAIN: marketing
+20260507_120759 SUB_DOMAIN: analytics
+20260507_120759 USER_NAME: analyst1
+20260507_120759 TABLE_NAME: job_roi_report
+20260507_120759 EXEC_SCOPE: DEV
+
+20260507_120759 ## Derived Variable Values:
+20260507_120759 STARTTIME: 120759
+20260507_120759 LOGDATE: 20260507_120759
+20260507_120759 JOB=job_roi_report
+
+20260507_120759 ###############################################################
+20260507_120759 ### RUNNING ROI REPORT SCRIPT
+20260507_120759 ###############################################################
+
+20260507_120759 ## Checking if script exists
+20260507_120759 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260507_120759 File exists...
+
+20260507_120759 ## Running script
+20260507_120759  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260507_120847
+20260507_120847
+Execution Return Code: 4
+20260507_120847
+---------
+JOB ERROR
+---------
+Start Time: 120759, End Time: 120847

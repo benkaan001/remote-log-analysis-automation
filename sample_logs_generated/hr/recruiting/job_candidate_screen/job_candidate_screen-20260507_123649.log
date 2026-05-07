@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260507_123649
+----------------------
+20260507_123649 ## Passed Parameter Values:
+20260507_123649 DOMAIN: hr
+20260507_123649 SUB_DOMAIN: recruiting
+20260507_123649 USER_NAME: payroll_admin
+20260507_123649 TABLE_NAME: job_candidate_screen
+20260507_123649 EXEC_SCOPE: UAT
+
+20260507_123649 ## Derived Variable Values:
+20260507_123649 STARTTIME: 123649
+20260507_123649 LOGDATE: 20260507_123649
+20260507_123649 JOB=job_candidate_screen
+
+20260507_123649 ###############################################################
+20260507_123649 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260507_123649 ###############################################################
+
+20260507_123649 ## Checking if script exists
+20260507_123649 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260507_123649 File exists...
+
+20260507_123649 ## Running script
+20260507_123649  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260507_123707
+20260507_123707
+Execution Return Code: 1
+20260507_123707
+---------
+JOB ERROR
+---------
+Start Time: 123649, End Time: 123707

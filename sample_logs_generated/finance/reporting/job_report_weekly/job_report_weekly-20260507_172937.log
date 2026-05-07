@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260507_172937
+----------------------
+20260507_172937 ## Passed Parameter Values:
+20260507_172937 DOMAIN: finance
+20260507_172937 SUB_DOMAIN: reporting
+20260507_172937 USER_NAME: finance_user1
+20260507_172937 TABLE_NAME: job_report_weekly
+20260507_172937 EXEC_SCOPE: UAT
+
+20260507_172937 ## Derived Variable Values:
+20260507_172937 STARTTIME: 172937
+20260507_172937 LOGDATE: 20260507_172937
+20260507_172937 JOB=job_report_weekly
+
+20260507_172937 ###############################################################
+20260507_172937 ### RUNNING REPORT WEEKLY SCRIPT
+20260507_172937 ###############################################################
+
+20260507_172937 ## Checking if script exists
+20260507_172937 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260507_172937 File exists...
+
+20260507_172937 ## Running script
+20260507_172937  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260507_172950
+20260507_172950
+Execution Return Code: 4
+20260507_172950
+---------
+JOB ERROR
+---------
+Start Time: 172937, End Time: 172950
