@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260510_192408
+----------------------
+20260510_192408 ## Passed Parameter Values:
+20260510_192408 DOMAIN: marketing
+20260510_192408 SUB_DOMAIN: analytics
+20260510_192408 USER_NAME: analyst1
+20260510_192408 TABLE_NAME: job_roi_report
+20260510_192408 EXEC_SCOPE: PROD
+
+20260510_192408 ## Derived Variable Values:
+20260510_192408 STARTTIME: 192408
+20260510_192408 LOGDATE: 20260510_192408
+20260510_192408 JOB=job_roi_report
+
+20260510_192408 ###############################################################
+20260510_192408 ### RUNNING ROI REPORT SCRIPT
+20260510_192408 ###############################################################
+
+20260510_192408 ## Checking if script exists
+20260510_192408 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260510_192408 File exists...
+
+20260510_192408 ## Running script
+20260510_192408  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260510_192442
+20260510_192442
+Execution Return Code: 0
+20260510_192442
+-----------
+JOB SUCCESS
+-----------
+Start Time: 192408, End Time: 192442

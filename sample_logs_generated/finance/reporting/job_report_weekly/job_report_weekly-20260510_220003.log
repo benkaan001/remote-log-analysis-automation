@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260510_220003
+----------------------
+20260510_220003 ## Passed Parameter Values:
+20260510_220003 DOMAIN: finance
+20260510_220003 SUB_DOMAIN: reporting
+20260510_220003 USER_NAME: accountant1
+20260510_220003 TABLE_NAME: job_report_weekly
+20260510_220003 EXEC_SCOPE: DEV
+
+20260510_220003 ## Derived Variable Values:
+20260510_220003 STARTTIME: 220003
+20260510_220003 LOGDATE: 20260510_220003
+20260510_220003 JOB=job_report_weekly
+
+20260510_220003 ###############################################################
+20260510_220003 ### RUNNING REPORT WEEKLY SCRIPT
+20260510_220003 ###############################################################
+
+20260510_220003 ## Checking if script exists
+20260510_220003 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260510_220003 File exists...
+
+20260510_220003 ## Running script
+20260510_220003  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260510_220048
+20260510_220048
+Execution Return Code: 1
+20260510_220048
+---------
+JOB ERROR
+---------
+Start Time: 220003, End Time: 220048

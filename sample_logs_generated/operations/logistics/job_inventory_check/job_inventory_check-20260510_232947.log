@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260510_232947
+----------------------
+20260510_232947 ## Passed Parameter Values:
+20260510_232947 DOMAIN: operations
+20260510_232947 SUB_DOMAIN: logistics
+20260510_232947 USER_NAME: scheduler
+20260510_232947 TABLE_NAME: job_inventory_check
+20260510_232947 EXEC_SCOPE: DEV
+
+20260510_232947 ## Derived Variable Values:
+20260510_232947 STARTTIME: 232947
+20260510_232947 LOGDATE: 20260510_232947
+20260510_232947 JOB=job_inventory_check
+
+20260510_232947 ###############################################################
+20260510_232947 ### RUNNING INVENTORY CHECK SCRIPT
+20260510_232947 ###############################################################
+
+20260510_232947 ## Checking if script exists
+20260510_232947 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260510_232947 File exists...
+
+20260510_232947 ## Running script
+20260510_232947  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260510_232957
+20260510_232957
+Execution Return Code: 8
+20260510_232957
+---------
+JOB ERROR
+---------
+Start Time: 232947, End Time: 232957
