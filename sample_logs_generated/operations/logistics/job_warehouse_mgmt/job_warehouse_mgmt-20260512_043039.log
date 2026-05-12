@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260512_043039
+----------------------
+20260512_043039 ## Passed Parameter Values:
+20260512_043039 DOMAIN: operations
+20260512_043039 SUB_DOMAIN: logistics
+20260512_043039 USER_NAME: ops_user1
+20260512_043039 TABLE_NAME: job_warehouse_mgmt
+20260512_043039 EXEC_SCOPE: TEST
+
+20260512_043039 ## Derived Variable Values:
+20260512_043039 STARTTIME: 043039
+20260512_043039 LOGDATE: 20260512_043039
+20260512_043039 JOB=job_warehouse_mgmt
+
+20260512_043039 ###############################################################
+20260512_043039 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260512_043039 ###############################################################
+
+20260512_043039 ## Checking if script exists
+20260512_043039 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260512_043039 File exists...
+
+20260512_043039 ## Running script
+20260512_043039  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260512_043054
+20260512_043054
+Execution Return Code: 1
+20260512_043054
+---------
+JOB ERROR
+---------
+Start Time: 043039, End Time: 043054

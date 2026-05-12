@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260512_092738
+----------------------
+20260512_092738 ## Passed Parameter Values:
+20260512_092738 DOMAIN: operations
+20260512_092738 SUB_DOMAIN: scheduling
+20260512_092738 USER_NAME: scheduler
+20260512_092738 TABLE_NAME: job_maintenance_plan
+20260512_092738 EXEC_SCOPE: UAT
+
+20260512_092738 ## Derived Variable Values:
+20260512_092738 STARTTIME: 092738
+20260512_092738 LOGDATE: 20260512_092738
+20260512_092738 JOB=job_maintenance_plan
+
+20260512_092738 ###############################################################
+20260512_092738 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260512_092738 ###############################################################
+
+20260512_092738 ## Checking if script exists
+20260512_092738 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260512_092738 File exists...
+
+20260512_092738 ## Running script
+20260512_092738  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260512_092826
+20260512_092826
+Execution Return Code: 2
+20260512_092826
+---------
+JOB ERROR
+---------
+Start Time: 092738, End Time: 092826
