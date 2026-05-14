@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260514_233918
+----------------------
+20260514_233918 ## Passed Parameter Values:
+20260514_233918 DOMAIN: hr
+20260514_233918 SUB_DOMAIN: recruiting
+20260514_233918 USER_NAME: hr_user1
+20260514_233918 TABLE_NAME: job_offer_gen
+20260514_233918 EXEC_SCOPE: UAT
+
+20260514_233918 ## Derived Variable Values:
+20260514_233918 STARTTIME: 233918
+20260514_233918 LOGDATE: 20260514_233918
+20260514_233918 JOB=job_offer_gen
+
+20260514_233918 ###############################################################
+20260514_233918 ### RUNNING OFFER GEN SCRIPT
+20260514_233918 ###############################################################
+
+20260514_233918 ## Checking if script exists
+20260514_233918 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260514_233918 File exists...
+
+20260514_233918 ## Running script
+20260514_233918  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Recruiting aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260514_233947
+20260514_233947
+Execution Return Code: 4
+20260514_233947
+---------
+JOB ERROR
+---------
+Start Time: 233918, End Time: 233947
