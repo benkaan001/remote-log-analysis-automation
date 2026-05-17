@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260517_002651
+----------------------
+20260517_002651 ## Passed Parameter Values:
+20260517_002651 DOMAIN: marketing
+20260517_002651 SUB_DOMAIN: campaigns
+20260517_002651 USER_NAME: analyst1
+20260517_002651 TABLE_NAME: job_segment_users
+20260517_002651 EXEC_SCOPE: TEST
+
+20260517_002651 ## Derived Variable Values:
+20260517_002651 STARTTIME: 002651
+20260517_002651 LOGDATE: 20260517_002651
+20260517_002651 JOB=job_segment_users
+
+20260517_002651 ###############################################################
+20260517_002651 ### RUNNING SEGMENT USERS SCRIPT
+20260517_002651 ###############################################################
+
+20260517_002651 ## Checking if script exists
+20260517_002651 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260517_002651 File exists...
+
+20260517_002651 ## Running script
+20260517_002651  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260517_002750
+20260517_002750
+Execution Return Code: 0
+20260517_002750
+-----------
+JOB SUCCESS
+-----------
+Start Time: 002651, End Time: 002750
