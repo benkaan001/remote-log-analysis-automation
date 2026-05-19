@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260519_021218
+----------------------
+20260519_021218 ## Passed Parameter Values:
+20260519_021218 DOMAIN: marketing
+20260519_021218 SUB_DOMAIN: analytics
+20260519_021218 USER_NAME: analyst1
+20260519_021218 TABLE_NAME: job_web_traffic
+20260519_021218 EXEC_SCOPE: PROD
+
+20260519_021218 ## Derived Variable Values:
+20260519_021218 STARTTIME: 021218
+20260519_021218 LOGDATE: 20260519_021218
+20260519_021218 JOB=job_web_traffic
+
+20260519_021218 ###############################################################
+20260519_021218 ### RUNNING WEB TRAFFIC SCRIPT
+20260519_021218 ###############################################################
+
+20260519_021218 ## Checking if script exists
+20260519_021218 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20260519_021218 File exists...
+
+20260519_021218 ## Running script
+20260519_021218  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Conversion calculation error: Missing funnel stage data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260519_021245
+20260519_021245
+Execution Return Code: 4
+20260519_021245
+---------
+JOB ERROR
+---------
+Start Time: 021218, End Time: 021245

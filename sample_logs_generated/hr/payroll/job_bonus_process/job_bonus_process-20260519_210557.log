@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260519_210557
+----------------------
+20260519_210557 ## Passed Parameter Values:
+20260519_210557 DOMAIN: hr
+20260519_210557 SUB_DOMAIN: payroll
+20260519_210557 USER_NAME: payroll_admin
+20260519_210557 TABLE_NAME: job_bonus_process
+20260519_210557 EXEC_SCOPE: UAT
+
+20260519_210557 ## Derived Variable Values:
+20260519_210557 STARTTIME: 210557
+20260519_210557 LOGDATE: 20260519_210557
+20260519_210557 JOB=job_bonus_process
+
+20260519_210557 ###############################################################
+20260519_210557 ### RUNNING BONUS PROCESS SCRIPT
+20260519_210557 ###############################################################
+
+20260519_210557 ## Checking if script exists
+20260519_210557 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260519_210557 File exists...
+
+20260519_210557 ## Running script
+20260519_210557  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260519_210653
+20260519_210653
+Execution Return Code: 2
+20260519_210653
+---------
+JOB ERROR
+---------
+Start Time: 210557, End Time: 210653
