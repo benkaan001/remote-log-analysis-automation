@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260521_134401
+----------------------
+20260521_134401 ## Passed Parameter Values:
+20260521_134401 DOMAIN: hr
+20260521_134401 SUB_DOMAIN: recruiting
+20260521_134401 USER_NAME: payroll_admin
+20260521_134401 TABLE_NAME: job_candidate_screen
+20260521_134401 EXEC_SCOPE: DEV
+
+20260521_134401 ## Derived Variable Values:
+20260521_134401 STARTTIME: 134401
+20260521_134401 LOGDATE: 20260521_134401
+20260521_134401 JOB=job_candidate_screen
+
+20260521_134401 ###############################################################
+20260521_134401 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260521_134401 ###############################################################
+
+20260521_134401 ## Checking if script exists
+20260521_134401 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260521_134401 File exists...
+
+20260521_134401 ## Running script
+20260521_134401  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260521_134413
+20260521_134413
+Execution Return Code: 2
+20260521_134413
+---------
+JOB ERROR
+---------
+Start Time: 134401, End Time: 134413
