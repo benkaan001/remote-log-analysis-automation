@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260524_112341
+----------------------
+20260524_112341 ## Passed Parameter Values:
+20260524_112341 DOMAIN: finance
+20260524_112341 SUB_DOMAIN: reporting
+20260524_112341 USER_NAME: finance_admin
+20260524_112341 TABLE_NAME: job_report_monthly
+20260524_112341 EXEC_SCOPE: UAT
+
+20260524_112341 ## Derived Variable Values:
+20260524_112341 STARTTIME: 112341
+20260524_112341 LOGDATE: 20260524_112341
+20260524_112341 JOB=job_report_monthly
+
+20260524_112341 ###############################################################
+20260524_112341 ### RUNNING REPORT MONTHLY SCRIPT
+20260524_112341 ###############################################################
+
+20260524_112341 ## Checking if script exists
+20260524_112341 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260524_112341 File exists...
+
+20260524_112341 ## Running script
+20260524_112341  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260524_112435
+20260524_112435
+Execution Return Code: 4
+20260524_112435
+---------
+JOB ERROR
+---------
+Start Time: 112341, End Time: 112435
