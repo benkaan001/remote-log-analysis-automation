@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260526_230639
+----------------------
+20260526_230639 ## Passed Parameter Values:
+20260526_230639 DOMAIN: finance
+20260526_230639 SUB_DOMAIN: billing
+20260526_230639 USER_NAME: accountant1
+20260526_230639 TABLE_NAME: job_payment_proc
+20260526_230639 EXEC_SCOPE: TEST
+
+20260526_230639 ## Derived Variable Values:
+20260526_230639 STARTTIME: 230639
+20260526_230639 LOGDATE: 20260526_230639
+20260526_230639 JOB=job_payment_proc
+
+20260526_230639 ###############################################################
+20260526_230639 ### RUNNING PAYMENT PROC SCRIPT
+20260526_230639 ###############################################################
+
+20260526_230639 ## Checking if script exists
+20260526_230639 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260526_230639 File exists...
+
+20260526_230639 ## Running script
+20260526_230639  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invoice generation failed: Invalid customer account.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260526_230722
+20260526_230722
+Execution Return Code: 4
+20260526_230722
+---------
+JOB ERROR
+---------
+Start Time: 230639, End Time: 230722

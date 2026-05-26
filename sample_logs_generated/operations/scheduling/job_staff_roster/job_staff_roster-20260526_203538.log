@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260526_203538
+----------------------
+20260526_203538 ## Passed Parameter Values:
+20260526_203538 DOMAIN: operations
+20260526_203538 SUB_DOMAIN: scheduling
+20260526_203538 USER_NAME: scheduler
+20260526_203538 TABLE_NAME: job_staff_roster
+20260526_203538 EXEC_SCOPE: DEV
+
+20260526_203538 ## Derived Variable Values:
+20260526_203538 STARTTIME: 203538
+20260526_203538 LOGDATE: 20260526_203538
+20260526_203538 JOB=job_staff_roster
+
+20260526_203538 ###############################################################
+20260526_203538 ### RUNNING STAFF ROSTER SCRIPT
+20260526_203538 ###############################################################
+
+20260526_203538 ## Checking if script exists
+20260526_203538 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260526_203538 File exists...
+
+20260526_203538 ## Running script
+20260526_203538  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260526_203545
+20260526_203545
+Execution Return Code: 1
+20260526_203545
+---------
+JOB ERROR
+---------
+Start Time: 203538, End Time: 203545
