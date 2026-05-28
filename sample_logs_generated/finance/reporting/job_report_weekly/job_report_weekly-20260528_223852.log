@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260528_223852
+----------------------
+20260528_223852 ## Passed Parameter Values:
+20260528_223852 DOMAIN: finance
+20260528_223852 SUB_DOMAIN: reporting
+20260528_223852 USER_NAME: accountant1
+20260528_223852 TABLE_NAME: job_report_weekly
+20260528_223852 EXEC_SCOPE: PROD
+
+20260528_223852 ## Derived Variable Values:
+20260528_223852 STARTTIME: 223852
+20260528_223852 LOGDATE: 20260528_223852
+20260528_223852 JOB=job_report_weekly
+
+20260528_223852 ###############################################################
+20260528_223852 ### RUNNING REPORT WEEKLY SCRIPT
+20260528_223852 ###############################################################
+
+20260528_223852 ## Checking if script exists
+20260528_223852 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260528_223852 File exists...
+
+20260528_223852 ## Running script
+20260528_223852  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260528_223925
+20260528_223925
+Execution Return Code: 4
+20260528_223925
+---------
+JOB ERROR
+---------
+Start Time: 223852, End Time: 223925
