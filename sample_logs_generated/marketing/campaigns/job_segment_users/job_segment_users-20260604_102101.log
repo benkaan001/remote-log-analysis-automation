@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260604_102101
+----------------------
+20260604_102101 ## Passed Parameter Values:
+20260604_102101 DOMAIN: marketing
+20260604_102101 SUB_DOMAIN: campaigns
+20260604_102101 USER_NAME: campaign_manager
+20260604_102101 TABLE_NAME: job_segment_users
+20260604_102101 EXEC_SCOPE: UAT
+
+20260604_102101 ## Derived Variable Values:
+20260604_102101 STARTTIME: 102101
+20260604_102101 LOGDATE: 20260604_102101
+20260604_102101 JOB=job_segment_users
+
+20260604_102101 ###############################################################
+20260604_102101 ### RUNNING SEGMENT USERS SCRIPT
+20260604_102101 ###############################################################
+
+20260604_102101 ## Checking if script exists
+20260604_102101 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260604_102101 File exists...
+
+20260604_102101 ## Running script
+20260604_102101  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260604_102116
+20260604_102116
+Execution Return Code: 1
+20260604_102116
+---------
+JOB ERROR
+---------
+Start Time: 102101, End Time: 102116

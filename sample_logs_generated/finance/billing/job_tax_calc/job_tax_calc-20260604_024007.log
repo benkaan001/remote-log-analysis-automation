@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260604_024007
+----------------------
+20260604_024007 ## Passed Parameter Values:
+20260604_024007 DOMAIN: finance
+20260604_024007 SUB_DOMAIN: billing
+20260604_024007 USER_NAME: finance_admin
+20260604_024007 TABLE_NAME: job_tax_calc
+20260604_024007 EXEC_SCOPE: DEV
+
+20260604_024007 ## Derived Variable Values:
+20260604_024007 STARTTIME: 024007
+20260604_024007 LOGDATE: 20260604_024007
+20260604_024007 JOB=job_tax_calc
+
+20260604_024007 ###############################################################
+20260604_024007 ### RUNNING TAX CALC SCRIPT
+20260604_024007 ###############################################################
+
+20260604_024007 ## Checking if script exists
+20260604_024007 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260604_024007 File exists...
+
+20260604_024007 ## Running script
+20260604_024007  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260604_024022
+20260604_024022
+Execution Return Code: 0
+20260604_024022
+-----------
+JOB SUCCESS
+-----------
+Start Time: 024007, End Time: 024022
