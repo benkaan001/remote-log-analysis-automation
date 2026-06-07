@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260607_230216
+----------------------
+20260607_230216 ## Passed Parameter Values:
+20260607_230216 DOMAIN: operations
+20260607_230216 SUB_DOMAIN: scheduling
+20260607_230216 USER_NAME: scheduler
+20260607_230216 TABLE_NAME: job_maintenance_plan
+20260607_230216 EXEC_SCOPE: UAT
+
+20260607_230216 ## Derived Variable Values:
+20260607_230216 STARTTIME: 230216
+20260607_230216 LOGDATE: 20260607_230216
+20260607_230216 JOB=job_maintenance_plan
+
+20260607_230216 ###############################################################
+20260607_230216 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260607_230216 ###############################################################
+
+20260607_230216 ## Checking if script exists
+20260607_230216 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260607_230216 File exists...
+
+20260607_230216 ## Running script
+20260607_230216  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260607_230305
+20260607_230305
+Execution Return Code: 8
+20260607_230305
+---------
+JOB ERROR
+---------
+Start Time: 230216, End Time: 230305

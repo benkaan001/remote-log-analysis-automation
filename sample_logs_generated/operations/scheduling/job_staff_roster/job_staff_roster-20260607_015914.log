@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260607_015914
+----------------------
+20260607_015914 ## Passed Parameter Values:
+20260607_015914 DOMAIN: operations
+20260607_015914 SUB_DOMAIN: scheduling
+20260607_015914 USER_NAME: scheduler
+20260607_015914 TABLE_NAME: job_staff_roster
+20260607_015914 EXEC_SCOPE: PROD
+
+20260607_015914 ## Derived Variable Values:
+20260607_015914 STARTTIME: 015914
+20260607_015914 LOGDATE: 20260607_015914
+20260607_015914 JOB=job_staff_roster
+
+20260607_015914 ###############################################################
+20260607_015914 ### RUNNING STAFF ROSTER SCRIPT
+20260607_015914 ###############################################################
+
+20260607_015914 ## Checking if script exists
+20260607_015914 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260607_015914 File exists...
+
+20260607_015914 ## Running script
+20260607_015914  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260607_015919
+20260607_015919
+Execution Return Code: 0
+20260607_015919
+-----------
+JOB SUCCESS
+-----------
+Start Time: 015914, End Time: 015919
