@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260611_182327
+----------------------
+20260611_182327 ## Passed Parameter Values:
+20260611_182327 DOMAIN: finance
+20260611_182327 SUB_DOMAIN: billing
+20260611_182327 USER_NAME: finance_admin
+20260611_182327 TABLE_NAME: job_payment_proc
+20260611_182327 EXEC_SCOPE: TEST
+
+20260611_182327 ## Derived Variable Values:
+20260611_182327 STARTTIME: 182327
+20260611_182327 LOGDATE: 20260611_182327
+20260611_182327 JOB=job_payment_proc
+
+20260611_182327 ###############################################################
+20260611_182327 ### RUNNING PAYMENT PROC SCRIPT
+20260611_182327 ###############################################################
+
+20260611_182327 ## Checking if script exists
+20260611_182327 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260611_182327 File exists...
+
+20260611_182327 ## Running script
+20260611_182327  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260611_182406
+20260611_182406
+Execution Return Code: 4
+20260611_182406
+---------
+JOB ERROR
+---------
+Start Time: 182327, End Time: 182406
