@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260614_234019
+----------------------
+20260614_234019 ## Passed Parameter Values:
+20260614_234019 DOMAIN: marketing
+20260614_234019 SUB_DOMAIN: analytics
+20260614_234019 USER_NAME: marketing_user1
+20260614_234019 TABLE_NAME: job_conversion_rate
+20260614_234019 EXEC_SCOPE: PROD
+
+20260614_234019 ## Derived Variable Values:
+20260614_234019 STARTTIME: 234019
+20260614_234019 LOGDATE: 20260614_234019
+20260614_234019 JOB=job_conversion_rate
+
+20260614_234019 ###############################################################
+20260614_234019 ### RUNNING CONVERSION RATE SCRIPT
+20260614_234019 ###############################################################
+
+20260614_234019 ## Checking if script exists
+20260614_234019 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20260614_234019 File exists...
+
+20260614_234019 ## Running script
+20260614_234019  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260614_234024
+20260614_234024
+Execution Return Code: 1
+20260614_234024
+---------
+JOB ERROR
+---------
+Start Time: 234019, End Time: 234024

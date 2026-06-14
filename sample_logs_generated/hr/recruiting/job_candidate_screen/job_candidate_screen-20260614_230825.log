@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260614_230825
+----------------------
+20260614_230825 ## Passed Parameter Values:
+20260614_230825 DOMAIN: hr
+20260614_230825 SUB_DOMAIN: recruiting
+20260614_230825 USER_NAME: hr_user1
+20260614_230825 TABLE_NAME: job_candidate_screen
+20260614_230825 EXEC_SCOPE: TEST
+
+20260614_230825 ## Derived Variable Values:
+20260614_230825 STARTTIME: 230825
+20260614_230825 LOGDATE: 20260614_230825
+20260614_230825 JOB=job_candidate_screen
+
+20260614_230825 ###############################################################
+20260614_230825 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260614_230825 ###############################################################
+
+20260614_230825 ## Checking if script exists
+20260614_230825 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260614_230825 File exists...
+
+20260614_230825 ## Running script
+20260614_230825  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Recruiting generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260614_230839
+20260614_230839
+Execution Return Code: 4
+20260614_230839
+---------
+JOB ERROR
+---------
+Start Time: 230825, End Time: 230839
