@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260616_000916
+----------------------
+20260616_000916 ## Passed Parameter Values:
+20260616_000916 DOMAIN: marketing
+20260616_000916 SUB_DOMAIN: campaigns
+20260616_000916 USER_NAME: analyst1
+20260616_000916 TABLE_NAME: job_segment_users
+20260616_000916 EXEC_SCOPE: DEV
+
+20260616_000916 ## Derived Variable Values:
+20260616_000916 STARTTIME: 000916
+20260616_000916 LOGDATE: 20260616_000916
+20260616_000916 JOB=job_segment_users
+
+20260616_000916 ###############################################################
+20260616_000916 ### RUNNING SEGMENT USERS SCRIPT
+20260616_000916 ###############################################################
+
+20260616_000916 ## Checking if script exists
+20260616_000916 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260616_000916 File exists...
+
+20260616_000916 ## Running script
+20260616_000916  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260616_001005
+20260616_001005
+Execution Return Code: 8
+20260616_001005
+---------
+JOB ERROR
+---------
+Start Time: 000916, End Time: 001005
