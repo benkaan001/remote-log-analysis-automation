@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260618_225746
+----------------------
+20260618_225746 ## Passed Parameter Values:
+20260618_225746 DOMAIN: operations
+20260618_225746 SUB_DOMAIN: scheduling
+20260618_225746 USER_NAME: scheduler
+20260618_225746 TABLE_NAME: job_maintenance_plan
+20260618_225746 EXEC_SCOPE: TEST
+
+20260618_225746 ## Derived Variable Values:
+20260618_225746 STARTTIME: 225746
+20260618_225746 LOGDATE: 20260618_225746
+20260618_225746 JOB=job_maintenance_plan
+
+20260618_225746 ###############################################################
+20260618_225746 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260618_225746 ###############################################################
+
+20260618_225746 ## Checking if script exists
+20260618_225746 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260618_225746 File exists...
+
+20260618_225746 ## Running script
+20260618_225746  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260618_225834
+20260618_225834
+Execution Return Code: 2
+20260618_225834
+---------
+JOB ERROR
+---------
+Start Time: 225746, End Time: 225834

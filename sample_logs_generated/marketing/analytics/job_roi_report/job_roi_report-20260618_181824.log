@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260618_181824
+----------------------
+20260618_181824 ## Passed Parameter Values:
+20260618_181824 DOMAIN: marketing
+20260618_181824 SUB_DOMAIN: analytics
+20260618_181824 USER_NAME: campaign_manager
+20260618_181824 TABLE_NAME: job_roi_report
+20260618_181824 EXEC_SCOPE: DEV
+
+20260618_181824 ## Derived Variable Values:
+20260618_181824 STARTTIME: 181824
+20260618_181824 LOGDATE: 20260618_181824
+20260618_181824 JOB=job_roi_report
+
+20260618_181824 ###############################################################
+20260618_181824 ### RUNNING ROI REPORT SCRIPT
+20260618_181824 ###############################################################
+
+20260618_181824 ## Checking if script exists
+20260618_181824 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260618_181824 File exists...
+
+20260618_181824 ## Running script
+20260618_181824  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Traffic analysis error: Invalid source attribution.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260618_181855
+20260618_181855
+Execution Return Code: 1
+20260618_181855
+---------
+JOB ERROR
+---------
+Start Time: 181824, End Time: 181855

@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260618_000040
+----------------------
+20260618_000040 ## Passed Parameter Values:
+20260618_000040 DOMAIN: hr
+20260618_000040 SUB_DOMAIN: recruiting
+20260618_000040 USER_NAME: recruiter1
+20260618_000040 TABLE_NAME: job_offer_gen
+20260618_000040 EXEC_SCOPE: UAT
+
+20260618_000040 ## Derived Variable Values:
+20260618_000040 STARTTIME: 000040
+20260618_000040 LOGDATE: 20260618_000040
+20260618_000040 JOB=job_offer_gen
+
+20260618_000040 ###############################################################
+20260618_000040 ### RUNNING OFFER GEN SCRIPT
+20260618_000040 ###############################################################
+
+20260618_000040 ## Checking if script exists
+20260618_000040 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260618_000040 File exists...
+
+20260618_000040 ## Running script
+20260618_000040  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260618_000111
+20260618_000111
+Execution Return Code: 4
+20260618_000111
+---------
+JOB ERROR
+---------
+Start Time: 000040, End Time: 000111

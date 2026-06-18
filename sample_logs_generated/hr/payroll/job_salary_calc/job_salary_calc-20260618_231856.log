@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260618_231856
+----------------------
+20260618_231856 ## Passed Parameter Values:
+20260618_231856 DOMAIN: hr
+20260618_231856 SUB_DOMAIN: payroll
+20260618_231856 USER_NAME: payroll_admin
+20260618_231856 TABLE_NAME: job_salary_calc
+20260618_231856 EXEC_SCOPE: UAT
+
+20260618_231856 ## Derived Variable Values:
+20260618_231856 STARTTIME: 231856
+20260618_231856 LOGDATE: 20260618_231856
+20260618_231856 JOB=job_salary_calc
+
+20260618_231856 ###############################################################
+20260618_231856 ### RUNNING SALARY CALC SCRIPT
+20260618_231856 ###############################################################
+
+20260618_231856 ## Checking if script exists
+20260618_231856 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20260618_231856 File exists...
+
+20260618_231856 ## Running script
+20260618_231856  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260618_231907
+20260618_231907
+Execution Return Code: 8
+20260618_231907
+---------
+JOB ERROR
+---------
+Start Time: 231856, End Time: 231907
