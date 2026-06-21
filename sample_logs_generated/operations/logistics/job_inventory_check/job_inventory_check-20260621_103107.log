@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260621_103107
+----------------------
+20260621_103107 ## Passed Parameter Values:
+20260621_103107 DOMAIN: operations
+20260621_103107 SUB_DOMAIN: logistics
+20260621_103107 USER_NAME: ops_user1
+20260621_103107 TABLE_NAME: job_inventory_check
+20260621_103107 EXEC_SCOPE: TEST
+
+20260621_103107 ## Derived Variable Values:
+20260621_103107 STARTTIME: 103107
+20260621_103107 LOGDATE: 20260621_103107
+20260621_103107 JOB=job_inventory_check
+
+20260621_103107 ###############################################################
+20260621_103107 ### RUNNING INVENTORY CHECK SCRIPT
+20260621_103107 ###############################################################
+
+20260621_103107 ## Checking if script exists
+20260621_103107 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260621_103107 File exists...
+
+20260621_103107 ## Running script
+20260621_103107  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260621_103153
+20260621_103153
+Execution Return Code: 4
+20260621_103153
+---------
+JOB ERROR
+---------
+Start Time: 103107, End Time: 103153

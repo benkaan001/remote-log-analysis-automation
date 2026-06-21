@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260621_015836
+----------------------
+20260621_015836 ## Passed Parameter Values:
+20260621_015836 DOMAIN: hr
+20260621_015836 SUB_DOMAIN: recruiting
+20260621_015836 USER_NAME: hr_user1
+20260621_015836 TABLE_NAME: job_candidate_screen
+20260621_015836 EXEC_SCOPE: TEST
+
+20260621_015836 ## Derived Variable Values:
+20260621_015836 STARTTIME: 015836
+20260621_015836 LOGDATE: 20260621_015836
+20260621_015836 JOB=job_candidate_screen
+
+20260621_015836 ###############################################################
+20260621_015836 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260621_015836 ###############################################################
+
+20260621_015836 ## Checking if script exists
+20260621_015836 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260621_015836 File exists...
+
+20260621_015836 ## Running script
+20260621_015836  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Recruiting report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260621_015846
+20260621_015846
+Execution Return Code: 2
+20260621_015846
+---------
+JOB ERROR
+---------
+Start Time: 015836, End Time: 015846
