@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260623_044313
+----------------------
+20260623_044313 ## Passed Parameter Values:
+20260623_044313 DOMAIN: finance
+20260623_044313 SUB_DOMAIN: reporting
+20260623_044313 USER_NAME: finance_admin
+20260623_044313 TABLE_NAME: job_report_daily
+20260623_044313 EXEC_SCOPE: PROD
+
+20260623_044313 ## Derived Variable Values:
+20260623_044313 STARTTIME: 044313
+20260623_044313 LOGDATE: 20260623_044313
+20260623_044313 JOB=job_report_daily
+
+20260623_044313 ###############################################################
+20260623_044313 ### RUNNING REPORT DAILY SCRIPT
+20260623_044313 ###############################################################
+
+20260623_044313 ## Checking if script exists
+20260623_044313 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260623_044313 File exists...
+
+20260623_044313 ## Running script
+20260623_044313  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260623_044344
+20260623_044344
+Execution Return Code: 4
+20260623_044344
+---------
+JOB ERROR
+---------
+Start Time: 044313, End Time: 044344
