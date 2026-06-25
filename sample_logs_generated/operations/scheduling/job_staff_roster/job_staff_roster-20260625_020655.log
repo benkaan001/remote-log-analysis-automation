@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260625_020655
+----------------------
+20260625_020655 ## Passed Parameter Values:
+20260625_020655 DOMAIN: operations
+20260625_020655 SUB_DOMAIN: scheduling
+20260625_020655 USER_NAME: scheduler
+20260625_020655 TABLE_NAME: job_staff_roster
+20260625_020655 EXEC_SCOPE: UAT
+
+20260625_020655 ## Derived Variable Values:
+20260625_020655 STARTTIME: 020655
+20260625_020655 LOGDATE: 20260625_020655
+20260625_020655 JOB=job_staff_roster
+
+20260625_020655 ###############################################################
+20260625_020655 ### RUNNING STAFF ROSTER SCRIPT
+20260625_020655 ###############################################################
+
+20260625_020655 ## Checking if script exists
+20260625_020655 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260625_020655 File exists...
+
+20260625_020655 ## Running script
+20260625_020655  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260625_020744
+20260625_020744
+Execution Return Code: 8
+20260625_020744
+---------
+JOB ERROR
+---------
+Start Time: 020655, End Time: 020744

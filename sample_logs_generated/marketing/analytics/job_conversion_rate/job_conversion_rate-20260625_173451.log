@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260625_173451
+----------------------
+20260625_173451 ## Passed Parameter Values:
+20260625_173451 DOMAIN: marketing
+20260625_173451 SUB_DOMAIN: analytics
+20260625_173451 USER_NAME: analyst1
+20260625_173451 TABLE_NAME: job_conversion_rate
+20260625_173451 EXEC_SCOPE: TEST
+
+20260625_173451 ## Derived Variable Values:
+20260625_173451 STARTTIME: 173451
+20260625_173451 LOGDATE: 20260625_173451
+20260625_173451 JOB=job_conversion_rate
+
+20260625_173451 ###############################################################
+20260625_173451 ### RUNNING CONVERSION RATE SCRIPT
+20260625_173451 ###############################################################
+
+20260625_173451 ## Checking if script exists
+20260625_173451 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20260625_173451 File exists...
+
+20260625_173451 ## Running script
+20260625_173451  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260625_173539
+20260625_173539
+Execution Return Code: 2
+20260625_173539
+---------
+JOB ERROR
+---------
+Start Time: 173451, End Time: 173539
