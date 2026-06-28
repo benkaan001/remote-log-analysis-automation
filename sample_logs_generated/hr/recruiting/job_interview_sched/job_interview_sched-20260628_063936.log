@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260628_063936
+----------------------
+20260628_063936 ## Passed Parameter Values:
+20260628_063936 DOMAIN: hr
+20260628_063936 SUB_DOMAIN: recruiting
+20260628_063936 USER_NAME: recruiter1
+20260628_063936 TABLE_NAME: job_interview_sched
+20260628_063936 EXEC_SCOPE: DEV
+
+20260628_063936 ## Derived Variable Values:
+20260628_063936 STARTTIME: 063936
+20260628_063936 LOGDATE: 20260628_063936
+20260628_063936 JOB=job_interview_sched
+
+20260628_063936 ###############################################################
+20260628_063936 ### RUNNING INTERVIEW SCHED SCRIPT
+20260628_063936 ###############################################################
+
+20260628_063936 ## Checking if script exists
+20260628_063936 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20260628_063936 File exists...
+
+20260628_063936 ## Running script
+20260628_063936  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260628_064025
+20260628_064025
+Execution Return Code: 1
+20260628_064025
+---------
+JOB ERROR
+---------
+Start Time: 063936, End Time: 064025
