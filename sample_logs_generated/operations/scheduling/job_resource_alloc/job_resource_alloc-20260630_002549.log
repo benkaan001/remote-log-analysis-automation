@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260630_002549
+----------------------
+20260630_002549 ## Passed Parameter Values:
+20260630_002549 DOMAIN: operations
+20260630_002549 SUB_DOMAIN: scheduling
+20260630_002549 USER_NAME: logistics_manager
+20260630_002549 TABLE_NAME: job_resource_alloc
+20260630_002549 EXEC_SCOPE: TEST
+
+20260630_002549 ## Derived Variable Values:
+20260630_002549 STARTTIME: 002549
+20260630_002549 LOGDATE: 20260630_002549
+20260630_002549 JOB=job_resource_alloc
+
+20260630_002549 ###############################################################
+20260630_002549 ### RUNNING RESOURCE ALLOC SCRIPT
+20260630_002549 ###############################################################
+
+20260630_002549 ## Checking if script exists
+20260630_002549 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260630_002549 File exists...
+
+20260630_002549 ## Running script
+20260630_002549  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260630_002638
+20260630_002638
+Execution Return Code: 4
+20260630_002638
+---------
+JOB ERROR
+---------
+Start Time: 002549, End Time: 002638

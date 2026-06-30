@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260630_044303
+----------------------
+20260630_044303 ## Passed Parameter Values:
+20260630_044303 DOMAIN: operations
+20260630_044303 SUB_DOMAIN: scheduling
+20260630_044303 USER_NAME: scheduler
+20260630_044303 TABLE_NAME: job_maintenance_plan
+20260630_044303 EXEC_SCOPE: DEV
+
+20260630_044303 ## Derived Variable Values:
+20260630_044303 STARTTIME: 044303
+20260630_044303 LOGDATE: 20260630_044303
+20260630_044303 JOB=job_maintenance_plan
+
+20260630_044303 ###############################################################
+20260630_044303 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260630_044303 ###############################################################
+
+20260630_044303 ## Checking if script exists
+20260630_044303 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260630_044303 File exists...
+
+20260630_044303 ## Running script
+20260630_044303  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260630_044403
+20260630_044403
+Execution Return Code: 4
+20260630_044403
+---------
+JOB ERROR
+---------
+Start Time: 044303, End Time: 044403

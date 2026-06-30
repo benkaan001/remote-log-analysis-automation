@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260630_235456
+----------------------
+20260630_235456 ## Passed Parameter Values:
+20260630_235456 DOMAIN: marketing
+20260630_235456 SUB_DOMAIN: campaigns
+20260630_235456 USER_NAME: marketing_user1
+20260630_235456 TABLE_NAME: job_segment_users
+20260630_235456 EXEC_SCOPE: PROD
+
+20260630_235456 ## Derived Variable Values:
+20260630_235456 STARTTIME: 235456
+20260630_235456 LOGDATE: 20260630_235456
+20260630_235456 JOB=job_segment_users
+
+20260630_235456 ###############################################################
+20260630_235456 ### RUNNING SEGMENT USERS SCRIPT
+20260630_235456 ###############################################################
+
+20260630_235456 ## Checking if script exists
+20260630_235456 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260630_235456 File exists...
+
+20260630_235456 ## Running script
+20260630_235456  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260630_235540
+20260630_235540
+Execution Return Code: 1
+20260630_235540
+---------
+JOB ERROR
+---------
+Start Time: 235456, End Time: 235540

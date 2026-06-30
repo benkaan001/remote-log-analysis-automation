@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260630_202333
+----------------------
+20260630_202333 ## Passed Parameter Values:
+20260630_202333 DOMAIN: operations
+20260630_202333 SUB_DOMAIN: scheduling
+20260630_202333 USER_NAME: scheduler
+20260630_202333 TABLE_NAME: job_staff_roster
+20260630_202333 EXEC_SCOPE: PROD
+
+20260630_202333 ## Derived Variable Values:
+20260630_202333 STARTTIME: 202333
+20260630_202333 LOGDATE: 20260630_202333
+20260630_202333 JOB=job_staff_roster
+
+20260630_202333 ###############################################################
+20260630_202333 ### RUNNING STAFF ROSTER SCRIPT
+20260630_202333 ###############################################################
+
+20260630_202333 ## Checking if script exists
+20260630_202333 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260630_202333 File exists...
+
+20260630_202333 ## Running script
+20260630_202333  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260630_202416
+20260630_202416
+Execution Return Code: 4
+20260630_202416
+---------
+JOB ERROR
+---------
+Start Time: 202333, End Time: 202416
