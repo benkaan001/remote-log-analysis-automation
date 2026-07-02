@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260702_193623
+----------------------
+20260702_193623 ## Passed Parameter Values:
+20260702_193623 DOMAIN: marketing
+20260702_193623 SUB_DOMAIN: analytics
+20260702_193623 USER_NAME: campaign_manager
+20260702_193623 TABLE_NAME: job_roi_report
+20260702_193623 EXEC_SCOPE: DEV
+
+20260702_193623 ## Derived Variable Values:
+20260702_193623 STARTTIME: 193623
+20260702_193623 LOGDATE: 20260702_193623
+20260702_193623 JOB=job_roi_report
+
+20260702_193623 ###############################################################
+20260702_193623 ### RUNNING ROI REPORT SCRIPT
+20260702_193623 ###############################################################
+
+20260702_193623 ## Checking if script exists
+20260702_193623 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260702_193623 File exists...
+
+20260702_193623 ## Running script
+20260702_193623  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260702_193711
+20260702_193711
+Execution Return Code: 1
+20260702_193711
+---------
+JOB ERROR
+---------
+Start Time: 193623, End Time: 193711

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260702_055649
+----------------------
+20260702_055649 ## Passed Parameter Values:
+20260702_055649 DOMAIN: operations
+20260702_055649 SUB_DOMAIN: scheduling
+20260702_055649 USER_NAME: scheduler
+20260702_055649 TABLE_NAME: job_maintenance_plan
+20260702_055649 EXEC_SCOPE: UAT
+
+20260702_055649 ## Derived Variable Values:
+20260702_055649 STARTTIME: 055649
+20260702_055649 LOGDATE: 20260702_055649
+20260702_055649 JOB=job_maintenance_plan
+
+20260702_055649 ###############################################################
+20260702_055649 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260702_055649 ###############################################################
+
+20260702_055649 ## Checking if script exists
+20260702_055649 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260702_055649 File exists...
+
+20260702_055649 ## Running script
+20260702_055649  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Scheduling report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260702_055744
+20260702_055744
+Execution Return Code: 4
+20260702_055744
+---------
+JOB ERROR
+---------
+Start Time: 055649, End Time: 055744

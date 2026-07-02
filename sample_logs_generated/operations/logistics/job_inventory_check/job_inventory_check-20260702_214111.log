@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260702_214111
+----------------------
+20260702_214111 ## Passed Parameter Values:
+20260702_214111 DOMAIN: operations
+20260702_214111 SUB_DOMAIN: logistics
+20260702_214111 USER_NAME: ops_user1
+20260702_214111 TABLE_NAME: job_inventory_check
+20260702_214111 EXEC_SCOPE: DEV
+
+20260702_214111 ## Derived Variable Values:
+20260702_214111 STARTTIME: 214111
+20260702_214111 LOGDATE: 20260702_214111
+20260702_214111 JOB=job_inventory_check
+
+20260702_214111 ###############################################################
+20260702_214111 ### RUNNING INVENTORY CHECK SCRIPT
+20260702_214111 ###############################################################
+
+20260702_214111 ## Checking if script exists
+20260702_214111 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260702_214111 File exists...
+
+20260702_214111 ## Running script
+20260702_214111  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Logistics calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260702_214130
+20260702_214130
+Execution Return Code: 4
+20260702_214130
+---------
+JOB ERROR
+---------
+Start Time: 214111, End Time: 214130
