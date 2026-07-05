@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260705_131633
+----------------------
+20260705_131633 ## Passed Parameter Values:
+20260705_131633 DOMAIN: marketing
+20260705_131633 SUB_DOMAIN: campaigns
+20260705_131633 USER_NAME: analyst1
+20260705_131633 TABLE_NAME: job_segment_users
+20260705_131633 EXEC_SCOPE: UAT
+
+20260705_131633 ## Derived Variable Values:
+20260705_131633 STARTTIME: 131633
+20260705_131633 LOGDATE: 20260705_131633
+20260705_131633 JOB=job_segment_users
+
+20260705_131633 ###############################################################
+20260705_131633 ### RUNNING SEGMENT USERS SCRIPT
+20260705_131633 ###############################################################
+
+20260705_131633 ## Checking if script exists
+20260705_131633 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260705_131633 File exists...
+
+20260705_131633 ## Running script
+20260705_131633  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260705_131722
+20260705_131722
+Execution Return Code: 0
+20260705_131722
+-----------
+JOB SUCCESS
+-----------
+Start Time: 131633, End Time: 131722

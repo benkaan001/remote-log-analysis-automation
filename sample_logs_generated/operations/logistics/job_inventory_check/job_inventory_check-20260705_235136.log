@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260705_235136
+----------------------
+20260705_235136 ## Passed Parameter Values:
+20260705_235136 DOMAIN: operations
+20260705_235136 SUB_DOMAIN: logistics
+20260705_235136 USER_NAME: ops_user1
+20260705_235136 TABLE_NAME: job_inventory_check
+20260705_235136 EXEC_SCOPE: UAT
+
+20260705_235136 ## Derived Variable Values:
+20260705_235136 STARTTIME: 235136
+20260705_235136 LOGDATE: 20260705_235136
+20260705_235136 JOB=job_inventory_check
+
+20260705_235136 ###############################################################
+20260705_235136 ### RUNNING INVENTORY CHECK SCRIPT
+20260705_235136 ###############################################################
+
+20260705_235136 ## Checking if script exists
+20260705_235136 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260705_235136 File exists...
+
+20260705_235136 ## Running script
+20260705_235136  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260705_235158
+20260705_235158
+Execution Return Code: 4
+20260705_235158
+---------
+JOB ERROR
+---------
+Start Time: 235136, End Time: 235158

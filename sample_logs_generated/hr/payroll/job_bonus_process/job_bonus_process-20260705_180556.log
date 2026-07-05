@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260705_180556
+----------------------
+20260705_180556 ## Passed Parameter Values:
+20260705_180556 DOMAIN: hr
+20260705_180556 SUB_DOMAIN: payroll
+20260705_180556 USER_NAME: payroll_admin
+20260705_180556 TABLE_NAME: job_bonus_process
+20260705_180556 EXEC_SCOPE: UAT
+
+20260705_180556 ## Derived Variable Values:
+20260705_180556 STARTTIME: 180556
+20260705_180556 LOGDATE: 20260705_180556
+20260705_180556 JOB=job_bonus_process
+
+20260705_180556 ###############################################################
+20260705_180556 ### RUNNING BONUS PROCESS SCRIPT
+20260705_180556 ###############################################################
+
+20260705_180556 ## Checking if script exists
+20260705_180556 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260705_180556 File exists...
+
+20260705_180556 ## Running script
+20260705_180556  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260705_180634
+20260705_180634
+Execution Return Code: 1
+20260705_180634
+---------
+JOB ERROR
+---------
+Start Time: 180556, End Time: 180634

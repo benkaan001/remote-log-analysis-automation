@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260705_020710
+----------------------
+20260705_020710 ## Passed Parameter Values:
+20260705_020710 DOMAIN: hr
+20260705_020710 SUB_DOMAIN: recruiting
+20260705_020710 USER_NAME: hr_user1
+20260705_020710 TABLE_NAME: job_offer_gen
+20260705_020710 EXEC_SCOPE: TEST
+
+20260705_020710 ## Derived Variable Values:
+20260705_020710 STARTTIME: 020710
+20260705_020710 LOGDATE: 20260705_020710
+20260705_020710 JOB=job_offer_gen
+
+20260705_020710 ###############################################################
+20260705_020710 ### RUNNING OFFER GEN SCRIPT
+20260705_020710 ###############################################################
+
+20260705_020710 ## Checking if script exists
+20260705_020710 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260705_020710 File exists...
+
+20260705_020710 ## Running script
+20260705_020710  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260705_020805
+20260705_020805
+Execution Return Code: 4
+20260705_020805
+---------
+JOB ERROR
+---------
+Start Time: 020710, End Time: 020805

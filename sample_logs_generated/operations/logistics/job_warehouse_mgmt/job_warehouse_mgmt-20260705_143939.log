@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260705_143939
+----------------------
+20260705_143939 ## Passed Parameter Values:
+20260705_143939 DOMAIN: operations
+20260705_143939 SUB_DOMAIN: logistics
+20260705_143939 USER_NAME: ops_user1
+20260705_143939 TABLE_NAME: job_warehouse_mgmt
+20260705_143939 EXEC_SCOPE: TEST
+
+20260705_143939 ## Derived Variable Values:
+20260705_143939 STARTTIME: 143939
+20260705_143939 LOGDATE: 20260705_143939
+20260705_143939 JOB=job_warehouse_mgmt
+
+20260705_143939 ###############################################################
+20260705_143939 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260705_143939 ###############################################################
+
+20260705_143939 ## Checking if script exists
+20260705_143939 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260705_143939 File exists...
+
+20260705_143939 ## Running script
+20260705_143939  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Logistics calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260705_143948
+20260705_143948
+Execution Return Code: 1
+20260705_143948
+---------
+JOB ERROR
+---------
+Start Time: 143939, End Time: 143948
