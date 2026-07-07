@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260707_023447
+----------------------
+20260707_023447 ## Passed Parameter Values:
+20260707_023447 DOMAIN: operations
+20260707_023447 SUB_DOMAIN: scheduling
+20260707_023447 USER_NAME: logistics_manager
+20260707_023447 TABLE_NAME: job_resource_alloc
+20260707_023447 EXEC_SCOPE: PROD
+
+20260707_023447 ## Derived Variable Values:
+20260707_023447 STARTTIME: 023447
+20260707_023447 LOGDATE: 20260707_023447
+20260707_023447 JOB=job_resource_alloc
+
+20260707_023447 ###############################################################
+20260707_023447 ### RUNNING RESOURCE ALLOC SCRIPT
+20260707_023447 ###############################################################
+
+20260707_023447 ## Checking if script exists
+20260707_023447 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260707_023447 File exists...
+
+20260707_023447 ## Running script
+20260707_023447  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260707_023544
+20260707_023544
+Execution Return Code: 4
+20260707_023544
+---------
+JOB ERROR
+---------
+Start Time: 023447, End Time: 023544

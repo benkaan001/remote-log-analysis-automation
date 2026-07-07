@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260707_064016
+----------------------
+20260707_064016 ## Passed Parameter Values:
+20260707_064016 DOMAIN: finance
+20260707_064016 SUB_DOMAIN: billing
+20260707_064016 USER_NAME: accountant1
+20260707_064016 TABLE_NAME: job_tax_calc
+20260707_064016 EXEC_SCOPE: TEST
+
+20260707_064016 ## Derived Variable Values:
+20260707_064016 STARTTIME: 064016
+20260707_064016 LOGDATE: 20260707_064016
+20260707_064016 JOB=job_tax_calc
+
+20260707_064016 ###############################################################
+20260707_064016 ### RUNNING TAX CALC SCRIPT
+20260707_064016 ###############################################################
+
+20260707_064016 ## Checking if script exists
+20260707_064016 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260707_064016 File exists...
+
+20260707_064016 ## Running script
+20260707_064016  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260707_064110
+20260707_064110
+Execution Return Code: 4
+20260707_064110
+---------
+JOB ERROR
+---------
+Start Time: 064016, End Time: 064110
