@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260709_065337
+----------------------
+20260709_065337 ## Passed Parameter Values:
+20260709_065337 DOMAIN: hr
+20260709_065337 SUB_DOMAIN: payroll
+20260709_065337 USER_NAME: recruiter1
+20260709_065337 TABLE_NAME: job_bonus_process
+20260709_065337 EXEC_SCOPE: PROD
+
+20260709_065337 ## Derived Variable Values:
+20260709_065337 STARTTIME: 065337
+20260709_065337 LOGDATE: 20260709_065337
+20260709_065337 JOB=job_bonus_process
+
+20260709_065337 ###############################################################
+20260709_065337 ### RUNNING BONUS PROCESS SCRIPT
+20260709_065337 ###############################################################
+
+20260709_065337 ## Checking if script exists
+20260709_065337 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260709_065337 File exists...
+
+20260709_065337 ## Running script
+20260709_065337  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Severe data integrity issue detected.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260709_065432
+20260709_065432
+Execution Return Code: 8
+20260709_065432
+---------
+JOB ERROR
+---------
+Start Time: 065337, End Time: 065432
