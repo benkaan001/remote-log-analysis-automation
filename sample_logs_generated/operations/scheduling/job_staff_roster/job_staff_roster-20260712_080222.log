@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260712_080222
+----------------------
+20260712_080222 ## Passed Parameter Values:
+20260712_080222 DOMAIN: operations
+20260712_080222 SUB_DOMAIN: scheduling
+20260712_080222 USER_NAME: scheduler
+20260712_080222 TABLE_NAME: job_staff_roster
+20260712_080222 EXEC_SCOPE: UAT
+
+20260712_080222 ## Derived Variable Values:
+20260712_080222 STARTTIME: 080222
+20260712_080222 LOGDATE: 20260712_080222
+20260712_080222 JOB=job_staff_roster
+
+20260712_080222 ###############################################################
+20260712_080222 ### RUNNING STAFF ROSTER SCRIPT
+20260712_080222 ###############################################################
+
+20260712_080222 ## Checking if script exists
+20260712_080222 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260712_080222 File exists...
+
+20260712_080222 ## Running script
+20260712_080222  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Scheduling aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260712_080252
+20260712_080252
+Execution Return Code: 4
+20260712_080252
+---------
+JOB ERROR
+---------
+Start Time: 080222, End Time: 080252

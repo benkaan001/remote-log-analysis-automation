@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260712_082726
+----------------------
+20260712_082726 ## Passed Parameter Values:
+20260712_082726 DOMAIN: marketing
+20260712_082726 SUB_DOMAIN: analytics
+20260712_082726 USER_NAME: campaign_manager
+20260712_082726 TABLE_NAME: job_conversion_rate
+20260712_082726 EXEC_SCOPE: DEV
+
+20260712_082726 ## Derived Variable Values:
+20260712_082726 STARTTIME: 082726
+20260712_082726 LOGDATE: 20260712_082726
+20260712_082726 JOB=job_conversion_rate
+
+20260712_082726 ###############################################################
+20260712_082726 ### RUNNING CONVERSION RATE SCRIPT
+20260712_082726 ###############################################################
+
+20260712_082726 ## Checking if script exists
+20260712_082726 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20260712_082726 File exists...
+
+20260712_082726 ## Running script
+20260712_082726  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Traffic analysis error: Invalid source attribution.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260712_082804
+20260712_082804
+Execution Return Code: 4
+20260712_082804
+---------
+JOB ERROR
+---------
+Start Time: 082726, End Time: 082804
