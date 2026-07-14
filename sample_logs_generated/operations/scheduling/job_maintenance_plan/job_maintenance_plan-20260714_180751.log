@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260714_180751
+----------------------
+20260714_180751 ## Passed Parameter Values:
+20260714_180751 DOMAIN: operations
+20260714_180751 SUB_DOMAIN: scheduling
+20260714_180751 USER_NAME: ops_user1
+20260714_180751 TABLE_NAME: job_maintenance_plan
+20260714_180751 EXEC_SCOPE: UAT
+
+20260714_180751 ## Derived Variable Values:
+20260714_180751 STARTTIME: 180751
+20260714_180751 LOGDATE: 20260714_180751
+20260714_180751 JOB=job_maintenance_plan
+
+20260714_180751 ###############################################################
+20260714_180751 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260714_180751 ###############################################################
+
+20260714_180751 ## Checking if script exists
+20260714_180751 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260714_180751 File exists...
+
+20260714_180751 ## Running script
+20260714_180751  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260714_180842
+20260714_180842
+Execution Return Code: 1
+20260714_180842
+---------
+JOB ERROR
+---------
+Start Time: 180751, End Time: 180842

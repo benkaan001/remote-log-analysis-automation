@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260714_231922
+----------------------
+20260714_231922 ## Passed Parameter Values:
+20260714_231922 DOMAIN: finance
+20260714_231922 SUB_DOMAIN: reporting
+20260714_231922 USER_NAME: accountant1
+20260714_231922 TABLE_NAME: job_report_weekly
+20260714_231922 EXEC_SCOPE: UAT
+
+20260714_231922 ## Derived Variable Values:
+20260714_231922 STARTTIME: 231922
+20260714_231922 LOGDATE: 20260714_231922
+20260714_231922 JOB=job_report_weekly
+
+20260714_231922 ###############################################################
+20260714_231922 ### RUNNING REPORT WEEKLY SCRIPT
+20260714_231922 ###############################################################
+
+20260714_231922 ## Checking if script exists
+20260714_231922 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260714_231922 File exists...
+
+20260714_231922 ## Running script
+20260714_231922  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260714_231933
+20260714_231933
+Execution Return Code: 2
+20260714_231933
+---------
+JOB ERROR
+---------
+Start Time: 231922, End Time: 231933
