@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260716_120600
+----------------------
+20260716_120600 ## Passed Parameter Values:
+20260716_120600 DOMAIN: hr
+20260716_120600 SUB_DOMAIN: payroll
+20260716_120600 USER_NAME: payroll_admin
+20260716_120600 TABLE_NAME: job_bonus_process
+20260716_120600 EXEC_SCOPE: PROD
+
+20260716_120600 ## Derived Variable Values:
+20260716_120600 STARTTIME: 120600
+20260716_120600 LOGDATE: 20260716_120600
+20260716_120600 JOB=job_bonus_process
+
+20260716_120600 ###############################################################
+20260716_120600 ### RUNNING BONUS PROCESS SCRIPT
+20260716_120600 ###############################################################
+
+20260716_120600 ## Checking if script exists
+20260716_120600 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260716_120600 File exists...
+
+20260716_120600 ## Running script
+20260716_120600  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260716_120642
+20260716_120642
+Execution Return Code: 4
+20260716_120642
+---------
+JOB ERROR
+---------
+Start Time: 120600, End Time: 120642
