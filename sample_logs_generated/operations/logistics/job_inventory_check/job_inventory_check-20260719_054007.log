@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260719_054007
+----------------------
+20260719_054007 ## Passed Parameter Values:
+20260719_054007 DOMAIN: operations
+20260719_054007 SUB_DOMAIN: logistics
+20260719_054007 USER_NAME: scheduler
+20260719_054007 TABLE_NAME: job_inventory_check
+20260719_054007 EXEC_SCOPE: PROD
+
+20260719_054007 ## Derived Variable Values:
+20260719_054007 STARTTIME: 054007
+20260719_054007 LOGDATE: 20260719_054007
+20260719_054007 JOB=job_inventory_check
+
+20260719_054007 ###############################################################
+20260719_054007 ### RUNNING INVENTORY CHECK SCRIPT
+20260719_054007 ###############################################################
+
+20260719_054007 ## Checking if script exists
+20260719_054007 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260719_054007 File exists...
+
+20260719_054007 ## Running script
+20260719_054007  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260719_054051
+20260719_054051
+Execution Return Code: 1
+20260719_054051
+---------
+JOB ERROR
+---------
+Start Time: 054007, End Time: 054051
