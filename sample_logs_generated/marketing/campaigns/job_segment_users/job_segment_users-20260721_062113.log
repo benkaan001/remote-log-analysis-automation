@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260721_062113
+----------------------
+20260721_062113 ## Passed Parameter Values:
+20260721_062113 DOMAIN: marketing
+20260721_062113 SUB_DOMAIN: campaigns
+20260721_062113 USER_NAME: campaign_manager
+20260721_062113 TABLE_NAME: job_segment_users
+20260721_062113 EXEC_SCOPE: UAT
+
+20260721_062113 ## Derived Variable Values:
+20260721_062113 STARTTIME: 062113
+20260721_062113 LOGDATE: 20260721_062113
+20260721_062113 JOB=job_segment_users
+
+20260721_062113 ###############################################################
+20260721_062113 ### RUNNING SEGMENT USERS SCRIPT
+20260721_062113 ###############################################################
+
+20260721_062113 ## Checking if script exists
+20260721_062113 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260721_062113 File exists...
+
+20260721_062113 ## Running script
+20260721_062113  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Fatal error in data processing pipeline.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260721_062120
+20260721_062120
+Execution Return Code: 8
+20260721_062120
+---------
+JOB ERROR
+---------
+Start Time: 062113, End Time: 062120

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260721_181349
+----------------------
+20260721_181349 ## Passed Parameter Values:
+20260721_181349 DOMAIN: operations
+20260721_181349 SUB_DOMAIN: scheduling
+20260721_181349 USER_NAME: logistics_manager
+20260721_181349 TABLE_NAME: job_maintenance_plan
+20260721_181349 EXEC_SCOPE: DEV
+
+20260721_181349 ## Derived Variable Values:
+20260721_181349 STARTTIME: 181349
+20260721_181349 LOGDATE: 20260721_181349
+20260721_181349 JOB=job_maintenance_plan
+
+20260721_181349 ###############################################################
+20260721_181349 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260721_181349 ###############################################################
+
+20260721_181349 ## Checking if script exists
+20260721_181349 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260721_181349 File exists...
+
+20260721_181349 ## Running script
+20260721_181349  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260721_181434
+20260721_181434
+Execution Return Code: 2
+20260721_181434
+---------
+JOB ERROR
+---------
+Start Time: 181349, End Time: 181434
