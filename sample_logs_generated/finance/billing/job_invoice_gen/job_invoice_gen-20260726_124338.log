@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260726_124338
+----------------------
+20260726_124338 ## Passed Parameter Values:
+20260726_124338 DOMAIN: finance
+20260726_124338 SUB_DOMAIN: billing
+20260726_124338 USER_NAME: finance_user1
+20260726_124338 TABLE_NAME: job_invoice_gen
+20260726_124338 EXEC_SCOPE: DEV
+
+20260726_124338 ## Derived Variable Values:
+20260726_124338 STARTTIME: 124338
+20260726_124338 LOGDATE: 20260726_124338
+20260726_124338 JOB=job_invoice_gen
+
+20260726_124338 ###############################################################
+20260726_124338 ### RUNNING INVOICE GEN SCRIPT
+20260726_124338 ###############################################################
+
+20260726_124338 ## Checking if script exists
+20260726_124338 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260726_124338 File exists...
+
+20260726_124338 ## Running script
+20260726_124338  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260726_124413
+20260726_124413
+Execution Return Code: 2
+20260726_124413
+---------
+JOB ERROR
+---------
+Start Time: 124338, End Time: 124413

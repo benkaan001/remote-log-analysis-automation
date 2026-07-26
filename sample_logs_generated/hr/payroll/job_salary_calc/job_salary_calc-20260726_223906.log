@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260726_223906
+----------------------
+20260726_223906 ## Passed Parameter Values:
+20260726_223906 DOMAIN: hr
+20260726_223906 SUB_DOMAIN: payroll
+20260726_223906 USER_NAME: payroll_admin
+20260726_223906 TABLE_NAME: job_salary_calc
+20260726_223906 EXEC_SCOPE: DEV
+
+20260726_223906 ## Derived Variable Values:
+20260726_223906 STARTTIME: 223906
+20260726_223906 LOGDATE: 20260726_223906
+20260726_223906 JOB=job_salary_calc
+
+20260726_223906 ###############################################################
+20260726_223906 ### RUNNING SALARY CALC SCRIPT
+20260726_223906 ###############################################################
+
+20260726_223906 ## Checking if script exists
+20260726_223906 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20260726_223906 File exists...
+
+20260726_223906 ## Running script
+20260726_223906  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260726_223915
+20260726_223915
+Execution Return Code: 2
+20260726_223915
+---------
+JOB ERROR
+---------
+Start Time: 223906, End Time: 223915
