@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260728_024226
+----------------------
+20260728_024226 ## Passed Parameter Values:
+20260728_024226 DOMAIN: operations
+20260728_024226 SUB_DOMAIN: scheduling
+20260728_024226 USER_NAME: logistics_manager
+20260728_024226 TABLE_NAME: job_resource_alloc
+20260728_024226 EXEC_SCOPE: TEST
+
+20260728_024226 ## Derived Variable Values:
+20260728_024226 STARTTIME: 024226
+20260728_024226 LOGDATE: 20260728_024226
+20260728_024226 JOB=job_resource_alloc
+
+20260728_024226 ###############################################################
+20260728_024226 ### RUNNING RESOURCE ALLOC SCRIPT
+20260728_024226 ###############################################################
+
+20260728_024226 ## Checking if script exists
+20260728_024226 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260728_024226 File exists...
+
+20260728_024226 ## Running script
+20260728_024226  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260728_024318
+20260728_024318
+Execution Return Code: 2
+20260728_024318
+---------
+JOB ERROR
+---------
+Start Time: 024226, End Time: 024318

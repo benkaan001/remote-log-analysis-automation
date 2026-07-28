@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260728_013619
+----------------------
+20260728_013619 ## Passed Parameter Values:
+20260728_013619 DOMAIN: marketing
+20260728_013619 SUB_DOMAIN: analytics
+20260728_013619 USER_NAME: campaign_manager
+20260728_013619 TABLE_NAME: job_web_traffic
+20260728_013619 EXEC_SCOPE: PROD
+
+20260728_013619 ## Derived Variable Values:
+20260728_013619 STARTTIME: 013619
+20260728_013619 LOGDATE: 20260728_013619
+20260728_013619 JOB=job_web_traffic
+
+20260728_013619 ###############################################################
+20260728_013619 ### RUNNING WEB TRAFFIC SCRIPT
+20260728_013619 ###############################################################
+
+20260728_013619 ## Checking if script exists
+20260728_013619 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20260728_013619 File exists...
+
+20260728_013619 ## Running script
+20260728_013619  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260728_013714
+20260728_013714
+Execution Return Code: 4
+20260728_013714
+---------
+JOB ERROR
+---------
+Start Time: 013619, End Time: 013714

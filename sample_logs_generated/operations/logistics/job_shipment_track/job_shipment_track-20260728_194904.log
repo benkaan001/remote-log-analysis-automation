@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260728_194904
+----------------------
+20260728_194904 ## Passed Parameter Values:
+20260728_194904 DOMAIN: operations
+20260728_194904 SUB_DOMAIN: logistics
+20260728_194904 USER_NAME: ops_user1
+20260728_194904 TABLE_NAME: job_shipment_track
+20260728_194904 EXEC_SCOPE: UAT
+
+20260728_194904 ## Derived Variable Values:
+20260728_194904 STARTTIME: 194904
+20260728_194904 LOGDATE: 20260728_194904
+20260728_194904 JOB=job_shipment_track
+
+20260728_194904 ###############################################################
+20260728_194904 ### RUNNING SHIPMENT TRACK SCRIPT
+20260728_194904 ###############################################################
+
+20260728_194904 ## Checking if script exists
+20260728_194904 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260728_194904 File exists...
+
+20260728_194904 ## Running script
+20260728_194904  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260728_194950
+20260728_194950
+Execution Return Code: 2
+20260728_194950
+---------
+JOB ERROR
+---------
+Start Time: 194904, End Time: 194950
