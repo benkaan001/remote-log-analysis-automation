@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260730_184617
+----------------------
+20260730_184617 ## Passed Parameter Values:
+20260730_184617 DOMAIN: hr
+20260730_184617 SUB_DOMAIN: payroll
+20260730_184617 USER_NAME: payroll_admin
+20260730_184617 TABLE_NAME: job_salary_calc
+20260730_184617 EXEC_SCOPE: DEV
+
+20260730_184617 ## Derived Variable Values:
+20260730_184617 STARTTIME: 184617
+20260730_184617 LOGDATE: 20260730_184617
+20260730_184617 JOB=job_salary_calc
+
+20260730_184617 ###############################################################
+20260730_184617 ### RUNNING SALARY CALC SCRIPT
+20260730_184617 ###############################################################
+
+20260730_184617 ## Checking if script exists
+20260730_184617 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20260730_184617 File exists...
+
+20260730_184617 ## Running script
+20260730_184617  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260730_184657
+20260730_184657
+Execution Return Code: 1
+20260730_184657
+---------
+JOB ERROR
+---------
+Start Time: 184617, End Time: 184657

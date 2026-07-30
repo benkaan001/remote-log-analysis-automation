@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260730_144051
+----------------------
+20260730_144051 ## Passed Parameter Values:
+20260730_144051 DOMAIN: operations
+20260730_144051 SUB_DOMAIN: scheduling
+20260730_144051 USER_NAME: ops_user1
+20260730_144051 TABLE_NAME: job_maintenance_plan
+20260730_144051 EXEC_SCOPE: DEV
+
+20260730_144051 ## Derived Variable Values:
+20260730_144051 STARTTIME: 144051
+20260730_144051 LOGDATE: 20260730_144051
+20260730_144051 JOB=job_maintenance_plan
+
+20260730_144051 ###############################################################
+20260730_144051 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260730_144051 ###############################################################
+
+20260730_144051 ## Checking if script exists
+20260730_144051 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260730_144051 File exists...
+
+20260730_144051 ## Running script
+20260730_144051  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260730_144141
+20260730_144141
+Execution Return Code: 2
+20260730_144141
+---------
+JOB ERROR
+---------
+Start Time: 144051, End Time: 144141
