@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260802_055825
+----------------------
+20260802_055825 ## Passed Parameter Values:
+20260802_055825 DOMAIN: hr
+20260802_055825 SUB_DOMAIN: payroll
+20260802_055825 USER_NAME: hr_user1
+20260802_055825 TABLE_NAME: job_bonus_process
+20260802_055825 EXEC_SCOPE: DEV
+
+20260802_055825 ## Derived Variable Values:
+20260802_055825 STARTTIME: 055825
+20260802_055825 LOGDATE: 20260802_055825
+20260802_055825 JOB=job_bonus_process
+
+20260802_055825 ###############################################################
+20260802_055825 ### RUNNING BONUS PROCESS SCRIPT
+20260802_055825 ###############################################################
+
+20260802_055825 ## Checking if script exists
+20260802_055825 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20260802_055825 File exists...
+
+20260802_055825 ## Running script
+20260802_055825  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260802_055917
+20260802_055917
+Execution Return Code: 4
+20260802_055917
+---------
+JOB ERROR
+---------
+Start Time: 055825, End Time: 055917

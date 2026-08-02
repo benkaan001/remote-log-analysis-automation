@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260802_173846
+----------------------
+20260802_173846 ## Passed Parameter Values:
+20260802_173846 DOMAIN: marketing
+20260802_173846 SUB_DOMAIN: campaigns
+20260802_173846 USER_NAME: marketing_user1
+20260802_173846 TABLE_NAME: job_update_crm
+20260802_173846 EXEC_SCOPE: UAT
+
+20260802_173846 ## Derived Variable Values:
+20260802_173846 STARTTIME: 173846
+20260802_173846 LOGDATE: 20260802_173846
+20260802_173846 JOB=job_update_crm
+
+20260802_173846 ###############################################################
+20260802_173846 ### RUNNING UPDATE CRM SCRIPT
+20260802_173846 ###############################################################
+
+20260802_173846 ## Checking if script exists
+20260802_173846 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20260802_173846 File exists...
+
+20260802_173846 ## Running script
+20260802_173846  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260802_173908
+20260802_173908
+Execution Return Code: 2
+20260802_173908
+---------
+JOB ERROR
+---------
+Start Time: 173846, End Time: 173908

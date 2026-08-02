@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260802_205137
+----------------------
+20260802_205137 ## Passed Parameter Values:
+20260802_205137 DOMAIN: hr
+20260802_205137 SUB_DOMAIN: recruiting
+20260802_205137 USER_NAME: recruiter1
+20260802_205137 TABLE_NAME: job_candidate_screen
+20260802_205137 EXEC_SCOPE: TEST
+
+20260802_205137 ## Derived Variable Values:
+20260802_205137 STARTTIME: 205137
+20260802_205137 LOGDATE: 20260802_205137
+20260802_205137 JOB=job_candidate_screen
+
+20260802_205137 ###############################################################
+20260802_205137 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260802_205137 ###############################################################
+
+20260802_205137 ## Checking if script exists
+20260802_205137 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260802_205137 File exists...
+
+20260802_205137 ## Running script
+20260802_205137  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260802_205231
+20260802_205231
+Execution Return Code: 8
+20260802_205231
+---------
+JOB ERROR
+---------
+Start Time: 205137, End Time: 205231
