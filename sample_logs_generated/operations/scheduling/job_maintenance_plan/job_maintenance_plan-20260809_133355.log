@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260809_133355
+----------------------
+20260809_133355 ## Passed Parameter Values:
+20260809_133355 DOMAIN: operations
+20260809_133355 SUB_DOMAIN: scheduling
+20260809_133355 USER_NAME: ops_user1
+20260809_133355 TABLE_NAME: job_maintenance_plan
+20260809_133355 EXEC_SCOPE: UAT
+
+20260809_133355 ## Derived Variable Values:
+20260809_133355 STARTTIME: 133355
+20260809_133355 LOGDATE: 20260809_133355
+20260809_133355 JOB=job_maintenance_plan
+
+20260809_133355 ###############################################################
+20260809_133355 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260809_133355 ###############################################################
+
+20260809_133355 ## Checking if script exists
+20260809_133355 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260809_133355 File exists...
+
+20260809_133355 ## Running script
+20260809_133355  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260809_133415
+20260809_133415
+Execution Return Code: 1
+20260809_133415
+---------
+JOB ERROR
+---------
+Start Time: 133355, End Time: 133415
