@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260811_122223
+----------------------
+20260811_122223 ## Passed Parameter Values:
+20260811_122223 DOMAIN: finance
+20260811_122223 SUB_DOMAIN: reporting
+20260811_122223 USER_NAME: finance_admin
+20260811_122223 TABLE_NAME: job_report_monthly
+20260811_122223 EXEC_SCOPE: UAT
+
+20260811_122223 ## Derived Variable Values:
+20260811_122223 STARTTIME: 122223
+20260811_122223 LOGDATE: 20260811_122223
+20260811_122223 JOB=job_report_monthly
+
+20260811_122223 ###############################################################
+20260811_122223 ### RUNNING REPORT MONTHLY SCRIPT
+20260811_122223 ###############################################################
+
+20260811_122223 ## Checking if script exists
+20260811_122223 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260811_122223 File exists...
+
+20260811_122223 ## Running script
+20260811_122223  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260811_122238
+20260811_122238
+Execution Return Code: 1
+20260811_122238
+---------
+JOB ERROR
+---------
+Start Time: 122223, End Time: 122238
