@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260813_170950
+----------------------
+20260813_170950 ## Passed Parameter Values:
+20260813_170950 DOMAIN: hr
+20260813_170950 SUB_DOMAIN: payroll
+20260813_170950 USER_NAME: hr_user1
+20260813_170950 TABLE_NAME: job_tax_withhold
+20260813_170950 EXEC_SCOPE: DEV
+
+20260813_170950 ## Derived Variable Values:
+20260813_170950 STARTTIME: 170950
+20260813_170950 LOGDATE: 20260813_170950
+20260813_170950 JOB=job_tax_withhold
+
+20260813_170950 ###############################################################
+20260813_170950 ### RUNNING TAX WITHHOLD SCRIPT
+20260813_170950 ###############################################################
+
+20260813_170950 ## Checking if script exists
+20260813_170950 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260813_170950 File exists...
+
+20260813_170950 ## Running script
+20260813_170950  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Payroll aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260813_171031
+20260813_171031
+Execution Return Code: 1
+20260813_171031
+---------
+JOB ERROR
+---------
+Start Time: 170950, End Time: 171031
