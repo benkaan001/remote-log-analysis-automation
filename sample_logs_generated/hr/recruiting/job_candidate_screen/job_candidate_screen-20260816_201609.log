@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260816_201609
+----------------------
+20260816_201609 ## Passed Parameter Values:
+20260816_201609 DOMAIN: hr
+20260816_201609 SUB_DOMAIN: recruiting
+20260816_201609 USER_NAME: hr_user1
+20260816_201609 TABLE_NAME: job_candidate_screen
+20260816_201609 EXEC_SCOPE: TEST
+
+20260816_201609 ## Derived Variable Values:
+20260816_201609 STARTTIME: 201609
+20260816_201609 LOGDATE: 20260816_201609
+20260816_201609 JOB=job_candidate_screen
+
+20260816_201609 ###############################################################
+20260816_201609 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260816_201609 ###############################################################
+
+20260816_201609 ## Checking if script exists
+20260816_201609 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260816_201609 File exists...
+
+20260816_201609 ## Running script
+20260816_201609  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260816_201625
+20260816_201625
+Execution Return Code: 4
+20260816_201625
+---------
+JOB ERROR
+---------
+Start Time: 201609, End Time: 201625
