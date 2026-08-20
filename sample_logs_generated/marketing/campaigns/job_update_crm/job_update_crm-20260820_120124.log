@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260820_120124
+----------------------
+20260820_120124 ## Passed Parameter Values:
+20260820_120124 DOMAIN: marketing
+20260820_120124 SUB_DOMAIN: campaigns
+20260820_120124 USER_NAME: analyst1
+20260820_120124 TABLE_NAME: job_update_crm
+20260820_120124 EXEC_SCOPE: UAT
+
+20260820_120124 ## Derived Variable Values:
+20260820_120124 STARTTIME: 120124
+20260820_120124 LOGDATE: 20260820_120124
+20260820_120124 JOB=job_update_crm
+
+20260820_120124 ###############################################################
+20260820_120124 ### RUNNING UPDATE CRM SCRIPT
+20260820_120124 ###############################################################
+
+20260820_120124 ## Checking if script exists
+20260820_120124 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20260820_120124 File exists...
+
+20260820_120124 ## Running script
+20260820_120124  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260820_120202
+20260820_120202
+Execution Return Code: 4
+20260820_120202
+---------
+JOB ERROR
+---------
+Start Time: 120124, End Time: 120202
