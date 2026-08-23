@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260823_234624
+----------------------
+20260823_234624 ## Passed Parameter Values:
+20260823_234624 DOMAIN: hr
+20260823_234624 SUB_DOMAIN: recruiting
+20260823_234624 USER_NAME: recruiter1
+20260823_234624 TABLE_NAME: job_offer_gen
+20260823_234624 EXEC_SCOPE: UAT
+
+20260823_234624 ## Derived Variable Values:
+20260823_234624 STARTTIME: 234624
+20260823_234624 LOGDATE: 20260823_234624
+20260823_234624 JOB=job_offer_gen
+
+20260823_234624 ###############################################################
+20260823_234624 ### RUNNING OFFER GEN SCRIPT
+20260823_234624 ###############################################################
+
+20260823_234624 ## Checking if script exists
+20260823_234624 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260823_234624 File exists...
+
+20260823_234624 ## Running script
+20260823_234624  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260823_234657
+20260823_234657
+Execution Return Code: 1
+20260823_234657
+---------
+JOB ERROR
+---------
+Start Time: 234624, End Time: 234657
