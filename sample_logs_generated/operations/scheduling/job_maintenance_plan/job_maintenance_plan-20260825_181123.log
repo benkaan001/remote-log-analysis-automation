@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260825_181123
+----------------------
+20260825_181123 ## Passed Parameter Values:
+20260825_181123 DOMAIN: operations
+20260825_181123 SUB_DOMAIN: scheduling
+20260825_181123 USER_NAME: logistics_manager
+20260825_181123 TABLE_NAME: job_maintenance_plan
+20260825_181123 EXEC_SCOPE: TEST
+
+20260825_181123 ## Derived Variable Values:
+20260825_181123 STARTTIME: 181123
+20260825_181123 LOGDATE: 20260825_181123
+20260825_181123 JOB=job_maintenance_plan
+
+20260825_181123 ###############################################################
+20260825_181123 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260825_181123 ###############################################################
+
+20260825_181123 ## Checking if script exists
+20260825_181123 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260825_181123 File exists...
+
+20260825_181123 ## Running script
+20260825_181123  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260825_181132
+20260825_181132
+Execution Return Code: 1
+20260825_181132
+---------
+JOB ERROR
+---------
+Start Time: 181123, End Time: 181132
