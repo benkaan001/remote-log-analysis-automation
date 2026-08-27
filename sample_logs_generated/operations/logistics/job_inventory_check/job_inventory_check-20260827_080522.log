@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260827_080522
+----------------------
+20260827_080522 ## Passed Parameter Values:
+20260827_080522 DOMAIN: operations
+20260827_080522 SUB_DOMAIN: logistics
+20260827_080522 USER_NAME: ops_user1
+20260827_080522 TABLE_NAME: job_inventory_check
+20260827_080522 EXEC_SCOPE: UAT
+
+20260827_080522 ## Derived Variable Values:
+20260827_080522 STARTTIME: 080522
+20260827_080522 LOGDATE: 20260827_080522
+20260827_080522 JOB=job_inventory_check
+
+20260827_080522 ###############################################################
+20260827_080522 ### RUNNING INVENTORY CHECK SCRIPT
+20260827_080522 ###############################################################
+
+20260827_080522 ## Checking if script exists
+20260827_080522 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260827_080522 File exists...
+
+20260827_080522 ## Running script
+20260827_080522  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260827_080536
+20260827_080536
+Execution Return Code: 2
+20260827_080536
+---------
+JOB ERROR
+---------
+Start Time: 080522, End Time: 080536

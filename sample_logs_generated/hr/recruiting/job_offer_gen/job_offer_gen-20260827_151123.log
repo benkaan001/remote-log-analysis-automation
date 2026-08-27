@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260827_151123
+----------------------
+20260827_151123 ## Passed Parameter Values:
+20260827_151123 DOMAIN: hr
+20260827_151123 SUB_DOMAIN: recruiting
+20260827_151123 USER_NAME: payroll_admin
+20260827_151123 TABLE_NAME: job_offer_gen
+20260827_151123 EXEC_SCOPE: UAT
+
+20260827_151123 ## Derived Variable Values:
+20260827_151123 STARTTIME: 151123
+20260827_151123 LOGDATE: 20260827_151123
+20260827_151123 JOB=job_offer_gen
+
+20260827_151123 ###############################################################
+20260827_151123 ### RUNNING OFFER GEN SCRIPT
+20260827_151123 ###############################################################
+
+20260827_151123 ## Checking if script exists
+20260827_151123 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260827_151123 File exists...
+
+20260827_151123 ## Running script
+20260827_151123  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Recruiting generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260827_151144
+20260827_151144
+Execution Return Code: 2
+20260827_151144
+---------
+JOB ERROR
+---------
+Start Time: 151123, End Time: 151144

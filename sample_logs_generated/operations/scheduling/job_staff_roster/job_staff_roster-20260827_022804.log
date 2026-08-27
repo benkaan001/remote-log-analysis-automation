@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260827_022804
+----------------------
+20260827_022804 ## Passed Parameter Values:
+20260827_022804 DOMAIN: operations
+20260827_022804 SUB_DOMAIN: scheduling
+20260827_022804 USER_NAME: ops_user1
+20260827_022804 TABLE_NAME: job_staff_roster
+20260827_022804 EXEC_SCOPE: UAT
+
+20260827_022804 ## Derived Variable Values:
+20260827_022804 STARTTIME: 022804
+20260827_022804 LOGDATE: 20260827_022804
+20260827_022804 JOB=job_staff_roster
+
+20260827_022804 ###############################################################
+20260827_022804 ### RUNNING STAFF ROSTER SCRIPT
+20260827_022804 ###############################################################
+
+20260827_022804 ## Checking if script exists
+20260827_022804 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260827_022804 File exists...
+
+20260827_022804 ## Running script
+20260827_022804  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260827_022851
+20260827_022851
+Execution Return Code: 2
+20260827_022851
+---------
+JOB ERROR
+---------
+Start Time: 022804, End Time: 022851
