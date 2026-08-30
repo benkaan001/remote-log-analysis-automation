@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260830_043504
+----------------------
+20260830_043504 ## Passed Parameter Values:
+20260830_043504 DOMAIN: hr
+20260830_043504 SUB_DOMAIN: recruiting
+20260830_043504 USER_NAME: hr_user1
+20260830_043504 TABLE_NAME: job_candidate_screen
+20260830_043504 EXEC_SCOPE: DEV
+
+20260830_043504 ## Derived Variable Values:
+20260830_043504 STARTTIME: 043504
+20260830_043504 LOGDATE: 20260830_043504
+20260830_043504 JOB=job_candidate_screen
+
+20260830_043504 ###############################################################
+20260830_043504 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260830_043504 ###############################################################
+
+20260830_043504 ## Checking if script exists
+20260830_043504 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260830_043504 File exists...
+
+20260830_043504 ## Running script
+20260830_043504  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260830_043527
+20260830_043527
+Execution Return Code: 2
+20260830_043527
+---------
+JOB ERROR
+---------
+Start Time: 043504, End Time: 043527

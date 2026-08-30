@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260830_125035
+----------------------
+20260830_125035 ## Passed Parameter Values:
+20260830_125035 DOMAIN: marketing
+20260830_125035 SUB_DOMAIN: analytics
+20260830_125035 USER_NAME: campaign_manager
+20260830_125035 TABLE_NAME: job_roi_report
+20260830_125035 EXEC_SCOPE: TEST
+
+20260830_125035 ## Derived Variable Values:
+20260830_125035 STARTTIME: 125035
+20260830_125035 LOGDATE: 20260830_125035
+20260830_125035 JOB=job_roi_report
+
+20260830_125035 ###############################################################
+20260830_125035 ### RUNNING ROI REPORT SCRIPT
+20260830_125035 ###############################################################
+
+20260830_125035 ## Checking if script exists
+20260830_125035 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260830_125035 File exists...
+
+20260830_125035 ## Running script
+20260830_125035  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260830_125117
+20260830_125117
+Execution Return Code: 2
+20260830_125117
+---------
+JOB ERROR
+---------
+Start Time: 125035, End Time: 125117

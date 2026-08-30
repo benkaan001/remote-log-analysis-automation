@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260830_015159
+----------------------
+20260830_015159 ## Passed Parameter Values:
+20260830_015159 DOMAIN: operations
+20260830_015159 SUB_DOMAIN: logistics
+20260830_015159 USER_NAME: scheduler
+20260830_015159 TABLE_NAME: job_warehouse_mgmt
+20260830_015159 EXEC_SCOPE: DEV
+
+20260830_015159 ## Derived Variable Values:
+20260830_015159 STARTTIME: 015159
+20260830_015159 LOGDATE: 20260830_015159
+20260830_015159 JOB=job_warehouse_mgmt
+
+20260830_015159 ###############################################################
+20260830_015159 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260830_015159 ###############################################################
+
+20260830_015159 ## Checking if script exists
+20260830_015159 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260830_015159 File exists...
+
+20260830_015159 ## Running script
+20260830_015159  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260830_015212
+20260830_015212
+Execution Return Code: 4
+20260830_015212
+---------
+JOB ERROR
+---------
+Start Time: 015159, End Time: 015212

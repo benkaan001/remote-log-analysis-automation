@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260830_011516
+----------------------
+20260830_011516 ## Passed Parameter Values:
+20260830_011516 DOMAIN: operations
+20260830_011516 SUB_DOMAIN: scheduling
+20260830_011516 USER_NAME: scheduler
+20260830_011516 TABLE_NAME: job_staff_roster
+20260830_011516 EXEC_SCOPE: UAT
+
+20260830_011516 ## Derived Variable Values:
+20260830_011516 STARTTIME: 011516
+20260830_011516 LOGDATE: 20260830_011516
+20260830_011516 JOB=job_staff_roster
+
+20260830_011516 ###############################################################
+20260830_011516 ### RUNNING STAFF ROSTER SCRIPT
+20260830_011516 ###############################################################
+
+20260830_011516 ## Checking if script exists
+20260830_011516 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260830_011516 File exists...
+
+20260830_011516 ## Running script
+20260830_011516  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260830_011524
+20260830_011524
+Execution Return Code: 4
+20260830_011524
+---------
+JOB ERROR
+---------
+Start Time: 011516, End Time: 011524

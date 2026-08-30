@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260830_025004
+----------------------
+20260830_025004 ## Passed Parameter Values:
+20260830_025004 DOMAIN: finance
+20260830_025004 SUB_DOMAIN: reporting
+20260830_025004 USER_NAME: accountant1
+20260830_025004 TABLE_NAME: job_report_daily
+20260830_025004 EXEC_SCOPE: DEV
+
+20260830_025004 ## Derived Variable Values:
+20260830_025004 STARTTIME: 025004
+20260830_025004 LOGDATE: 20260830_025004
+20260830_025004 JOB=job_report_daily
+
+20260830_025004 ###############################################################
+20260830_025004 ### RUNNING REPORT DAILY SCRIPT
+20260830_025004 ###############################################################
+
+20260830_025004 ## Checking if script exists
+20260830_025004 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260830_025004 File exists...
+
+20260830_025004 ## Running script
+20260830_025004  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260830_025059
+20260830_025059
+Execution Return Code: 2
+20260830_025059
+---------
+JOB ERROR
+---------
+Start Time: 025004, End Time: 025059
