@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260901_190451
+----------------------
+20260901_190451 ## Passed Parameter Values:
+20260901_190451 DOMAIN: operations
+20260901_190451 SUB_DOMAIN: scheduling
+20260901_190451 USER_NAME: scheduler
+20260901_190451 TABLE_NAME: job_maintenance_plan
+20260901_190451 EXEC_SCOPE: PROD
+
+20260901_190451 ## Derived Variable Values:
+20260901_190451 STARTTIME: 190451
+20260901_190451 LOGDATE: 20260901_190451
+20260901_190451 JOB=job_maintenance_plan
+
+20260901_190451 ###############################################################
+20260901_190451 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260901_190451 ###############################################################
+
+20260901_190451 ## Checking if script exists
+20260901_190451 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260901_190451 File exists...
+
+20260901_190451 ## Running script
+20260901_190451  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260901_190514
+20260901_190514
+Execution Return Code: 8
+20260901_190514
+---------
+JOB ERROR
+---------
+Start Time: 190451, End Time: 190514

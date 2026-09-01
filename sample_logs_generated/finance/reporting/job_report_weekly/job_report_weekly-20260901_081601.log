@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260901_081601
+----------------------
+20260901_081601 ## Passed Parameter Values:
+20260901_081601 DOMAIN: finance
+20260901_081601 SUB_DOMAIN: reporting
+20260901_081601 USER_NAME: accountant1
+20260901_081601 TABLE_NAME: job_report_weekly
+20260901_081601 EXEC_SCOPE: UAT
+
+20260901_081601 ## Derived Variable Values:
+20260901_081601 STARTTIME: 081601
+20260901_081601 LOGDATE: 20260901_081601
+20260901_081601 JOB=job_report_weekly
+
+20260901_081601 ###############################################################
+20260901_081601 ### RUNNING REPORT WEEKLY SCRIPT
+20260901_081601 ###############################################################
+
+20260901_081601 ## Checking if script exists
+20260901_081601 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20260901_081601 File exists...
+
+20260901_081601 ## Running script
+20260901_081601  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260901_081644
+20260901_081644
+Execution Return Code: 8
+20260901_081644
+---------
+JOB ERROR
+---------
+Start Time: 081601, End Time: 081644
