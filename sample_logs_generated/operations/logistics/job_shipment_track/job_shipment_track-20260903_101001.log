@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260903_101001
+----------------------
+20260903_101001 ## Passed Parameter Values:
+20260903_101001 DOMAIN: operations
+20260903_101001 SUB_DOMAIN: logistics
+20260903_101001 USER_NAME: logistics_manager
+20260903_101001 TABLE_NAME: job_shipment_track
+20260903_101001 EXEC_SCOPE: TEST
+
+20260903_101001 ## Derived Variable Values:
+20260903_101001 STARTTIME: 101001
+20260903_101001 LOGDATE: 20260903_101001
+20260903_101001 JOB=job_shipment_track
+
+20260903_101001 ###############################################################
+20260903_101001 ### RUNNING SHIPMENT TRACK SCRIPT
+20260903_101001 ###############################################################
+
+20260903_101001 ## Checking if script exists
+20260903_101001 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260903_101001 File exists...
+
+20260903_101001 ## Running script
+20260903_101001  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260903_101049
+20260903_101049
+Execution Return Code: 2
+20260903_101049
+---------
+JOB ERROR
+---------
+Start Time: 101001, End Time: 101049

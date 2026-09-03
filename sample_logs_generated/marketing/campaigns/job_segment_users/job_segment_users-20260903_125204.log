@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260903_125204
+----------------------
+20260903_125204 ## Passed Parameter Values:
+20260903_125204 DOMAIN: marketing
+20260903_125204 SUB_DOMAIN: campaigns
+20260903_125204 USER_NAME: marketing_user1
+20260903_125204 TABLE_NAME: job_segment_users
+20260903_125204 EXEC_SCOPE: PROD
+
+20260903_125204 ## Derived Variable Values:
+20260903_125204 STARTTIME: 125204
+20260903_125204 LOGDATE: 20260903_125204
+20260903_125204 JOB=job_segment_users
+
+20260903_125204 ###############################################################
+20260903_125204 ### RUNNING SEGMENT USERS SCRIPT
+20260903_125204 ###############################################################
+
+20260903_125204 ## Checking if script exists
+20260903_125204 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260903_125204 File exists...
+
+20260903_125204 ## Running script
+20260903_125204  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Critical error: Database connection failed after 3 retries.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260903_125213
+20260903_125213
+Execution Return Code: 8
+20260903_125213
+---------
+JOB ERROR
+---------
+Start Time: 125204, End Time: 125213

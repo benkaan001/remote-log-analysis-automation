@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260903_151400
+----------------------
+20260903_151400 ## Passed Parameter Values:
+20260903_151400 DOMAIN: finance
+20260903_151400 SUB_DOMAIN: billing
+20260903_151400 USER_NAME: accountant1
+20260903_151400 TABLE_NAME: job_invoice_gen
+20260903_151400 EXEC_SCOPE: PROD
+
+20260903_151400 ## Derived Variable Values:
+20260903_151400 STARTTIME: 151400
+20260903_151400 LOGDATE: 20260903_151400
+20260903_151400 JOB=job_invoice_gen
+
+20260903_151400 ###############################################################
+20260903_151400 ### RUNNING INVOICE GEN SCRIPT
+20260903_151400 ###############################################################
+
+20260903_151400 ## Checking if script exists
+20260903_151400 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260903_151400 File exists...
+
+20260903_151400 ## Running script
+20260903_151400  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260903_151406
+20260903_151406
+Execution Return Code: 2
+20260903_151406
+---------
+JOB ERROR
+---------
+Start Time: 151400, End Time: 151406

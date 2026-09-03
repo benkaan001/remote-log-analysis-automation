@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260903_130437
+----------------------
+20260903_130437 ## Passed Parameter Values:
+20260903_130437 DOMAIN: finance
+20260903_130437 SUB_DOMAIN: billing
+20260903_130437 USER_NAME: accountant1
+20260903_130437 TABLE_NAME: job_payment_proc
+20260903_130437 EXEC_SCOPE: UAT
+
+20260903_130437 ## Derived Variable Values:
+20260903_130437 STARTTIME: 130437
+20260903_130437 LOGDATE: 20260903_130437
+20260903_130437 JOB=job_payment_proc
+
+20260903_130437 ###############################################################
+20260903_130437 ### RUNNING PAYMENT PROC SCRIPT
+20260903_130437 ###############################################################
+
+20260903_130437 ## Checking if script exists
+20260903_130437 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260903_130437 File exists...
+
+20260903_130437 ## Running script
+20260903_130437  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Payment processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260903_130509
+20260903_130509
+Execution Return Code: 2
+20260903_130509
+---------
+JOB ERROR
+---------
+Start Time: 130437, End Time: 130509
