@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260906_102747
+----------------------
+20260906_102747 ## Passed Parameter Values:
+20260906_102747 DOMAIN: marketing
+20260906_102747 SUB_DOMAIN: analytics
+20260906_102747 USER_NAME: analyst1
+20260906_102747 TABLE_NAME: job_roi_report
+20260906_102747 EXEC_SCOPE: DEV
+
+20260906_102747 ## Derived Variable Values:
+20260906_102747 STARTTIME: 102747
+20260906_102747 LOGDATE: 20260906_102747
+20260906_102747 JOB=job_roi_report
+
+20260906_102747 ###############################################################
+20260906_102747 ### RUNNING ROI REPORT SCRIPT
+20260906_102747 ###############################################################
+
+20260906_102747 ## Checking if script exists
+20260906_102747 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20260906_102747 File exists...
+
+20260906_102747 ## Running script
+20260906_102747  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260906_102757
+20260906_102757
+Execution Return Code: 4
+20260906_102757
+---------
+JOB ERROR
+---------
+Start Time: 102747, End Time: 102757

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260906_185736
+----------------------
+20260906_185736 ## Passed Parameter Values:
+20260906_185736 DOMAIN: operations
+20260906_185736 SUB_DOMAIN: scheduling
+20260906_185736 USER_NAME: ops_user1
+20260906_185736 TABLE_NAME: job_resource_alloc
+20260906_185736 EXEC_SCOPE: DEV
+
+20260906_185736 ## Derived Variable Values:
+20260906_185736 STARTTIME: 185736
+20260906_185736 LOGDATE: 20260906_185736
+20260906_185736 JOB=job_resource_alloc
+
+20260906_185736 ###############################################################
+20260906_185736 ### RUNNING RESOURCE ALLOC SCRIPT
+20260906_185736 ###############################################################
+
+20260906_185736 ## Checking if script exists
+20260906_185736 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260906_185736 File exists...
+
+20260906_185736 ## Running script
+20260906_185736  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260906_185818
+20260906_185818
+Execution Return Code: 1
+20260906_185818
+---------
+JOB ERROR
+---------
+Start Time: 185736, End Time: 185818

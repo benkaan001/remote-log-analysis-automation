@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260906_150652
+----------------------
+20260906_150652 ## Passed Parameter Values:
+20260906_150652 DOMAIN: finance
+20260906_150652 SUB_DOMAIN: billing
+20260906_150652 USER_NAME: accountant1
+20260906_150652 TABLE_NAME: job_payment_proc
+20260906_150652 EXEC_SCOPE: TEST
+
+20260906_150652 ## Derived Variable Values:
+20260906_150652 STARTTIME: 150652
+20260906_150652 LOGDATE: 20260906_150652
+20260906_150652 JOB=job_payment_proc
+
+20260906_150652 ###############################################################
+20260906_150652 ### RUNNING PAYMENT PROC SCRIPT
+20260906_150652 ###############################################################
+
+20260906_150652 ## Checking if script exists
+20260906_150652 Script File: /scripts/finance/billing/job_payment_proc/job_payment_proc.sql
+20260906_150652 File exists...
+
+20260906_150652 ## Running script
+20260906_150652  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Invalid data format in source table.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260906_150743
+20260906_150743
+Execution Return Code: 4
+20260906_150743
+---------
+JOB ERROR
+---------
+Start Time: 150652, End Time: 150743
