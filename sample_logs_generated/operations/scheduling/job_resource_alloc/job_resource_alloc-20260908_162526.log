@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260908_162526
+----------------------
+20260908_162526 ## Passed Parameter Values:
+20260908_162526 DOMAIN: operations
+20260908_162526 SUB_DOMAIN: scheduling
+20260908_162526 USER_NAME: scheduler
+20260908_162526 TABLE_NAME: job_resource_alloc
+20260908_162526 EXEC_SCOPE: TEST
+
+20260908_162526 ## Derived Variable Values:
+20260908_162526 STARTTIME: 162526
+20260908_162526 LOGDATE: 20260908_162526
+20260908_162526 JOB=job_resource_alloc
+
+20260908_162526 ###############################################################
+20260908_162526 ### RUNNING RESOURCE ALLOC SCRIPT
+20260908_162526 ###############################################################
+
+20260908_162526 ## Checking if script exists
+20260908_162526 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260908_162526 File exists...
+
+20260908_162526 ## Running script
+20260908_162526  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260908_162535
+20260908_162535
+Execution Return Code: 4
+20260908_162535
+---------
+JOB ERROR
+---------
+Start Time: 162526, End Time: 162535
