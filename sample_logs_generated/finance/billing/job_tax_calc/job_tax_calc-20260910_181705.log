@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260910_181705
+----------------------
+20260910_181705 ## Passed Parameter Values:
+20260910_181705 DOMAIN: finance
+20260910_181705 SUB_DOMAIN: billing
+20260910_181705 USER_NAME: finance_admin
+20260910_181705 TABLE_NAME: job_tax_calc
+20260910_181705 EXEC_SCOPE: TEST
+
+20260910_181705 ## Derived Variable Values:
+20260910_181705 STARTTIME: 181705
+20260910_181705 LOGDATE: 20260910_181705
+20260910_181705 JOB=job_tax_calc
+
+20260910_181705 ###############################################################
+20260910_181705 ### RUNNING TAX CALC SCRIPT
+20260910_181705 ###############################################################
+
+20260910_181705 ## Checking if script exists
+20260910_181705 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20260910_181705 File exists...
+
+20260910_181705 ## Running script
+20260910_181705  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260910_181751
+20260910_181751
+Execution Return Code: 8
+20260910_181751
+---------
+JOB ERROR
+---------
+Start Time: 181705, End Time: 181751

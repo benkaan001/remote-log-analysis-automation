@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260910_223049
+----------------------
+20260910_223049 ## Passed Parameter Values:
+20260910_223049 DOMAIN: finance
+20260910_223049 SUB_DOMAIN: billing
+20260910_223049 USER_NAME: accountant1
+20260910_223049 TABLE_NAME: job_invoice_gen
+20260910_223049 EXEC_SCOPE: DEV
+
+20260910_223049 ## Derived Variable Values:
+20260910_223049 STARTTIME: 223049
+20260910_223049 LOGDATE: 20260910_223049
+20260910_223049 JOB=job_invoice_gen
+
+20260910_223049 ###############################################################
+20260910_223049 ### RUNNING INVOICE GEN SCRIPT
+20260910_223049 ###############################################################
+
+20260910_223049 ## Checking if script exists
+20260910_223049 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260910_223049 File exists...
+
+20260910_223049 ## Running script
+20260910_223049  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260910_223105
+20260910_223105
+Execution Return Code: 4
+20260910_223105
+---------
+JOB ERROR
+---------
+Start Time: 223049, End Time: 223105

@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260910_135640
+----------------------
+20260910_135640 ## Passed Parameter Values:
+20260910_135640 DOMAIN: operations
+20260910_135640 SUB_DOMAIN: logistics
+20260910_135640 USER_NAME: scheduler
+20260910_135640 TABLE_NAME: job_warehouse_mgmt
+20260910_135640 EXEC_SCOPE: DEV
+
+20260910_135640 ## Derived Variable Values:
+20260910_135640 STARTTIME: 135640
+20260910_135640 LOGDATE: 20260910_135640
+20260910_135640 JOB=job_warehouse_mgmt
+
+20260910_135640 ###############################################################
+20260910_135640 ### RUNNING WAREHOUSE MGMT SCRIPT
+20260910_135640 ###############################################################
+
+20260910_135640 ## Checking if script exists
+20260910_135640 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20260910_135640 File exists...
+
+20260910_135640 ## Running script
+20260910_135640  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260910_135655
+20260910_135655
+Execution Return Code: 1
+20260910_135655
+---------
+JOB ERROR
+---------
+Start Time: 135640, End Time: 135655

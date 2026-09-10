@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260910_231900
+----------------------
+20260910_231900 ## Passed Parameter Values:
+20260910_231900 DOMAIN: finance
+20260910_231900 SUB_DOMAIN: reporting
+20260910_231900 USER_NAME: finance_user1
+20260910_231900 TABLE_NAME: job_report_daily
+20260910_231900 EXEC_SCOPE: UAT
+
+20260910_231900 ## Derived Variable Values:
+20260910_231900 STARTTIME: 231900
+20260910_231900 LOGDATE: 20260910_231900
+20260910_231900 JOB=job_report_daily
+
+20260910_231900 ###############################################################
+20260910_231900 ### RUNNING REPORT DAILY SCRIPT
+20260910_231900 ###############################################################
+
+20260910_231900 ## Checking if script exists
+20260910_231900 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260910_231900 File exists...
+
+20260910_231900 ## Running script
+20260910_231900  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Report generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260910_231956
+20260910_231956
+Execution Return Code: 8
+20260910_231956
+---------
+JOB ERROR
+---------
+Start Time: 231900, End Time: 231956
