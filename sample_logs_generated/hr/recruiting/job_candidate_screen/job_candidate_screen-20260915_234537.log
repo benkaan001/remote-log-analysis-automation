@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260915_234537
+----------------------
+20260915_234537 ## Passed Parameter Values:
+20260915_234537 DOMAIN: hr
+20260915_234537 SUB_DOMAIN: recruiting
+20260915_234537 USER_NAME: payroll_admin
+20260915_234537 TABLE_NAME: job_candidate_screen
+20260915_234537 EXEC_SCOPE: PROD
+
+20260915_234537 ## Derived Variable Values:
+20260915_234537 STARTTIME: 234537
+20260915_234537 LOGDATE: 20260915_234537
+20260915_234537 JOB=job_candidate_screen
+
+20260915_234537 ###############################################################
+20260915_234537 ### RUNNING CANDIDATE SCREEN SCRIPT
+20260915_234537 ###############################################################
+
+20260915_234537 ## Checking if script exists
+20260915_234537 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20260915_234537 File exists...
+
+20260915_234537 ## Running script
+20260915_234537  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260915_234610
+20260915_234610
+Execution Return Code: 2
+20260915_234610
+---------
+JOB ERROR
+---------
+Start Time: 234537, End Time: 234610

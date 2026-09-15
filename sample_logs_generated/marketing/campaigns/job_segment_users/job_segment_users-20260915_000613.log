@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20260915_000613
+----------------------
+20260915_000613 ## Passed Parameter Values:
+20260915_000613 DOMAIN: marketing
+20260915_000613 SUB_DOMAIN: campaigns
+20260915_000613 USER_NAME: analyst1
+20260915_000613 TABLE_NAME: job_segment_users
+20260915_000613 EXEC_SCOPE: UAT
+
+20260915_000613 ## Derived Variable Values:
+20260915_000613 STARTTIME: 000613
+20260915_000613 LOGDATE: 20260915_000613
+20260915_000613 JOB=job_segment_users
+
+20260915_000613 ###############################################################
+20260915_000613 ### RUNNING SEGMENT USERS SCRIPT
+20260915_000613 ###############################################################
+
+20260915_000613 ## Checking if script exists
+20260915_000613 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20260915_000613 File exists...
+
+20260915_000613 ## Running script
+20260915_000613  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: User segmentation failed: Invalid criteria specified.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20260915_000654
+20260915_000654
+Execution Return Code: 2
+20260915_000654
+---------
+JOB ERROR
+---------
+Start Time: 000613, End Time: 000654

@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260915_052644
+----------------------
+20260915_052644 ## Passed Parameter Values:
+20260915_052644 DOMAIN: operations
+20260915_052644 SUB_DOMAIN: scheduling
+20260915_052644 USER_NAME: ops_user1
+20260915_052644 TABLE_NAME: job_resource_alloc
+20260915_052644 EXEC_SCOPE: DEV
+
+20260915_052644 ## Derived Variable Values:
+20260915_052644 STARTTIME: 052644
+20260915_052644 LOGDATE: 20260915_052644
+20260915_052644 JOB=job_resource_alloc
+
+20260915_052644 ###############################################################
+20260915_052644 ### RUNNING RESOURCE ALLOC SCRIPT
+20260915_052644 ###############################################################
+
+20260915_052644 ## Checking if script exists
+20260915_052644 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260915_052644 File exists...
+
+20260915_052644 ## Running script
+20260915_052644  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Scheduling report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260915_052653
+20260915_052653
+Execution Return Code: 8
+20260915_052653
+---------
+JOB ERROR
+---------
+Start Time: 052644, End Time: 052653

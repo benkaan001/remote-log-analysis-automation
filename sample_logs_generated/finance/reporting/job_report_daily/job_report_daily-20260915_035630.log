@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260915_035630
+----------------------
+20260915_035630 ## Passed Parameter Values:
+20260915_035630 DOMAIN: finance
+20260915_035630 SUB_DOMAIN: reporting
+20260915_035630 USER_NAME: accountant1
+20260915_035630 TABLE_NAME: job_report_daily
+20260915_035630 EXEC_SCOPE: UAT
+
+20260915_035630 ## Derived Variable Values:
+20260915_035630 STARTTIME: 035630
+20260915_035630 LOGDATE: 20260915_035630
+20260915_035630 JOB=job_report_daily
+
+20260915_035630 ###############################################################
+20260915_035630 ### RUNNING REPORT DAILY SCRIPT
+20260915_035630 ###############################################################
+
+20260915_035630 ## Checking if script exists
+20260915_035630 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20260915_035630 File exists...
+
+20260915_035630 ## Running script
+20260915_035630  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260915_035703
+20260915_035703
+Execution Return Code: 4
+20260915_035703
+---------
+JOB ERROR
+---------
+Start Time: 035630, End Time: 035703

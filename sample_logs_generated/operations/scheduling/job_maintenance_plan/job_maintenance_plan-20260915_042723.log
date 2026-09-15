@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260915_042723
+----------------------
+20260915_042723 ## Passed Parameter Values:
+20260915_042723 DOMAIN: operations
+20260915_042723 SUB_DOMAIN: scheduling
+20260915_042723 USER_NAME: logistics_manager
+20260915_042723 TABLE_NAME: job_maintenance_plan
+20260915_042723 EXEC_SCOPE: PROD
+
+20260915_042723 ## Derived Variable Values:
+20260915_042723 STARTTIME: 042723
+20260915_042723 LOGDATE: 20260915_042723
+20260915_042723 JOB=job_maintenance_plan
+
+20260915_042723 ###############################################################
+20260915_042723 ### RUNNING MAINTENANCE PLAN SCRIPT
+20260915_042723 ###############################################################
+
+20260915_042723 ## Checking if script exists
+20260915_042723 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20260915_042723 File exists...
+
+20260915_042723 ## Running script
+20260915_042723  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260915_042739
+20260915_042739
+Execution Return Code: 8
+20260915_042739
+---------
+JOB ERROR
+---------
+Start Time: 042723, End Time: 042739

@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20260915_020654
+----------------------
+20260915_020654 ## Passed Parameter Values:
+20260915_020654 DOMAIN: marketing
+20260915_020654 SUB_DOMAIN: analytics
+20260915_020654 USER_NAME: marketing_user1
+20260915_020654 TABLE_NAME: job_conversion_rate
+20260915_020654 EXEC_SCOPE: DEV
+
+20260915_020654 ## Derived Variable Values:
+20260915_020654 STARTTIME: 020654
+20260915_020654 LOGDATE: 20260915_020654
+20260915_020654 JOB=job_conversion_rate
+
+20260915_020654 ###############################################################
+20260915_020654 ### RUNNING CONVERSION RATE SCRIPT
+20260915_020654 ###############################################################
+
+20260915_020654 ## Checking if script exists
+20260915_020654 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20260915_020654 File exists...
+
+20260915_020654 ## Running script
+20260915_020654  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260915_020739
+20260915_020739
+Execution Return Code: 4
+20260915_020739
+---------
+JOB ERROR
+---------
+Start Time: 020654, End Time: 020739
