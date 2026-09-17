@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260917_082651
+----------------------
+20260917_082651 ## Passed Parameter Values:
+20260917_082651 DOMAIN: operations
+20260917_082651 SUB_DOMAIN: scheduling
+20260917_082651 USER_NAME: scheduler
+20260917_082651 TABLE_NAME: job_staff_roster
+20260917_082651 EXEC_SCOPE: DEV
+
+20260917_082651 ## Derived Variable Values:
+20260917_082651 STARTTIME: 082651
+20260917_082651 LOGDATE: 20260917_082651
+20260917_082651 JOB=job_staff_roster
+
+20260917_082651 ###############################################################
+20260917_082651 ### RUNNING STAFF ROSTER SCRIPT
+20260917_082651 ###############################################################
+
+20260917_082651 ## Checking if script exists
+20260917_082651 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260917_082651 File exists...
+
+20260917_082651 ## Running script
+20260917_082651  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260917_082741
+20260917_082741
+Execution Return Code: 4
+20260917_082741
+---------
+JOB ERROR
+---------
+Start Time: 082651, End Time: 082741
