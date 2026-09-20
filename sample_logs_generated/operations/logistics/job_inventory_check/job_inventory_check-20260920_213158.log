@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260920_213158
+----------------------
+20260920_213158 ## Passed Parameter Values:
+20260920_213158 DOMAIN: operations
+20260920_213158 SUB_DOMAIN: logistics
+20260920_213158 USER_NAME: logistics_manager
+20260920_213158 TABLE_NAME: job_inventory_check
+20260920_213158 EXEC_SCOPE: DEV
+
+20260920_213158 ## Derived Variable Values:
+20260920_213158 STARTTIME: 213158
+20260920_213158 LOGDATE: 20260920_213158
+20260920_213158 JOB=job_inventory_check
+
+20260920_213158 ###############################################################
+20260920_213158 ### RUNNING INVENTORY CHECK SCRIPT
+20260920_213158 ###############################################################
+
+20260920_213158 ## Checking if script exists
+20260920_213158 Script File: /scripts/operations/logistics/job_inventory_check/job_inventory_check.sql
+20260920_213158 File exists...
+
+20260920_213158 ## Running script
+20260920_213158  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260920_213242
+20260920_213242
+Execution Return Code: 8
+20260920_213242
+---------
+JOB ERROR
+---------
+Start Time: 213158, End Time: 213242

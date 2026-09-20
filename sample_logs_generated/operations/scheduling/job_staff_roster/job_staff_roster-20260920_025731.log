@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260920_025731
+----------------------
+20260920_025731 ## Passed Parameter Values:
+20260920_025731 DOMAIN: operations
+20260920_025731 SUB_DOMAIN: scheduling
+20260920_025731 USER_NAME: scheduler
+20260920_025731 TABLE_NAME: job_staff_roster
+20260920_025731 EXEC_SCOPE: PROD
+
+20260920_025731 ## Derived Variable Values:
+20260920_025731 STARTTIME: 025731
+20260920_025731 LOGDATE: 20260920_025731
+20260920_025731 JOB=job_staff_roster
+
+20260920_025731 ###############################################################
+20260920_025731 ### RUNNING STAFF ROSTER SCRIPT
+20260920_025731 ###############################################################
+
+20260920_025731 ## Checking if script exists
+20260920_025731 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260920_025731 File exists...
+
+20260920_025731 ## Running script
+20260920_025731  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260920_025811
+20260920_025811
+Execution Return Code: 0
+20260920_025811
+-----------
+JOB SUCCESS
+-----------
+Start Time: 025731, End Time: 025811
