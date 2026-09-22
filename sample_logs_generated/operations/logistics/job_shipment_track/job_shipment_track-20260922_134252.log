@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20260922_134252
+----------------------
+20260922_134252 ## Passed Parameter Values:
+20260922_134252 DOMAIN: operations
+20260922_134252 SUB_DOMAIN: logistics
+20260922_134252 USER_NAME: scheduler
+20260922_134252 TABLE_NAME: job_shipment_track
+20260922_134252 EXEC_SCOPE: DEV
+
+20260922_134252 ## Derived Variable Values:
+20260922_134252 STARTTIME: 134252
+20260922_134252 LOGDATE: 20260922_134252
+20260922_134252 JOB=job_shipment_track
+
+20260922_134252 ###############################################################
+20260922_134252 ### RUNNING SHIPMENT TRACK SCRIPT
+20260922_134252 ###############################################################
+
+20260922_134252 ## Checking if script exists
+20260922_134252 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20260922_134252 File exists...
+
+20260922_134252 ## Running script
+20260922_134252  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260922_134352
+20260922_134352
+Execution Return Code: 4
+20260922_134352
+---------
+JOB ERROR
+---------
+Start Time: 134252, End Time: 134352

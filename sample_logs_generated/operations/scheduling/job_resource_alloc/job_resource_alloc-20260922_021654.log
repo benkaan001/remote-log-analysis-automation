@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260922_021654
+----------------------
+20260922_021654 ## Passed Parameter Values:
+20260922_021654 DOMAIN: operations
+20260922_021654 SUB_DOMAIN: scheduling
+20260922_021654 USER_NAME: logistics_manager
+20260922_021654 TABLE_NAME: job_resource_alloc
+20260922_021654 EXEC_SCOPE: TEST
+
+20260922_021654 ## Derived Variable Values:
+20260922_021654 STARTTIME: 021654
+20260922_021654 LOGDATE: 20260922_021654
+20260922_021654 JOB=job_resource_alloc
+
+20260922_021654 ###############################################################
+20260922_021654 ### RUNNING RESOURCE ALLOC SCRIPT
+20260922_021654 ###############################################################
+
+20260922_021654 ## Checking if script exists
+20260922_021654 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20260922_021654 File exists...
+
+20260922_021654 ## Running script
+20260922_021654  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Scheduling generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20260922_021705
+20260922_021705
+Execution Return Code: 1
+20260922_021705
+---------
+JOB ERROR
+---------
+Start Time: 021654, End Time: 021705
