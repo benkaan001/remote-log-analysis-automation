@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20260927_230927
+----------------------
+20260927_230927 ## Passed Parameter Values:
+20260927_230927 DOMAIN: hr
+20260927_230927 SUB_DOMAIN: recruiting
+20260927_230927 USER_NAME: hr_user1
+20260927_230927 TABLE_NAME: job_offer_gen
+20260927_230927 EXEC_SCOPE: UAT
+
+20260927_230927 ## Derived Variable Values:
+20260927_230927 STARTTIME: 230927
+20260927_230927 LOGDATE: 20260927_230927
+20260927_230927 JOB=job_offer_gen
+
+20260927_230927 ###############################################################
+20260927_230927 ### RUNNING OFFER GEN SCRIPT
+20260927_230927 ###############################################################
+
+20260927_230927 ## Checking if script exists
+20260927_230927 Script File: /scripts/hr/recruiting/job_offer_gen/job_offer_gen.sql
+20260927_230927 File exists...
+
+20260927_230927 ## Running script
+20260927_230927  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260927_230959
+20260927_230959
+Execution Return Code: 4
+20260927_230959
+---------
+JOB ERROR
+---------
+Start Time: 230927, End Time: 230959
