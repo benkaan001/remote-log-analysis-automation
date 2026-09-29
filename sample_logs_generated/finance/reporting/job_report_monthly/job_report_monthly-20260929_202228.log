@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20260929_202228
+----------------------
+20260929_202228 ## Passed Parameter Values:
+20260929_202228 DOMAIN: finance
+20260929_202228 SUB_DOMAIN: reporting
+20260929_202228 USER_NAME: finance_user1
+20260929_202228 TABLE_NAME: job_report_monthly
+20260929_202228 EXEC_SCOPE: PROD
+
+20260929_202228 ## Derived Variable Values:
+20260929_202228 STARTTIME: 202228
+20260929_202228 LOGDATE: 20260929_202228
+20260929_202228 JOB=job_report_monthly
+
+20260929_202228 ###############################################################
+20260929_202228 ### RUNNING REPORT MONTHLY SCRIPT
+20260929_202228 ###############################################################
+
+20260929_202228 ## Checking if script exists
+20260929_202228 Script File: /scripts/finance/reporting/job_report_monthly/job_report_monthly.sql
+20260929_202228 File exists...
+
+20260929_202228 ## Running script
+20260929_202228  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260929_202320
+20260929_202320
+Execution Return Code: 4
+20260929_202320
+---------
+JOB ERROR
+---------
+Start Time: 202228, End Time: 202320

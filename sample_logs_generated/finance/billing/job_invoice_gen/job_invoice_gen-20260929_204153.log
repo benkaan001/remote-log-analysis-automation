@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20260929_204153
+----------------------
+20260929_204153 ## Passed Parameter Values:
+20260929_204153 DOMAIN: finance
+20260929_204153 SUB_DOMAIN: billing
+20260929_204153 USER_NAME: finance_user1
+20260929_204153 TABLE_NAME: job_invoice_gen
+20260929_204153 EXEC_SCOPE: DEV
+
+20260929_204153 ## Derived Variable Values:
+20260929_204153 STARTTIME: 204153
+20260929_204153 LOGDATE: 20260929_204153
+20260929_204153 JOB=job_invoice_gen
+
+20260929_204153 ###############################################################
+20260929_204153 ### RUNNING INVOICE GEN SCRIPT
+20260929_204153 ###############################################################
+
+20260929_204153 ## Checking if script exists
+20260929_204153 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20260929_204153 File exists...
+
+20260929_204153 ## Running script
+20260929_204153  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20260929_204216
+20260929_204216
+Execution Return Code: 8
+20260929_204216
+---------
+JOB ERROR
+---------
+Start Time: 204153, End Time: 204216

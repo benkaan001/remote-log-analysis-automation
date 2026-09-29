@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20260929_070514
+----------------------
+20260929_070514 ## Passed Parameter Values:
+20260929_070514 DOMAIN: hr
+20260929_070514 SUB_DOMAIN: payroll
+20260929_070514 USER_NAME: hr_user1
+20260929_070514 TABLE_NAME: job_tax_withhold
+20260929_070514 EXEC_SCOPE: TEST
+
+20260929_070514 ## Derived Variable Values:
+20260929_070514 STARTTIME: 070514
+20260929_070514 LOGDATE: 20260929_070514
+20260929_070514 JOB=job_tax_withhold
+
+20260929_070514 ###############################################################
+20260929_070514 ### RUNNING TAX WITHHOLD SCRIPT
+20260929_070514 ###############################################################
+
+20260929_070514 ## Checking if script exists
+20260929_070514 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20260929_070514 File exists...
+
+20260929_070514 ## Running script
+20260929_070514  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20260929_070613
+20260929_070613
+Execution Return Code: 4
+20260929_070613
+---------
+JOB ERROR
+---------
+Start Time: 070514, End Time: 070613

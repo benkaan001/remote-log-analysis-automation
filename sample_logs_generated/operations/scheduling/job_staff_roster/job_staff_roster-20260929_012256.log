@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20260929_012256
+----------------------
+20260929_012256 ## Passed Parameter Values:
+20260929_012256 DOMAIN: operations
+20260929_012256 SUB_DOMAIN: scheduling
+20260929_012256 USER_NAME: logistics_manager
+20260929_012256 TABLE_NAME: job_staff_roster
+20260929_012256 EXEC_SCOPE: DEV
+
+20260929_012256 ## Derived Variable Values:
+20260929_012256 STARTTIME: 012256
+20260929_012256 LOGDATE: 20260929_012256
+20260929_012256 JOB=job_staff_roster
+
+20260929_012256 ###############################################################
+20260929_012256 ### RUNNING STAFF ROSTER SCRIPT
+20260929_012256 ###############################################################
+
+20260929_012256 ## Checking if script exists
+20260929_012256 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20260929_012256 File exists...
+
+20260929_012256 ## Running script
+20260929_012256  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20260929_012324
+20260929_012324
+Execution Return Code: 0
+20260929_012324
+-----------
+JOB SUCCESS
+-----------
+Start Time: 012256, End Time: 012324
