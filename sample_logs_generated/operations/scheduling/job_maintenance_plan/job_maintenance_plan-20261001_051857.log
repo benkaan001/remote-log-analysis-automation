@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261001_051857
+----------------------
+20261001_051857 ## Passed Parameter Values:
+20261001_051857 DOMAIN: operations
+20261001_051857 SUB_DOMAIN: scheduling
+20261001_051857 USER_NAME: scheduler
+20261001_051857 TABLE_NAME: job_maintenance_plan
+20261001_051857 EXEC_SCOPE: DEV
+
+20261001_051857 ## Derived Variable Values:
+20261001_051857 STARTTIME: 051857
+20261001_051857 LOGDATE: 20261001_051857
+20261001_051857 JOB=job_maintenance_plan
+
+20261001_051857 ###############################################################
+20261001_051857 ### RUNNING MAINTENANCE PLAN SCRIPT
+20261001_051857 ###############################################################
+
+20261001_051857 ## Checking if script exists
+20261001_051857 Script File: /scripts/operations/scheduling/job_maintenance_plan/job_maintenance_plan.sql
+20261001_051857 File exists...
+
+20261001_051857 ## Running script
+20261001_051857  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261001_051946
+20261001_051946
+Execution Return Code: 2
+20261001_051946
+---------
+JOB ERROR
+---------
+Start Time: 051857, End Time: 051946

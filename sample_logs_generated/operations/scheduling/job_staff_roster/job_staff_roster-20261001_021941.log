@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261001_021941
+----------------------
+20261001_021941 ## Passed Parameter Values:
+20261001_021941 DOMAIN: operations
+20261001_021941 SUB_DOMAIN: scheduling
+20261001_021941 USER_NAME: ops_user1
+20261001_021941 TABLE_NAME: job_staff_roster
+20261001_021941 EXEC_SCOPE: TEST
+
+20261001_021941 ## Derived Variable Values:
+20261001_021941 STARTTIME: 021941
+20261001_021941 LOGDATE: 20261001_021941
+20261001_021941 JOB=job_staff_roster
+
+20261001_021941 ###############################################################
+20261001_021941 ### RUNNING STAFF ROSTER SCRIPT
+20261001_021941 ###############################################################
+
+20261001_021941 ## Checking if script exists
+20261001_021941 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20261001_021941 File exists...
+
+20261001_021941 ## Running script
+20261001_021941  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20261001_021951
+20261001_021951
+Execution Return Code: 0
+20261001_021951
+-----------
+JOB SUCCESS
+-----------
+Start Time: 021941, End Time: 021951
