@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20261004_233522
+----------------------
+20261004_233522 ## Passed Parameter Values:
+20261004_233522 DOMAIN: operations
+20261004_233522 SUB_DOMAIN: logistics
+20261004_233522 USER_NAME: scheduler
+20261004_233522 TABLE_NAME: job_warehouse_mgmt
+20261004_233522 EXEC_SCOPE: DEV
+
+20261004_233522 ## Derived Variable Values:
+20261004_233522 STARTTIME: 233522
+20261004_233522 LOGDATE: 20261004_233522
+20261004_233522 JOB=job_warehouse_mgmt
+
+20261004_233522 ###############################################################
+20261004_233522 ### RUNNING WAREHOUSE MGMT SCRIPT
+20261004_233522 ###############################################################
+
+20261004_233522 ## Checking if script exists
+20261004_233522 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20261004_233522 File exists...
+
+20261004_233522 ## Running script
+20261004_233522  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261004_233602
+20261004_233602
+Execution Return Code: 1
+20261004_233602
+---------
+JOB ERROR
+---------
+Start Time: 233522, End Time: 233602

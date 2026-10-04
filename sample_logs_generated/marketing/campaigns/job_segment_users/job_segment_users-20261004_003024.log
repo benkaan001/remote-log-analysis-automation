@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261004_003024
+----------------------
+20261004_003024 ## Passed Parameter Values:
+20261004_003024 DOMAIN: marketing
+20261004_003024 SUB_DOMAIN: campaigns
+20261004_003024 USER_NAME: marketing_user1
+20261004_003024 TABLE_NAME: job_segment_users
+20261004_003024 EXEC_SCOPE: DEV
+
+20261004_003024 ## Derived Variable Values:
+20261004_003024 STARTTIME: 003024
+20261004_003024 LOGDATE: 20261004_003024
+20261004_003024 JOB=job_segment_users
+
+20261004_003024 ###############################################################
+20261004_003024 ### RUNNING SEGMENT USERS SCRIPT
+20261004_003024 ###############################################################
+
+20261004_003024 ## Checking if script exists
+20261004_003024 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20261004_003024 File exists...
+
+20261004_003024 ## Running script
+20261004_003024  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261004_003047
+20261004_003047
+Execution Return Code: 2
+20261004_003047
+---------
+JOB ERROR
+---------
+Start Time: 003024, End Time: 003047

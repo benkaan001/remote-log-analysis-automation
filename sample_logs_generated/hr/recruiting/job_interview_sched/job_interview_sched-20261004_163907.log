@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20261004_163907
+----------------------
+20261004_163907 ## Passed Parameter Values:
+20261004_163907 DOMAIN: hr
+20261004_163907 SUB_DOMAIN: recruiting
+20261004_163907 USER_NAME: recruiter1
+20261004_163907 TABLE_NAME: job_interview_sched
+20261004_163907 EXEC_SCOPE: UAT
+
+20261004_163907 ## Derived Variable Values:
+20261004_163907 STARTTIME: 163907
+20261004_163907 LOGDATE: 20261004_163907
+20261004_163907 JOB=job_interview_sched
+
+20261004_163907 ###############################################################
+20261004_163907 ### RUNNING INTERVIEW SCHED SCRIPT
+20261004_163907 ###############################################################
+
+20261004_163907 ## Checking if script exists
+20261004_163907 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20261004_163907 File exists...
+
+20261004_163907 ## Running script
+20261004_163907  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261004_163923
+20261004_163923
+Execution Return Code: 2
+20261004_163923
+---------
+JOB ERROR
+---------
+Start Time: 163907, End Time: 163923
