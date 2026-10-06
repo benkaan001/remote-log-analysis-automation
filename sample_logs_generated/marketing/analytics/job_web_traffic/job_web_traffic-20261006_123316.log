@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20261006_123316
+----------------------
+20261006_123316 ## Passed Parameter Values:
+20261006_123316 DOMAIN: marketing
+20261006_123316 SUB_DOMAIN: analytics
+20261006_123316 USER_NAME: analyst1
+20261006_123316 TABLE_NAME: job_web_traffic
+20261006_123316 EXEC_SCOPE: DEV
+
+20261006_123316 ## Derived Variable Values:
+20261006_123316 STARTTIME: 123316
+20261006_123316 LOGDATE: 20261006_123316
+20261006_123316 JOB=job_web_traffic
+
+20261006_123316 ###############################################################
+20261006_123316 ### RUNNING WEB TRAFFIC SCRIPT
+20261006_123316 ###############################################################
+
+20261006_123316 ## Checking if script exists
+20261006_123316 Script File: /scripts/marketing/analytics/job_web_traffic/job_web_traffic.sql
+20261006_123316 File exists...
+
+20261006_123316 ## Running script
+20261006_123316  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Conversion calculation error: Missing funnel stage data.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261006_123330
+20261006_123330
+Execution Return Code: 2
+20261006_123330
+---------
+JOB ERROR
+---------
+Start Time: 123316, End Time: 123330

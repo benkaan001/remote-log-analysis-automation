@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20261006_151011
+----------------------
+20261006_151011 ## Passed Parameter Values:
+20261006_151011 DOMAIN: marketing
+20261006_151011 SUB_DOMAIN: analytics
+20261006_151011 USER_NAME: marketing_user1
+20261006_151011 TABLE_NAME: job_roi_report
+20261006_151011 EXEC_SCOPE: DEV
+
+20261006_151011 ## Derived Variable Values:
+20261006_151011 STARTTIME: 151011
+20261006_151011 LOGDATE: 20261006_151011
+20261006_151011 JOB=job_roi_report
+
+20261006_151011 ###############################################################
+20261006_151011 ### RUNNING ROI REPORT SCRIPT
+20261006_151011 ###############################################################
+
+20261006_151011 ## Checking if script exists
+20261006_151011 Script File: /scripts/marketing/analytics/job_roi_report/job_roi_report.sql
+20261006_151011 File exists...
+
+20261006_151011 ## Running script
+20261006_151011  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: ROI calculation failed: Revenue data unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261006_151058
+20261006_151058
+Execution Return Code: 4
+20261006_151058
+---------
+JOB ERROR
+---------
+Start Time: 151011, End Time: 151058
