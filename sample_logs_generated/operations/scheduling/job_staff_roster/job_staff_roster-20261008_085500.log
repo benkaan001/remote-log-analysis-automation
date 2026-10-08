@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261008_085500
+----------------------
+20261008_085500 ## Passed Parameter Values:
+20261008_085500 DOMAIN: operations
+20261008_085500 SUB_DOMAIN: scheduling
+20261008_085500 USER_NAME: ops_user1
+20261008_085500 TABLE_NAME: job_staff_roster
+20261008_085500 EXEC_SCOPE: TEST
+
+20261008_085500 ## Derived Variable Values:
+20261008_085500 STARTTIME: 085500
+20261008_085500 LOGDATE: 20261008_085500
+20261008_085500 JOB=job_staff_roster
+
+20261008_085500 ###############################################################
+20261008_085500 ### RUNNING STAFF ROSTER SCRIPT
+20261008_085500 ###############################################################
+
+20261008_085500 ## Checking if script exists
+20261008_085500 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20261008_085500 File exists...
+
+20261008_085500 ## Running script
+20261008_085500  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** All data processed without errors.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20261008_085549
+20261008_085549
+Execution Return Code: 0
+20261008_085549
+-----------
+JOB SUCCESS
+-----------
+Start Time: 085500, End Time: 085549

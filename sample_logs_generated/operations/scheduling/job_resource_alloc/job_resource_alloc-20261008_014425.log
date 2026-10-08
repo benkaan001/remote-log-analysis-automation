@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261008_014425
+----------------------
+20261008_014425 ## Passed Parameter Values:
+20261008_014425 DOMAIN: operations
+20261008_014425 SUB_DOMAIN: scheduling
+20261008_014425 USER_NAME: logistics_manager
+20261008_014425 TABLE_NAME: job_resource_alloc
+20261008_014425 EXEC_SCOPE: PROD
+
+20261008_014425 ## Derived Variable Values:
+20261008_014425 STARTTIME: 014425
+20261008_014425 LOGDATE: 20261008_014425
+20261008_014425 JOB=job_resource_alloc
+
+20261008_014425 ###############################################################
+20261008_014425 ### RUNNING RESOURCE ALLOC SCRIPT
+20261008_014425 ###############################################################
+
+20261008_014425 ## Checking if script exists
+20261008_014425 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20261008_014425 File exists...
+
+20261008_014425 ## Running script
+20261008_014425  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Report generated successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20261008_014521
+20261008_014521
+Execution Return Code: 0
+20261008_014521
+-----------
+JOB SUCCESS
+-----------
+Start Time: 014425, End Time: 014521
