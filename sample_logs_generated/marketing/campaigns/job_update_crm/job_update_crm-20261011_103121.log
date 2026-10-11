@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261011_103121
+----------------------
+20261011_103121 ## Passed Parameter Values:
+20261011_103121 DOMAIN: marketing
+20261011_103121 SUB_DOMAIN: campaigns
+20261011_103121 USER_NAME: campaign_manager
+20261011_103121 TABLE_NAME: job_update_crm
+20261011_103121 EXEC_SCOPE: UAT
+
+20261011_103121 ## Derived Variable Values:
+20261011_103121 STARTTIME: 103121
+20261011_103121 LOGDATE: 20261011_103121
+20261011_103121 JOB=job_update_crm
+
+20261011_103121 ###############################################################
+20261011_103121 ### RUNNING UPDATE CRM SCRIPT
+20261011_103121 ###############################################################
+
+20261011_103121 ## Checking if script exists
+20261011_103121 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20261011_103121 File exists...
+
+20261011_103121 ## Running script
+20261011_103121  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261011_103158
+20261011_103158
+Execution Return Code: 1
+20261011_103158
+---------
+JOB ERROR
+---------
+Start Time: 103121, End Time: 103158

@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261011_122949
+----------------------
+20261011_122949 ## Passed Parameter Values:
+20261011_122949 DOMAIN: marketing
+20261011_122949 SUB_DOMAIN: campaigns
+20261011_122949 USER_NAME: marketing_user1
+20261011_122949 TABLE_NAME: job_segment_users
+20261011_122949 EXEC_SCOPE: UAT
+
+20261011_122949 ## Derived Variable Values:
+20261011_122949 STARTTIME: 122949
+20261011_122949 LOGDATE: 20261011_122949
+20261011_122949 JOB=job_segment_users
+
+20261011_122949 ###############################################################
+20261011_122949 ### RUNNING SEGMENT USERS SCRIPT
+20261011_122949 ###############################################################
+
+20261011_122949 ## Checking if script exists
+20261011_122949 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20261011_122949 File exists...
+
+20261011_122949 ## Running script
+20261011_122949  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261011_123024
+20261011_123024
+Execution Return Code: 4
+20261011_123024
+---------
+JOB ERROR
+---------
+Start Time: 122949, End Time: 123024

@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20261011_074809
+----------------------
+20261011_074809 ## Passed Parameter Values:
+20261011_074809 DOMAIN: hr
+20261011_074809 SUB_DOMAIN: payroll
+20261011_074809 USER_NAME: payroll_admin
+20261011_074809 TABLE_NAME: job_salary_calc
+20261011_074809 EXEC_SCOPE: DEV
+
+20261011_074809 ## Derived Variable Values:
+20261011_074809 STARTTIME: 074809
+20261011_074809 LOGDATE: 20261011_074809
+20261011_074809 JOB=job_salary_calc
+
+20261011_074809 ###############################################################
+20261011_074809 ### RUNNING SALARY CALC SCRIPT
+20261011_074809 ###############################################################
+
+20261011_074809 ## Checking if script exists
+20261011_074809 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20261011_074809 File exists...
+
+20261011_074809 ## Running script
+20261011_074809  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration warning: Using default settings due to missing config.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261011_074854
+20261011_074854
+Execution Return Code: 2
+20261011_074854
+---------
+JOB ERROR
+---------
+Start Time: 074809, End Time: 074854

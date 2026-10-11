@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20261011_074120
+----------------------
+20261011_074120 ## Passed Parameter Values:
+20261011_074120 DOMAIN: hr
+20261011_074120 SUB_DOMAIN: recruiting
+20261011_074120 USER_NAME: payroll_admin
+20261011_074120 TABLE_NAME: job_candidate_screen
+20261011_074120 EXEC_SCOPE: UAT
+
+20261011_074120 ## Derived Variable Values:
+20261011_074120 STARTTIME: 074120
+20261011_074120 LOGDATE: 20261011_074120
+20261011_074120 JOB=job_candidate_screen
+
+20261011_074120 ###############################################################
+20261011_074120 ### RUNNING CANDIDATE SCREEN SCRIPT
+20261011_074120 ###############################################################
+
+20261011_074120 ## Checking if script exists
+20261011_074120 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20261011_074120 File exists...
+
+20261011_074120 ## Running script
+20261011_074120  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Recruiting report failed: Missing required metrics.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20261011_074207
+20261011_074207
+Execution Return Code: 8
+20261011_074207
+---------
+JOB ERROR
+---------
+Start Time: 074120, End Time: 074207

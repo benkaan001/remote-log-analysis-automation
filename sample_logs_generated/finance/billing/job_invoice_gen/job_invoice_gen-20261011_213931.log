@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20261011_213931
+----------------------
+20261011_213931 ## Passed Parameter Values:
+20261011_213931 DOMAIN: finance
+20261011_213931 SUB_DOMAIN: billing
+20261011_213931 USER_NAME: finance_admin
+20261011_213931 TABLE_NAME: job_invoice_gen
+20261011_213931 EXEC_SCOPE: TEST
+
+20261011_213931 ## Derived Variable Values:
+20261011_213931 STARTTIME: 213931
+20261011_213931 LOGDATE: 20261011_213931
+20261011_213931 JOB=job_invoice_gen
+
+20261011_213931 ###############################################################
+20261011_213931 ### RUNNING INVOICE GEN SCRIPT
+20261011_213931 ###############################################################
+
+20261011_213931 ## Checking if script exists
+20261011_213931 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20261011_213931 File exists...
+
+20261011_213931 ## Running script
+20261011_213931  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261011_213957
+20261011_213957
+Execution Return Code: 4
+20261011_213957
+---------
+JOB ERROR
+---------
+Start Time: 213931, End Time: 213957
