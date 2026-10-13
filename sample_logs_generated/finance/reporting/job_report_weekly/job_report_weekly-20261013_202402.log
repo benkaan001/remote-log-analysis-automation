@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20261013_202402
+----------------------
+20261013_202402 ## Passed Parameter Values:
+20261013_202402 DOMAIN: finance
+20261013_202402 SUB_DOMAIN: reporting
+20261013_202402 USER_NAME: finance_admin
+20261013_202402 TABLE_NAME: job_report_weekly
+20261013_202402 EXEC_SCOPE: DEV
+
+20261013_202402 ## Derived Variable Values:
+20261013_202402 STARTTIME: 202402
+20261013_202402 LOGDATE: 20261013_202402
+20261013_202402 JOB=job_report_weekly
+
+20261013_202402 ###############################################################
+20261013_202402 ### RUNNING REPORT WEEKLY SCRIPT
+20261013_202402 ###############################################################
+
+20261013_202402 ## Checking if script exists
+20261013_202402 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20261013_202402 File exists...
+
+20261013_202402 ## Running script
+20261013_202402  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261013_202429
+20261013_202429
+Execution Return Code: 4
+20261013_202429
+---------
+JOB ERROR
+---------
+Start Time: 202402, End Time: 202429
