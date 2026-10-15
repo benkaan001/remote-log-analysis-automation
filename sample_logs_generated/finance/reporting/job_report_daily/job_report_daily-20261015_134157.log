@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20261015_134157
+----------------------
+20261015_134157 ## Passed Parameter Values:
+20261015_134157 DOMAIN: finance
+20261015_134157 SUB_DOMAIN: reporting
+20261015_134157 USER_NAME: accountant1
+20261015_134157 TABLE_NAME: job_report_daily
+20261015_134157 EXEC_SCOPE: DEV
+
+20261015_134157 ## Derived Variable Values:
+20261015_134157 STARTTIME: 134157
+20261015_134157 LOGDATE: 20261015_134157
+20261015_134157 JOB=job_report_daily
+
+20261015_134157 ###############################################################
+20261015_134157 ### RUNNING REPORT DAILY SCRIPT
+20261015_134157 ###############################################################
+
+20261015_134157 ## Checking if script exists
+20261015_134157 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20261015_134157 File exists...
+
+20261015_134157 ## Running script
+20261015_134157  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script completed with warnings: Missing optional parameters.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261015_134206
+20261015_134206
+Execution Return Code: 1
+20261015_134206
+---------
+JOB ERROR
+---------
+Start Time: 134157, End Time: 134206

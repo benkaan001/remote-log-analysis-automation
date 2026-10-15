@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20261015_012003
+----------------------
+20261015_012003 ## Passed Parameter Values:
+20261015_012003 DOMAIN: finance
+20261015_012003 SUB_DOMAIN: reporting
+20261015_012003 USER_NAME: accountant1
+20261015_012003 TABLE_NAME: job_report_weekly
+20261015_012003 EXEC_SCOPE: PROD
+
+20261015_012003 ## Derived Variable Values:
+20261015_012003 STARTTIME: 012003
+20261015_012003 LOGDATE: 20261015_012003
+20261015_012003 JOB=job_report_weekly
+
+20261015_012003 ###############################################################
+20261015_012003 ### RUNNING REPORT WEEKLY SCRIPT
+20261015_012003 ###############################################################
+
+20261015_012003 ## Checking if script exists
+20261015_012003 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20261015_012003 File exists...
+
+20261015_012003 ## Running script
+20261015_012003  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261015_012029
+20261015_012029
+Execution Return Code: 1
+20261015_012029
+---------
+JOB ERROR
+---------
+Start Time: 012003, End Time: 012029
