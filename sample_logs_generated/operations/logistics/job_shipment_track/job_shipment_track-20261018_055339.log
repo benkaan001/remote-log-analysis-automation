@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20261018_055339
+----------------------
+20261018_055339 ## Passed Parameter Values:
+20261018_055339 DOMAIN: operations
+20261018_055339 SUB_DOMAIN: logistics
+20261018_055339 USER_NAME: scheduler
+20261018_055339 TABLE_NAME: job_shipment_track
+20261018_055339 EXEC_SCOPE: TEST
+
+20261018_055339 ## Derived Variable Values:
+20261018_055339 STARTTIME: 055339
+20261018_055339 LOGDATE: 20261018_055339
+20261018_055339 JOB=job_shipment_track
+
+20261018_055339 ###############################################################
+20261018_055339 ### RUNNING SHIPMENT TRACK SCRIPT
+20261018_055339 ###############################################################
+
+20261018_055339 ## Checking if script exists
+20261018_055339 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20261018_055339 File exists...
+
+20261018_055339 ## Running script
+20261018_055339  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261018_055413
+20261018_055413
+Execution Return Code: 4
+20261018_055413
+---------
+JOB ERROR
+---------
+Start Time: 055339, End Time: 055413
