@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261020_074309
+----------------------
+20261020_074309 ## Passed Parameter Values:
+20261020_074309 DOMAIN: operations
+20261020_074309 SUB_DOMAIN: scheduling
+20261020_074309 USER_NAME: logistics_manager
+20261020_074309 TABLE_NAME: job_resource_alloc
+20261020_074309 EXEC_SCOPE: UAT
+
+20261020_074309 ## Derived Variable Values:
+20261020_074309 STARTTIME: 074309
+20261020_074309 LOGDATE: 20261020_074309
+20261020_074309 JOB=job_resource_alloc
+
+20261020_074309 ###############################################################
+20261020_074309 ### RUNNING RESOURCE ALLOC SCRIPT
+20261020_074309 ###############################################################
+
+20261020_074309 ## Checking if script exists
+20261020_074309 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20261020_074309 File exists...
+
+20261020_074309 ## Running script
+20261020_074309  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261020_074321
+20261020_074321
+Execution Return Code: 2
+20261020_074321
+---------
+JOB ERROR
+---------
+Start Time: 074309, End Time: 074321

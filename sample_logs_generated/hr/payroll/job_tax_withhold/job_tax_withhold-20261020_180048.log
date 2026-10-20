@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20261020_180048
+----------------------
+20261020_180048 ## Passed Parameter Values:
+20261020_180048 DOMAIN: hr
+20261020_180048 SUB_DOMAIN: payroll
+20261020_180048 USER_NAME: hr_user1
+20261020_180048 TABLE_NAME: job_tax_withhold
+20261020_180048 EXEC_SCOPE: PROD
+
+20261020_180048 ## Derived Variable Values:
+20261020_180048 STARTTIME: 180048
+20261020_180048 LOGDATE: 20261020_180048
+20261020_180048 JOB=job_tax_withhold
+
+20261020_180048 ###############################################################
+20261020_180048 ### RUNNING TAX WITHHOLD SCRIPT
+20261020_180048 ###############################################################
+
+20261020_180048 ## Checking if script exists
+20261020_180048 Script File: /scripts/hr/payroll/job_tax_withhold/job_tax_withhold.sql
+20261020_180048 File exists...
+
+20261020_180048 ## Running script
+20261020_180048  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Division by zero encountered in calculation.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261020_180110
+20261020_180110
+Execution Return Code: 4
+20261020_180110
+---------
+JOB ERROR
+---------
+Start Time: 180048, End Time: 180110
