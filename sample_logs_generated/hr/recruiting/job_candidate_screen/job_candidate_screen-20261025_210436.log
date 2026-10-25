@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20261025_210436
+----------------------
+20261025_210436 ## Passed Parameter Values:
+20261025_210436 DOMAIN: hr
+20261025_210436 SUB_DOMAIN: recruiting
+20261025_210436 USER_NAME: hr_user1
+20261025_210436 TABLE_NAME: job_candidate_screen
+20261025_210436 EXEC_SCOPE: PROD
+
+20261025_210436 ## Derived Variable Values:
+20261025_210436 STARTTIME: 210436
+20261025_210436 LOGDATE: 20261025_210436
+20261025_210436 JOB=job_candidate_screen
+
+20261025_210436 ###############################################################
+20261025_210436 ### RUNNING CANDIDATE SCREEN SCRIPT
+20261025_210436 ###############################################################
+
+20261025_210436 ## Checking if script exists
+20261025_210436 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20261025_210436 File exists...
+
+20261025_210436 ## Running script
+20261025_210436  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261025_210536
+20261025_210536
+Execution Return Code: 4
+20261025_210536
+---------
+JOB ERROR
+---------
+Start Time: 210436, End Time: 210536
