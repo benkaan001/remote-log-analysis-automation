@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20261027_080251
+----------------------
+20261027_080251 ## Passed Parameter Values:
+20261027_080251 DOMAIN: hr
+20261027_080251 SUB_DOMAIN: recruiting
+20261027_080251 USER_NAME: payroll_admin
+20261027_080251 TABLE_NAME: job_interview_sched
+20261027_080251 EXEC_SCOPE: PROD
+
+20261027_080251 ## Derived Variable Values:
+20261027_080251 STARTTIME: 080251
+20261027_080251 LOGDATE: 20261027_080251
+20261027_080251 JOB=job_interview_sched
+
+20261027_080251 ###############################################################
+20261027_080251 ### RUNNING INTERVIEW SCHED SCRIPT
+20261027_080251 ###############################################################
+
+20261027_080251 ## Checking if script exists
+20261027_080251 Script File: /scripts/hr/recruiting/job_interview_sched/job_interview_sched.sql
+20261027_080251 File exists...
+
+20261027_080251 ## Running script
+20261027_080251  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Recruiting aggregation error: Inconsistent daily data.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261027_080344
+20261027_080344
+Execution Return Code: 2
+20261027_080344
+---------
+JOB ERROR
+---------
+Start Time: 080251, End Time: 080344

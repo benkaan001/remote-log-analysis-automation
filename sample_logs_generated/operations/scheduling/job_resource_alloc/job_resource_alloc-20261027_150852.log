@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261027_150852
+----------------------
+20261027_150852 ## Passed Parameter Values:
+20261027_150852 DOMAIN: operations
+20261027_150852 SUB_DOMAIN: scheduling
+20261027_150852 USER_NAME: scheduler
+20261027_150852 TABLE_NAME: job_resource_alloc
+20261027_150852 EXEC_SCOPE: TEST
+
+20261027_150852 ## Derived Variable Values:
+20261027_150852 STARTTIME: 150852
+20261027_150852 LOGDATE: 20261027_150852
+20261027_150852 JOB=job_resource_alloc
+
+20261027_150852 ###############################################################
+20261027_150852 ### RUNNING RESOURCE ALLOC SCRIPT
+20261027_150852 ###############################################################
+
+20261027_150852 ## Checking if script exists
+20261027_150852 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20261027_150852 File exists...
+
+20261027_150852 ## Running script
+20261027_150852  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Query timeout after 60 seconds.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261027_150941
+20261027_150941
+Execution Return Code: 4
+20261027_150941
+---------
+JOB ERROR
+---------
+Start Time: 150852, End Time: 150941

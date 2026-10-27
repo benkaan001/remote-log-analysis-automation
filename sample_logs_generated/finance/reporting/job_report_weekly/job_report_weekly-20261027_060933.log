@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20261027_060933
+----------------------
+20261027_060933 ## Passed Parameter Values:
+20261027_060933 DOMAIN: finance
+20261027_060933 SUB_DOMAIN: reporting
+20261027_060933 USER_NAME: finance_admin
+20261027_060933 TABLE_NAME: job_report_weekly
+20261027_060933 EXEC_SCOPE: TEST
+
+20261027_060933 ## Derived Variable Values:
+20261027_060933 STARTTIME: 060933
+20261027_060933 LOGDATE: 20261027_060933
+20261027_060933 JOB=job_report_weekly
+
+20261027_060933 ###############################################################
+20261027_060933 ### RUNNING REPORT WEEKLY SCRIPT
+20261027_060933 ###############################################################
+
+20261027_060933 ## Checking if script exists
+20261027_060933 Script File: /scripts/finance/reporting/job_report_weekly/job_report_weekly.sql
+20261027_060933 File exists...
+
+20261027_060933 ## Running script
+20261027_060933  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Data extraction and transformation successful.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20261027_060947
+20261027_060947
+Execution Return Code: 0
+20261027_060947
+-----------
+JOB SUCCESS
+-----------
+Start Time: 060933, End Time: 060947

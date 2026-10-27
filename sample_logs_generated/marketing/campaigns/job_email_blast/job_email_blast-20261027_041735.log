@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261027_041735
+----------------------
+20261027_041735 ## Passed Parameter Values:
+20261027_041735 DOMAIN: marketing
+20261027_041735 SUB_DOMAIN: campaigns
+20261027_041735 USER_NAME: campaign_manager
+20261027_041735 TABLE_NAME: job_email_blast
+20261027_041735 EXEC_SCOPE: PROD
+
+20261027_041735 ## Derived Variable Values:
+20261027_041735 STARTTIME: 041735
+20261027_041735 LOGDATE: 20261027_041735
+20261027_041735 JOB=job_email_blast
+
+20261027_041735 ###############################################################
+20261027_041735 ### RUNNING EMAIL BLAST SCRIPT
+20261027_041735 ###############################################################
+
+20261027_041735 ## Checking if script exists
+20261027_041735 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20261027_041735 File exists...
+
+20261027_041735 ## Running script
+20261027_041735  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Resource allocation sub-optimal, consider adjusting configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261027_041752
+20261027_041752
+Execution Return Code: 2
+20261027_041752
+---------
+JOB ERROR
+---------
+Start Time: 041735, End Time: 041752
