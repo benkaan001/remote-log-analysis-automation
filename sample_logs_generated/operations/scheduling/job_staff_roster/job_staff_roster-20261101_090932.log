@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261101_090932
+----------------------
+20261101_090932 ## Passed Parameter Values:
+20261101_090932 DOMAIN: operations
+20261101_090932 SUB_DOMAIN: scheduling
+20261101_090932 USER_NAME: logistics_manager
+20261101_090932 TABLE_NAME: job_staff_roster
+20261101_090932 EXEC_SCOPE: DEV
+
+20261101_090932 ## Derived Variable Values:
+20261101_090932 STARTTIME: 090932
+20261101_090932 LOGDATE: 20261101_090932
+20261101_090932 JOB=job_staff_roster
+
+20261101_090932 ###############################################################
+20261101_090932 ### RUNNING STAFF ROSTER SCRIPT
+20261101_090932 ###############################################################
+
+20261101_090932 ## Checking if script exists
+20261101_090932 Script File: /scripts/operations/scheduling/job_staff_roster/job_staff_roster.sql
+20261101_090932 File exists...
+
+20261101_090932 ## Running script
+20261101_090932  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Failed to connect to dependent data source.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261101_090949
+20261101_090949
+Execution Return Code: 4
+20261101_090949
+---------
+JOB ERROR
+---------
+Start Time: 090932, End Time: 090949

@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261101_153528
+----------------------
+20261101_153528 ## Passed Parameter Values:
+20261101_153528 DOMAIN: marketing
+20261101_153528 SUB_DOMAIN: campaigns
+20261101_153528 USER_NAME: marketing_user1
+20261101_153528 TABLE_NAME: job_update_crm
+20261101_153528 EXEC_SCOPE: TEST
+
+20261101_153528 ## Derived Variable Values:
+20261101_153528 STARTTIME: 153528
+20261101_153528 LOGDATE: 20261101_153528
+20261101_153528 JOB=job_update_crm
+
+20261101_153528 ###############################################################
+20261101_153528 ### RUNNING UPDATE CRM SCRIPT
+20261101_153528 ###############################################################
+
+20261101_153528 ## Checking if script exists
+20261101_153528 Script File: /scripts/marketing/campaigns/job_update_crm/job_update_crm.sql
+20261101_153528 File exists...
+
+20261101_153528 ## Running script
+20261101_153528  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20261101_153616
+20261101_153616
+Execution Return Code: 8
+20261101_153616
+---------
+JOB ERROR
+---------
+Start Time: 153528, End Time: 153616

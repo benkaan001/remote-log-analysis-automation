@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20261101_081323
+----------------------
+20261101_081323 ## Passed Parameter Values:
+20261101_081323 DOMAIN: finance
+20261101_081323 SUB_DOMAIN: billing
+20261101_081323 USER_NAME: accountant1
+20261101_081323 TABLE_NAME: job_invoice_gen
+20261101_081323 EXEC_SCOPE: TEST
+
+20261101_081323 ## Derived Variable Values:
+20261101_081323 STARTTIME: 081323
+20261101_081323 LOGDATE: 20261101_081323
+20261101_081323 JOB=job_invoice_gen
+
+20261101_081323 ###############################################################
+20261101_081323 ### RUNNING INVOICE GEN SCRIPT
+20261101_081323 ###############################################################
+
+20261101_081323 ## Checking if script exists
+20261101_081323 Script File: /scripts/finance/billing/job_invoice_gen/job_invoice_gen.sql
+20261101_081323 File exists...
+
+20261101_081323 ## Running script
+20261101_081323  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261101_081414
+20261101_081414
+Execution Return Code: 4
+20261101_081414
+---------
+JOB ERROR
+---------
+Start Time: 081323, End Time: 081414
