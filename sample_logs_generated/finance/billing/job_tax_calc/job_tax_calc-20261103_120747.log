@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20261103_120747
+----------------------
+20261103_120747 ## Passed Parameter Values:
+20261103_120747 DOMAIN: finance
+20261103_120747 SUB_DOMAIN: billing
+20261103_120747 USER_NAME: finance_user1
+20261103_120747 TABLE_NAME: job_tax_calc
+20261103_120747 EXEC_SCOPE: PROD
+
+20261103_120747 ## Derived Variable Values:
+20261103_120747 STARTTIME: 120747
+20261103_120747 LOGDATE: 20261103_120747
+20261103_120747 JOB=job_tax_calc
+
+20261103_120747 ###############################################################
+20261103_120747 ### RUNNING TAX CALC SCRIPT
+20261103_120747 ###############################################################
+
+20261103_120747 ## Checking if script exists
+20261103_120747 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20261103_120747 File exists...
+
+20261103_120747 ## Running script
+20261103_120747  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Payment processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261103_120843
+20261103_120843
+Execution Return Code: 2
+20261103_120843
+---------
+JOB ERROR
+---------
+Start Time: 120747, End Time: 120843

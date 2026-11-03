@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20261103_004039
+----------------------
+20261103_004039 ## Passed Parameter Values:
+20261103_004039 DOMAIN: hr
+20261103_004039 SUB_DOMAIN: payroll
+20261103_004039 USER_NAME: payroll_admin
+20261103_004039 TABLE_NAME: job_bonus_process
+20261103_004039 EXEC_SCOPE: PROD
+
+20261103_004039 ## Derived Variable Values:
+20261103_004039 STARTTIME: 004039
+20261103_004039 LOGDATE: 20261103_004039
+20261103_004039 JOB=job_bonus_process
+
+20261103_004039 ###############################################################
+20261103_004039 ### RUNNING BONUS PROCESS SCRIPT
+20261103_004039 ###############################################################
+
+20261103_004039 ## Checking if script exists
+20261103_004039 Script File: /scripts/hr/payroll/job_bonus_process/job_bonus_process.sql
+20261103_004039 File exists...
+
+20261103_004039 ## Running script
+20261103_004039  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Payroll generation failed: Data source unavailable.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261103_004048
+20261103_004048
+Execution Return Code: 4
+20261103_004048
+---------
+JOB ERROR
+---------
+Start Time: 004039, End Time: 004048
