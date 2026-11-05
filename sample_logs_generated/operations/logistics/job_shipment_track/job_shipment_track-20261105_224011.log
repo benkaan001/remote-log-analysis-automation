@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20261105_224011
+----------------------
+20261105_224011 ## Passed Parameter Values:
+20261105_224011 DOMAIN: operations
+20261105_224011 SUB_DOMAIN: logistics
+20261105_224011 USER_NAME: scheduler
+20261105_224011 TABLE_NAME: job_shipment_track
+20261105_224011 EXEC_SCOPE: UAT
+
+20261105_224011 ## Derived Variable Values:
+20261105_224011 STARTTIME: 224011
+20261105_224011 LOGDATE: 20261105_224011
+20261105_224011 JOB=job_shipment_track
+
+20261105_224011 ###############################################################
+20261105_224011 ### RUNNING SHIPMENT TRACK SCRIPT
+20261105_224011 ###############################################################
+
+20261105_224011 ## Checking if script exists
+20261105_224011 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20261105_224011 File exists...
+
+20261105_224011 ## Running script
+20261105_224011  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Logistics processing error: Gateway timeout.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261105_224039
+20261105_224039
+Execution Return Code: 1
+20261105_224039
+---------
+JOB ERROR
+---------
+Start Time: 224011, End Time: 224039

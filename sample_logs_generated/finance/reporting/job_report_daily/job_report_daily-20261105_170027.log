@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20261105_170027
+----------------------
+20261105_170027 ## Passed Parameter Values:
+20261105_170027 DOMAIN: finance
+20261105_170027 SUB_DOMAIN: reporting
+20261105_170027 USER_NAME: finance_admin
+20261105_170027 TABLE_NAME: job_report_daily
+20261105_170027 EXEC_SCOPE: UAT
+
+20261105_170027 ## Derived Variable Values:
+20261105_170027 STARTTIME: 170027
+20261105_170027 LOGDATE: 20261105_170027
+20261105_170027 JOB=job_report_daily
+
+20261105_170027 ###############################################################
+20261105_170027 ### RUNNING REPORT DAILY SCRIPT
+20261105_170027 ###############################################################
+
+20261105_170027 ## Checking if script exists
+20261105_170027 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20261105_170027 File exists...
+
+20261105_170027 ## Running script
+20261105_170027  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Analysis completed with no issues.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20261105_170118
+20261105_170118
+Execution Return Code: 0
+20261105_170118
+-----------
+JOB SUCCESS
+-----------
+Start Time: 170027, End Time: 170118
