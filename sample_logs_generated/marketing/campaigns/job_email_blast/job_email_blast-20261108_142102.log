@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261108_142102
+----------------------
+20261108_142102 ## Passed Parameter Values:
+20261108_142102 DOMAIN: marketing
+20261108_142102 SUB_DOMAIN: campaigns
+20261108_142102 USER_NAME: analyst1
+20261108_142102 TABLE_NAME: job_email_blast
+20261108_142102 EXEC_SCOPE: PROD
+
+20261108_142102 ## Derived Variable Values:
+20261108_142102 STARTTIME: 142102
+20261108_142102 LOGDATE: 20261108_142102
+20261108_142102 JOB=job_email_blast
+
+20261108_142102 ###############################################################
+20261108_142102 ### RUNNING EMAIL BLAST SCRIPT
+20261108_142102 ###############################################################
+
+20261108_142102 ## Checking if script exists
+20261108_142102 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20261108_142102 File exists...
+
+20261108_142102 ## Running script
+20261108_142102  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Environment variable not set, using fallback configuration.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261108_142132
+20261108_142132
+Execution Return Code: 2
+20261108_142132
+---------
+JOB ERROR
+---------
+Start Time: 142102, End Time: 142132
