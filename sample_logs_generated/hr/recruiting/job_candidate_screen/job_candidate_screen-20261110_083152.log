@@ -1,0 +1,36 @@
+HR RECRUITING JOB LOG 20261110_083152
+----------------------
+20261110_083152 ## Passed Parameter Values:
+20261110_083152 DOMAIN: hr
+20261110_083152 SUB_DOMAIN: recruiting
+20261110_083152 USER_NAME: payroll_admin
+20261110_083152 TABLE_NAME: job_candidate_screen
+20261110_083152 EXEC_SCOPE: PROD
+
+20261110_083152 ## Derived Variable Values:
+20261110_083152 STARTTIME: 083152
+20261110_083152 LOGDATE: 20261110_083152
+20261110_083152 JOB=job_candidate_screen
+
+20261110_083152 ###############################################################
+20261110_083152 ### RUNNING CANDIDATE SCREEN SCRIPT
+20261110_083152 ###############################################################
+
+20261110_083152 ## Checking if script exists
+20261110_083152 Script File: /scripts/hr/recruiting/job_candidate_screen/job_candidate_screen.sql
+20261110_083152 File exists...
+
+20261110_083152 ## Running script
+20261110_083152  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261110_083206
+20261110_083206
+Execution Return Code: 1
+20261110_083206
+---------
+JOB ERROR
+---------
+Start Time: 083152, End Time: 083206

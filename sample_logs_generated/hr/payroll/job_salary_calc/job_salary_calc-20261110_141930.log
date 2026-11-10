@@ -1,0 +1,36 @@
+HR PAYROLL JOB LOG 20261110_141930
+----------------------
+20261110_141930 ## Passed Parameter Values:
+20261110_141930 DOMAIN: hr
+20261110_141930 SUB_DOMAIN: payroll
+20261110_141930 USER_NAME: recruiter1
+20261110_141930 TABLE_NAME: job_salary_calc
+20261110_141930 EXEC_SCOPE: PROD
+
+20261110_141930 ## Derived Variable Values:
+20261110_141930 STARTTIME: 141930
+20261110_141930 LOGDATE: 20261110_141930
+20261110_141930 JOB=job_salary_calc
+
+20261110_141930 ###############################################################
+20261110_141930 ### RUNNING SALARY CALC SCRIPT
+20261110_141930 ###############################################################
+
+20261110_141930 ## Checking if script exists
+20261110_141930 Script File: /scripts/hr/payroll/job_salary_calc/job_salary_calc.sql
+20261110_141930 File exists...
+
+20261110_141930 ## Running script
+20261110_141930  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261110_142015
+20261110_142015
+Execution Return Code: 1
+20261110_142015
+---------
+JOB ERROR
+---------
+Start Time: 141930, End Time: 142015

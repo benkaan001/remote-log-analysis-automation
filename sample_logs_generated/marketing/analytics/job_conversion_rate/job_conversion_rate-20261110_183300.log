@@ -1,0 +1,36 @@
+MARKETING ANALYTICS JOB LOG 20261110_183300
+----------------------
+20261110_183300 ## Passed Parameter Values:
+20261110_183300 DOMAIN: marketing
+20261110_183300 SUB_DOMAIN: analytics
+20261110_183300 USER_NAME: marketing_user1
+20261110_183300 TABLE_NAME: job_conversion_rate
+20261110_183300 EXEC_SCOPE: UAT
+
+20261110_183300 ## Derived Variable Values:
+20261110_183300 STARTTIME: 183300
+20261110_183300 LOGDATE: 20261110_183300
+20261110_183300 JOB=job_conversion_rate
+
+20261110_183300 ###############################################################
+20261110_183300 ### RUNNING CONVERSION RATE SCRIPT
+20261110_183300 ###############################################################
+
+20261110_183300 ## Checking if script exists
+20261110_183300 Script File: /scripts/marketing/analytics/job_conversion_rate/job_conversion_rate.sql
+20261110_183300 File exists...
+
+20261110_183300 ## Running script
+20261110_183300  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Conversion calculation error: Missing funnel stage data.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261110_183339
+20261110_183339
+Execution Return Code: 2
+20261110_183339
+---------
+JOB ERROR
+---------
+Start Time: 183300, End Time: 183339
