@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20261112_222737
+----------------------
+20261112_222737 ## Passed Parameter Values:
+20261112_222737 DOMAIN: operations
+20261112_222737 SUB_DOMAIN: logistics
+20261112_222737 USER_NAME: scheduler
+20261112_222737 TABLE_NAME: job_warehouse_mgmt
+20261112_222737 EXEC_SCOPE: DEV
+
+20261112_222737 ## Derived Variable Values:
+20261112_222737 STARTTIME: 222737
+20261112_222737 LOGDATE: 20261112_222737
+20261112_222737 JOB=job_warehouse_mgmt
+
+20261112_222737 ###############################################################
+20261112_222737 ### RUNNING WAREHOUSE MGMT SCRIPT
+20261112_222737 ###############################################################
+
+20261112_222737 ## Checking if script exists
+20261112_222737 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20261112_222737 File exists...
+
+20261112_222737 ## Running script
+20261112_222737  *** Logon successfully completed.
+  *** Total elapsed time was 1 second.
+  *** Error: Warning: Some metrics might be incomplete due to data latency.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261112_222759
+20261112_222759
+Execution Return Code: 1
+20261112_222759
+---------
+JOB ERROR
+---------
+Start Time: 222737, End Time: 222759

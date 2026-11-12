@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20261112_033913
+----------------------
+20261112_033913 ## Passed Parameter Values:
+20261112_033913 DOMAIN: finance
+20261112_033913 SUB_DOMAIN: billing
+20261112_033913 USER_NAME: accountant1
+20261112_033913 TABLE_NAME: job_tax_calc
+20261112_033913 EXEC_SCOPE: TEST
+
+20261112_033913 ## Derived Variable Values:
+20261112_033913 STARTTIME: 033913
+20261112_033913 LOGDATE: 20261112_033913
+20261112_033913 JOB=job_tax_calc
+
+20261112_033913 ###############################################################
+20261112_033913 ### RUNNING TAX CALC SCRIPT
+20261112_033913 ###############################################################
+
+20261112_033913 ## Checking if script exists
+20261112_033913 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20261112_033913 File exists...
+
+20261112_033913 ## Running script
+20261112_033913  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Tax calculation failed: Missing tax rate for region.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261112_033926
+20261112_033926
+Execution Return Code: 1
+20261112_033926
+---------
+JOB ERROR
+---------
+Start Time: 033913, End Time: 033926
