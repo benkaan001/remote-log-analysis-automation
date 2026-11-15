@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261115_064913
+----------------------
+20261115_064913 ## Passed Parameter Values:
+20261115_064913 DOMAIN: marketing
+20261115_064913 SUB_DOMAIN: campaigns
+20261115_064913 USER_NAME: analyst1
+20261115_064913 TABLE_NAME: job_segment_users
+20261115_064913 EXEC_SCOPE: DEV
+
+20261115_064913 ## Derived Variable Values:
+20261115_064913 STARTTIME: 064913
+20261115_064913 LOGDATE: 20261115_064913
+20261115_064913 JOB=job_segment_users
+
+20261115_064913 ###############################################################
+20261115_064913 ### RUNNING SEGMENT USERS SCRIPT
+20261115_064913 ###############################################################
+
+20261115_064913 ## Checking if script exists
+20261115_064913 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20261115_064913 File exists...
+
+20261115_064913 ## Running script
+20261115_064913  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Script terminated due to insufficient permissions.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20261115_064954
+20261115_064954
+Execution Return Code: 8
+20261115_064954
+---------
+JOB ERROR
+---------
+Start Time: 064913, End Time: 064954
