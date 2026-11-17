@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20261117_030219
+----------------------
+20261117_030219 ## Passed Parameter Values:
+20261117_030219 DOMAIN: operations
+20261117_030219 SUB_DOMAIN: logistics
+20261117_030219 USER_NAME: scheduler
+20261117_030219 TABLE_NAME: job_warehouse_mgmt
+20261117_030219 EXEC_SCOPE: UAT
+
+20261117_030219 ## Derived Variable Values:
+20261117_030219 STARTTIME: 030219
+20261117_030219 LOGDATE: 20261117_030219
+20261117_030219 JOB=job_warehouse_mgmt
+
+20261117_030219 ###############################################################
+20261117_030219 ### RUNNING WAREHOUSE MGMT SCRIPT
+20261117_030219 ###############################################################
+
+20261117_030219 ## Checking if script exists
+20261117_030219 Script File: /scripts/operations/logistics/job_warehouse_mgmt/job_warehouse_mgmt.sql
+20261117_030219 File exists...
+
+20261117_030219 ## Running script
+20261117_030219  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Unexpected NULL values in required columns.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261117_030301
+20261117_030301
+Execution Return Code: 4
+20261117_030301
+---------
+JOB ERROR
+---------
+Start Time: 030219, End Time: 030301
