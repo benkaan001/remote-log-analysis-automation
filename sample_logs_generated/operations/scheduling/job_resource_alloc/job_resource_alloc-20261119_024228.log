@@ -1,0 +1,36 @@
+OPERATIONS SCHEDULING JOB LOG 20261119_024228
+----------------------
+20261119_024228 ## Passed Parameter Values:
+20261119_024228 DOMAIN: operations
+20261119_024228 SUB_DOMAIN: scheduling
+20261119_024228 USER_NAME: scheduler
+20261119_024228 TABLE_NAME: job_resource_alloc
+20261119_024228 EXEC_SCOPE: UAT
+
+20261119_024228 ## Derived Variable Values:
+20261119_024228 STARTTIME: 024228
+20261119_024228 LOGDATE: 20261119_024228
+20261119_024228 JOB=job_resource_alloc
+
+20261119_024228 ###############################################################
+20261119_024228 ### RUNNING RESOURCE ALLOC SCRIPT
+20261119_024228 ###############################################################
+
+20261119_024228 ## Checking if script exists
+20261119_024228 Script File: /scripts/operations/scheduling/job_resource_alloc/job_resource_alloc.sql
+20261119_024228 File exists...
+
+20261119_024228 ## Running script
+20261119_024228  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Script executed successfully.
+  *** Script execution successful.
+  *** RC (return code) = 0
+20261119_024239
+20261119_024239
+Execution Return Code: 0
+20261119_024239
+-----------
+JOB SUCCESS
+-----------
+Start Time: 024228, End Time: 024239

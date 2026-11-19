@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261119_073131
+----------------------
+20261119_073131 ## Passed Parameter Values:
+20261119_073131 DOMAIN: marketing
+20261119_073131 SUB_DOMAIN: campaigns
+20261119_073131 USER_NAME: analyst1
+20261119_073131 TABLE_NAME: job_email_blast
+20261119_073131 EXEC_SCOPE: DEV
+
+20261119_073131 ## Derived Variable Values:
+20261119_073131 STARTTIME: 073131
+20261119_073131 LOGDATE: 20261119_073131
+20261119_073131 JOB=job_email_blast
+
+20261119_073131 ###############################################################
+20261119_073131 ### RUNNING EMAIL BLAST SCRIPT
+20261119_073131 ###############################################################
+
+20261119_073131 ## Checking if script exists
+20261119_073131 Script File: /scripts/marketing/campaigns/job_email_blast/job_email_blast.sql
+20261119_073131 File exists...
+
+20261119_073131 ## Running script
+20261119_073131  *** Logon successfully completed.
+  *** Total elapsed time was 5 seconds.
+  *** Error: Required table not found in database.
+  *** Script execution failed.
+  *** RC (return code) = 8
+20261119_073222
+20261119_073222
+Execution Return Code: 8
+20261119_073222
+---------
+JOB ERROR
+---------
+Start Time: 073131, End Time: 073222
