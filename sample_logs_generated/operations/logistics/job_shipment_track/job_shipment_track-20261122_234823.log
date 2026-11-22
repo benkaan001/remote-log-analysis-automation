@@ -1,0 +1,36 @@
+OPERATIONS LOGISTICS JOB LOG 20261122_234823
+----------------------
+20261122_234823 ## Passed Parameter Values:
+20261122_234823 DOMAIN: operations
+20261122_234823 SUB_DOMAIN: logistics
+20261122_234823 USER_NAME: ops_user1
+20261122_234823 TABLE_NAME: job_shipment_track
+20261122_234823 EXEC_SCOPE: TEST
+
+20261122_234823 ## Derived Variable Values:
+20261122_234823 STARTTIME: 234823
+20261122_234823 LOGDATE: 20261122_234823
+20261122_234823 JOB=job_shipment_track
+
+20261122_234823 ###############################################################
+20261122_234823 ### RUNNING SHIPMENT TRACK SCRIPT
+20261122_234823 ###############################################################
+
+20261122_234823 ## Checking if script exists
+20261122_234823 Script File: /scripts/operations/logistics/job_shipment_track/job_shipment_track.sql
+20261122_234823 File exists...
+
+20261122_234823 ## Running script
+20261122_234823  *** Logon successfully completed.
+  *** Total elapsed time was 3 seconds.
+  *** Error: Memory allocation error during data processing.
+  *** Script execution failed.
+  *** RC (return code) = 4
+20261122_234856
+20261122_234856
+Execution Return Code: 4
+20261122_234856
+---------
+JOB ERROR
+---------
+Start Time: 234823, End Time: 234856

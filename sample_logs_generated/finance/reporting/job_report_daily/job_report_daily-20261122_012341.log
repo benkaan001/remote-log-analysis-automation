@@ -1,0 +1,36 @@
+FINANCE REPORTING JOB LOG 20261122_012341
+----------------------
+20261122_012341 ## Passed Parameter Values:
+20261122_012341 DOMAIN: finance
+20261122_012341 SUB_DOMAIN: reporting
+20261122_012341 USER_NAME: finance_user1
+20261122_012341 TABLE_NAME: job_report_daily
+20261122_012341 EXEC_SCOPE: PROD
+
+20261122_012341 ## Derived Variable Values:
+20261122_012341 STARTTIME: 012341
+20261122_012341 LOGDATE: 20261122_012341
+20261122_012341 JOB=job_report_daily
+
+20261122_012341 ###############################################################
+20261122_012341 ### RUNNING REPORT DAILY SCRIPT
+20261122_012341 ###############################################################
+
+20261122_012341 ## Checking if script exists
+20261122_012341 Script File: /scripts/finance/reporting/job_report_daily/job_report_daily.sql
+20261122_012341 File exists...
+
+20261122_012341 ## Running script
+20261122_012341  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Configuration file contains deprecated parameters.
+  *** Script execution failed.
+  *** RC (return code) = 2
+20261122_012410
+20261122_012410
+Execution Return Code: 2
+20261122_012410
+---------
+JOB ERROR
+---------
+Start Time: 012341, End Time: 012410

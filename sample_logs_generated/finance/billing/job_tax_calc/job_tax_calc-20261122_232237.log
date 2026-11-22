@@ -1,0 +1,36 @@
+FINANCE BILLING JOB LOG 20261122_232237
+----------------------
+20261122_232237 ## Passed Parameter Values:
+20261122_232237 DOMAIN: finance
+20261122_232237 SUB_DOMAIN: billing
+20261122_232237 USER_NAME: finance_admin
+20261122_232237 TABLE_NAME: job_tax_calc
+20261122_232237 EXEC_SCOPE: UAT
+
+20261122_232237 ## Derived Variable Values:
+20261122_232237 STARTTIME: 232237
+20261122_232237 LOGDATE: 20261122_232237
+20261122_232237 JOB=job_tax_calc
+
+20261122_232237 ###############################################################
+20261122_232237 ### RUNNING TAX CALC SCRIPT
+20261122_232237 ###############################################################
+
+20261122_232237 ## Checking if script exists
+20261122_232237 Script File: /scripts/finance/billing/job_tax_calc/job_tax_calc.sql
+20261122_232237 File exists...
+
+20261122_232237 ## Running script
+20261122_232237  *** Logon successfully completed.
+  *** Total elapsed time was 4 seconds.
+  *** Error: Non-critical data quality issue detected: Null values in optional fields.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261122_232312
+20261122_232312
+Execution Return Code: 1
+20261122_232312
+---------
+JOB ERROR
+---------
+Start Time: 232237, End Time: 232312
