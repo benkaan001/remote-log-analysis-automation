@@ -1,0 +1,36 @@
+MARKETING CAMPAIGNS JOB LOG 20261126_232229
+----------------------
+20261126_232229 ## Passed Parameter Values:
+20261126_232229 DOMAIN: marketing
+20261126_232229 SUB_DOMAIN: campaigns
+20261126_232229 USER_NAME: campaign_manager
+20261126_232229 TABLE_NAME: job_segment_users
+20261126_232229 EXEC_SCOPE: TEST
+
+20261126_232229 ## Derived Variable Values:
+20261126_232229 STARTTIME: 232229
+20261126_232229 LOGDATE: 20261126_232229
+20261126_232229 JOB=job_segment_users
+
+20261126_232229 ###############################################################
+20261126_232229 ### RUNNING SEGMENT USERS SCRIPT
+20261126_232229 ###############################################################
+
+20261126_232229 ## Checking if script exists
+20261126_232229 Script File: /scripts/marketing/campaigns/job_segment_users/job_segment_users.sql
+20261126_232229 File exists...
+
+20261126_232229 ## Running script
+20261126_232229  *** Logon successfully completed.
+  *** Total elapsed time was 2 seconds.
+  *** Error: Performance warning: Query execution exceeded threshold.
+  *** Script execution failed.
+  *** RC (return code) = 1
+20261126_232302
+20261126_232302
+Execution Return Code: 1
+20261126_232302
+---------
+JOB ERROR
+---------
+Start Time: 232229, End Time: 232302
